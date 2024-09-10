@@ -1,0 +1,15 @@
+<ol>
+    <li>
+        Calcular $a$, $b$ y $c$ números complejos tales que:
+        $$z^3 + z^2(5i - 6) + z(9 - 24i) + 18 + 13i = (z+i)(az^2 + bz + c).$$
+    </li>
+
+    <li>
+        Resolver la ecuación:
+        $$z^3 + z^2(5i - 6) + z(9 - 24i) + 18 + 13i = 0.$$
+    </li>
+
+    <li>Representar las soluciones.</li>
+    
+    <li>¿Qué tipo de triángulo forman las soluciones?</li>
+</ol>

@@ -1,0 +1,155 @@
+#navegacion-local {
+    width: 100%;
+    max-width: 100ch;
+    padding-inline: 20px;
+    box-sizing: border-box;
+}
+
+article {
+    padding-inline: 0.25em;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+h2:first-of-type {
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+h2+article h3 {
+    margin-top: 1em;
+}
+
+article>p {
+    margin-top: 0.75em;
+}
+
+.pista {
+    margin-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+#aleatorio {
+    display: flex;
+    margin-inline: auto;
+}
+
+/********************
+Botón
+********************/
+
+button:disabled {
+    cursor: default;
+}
+
+/********************
+Botón con acento
+********************/
+
+button.acento {
+    background-color: var(--accent-color);
+    color: var(--on-accent);
+    border-color: transparent;
+}
+
+button.acento:hover {
+    background-color: var(--accent-color-hover);
+}
+
+button.acento:active {
+    background-color: var(--accent-color-active);
+}
+
+/********************
+Botón con contorno
+********************/
+
+button.contorno {
+    border-radius: 100px;
+}
+
+button.contorno.seleccionado {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    border-width: 2px;
+    cursor: initial;
+}
+
+button.contorno.seleccionado:hover,
+button.contorno.seleccionado:active {
+    background-color: inherit;
+}
+
+/********************
+Navegación local
+********************/
+
+.contenido-grupo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 12px 10px;
+}
+
+/********************
+Progreso
+********************/
+
+button.cargando::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(var(--progreso, 0) * 1%);
+    height: 2px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+}
+
+/********************
+Sombras de desplazamiento
+********************/
+
+.contenedor-grupos,
+.tabla {
+    --shadow-color: hsla(0, 0%, 50%, 0.4);
+    --shadow-margin: 40px;
+    --shadow-width: 10px;
+
+    background-image:
+        linear-gradient(to right, var(--parent-color, var(--background-color)) 30%, transparent),
+        linear-gradient(to left, var(--parent-color, var(--background-color)) 70%, transparent),
+        radial-gradient(farthest-side at 0, var(--shadow-color), transparent),
+        radial-gradient(farthest-side at 100%, var(--shadow-color), transparent);
+    background-position-x: left, right, left, right;
+    background-size: var(--shadow-margin) 100%, var(--shadow-margin) 100%, var(--shadow-width) 100%, var(--shadow-width) 100%;
+    background-attachment: local, local, scroll, scroll;
+    background-repeat: no-repeat;
+}
+
+/********************
+Impresión
+********************/
+
+@media print {
+    article {
+        break-inside: avoid;
+    }
+
+    body>header,
+    nav,
+    button {
+        display: none;
+    }
+}

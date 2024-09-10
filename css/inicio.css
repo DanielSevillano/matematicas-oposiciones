@@ -1,0 +1,193 @@
+section {
+    margin-top: 40px;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 15px;
+    margin-block: 10px;
+}
+
+main>p:first-child {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2+p,
+h3+p {
+    margin-top: 0.5em;
+}
+
+.texto h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+
+section>ul li {
+    margin-block: 0.2em;
+}
+
+/********************
+Tarjeta
+********************/
+
+.tarjeta {
+    --parent-color: var(--container-color);
+    padding: 20px;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow:
+        0 0 2px rgba(0, 0, 0, 0.12),
+        0 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+}
+
+.tarjeta>p {
+    margin-top: 0.5em;
+}
+
+.tarjeta>ul {
+    margin-top: 0.5em;
+}
+
+#ejercicios-diarios .tarjeta:not(:first-of-type) {
+    margin-top: 15px;
+}
+
+#ejercicios-diarios .tarjeta h3:first-of-type {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.agradecimiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agradecimiento p {
+    margin: 0;
+}
+
+.agradecimiento p:first-child {
+    font-size: 2rem;
+}
+
+.agradecimiento p:nth-child(2) {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/********************
+Enlace con acento
+********************/
+
+a.acento {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    min-width: 96px;
+    padding-inline: 12px;
+    box-sizing: border-box;
+    background-color: var(--accent-color);
+    color: var(--on-accent);
+    font-size: 0.875rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 200ms;
+}
+
+a.acento:hover {
+    background-color: var(--accent-color-hover);
+}
+
+a.acento:active {
+    background-color: var(--accent-color-active);
+}
+
+/********************
+Acordeón
+********************/
+
+details {
+    margin: 0;
+    border-radius: 0;
+    box-shadow:
+        0 0 2px rgba(0, 0, 0, 0.12),
+        0 2px 4px rgba(0, 0, 0, 0.14);
+}
+
+details summary {
+    border-radius: 0;
+}
+
+details:first-of-type {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+details:first-of-type summary {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+details:last-of-type {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+details:last-of-type:not([open]) summary {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+details p {
+    margin: 15px 20px;
+}
+
+/********************
+Formulario
+********************/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-block: 10px;
+}
+
+label {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+textarea {
+    width: min(100%, 400px);
+    min-height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: var(--container-color);
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-family: system-ui;
+    transition: border-color 100ms;
+}
+
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid var(--accent-color);
+}

@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Se tienen $n + 1$ cajas idénticas con $n$ bolas cada una.
+        En la primera caja hay $n$ bolas negras; en la segunda caja hay $n − 1$ bolas negras y 1 bola blanca; en la tercera hay $n − 2$  bolas negras y dos bolas blancas y así sucesivamente, hasta que, en la última caja, hay $n$ bolas blancas.
+        Se toma una caja al azar y de ella se extraen tres bolas de una vez:
+
+        <ol>
+            <li>Calcule la probabilidad de que las tres bolas sean blancas.</li>
+            <li>Suponiendo que, tras la extracción, las tres bolas son blancas, calcule el número de cajas que tiene que haber para que la probabilidad de que provengan las tres bolas blancas de las dos últimas cajas, sea igual a $\frac{2}{3}.$</li>
+        </ol>
+    </li>
+
+    <li>
+        Dos varillas, $AB$, $BC$, de igual longitud y articuladas en $B$, tienen fijo el extremo $A.$
+        Si el extremo $C$ se mueve sobre la recta $AC$, halle la ecuación del lugar geométrico de un punto $P$, tomado en $BC.$
+    </li>
+</ol>

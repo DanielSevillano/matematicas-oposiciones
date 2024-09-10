@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Genera exámenes a partir de problemas de años anteriores.">
+    <title>Generador de exámenes</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/contenido.css" />
+    <link rel="stylesheet" href="css/generador-examenes.css" />
+    <script type="module" src="js/generador-examenes.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de oposiciones
+            </h1>
+        </a>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-oposiciones" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <form>
+        <h2>🪄 Generador de exámenes</h2>
+
+        <div class="bloque">
+            <label for="curso-inicial">Desde</label>
+            <input type="number" id="curso-inicial" min="2014" max="2024" value="2024" required>
+            <label for="curso-final">hasta</label>
+            <input type="number" id="curso-final" min="2014" max="2024" value="2014" required>
+        </div>
+
+        <button type="submit" id="generar">Generar</button>
+    </form>
+
+    <main></main>
+</body>
+
+</html>

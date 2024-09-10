@@ -1,0 +1,30 @@
+:root {
+    --list-radius: 2em;
+}
+
+ol {
+    padding: 0;
+    list-style: none;
+    counter-reset: list-item;
+}
+
+ol li {
+    display: grid;
+    grid-template-columns: var(--list-radius) 1fr;
+    gap: 0.5em;
+    align-items: start;
+    margin-block: 1em;
+    padding-left: 0.125em;
+}
+
+ol li::before {
+    counter-increment: list-item;
+    content: counter(list-item);
+    background-color: var(--accent-color);
+    color: var(--on-accent);
+    width: var(--list-radius);
+    font-size: 0.85rem;
+    line-height: var(--list-radius);
+    text-align: center;
+    border-radius: 100%;
+}

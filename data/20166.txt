@@ -1,0 +1,8 @@
+Dada la función real de variable real $f(x) = |x-1|^{\frac{1}{2}} \cdot |x+1|^\frac{3}{2}$, se pide:
+
+<ol>
+    <li>Los intervalos de crecimiento y de decrecimiento, los extremos y las ramas parabólicas de $f(x).$</li>
+    <li>Estudia la derivabilidad en $x_0 = -1$ y en $x_0 = 1$ de $f(x).$</li>
+    <li>Dibujar su gráfica.</li>
+    <li>El área encerrada por la curva y el eje de abscisas.</li>
+</ol>

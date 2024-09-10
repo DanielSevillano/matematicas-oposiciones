@@ -1,0 +1,9 @@
+Consideramos las funciones $f(x) = xe^{-x}$ y $g(x) = 2 - x\int_0^x e^{-t^2}dt.$
+
+<ol>
+    <li>Estudiar y representar gráficamente la función $f.$</li>
+    <li>
+        Calcular:
+        $$\lim_{x \to 0} \frac{f(x) - g(x) + 2 - x}{x\ln(1-x)}.$$
+    </li>
+</ol>

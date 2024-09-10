@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Navega por los exámenes de problemas ordenados por año.">
+    <title>Exámenes</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/contenido.css" />
+    <script type="module" src="js/examenes.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de oposiciones
+            </h1>
+        </a>
+
+        <nav id="navegacion-global">
+            <ul>
+                <li><a href="/examenes.html">Exámenes</a></li>
+                <li><a href="/temario.html">Temario</a></li>
+            </ul>
+        </nav>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-oposiciones" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <nav id="navegacion-local">
+        <h2>📘 Exámenes</h2>
+
+        <div class="contenido-grupo">
+            <button id="boton-2023" class="contorno">2023</button>
+            <button id="boton-2021" class="contorno">2021</button>
+            <button id="boton-2018" class="contorno">2018</button>
+            <button id="boton-2016" class="contorno">2016</button>
+            <button id="boton-2014" class="contorno">2014</button>
+        </div>
+    </nav>
+
+    <main>
+        <p class="pista">Selecciona un examen para abrirlo.</p>
+
+        <button id="aleatorio">Examen aleatorio</button>
+    </main>
+</body>
+
+</html>

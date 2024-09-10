@@ -1,0 +1,1 @@
+Hallar el lugar geométrico de los ortocentros de todos los triángulos inscritos en una hipérbola equilátera.

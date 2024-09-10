@@ -1,0 +1,25 @@
+Dada la matriz $A \in \mathbb{R}^{4 \times 3}$, el vector $b \in \mathbb{R}^4$, $\alpha \in \mathbb{R}$ y el subespacio $F$ de $\mathbb{R}^4$
+$$A = \begin{pmatrix}
+    -1 & 2 & 0 \\
+    0 & 1 & -1 \\
+    -1 & 1 & 1 \\
+    0 & 1 & -1
+\end{pmatrix}, \quad
+b = \begin{pmatrix}
+    0 \\ 1 \\ \alpha-2 \\ \alpha^2
+\end{pmatrix} \quad \text{y} \quad
+F \equiv \begin{cases}
+    x_1 + x_2 - x_4 = 0, \\
+    x_1 + x_3 + x_4 = 0.
+\end{cases}$$
+
+<ol>
+    <li>Discutir y resolver cuando sea compatible el sistema $AX = b$, con $X \in \mathbb{R}^3.$</li>
+    <li>Sea $E$ el espacio columna de $A$, calcular sus ecuaciones implícitas.</li>
+    <li>Encontrar una base del subespacio $E \cap F.$</li>
+    <li>
+        Calcular la matriz $B$ de la transformación lineal $T: \mathbb{R}^3 \to \mathbb{R}^4$ que verifica:
+        $$T(e_1) = A(e_2 + e_3), \quad T(e_2) = Ae_3, \quad T(e_3) = Ae_2,$$
+        donde $\{e_1, e_2, e_3\}$ es la base canónica de $\mathbb{R}^3.$
+    </li>
+</ol>

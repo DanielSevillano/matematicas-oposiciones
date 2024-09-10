@@ -1,0 +1,22 @@
+<ol>
+    <li>
+        En un establecimiento comercial, la salida diaria de cierto tipo de electrodoméstico viene descrita por una variable aleatoria $X$ con soporte $D_X = \{0, 1, 2, 3, \dots, n\}.$
+        Se sabe que un $100a\text{%}$ de los días, $a \in [0,1]$, no se vende ningún aparato, mientras que la probabilidad de vender un número fijo de ellos, es directamente proporcional a ese número.
+
+        <ol>
+            <li>
+                Demuestre que se verifica
+                $$\sum_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}, \quad \forall n \in \mathbb{N}.$$
+            </li>
+
+            <li>Calcule la ley de probabilidad asociada al fenómeno aleatorio descrito: función de masa de probabilidad y función de distribución.</li>
+            
+            <li>
+                Si el vendedor observa que, por término medio, cada mes (30 días) vende 1.485 aparatos y el 90% de los días tiene alguna venta, ¿cuántos electrodomésticos puede vender, como máximo, cada día?
+                ¿Cuál es esa probabilidad?
+            </li>
+        </ol>
+    </li>
+
+    <li>Halle el volumen del sólido generado al girar, alrededor del eje $OX$, la región del plano que resulta de la intersección del interior de $x^2 + y^2 = 17$ con el exterior de $x^2 + y^2 = 17x.$</li>
+</ol>

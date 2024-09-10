@@ -1,0 +1,22 @@
+[
+    {
+        "curso": 2018,
+        "plazas": 586,
+        "opositores": 2609
+    },
+    {
+        "curso": 2021,
+        "plazas": 703,
+        "opositores": 3282
+    },
+    {
+        "curso": 2023,
+        "plazas": 632,
+        "opositores": 2493
+    },
+    {
+        "curso": 2024,
+        "plazas": 148,
+        "opositores": 1882
+    }
+]

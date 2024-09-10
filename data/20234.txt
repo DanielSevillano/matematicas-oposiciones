@@ -1,0 +1,17 @@
+Para cada $n \in \mathbb{N}$ no nulo y para cada $a, b \in \mathbb{C}$ considere la matriz
+$$A_n(a) = \begin{pmatrix}
+    1+a & 1 & 0 & \dots & 0 & 0 \\
+    a & 1+a & 1 & \dots & 0 & 0 \\
+    0 & a & 1+a & \dots & 0 & 0 \\
+    \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+    0 & 0 & 0 & \dots & 1+a & 1 \\
+    0 & 0 & 0 & \dots & a & 1+a
+\end{pmatrix} \in M_{n \times n}(\mathbb{C})$$
+y el sistema de ecuaciones $A_{n(a)}X = (0, 0, \dots, b)^t$ con $X \in M_{n \times 1}(\mathbb{C}).$
+
+<ol>
+    <li>Calcule los siguientes determinantes: $\det(A_1(a))$, $\det(A_2(a))$, $\det(A_3(a)).$</li>
+    <li>Obtenga una relación lineal entre los determinantes de $A_n(a)$, $A_{n+1}(a)$ y $A_{n+2}(a).$</li>
+    <li>Halle, según los valores de $a$ y $n$, una expresión para el determinante de $A_n(a).$</li>
+    <li>Estudie el sistema $A_n(a) \cdot X = (0, 0, \dots, b)^t$ según los valores de $a$, $n$ y $b.$</li>
+</ol>

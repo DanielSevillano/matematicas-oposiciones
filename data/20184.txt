@@ -1,0 +1,16 @@
+Consideramos la función $f(x) = \cos(x).$
+
+<ol>
+    <li>Calcular la serie de Taylor de la función $f.$</li>
+    
+    <li>
+        Demostrar que:
+        $$\int_0^1 \frac{\cos(x)}{2\sqrt{x}}dx = \sum_{n=0}^\infty \frac{(-1)^n}{(4n+1)(2n)!}.$$
+    </li>
+
+    <li>
+        Calcula el valor de
+        $$\int_0^1 \frac{\cos(x)}{2\sqrt{x}}dx$$
+        con un error menor que $10^{-3}.$
+    </li>
+</ol>

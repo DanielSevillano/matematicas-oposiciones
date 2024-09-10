@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Una página web para ver los exámenes de oposiciones de matemáticas de Andalucía.">
+    <title>Matemáticas de oposiciones</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/inicio.css" />
+    <script type="module" src="js/inicio.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de oposiciones
+            </h1>
+        </a>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-oposiciones" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <main>
+        <p>¡Bienvenido a Matemáticas de oposiciones!</p>
+
+        <p>
+            En esta página puedes encontrar los exámenes de oposiciones de matemáticas de Andalucía más recientes.
+            Espero que te sea de gran ayuda y que te vaya fenomenal preparándote las oposiciones. ¡Mucho ánimo!
+        </p>
+
+        <section>
+            <h2>📘 Contenido</h2>
+            <div class="galeria">
+                <div class="tarjeta">
+                    <h3>Exámenes</h3>
+                    <p>Navega por los exámenes de problemas ordenados por año.</p>
+                    <a href="/examenes.html" class="acento">Ir a la página</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Temario</h3>
+                    <p>Revisa la lista de temas para la primera prueba del examen.</p>
+                    <a href="/temario.html" class="acento">Ir a la página</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Generador de exámenes</h3>
+                    <p>Genera exámenes a partir de problemas de años anteriores.</p>
+                    <a href="/generador-examenes.html" class="acento">Ir a la página</a>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Estadísticas</h3>
+                    <p>Accede a las estadísticas de oposiciones en Andalucía.</p>
+                    <a href="/estadisticas.html" class="acento">Ir a la página</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="texto">
+            <h2>🧭 Enlaces de interés</h2>
+
+            <ul>
+                <li>
+                    <a href="https://www.juntadeandalucia.es/educacion/portals/web/ced/procedimientos-selectivos"
+                        target="_blank">Procedimientos selectivos</a>
+                </li>
+
+                <li>
+                    <a href="https://www.juntadeandalucia.es/educacion/portals/web/ced/pruebas-procedimientos-selectivos/-/documentos/jNaqeNGiTFaP/carpeta/cuerpo-profesores-de-ensenanza-secundaria"
+                        target="_blank">Pruebas prácticas de enseñanza secundaria</a>
+                </li>
+
+                <li>
+                    <a href="https://www.juntadeandalucia.es/educacion/portals/web/ced/temario1/-/libre/detalle/5GI6BhBq0QqH/temarios-para-los-cuerpos-de-profesores-de-ensenanza-secundaria-y-profesores-tecnicos-de"
+                        target="_blank">Temarios de enseñanza secundaria</a>
+                </li>
+
+                <li>
+                    <a href="https://www.juntadeandalucia.es/educacion/portals/web/ced/datos-estadisticos-procedimiento-selectivo-2023"
+                        target="_blank">Datos estadísticos de las oposiciones de 2023</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="texto">
+            <h2>💻 Acerca del proyecto</h2>
+            <p>
+                Este es un proyecto de código abierto.
+                Puedes encontrar el código fuente, proponer cambios, reportar errores y seguir el progreso en
+                <a href="https://github.com/DanielSevillano/matematicas-oposiciones" target="_blank">GitHub</a>.
+            </p>
+
+            <h3>Envía un comentario</h3>
+            <form name="comentarios" method="post" netlify>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" required></textarea>
+                <small>El comentario no será publicado en ningún sitio.</small>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

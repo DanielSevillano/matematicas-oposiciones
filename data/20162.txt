@@ -1,0 +1,1 @@
+Hallar todos los polinomios del tipo $P(x) = x^2 - ax + b$, $a, b \in \mathbb{Z}$, que tienen una raíz que es raíz $n$-ésima de la unidad.

@@ -1,0 +1,20 @@
+<ol>
+    <li>
+        Un grupo de alumnos de 1º de ESO va a visitar las instalaciones deportivas de un equipo de baloncesto.
+        Para dinamizar la visita, el club ha preparado una actividad para el alumnado.
+        Sobre la cancha han colocado cierto número de pelotas de baloncesto.
+        Si cada pelota dispuesta la toma un alumno distinto, quedarán $n$ alumnos sin haber cogido ninguna pelota.
+        Sin embargo, si se montan equipos de $n$ alumnos alrededor de cada pelota dispuesta, quedarán libres $n$ pelotas.
+        ¿Cuántas pelotas ha dispuesto el equipo de baloncesto para organizar la actividad?
+    </li>
+
+    <li>
+        Dada la función
+        $$f(x) = \frac{x}{\ln(x)}.$$
+
+        <ol>
+            <li>Represéntela.</li>
+            <li>Calcule, según el valor de $a \in \mathbb{R}$, el número de soluciones de la ecuación $x - a\ln(x) = 0.$</li>
+        </ol>
+    </li>
+</ol>

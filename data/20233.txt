@@ -1,0 +1,12 @@
+<ol>
+    <li>
+        Calcule el límite de la sucesión definida por:
+        $$a_n = \frac{1 + 2 \cdot 2! + \dots + n \cdot n!}{(n+1)!}.$$
+    </li>
+
+    <li>
+        Encuentre los valores de $x$ para los cuales la serie
+        $$\sum_{n=1}^\infty \frac{(-1)^n(x+1)^n}{3^n n^2}$$
+        es convergente.
+    </li>
+</ol>

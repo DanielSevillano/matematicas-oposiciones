@@ -1,0 +1,14 @@
+<ol>
+    <li>Halle el volumen del toro de revolución que se obtiene al girar la circunferencia $(x - a)^2 + y^2 = b^2$ con $0 < b < a$ alrededor del eje de ordenadas.</li>
+
+    <li>
+        Siendo
+        $$a_n = \frac{n^k}{(n+1)(n+2)(n+3)}$$
+        el término general de una serie, se pide:
+
+        <ol>
+            <li>Sustituya el exponente $k$ por el mayor número entero compatible con la condición de ser convergente la serie $\displaystyle \sum_{n=1}^\infty a_n.$</li>
+            <li>Halle la suma de la serie para dicho $k.$</li>
+        </ol>
+    </li>
+</ol>

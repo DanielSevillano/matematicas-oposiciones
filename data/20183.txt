@@ -1,0 +1,6 @@
+Consideramos la curva $C$ de ecuacion: $x^2 + y^2 = 4.$
+
+<ol>
+    <li>De todos los triángulos inscritos en la curva $C$, con vértice en el punto $A(0, 2)$ y base paralela al eje $OX$, calcular el que tiene máxima superficie.</li>
+    <li>Calcular la ecuacion de la envolvente de la familia de las circunferencias que tienen el centro en la curva $C$ y que sus radios son la mitad del radio $C.$</li>
+</ol>

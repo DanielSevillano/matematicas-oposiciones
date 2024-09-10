@@ -1,0 +1,10 @@
+Resolver las siguientes cuestiones de divisibilidad:
+
+<ol>
+    <li>
+        En una batalla en la que participan entre 10.000 y 11.000 soldados resultaron muertos $\frac{23}{165}$ y heridos $\frac{35}{143}$ del total.
+        Hallar cuantos soldados resultaron ilesos.
+    </li>
+
+    <li>Hallar el número $N = 2^a 5^b$ sabiendo que la suma de todos sus divisores es $961.$</li>
+</ol>

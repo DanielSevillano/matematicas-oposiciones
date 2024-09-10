@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Accede a las estadísticas de oposiciones en Andalucía.">
+    <title>Estadísticas</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/estadisticas.css" />
+    <script type="module" src="js/estadisticas.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de oposiciones
+            </h1>
+        </a>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-oposiciones" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <main>
+        <h2>📈 Estadísticas</h2>
+
+        <h3>Plazas ofertadas y opositores</h3>
+        <div class="contenedor-grafica">
+            <canvas id="grafica-plazas"></canvas>
+        </div>
+
+        <h3>Ratios de obtención de plaza</h3>
+        <div class="contenedor-grafica">
+            <canvas id="grafica-ratios"></canvas>
+        </div>
+    </main>
+</body>
+
+</html>

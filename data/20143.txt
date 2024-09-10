@@ -1,0 +1,3 @@
+Hallar la condición necesaria y suficiente para que el número
+$$\frac{a + bx}{c + dx}$$
+sea un número racional para todo $x$ real (con $c$ y $d$ no nulos a la vez y siendo $a$, $b$, $c$ y $d$ racionales).

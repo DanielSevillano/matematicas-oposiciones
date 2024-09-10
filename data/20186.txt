@@ -1,0 +1,9 @@
+Consideremos el conjunto $C = \{1, 2, 3, 4, 5\}.$
+
+<ol>
+    <li>Calcular la probabilidad de que sean reales las raíces de la ecuación $x^2 + bx + c = 0$, cuando los coeficientes $b$ y $c$ se eligen al azar entre los números del conjunto $C.$</li>
+    <li>
+        Supongamos un dado de cinco caras numeradas con los números de $C.$
+        ¿Cuál es el número mínimo de veces que habría que lanzarlo para que la probabilidad de que salga al menos una vez el número 1 sea mayor que 0,9?
+    </li>
+</ol>

@@ -1,0 +1,350 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --header-color: white;
+        --background-color: #FAFAFA;
+
+        --accent-color: #036ac4;
+        --accent-color-hover: #0473ce;
+        --accent-color-active: #0481e0;
+        --on-accent: white;
+
+        --accent-link: #023b8f;
+        --accent-link-hover: #012e7f;
+        --accent-link-active: #0360b9;
+
+        --container-color: white;
+        --container-color-alt: #fefefe;
+        --border-color: #efefef;
+
+        --button-background-color: white;
+        --button-background-color-hover: #f5f5f5;
+        --button-background-color-active: #e0e0e0;
+        --button-border-color: #d1d1d1;
+        --on-button: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-color: black;
+        --background-color: #1F1F1F;
+
+        --accent-color: #60c9fc;
+        --accent-color-hover: #4fc0fc;
+        --accent-color-active: #34b0fb;
+        --on-accent: black;
+
+        --accent-link: #82ddfd;
+        --accent-link-hover: #9eecfd;
+        --accent-link-active: #3db5fb;
+
+        --container-color: #333333;
+        --container-color-alt: #212121;
+        --border-color: #383838;
+
+        --button-background-color: #292929;
+        --button-background-color-hover: #3d3d3d;
+        --button-background-color-active: #1f1f1f;
+        --button-border-color: #666666;
+        --on-button: #FBFBFE;
+    }
+}
+
+html {
+    color-scheme: light dark;
+    scrollbar-gutter: stable;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: system-ui;
+    line-height: 1.6;
+    transition: background-color 200ms;
+}
+
+main {
+    width: 100%;
+    max-width: 100ch;
+    margin-bottom: 20px;
+    padding-inline: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.125rem;
+}
+
+h2 {
+    font-size: 1.35rem;
+}
+
+h3 {
+    font-size: 1.125rem;
+}
+
+/********************
+Encabezado
+********************/
+
+body>header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    width: 100%;
+    padding: 0.75em 20px;
+    box-sizing: border-box;
+    background-color: var(--header-color);
+    border-bottom: 1px solid hsla(0, 0%, 50%, 0.25);
+    transition: background-color 200ms;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 0;
+    text-align: center;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navegacion-global ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navegacion-global a {
+    font-size: 0.875rem;
+}
+
+.github {
+    margin-left: auto;
+    height: 25px;
+    transition: opacity 200ms;
+}
+
+.github:hover {
+    opacity: 80%;
+}
+
+.github:active {
+    opacity: 60%;
+}
+
+/********************
+Lista
+********************/
+
+ul,
+ol {
+    padding-left: 1.5em;
+    margin-block: 0.5em;
+}
+
+article ol {
+    list-style-type: lower-latin;
+}
+
+article ol ol {
+    list-style-type: lower-roman;
+}
+
+article ol li {
+    margin-block: 0.2em;
+    padding-left: 0.125em;
+}
+
+article li::marker {
+    font-weight: bold;
+}
+
+/********************
+Botón
+********************/
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: 32px;
+    min-width: 96px;
+    padding-inline: 12px;
+    box-sizing: border-box;
+    background-color: var(--button-background-color);
+    border: 1px solid var(--button-border-color);
+    color: var(--on-button);
+    font-family: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+button:hover:enabled {
+    background-color: var(--button-background-color-hover);
+}
+
+button:active:enabled {
+    background-color: var(--button-background-color-active);
+}
+
+/********************
+Enlace
+********************/
+
+a {
+    color: var(--accent-link);
+    transition: color 200ms;
+}
+
+a:hover {
+    color: var(--accent-link-hover);
+}
+
+a:active {
+    color: var(--accent-link-active);
+}
+
+/********************
+Enlace con contorno
+********************/
+
+a.contorno {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    min-width: 96px;
+    padding-inline: 12px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid var(--button-border-color);
+    color: inherit;
+    font-size: 0.875rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 200ms;
+}
+
+a.contorno:hover {
+    background-color: var(--button-background-color);
+}
+
+a.contorno:active {
+    background-color: var(--button-background-color-active);
+}
+
+/********************
+Progreso
+********************/
+
+main::after,
+section::after {
+    display: none;
+}
+
+main.cargando::after,
+section.cargando::after {
+    content: "";
+    display: block;
+    margin-top: 40px;
+    margin-inline: auto;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 3px solid var(--accent-color);
+    border-top-color: transparent;
+    animation: carga 800ms linear infinite;
+}
+
+@keyframes carga {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/********************
+Sombras de desplazamiento
+********************/
+
+mjx-container {
+    --shadow-color: hsla(0, 0%, 50%, 0.4);
+    --shadow-margin: 40px;
+    --shadow-width: 10px;
+
+    background-image:
+        linear-gradient(to right, var(--parent-color, var(--background-color)) 30%, transparent),
+        linear-gradient(to left, var(--parent-color, var(--background-color)) 70%, transparent),
+        radial-gradient(farthest-side at 0, var(--shadow-color), transparent),
+        radial-gradient(farthest-side at 100%, var(--shadow-color), transparent);
+    background-position-x: left, right, left, right;
+    background-size: var(--shadow-margin) 100%, var(--shadow-margin) 100%, var(--shadow-width) 100%, var(--shadow-width) 100%;
+    background-attachment: local, local, scroll, scroll;
+    background-repeat: no-repeat;
+}
+
+/********************
+MathJax
+********************/
+
+mjx-container {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/********************
+Adaptabilidad
+********************/
+
+@media (max-width: 560px) {
+    .github {
+        display: none;
+    }
+
+    #navegacion-global {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    body>header {
+        position: initial;
+        flex-direction: column;
+    }
+
+    #navegacion-global {
+        display: none;
+    }
+}
+
+@media (max-height: 500px) {
+    body>header {
+        position: initial;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .github img {
+        filter: invert(1);
+    }
+}

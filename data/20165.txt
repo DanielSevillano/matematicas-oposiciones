@@ -1,0 +1,7 @@
+Discutir y resolver el sistema lineal:
+\begin{cases}
+    -x + (1+\lambda)y + (2-\lambda)z + \lambda t = 3, \\
+    \lambda x + y + (2-\lambda)z + \lambda t = 2, \\
+    \lambda x + \lambda y + (2-\lambda)z + \lambda t = 2, \\
+    \lambda x + \lambda y + (2-\lambda)z - t = 2.
+\end{cases}

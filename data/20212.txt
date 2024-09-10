@@ -1,0 +1,11 @@
+<ol>
+    <li>
+        Estudie los extremos de la función
+        $$f(x) = |2x - 1|e^{-|x-2|} \quad \text{en } [-3, 3].$$
+    </li>
+
+    <li>
+        Calcule el límite de la sucesión definida por
+        $$\frac{1}{\ln(n)} \sum_{k=1}^n \left(1 - \cos\left(\frac{\pi}{\sqrt{k}}\right)\right).$$
+    </li>
+</ol>

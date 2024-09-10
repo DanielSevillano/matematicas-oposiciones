@@ -1,0 +1,4 @@
+<ol>
+    <li>Calcular el área limitada por la curva $4x^2 - 4x + 4y^2 - 12y - 26 = 0$ utilizando el cálculo integral.</li>
+    <li>Dadas las curvas $y = x^2$ e $y = bx$, hallar los valores de $b$ tales que el área encerrada entre estas dos gráficas sea $\frac{9}{2}.$</li>
+</ol>

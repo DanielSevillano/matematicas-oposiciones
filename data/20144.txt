@@ -1,0 +1,8 @@
+Tenemos una urna $A$ con 3 bolas blancas y 4 negras.
+Se sacan dos bolas y se meten en otra urna vacía $B.$
+Ahora se saca una bola de la urna $A$ y otra de la urna $B.$
+
+<ol>
+    <li>¿Cuál es la probabilidad de sacar una bola blanca de la urna $A$?</li>
+    <li>¿Cuál es la probabilidad de sacar dos bolas blancas (sacar una bola de $A$ y otra de $B$ y que ambas sean blancas)?</li>
+</ol>

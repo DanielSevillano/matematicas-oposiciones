@@ -1,0 +1,13 @@
+Dos enemigos van a participar en un duelo a pistola.
+Cada uno tiene una sola bala en la recámara.
+Si el que dispara primero acierta, su oponente muere en el acto y es incapaz de devolver el disparo.
+$A$ es rápido en sacar, y tiene una probabilidad 0,6 de disparar primero.
+Sin embargo no tiene buena puntería y la probabilidad de matar a su oponente es 0,4 cuando dispare, mientras que $B$ tiene una probabilidad 0,5 de matar a su oponente cuando dispare.
+Calcular:
+
+<ol>
+    <li>Probabilidad de que ambos sobrevivan al duelo.</li>
+    <li>Probabilidad de que $A$ sobreviva.</li>
+    <li>Probabilidad de que $A$ haya sacado primero, dado que ha sobrevivido.</li>
+    <li>Probabilidad de que el hombre que saque primero sobreviva.</li>
+</ol>

@@ -1,0 +1,3 @@
+Consideremos un pentágono regular.
+Al trazar sus diagonales se forma en su interior un nuevo pentágono regular.
+¿Qué relación existe entre las áreas de los dos pentágonos?

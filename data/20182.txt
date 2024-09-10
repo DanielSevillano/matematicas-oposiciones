@@ -1,0 +1,6 @@
+Dados los puntos del plano $A(1, 2)$ y $B(3, 3)$, se pide:
+
+<ol>
+    <li>Calcular la ecuación de la parábola que tiene el vértice en el punto $A$ y el foco en punto $B.$</li>
+    <li>Determinar como número complejo en forma binomica los vértices de un triángulo equilátero con centro en $A$, sabiendo que $B$ es uno de sus vértices.</li>
+</ol>

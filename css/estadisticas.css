@@ -1,0 +1,37 @@
+.contenedor-grafica {
+    max-width: 90ch;
+    width: 90vw;
+    min-height: 200px;
+    max-height: 45ch;
+    height: 45vw;
+    margin-bottom: 40px;
+}
+
+section {
+    position: relative;
+    min-height: 72px;
+}
+
+section.cargando::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18ch, 30ch));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.tarjeta {
+    --parent-color: var(--container-color);
+    padding: 20px;
+    background-color: var(--container-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow:
+        0 0 2px rgba(0, 0, 0, 0.12),
+        0 2px 4px rgba(0, 0, 0, 0.14);
+}

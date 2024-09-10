@@ -1,0 +1,14 @@
+<ol>
+    <li>
+        Se lanzan $n$ monedas una detrás de otra.
+        En cada lanzamiento, la probabilidad de obtener cara es $p.$
+        Si se han obtenido $k$ caras, $0 \leq k \leq n$, ¿cuál es la probabilidad de que haya aparecido cara en la primera moneda?
+    </li>
+
+    <li>
+        Demuestre que cada número complejo $z$ de módulo 1 con $z \neq 1$ puede escribirse de la forma
+        $$\frac{1 + \mu i}{1 - \mu i}, \quad \mu \in \mathbb{R}.$$
+
+        Halla $\mu$ en función del argumento de $z.$
+    </li>
+</ol>

@@ -1,0 +1,19 @@
+<ol>
+    <li>
+        Sea $\Upsilon = \{x \in \mathbb{Z} : x \text{ es múltiplo de } 20210\}.$
+        Prueba que si $(\alpha + \sqrt{85}\beta) \in \Upsilon$ y $(\sqrt{85}\alpha - \beta) \in \Upsilon$, entonces $\alpha^2 + \beta^2 \in \Upsilon.$
+    </li>
+
+    <li>
+        Se colocan al azar cuatro bolas en tres urnas.
+
+        <ol>
+            <li>
+                Describa la distribución de la variable aleatoria
+                $$X = \textit{número máximo de bolas que hay en alguna urna}.$$
+            </li>
+
+            <li>Halle $E(X).$</li>
+        </ol>
+    </li>
+</ol>
