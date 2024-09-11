@@ -15,7 +15,7 @@ function formatear(elemento) {
     else setTimeout(() => formatear(elemento));
 }
 
-async function obtenerProblema(examen, problema, tituloCompleto = false) {
+async function obtenerProblema(examen, problema, categorias = [], tituloCompleto = false) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
@@ -34,6 +34,18 @@ async function obtenerProblema(examen, problema, tituloCompleto = false) {
     } else titulo.textContent = "Problema " + problema;
 
     articulo.append(titulo);
+
+    const contenedorCategorias = document.createElement("ul");
+    contenedorCategorias.classList.add("categorias");
+    categorias.forEach(categoria => {
+        const elementoCategoria = document.createElement("li");
+        const enlaceCategoria = document.createElement("a");
+        enlaceCategoria.textContent = categoria;
+        enlaceCategoria.classList.add("contorno");
+        elementoCategoria.append(enlaceCategoria);
+        contenedorCategorias.append(elementoCategoria);
+    })
+    articulo.append(contenedorCategorias);
 
     const ruta = "data\\" + examen + problema + ".txt";
 
@@ -62,15 +74,24 @@ async function obtenerExamen(examen) {
 
     main.append(titulo);
 
+    const respuesta = await fetch("data\\metadata.json");
+    const datos = await respuesta.json();
+
     for (let problema = 1; problema <= 6; problema++) {
         if (estado.cancelado) {
             estado.reanudar();
             return false;
         }
 
+        const codigo = examen * 10 + problema;
+        const datosEjercicio = datos.find(dato => dato.problema == codigo);
+
+        let categorias = [];
+        if (datosEjercicio != undefined) categorias = datosEjercicio.categorias;
+
         boton.style.setProperty("--progreso", problema / 6 * 100);
 
-        const seccion = await obtenerProblema(examen, problema);
+        const seccion = await obtenerProblema(examen, problema, categorias);
         main.append(seccion);
         formatear(seccion);
     }

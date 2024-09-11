@@ -1,92 +1,190 @@
 [
     {
-        "problema": 20231
+        "problema": 20231,
+        "categorias": [
+            "Probabilidad",
+            "Geometría"
+        ]
     },
     {
-        "problema": 20232
+        "problema": 20232,
+        "categorias": [
+            "Probabilidad",
+            "Geometría"
+        ]
     },
     {
-        "problema": 20233
+        "problema": 20233,
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": 20234
+        "problema": 20234,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20235
+        "problema": 20235,
+        "categorias": [
+            "Álgebra",
+            "Análisis"
+        ]
     },
     {
-        "problema": 20236
+        "problema": 20236,
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": 20211
+        "problema": 20211,
+        "categorias": [
+            "Probabilidad",
+            "Análisis"
+        ]
     },
     {
-        "problema": 20212
+        "problema": 20212,
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": 20213
+        "problema": 20213,
+        "categorias": [
+            "Análisis",
+            "Geometría"
+        ]
     },
     {
-        "problema": 20214
+        "problema": 20214,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20215
+        "problema": 20215,
+        "categorias": [
+            "Geometría",
+            "Análisis"
+        ]
     },
     {
-        "problema": 20216
+        "problema": 20216,
+        "categorias": [
+            "Álgebra",
+            "Estadística"
+        ]
     },
     {
-        "problema": 20181
+        "problema": 20181,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20182
+        "problema": 20182,
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": 20183
+        "problema": 20183,
+        "categorias": [
+            "Análisis",
+            "Geometría"
+        ]
     },
     {
-        "problema": 20184
+        "problema": 20184,
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": 20185
+        "problema": 20185,
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": 20186
+        "problema": 20186,
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": 20161
+        "problema": 20161,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20162
+        "problema": 20162,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20163
+        "problema": 20163,
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": 20164
+        "problema": 20164,
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": 20165
+        "problema": 20165,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20166
+        "problema": 20166,
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": 20141
+        "problema": 20141,
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": 20142
+        "problema": 20142,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20143
+        "problema": 20143,
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": 20144
+        "problema": 20144,
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": 20145
+        "problema": 20145,
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": 20146
+        "problema": 20146,
+        "categorias": [
+            "Geometría"
+        ]
     }
 ]

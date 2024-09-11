@@ -44,6 +44,15 @@ article>p {
     margin-inline: auto;
 }
 
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
 /********************
 Botón
 ********************/
@@ -149,7 +158,8 @@ Impresión
 
     body>header,
     nav,
-    button {
+    button,
+    .categorias {
         display: none;
     }
 }
