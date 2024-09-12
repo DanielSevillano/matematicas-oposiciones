@@ -23,9 +23,12 @@ async function obtenerExamenGenerado(problemas) {
     for (let numero = 1; numero <= 6; numero++) {
         const problema = problemas[numero - 1];
 
+        let categorias = []
+        if (problema != undefined) categorias = problema.categorias;
+
         boton.style.setProperty("--progreso", numero / 8 * 100);
 
-        const seccion = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, true);
+        const seccion = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, categorias, true);
         main.append(seccion);
         formatear(seccion);
     }
