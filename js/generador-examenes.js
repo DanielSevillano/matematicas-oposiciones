@@ -79,6 +79,12 @@ async function procesar(event) {
         return curso >= cursoFinal && curso <= cursoInicial;
     });
 
+    if (datos.length == 0) {
+        main.classList.remove("cargando");
+        boton.disabled = false;
+        return;
+    };
+
     const problema1 = problemaAleatorio(datos);
     const problema2 = problemaAleatorio(datos, [problema1]);
     const problema3 = problemaAleatorio(datos, [problema1, problema2]);
