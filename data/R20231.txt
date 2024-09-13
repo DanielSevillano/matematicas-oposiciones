@@ -1,0 +1,175 @@
+<ol>
+    <li>
+        Podemos estructurar los datos en una tabla.
+        Por comodidad, numeramos las cajas del 0 al $n.$
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <th class="subrayado">Caja 0</th>
+                    <th class="subrayado">Caja 1</th>
+                    <th>$\dots$</th>
+                    <th class="subrayado">Caja $n-1$</th>
+                    <th class="subrayado">Caja $n$</th>
+                </tr>
+                
+                <tr>
+                    <td>$n$ negras</td>
+                    <td>$n-1$ negras</td>
+                    <td></td>
+                    <td>1 negra</td>
+                    <td>0 negras</td>
+                </tr>
+
+                <tr>
+                    <td>0 blancas</td>
+                    <td>1 blanca</td>
+                    <td></td>
+                    <td>$n-1$ blancas</td>
+                    <td>$n$ blancas</td>
+                </tr>
+            </table>
+        </div>
+
+        Sea $C_k = \textit{elegir la caja } k$, para $k \in \{0, 1, \dots, n\}.$
+        Estos sucesos son incompatibles dos a dos, con $P(C_k) = \frac{1}{n+1}.$
+        Por otro lado, definimos el suceso $B = \textit{sacar tres bolas blancas}.$
+
+        <ol>
+            <li>
+                Por el teorema de la probabilidad total,
+                \begin{align}
+                    P(B) & = P(B \cap C_0) + P(B \cap C_1) + \dots + P(B \cap C_n) = \\
+                    & = P(C_0) \cdot P(B|C_0) + P(C_1) \cdot P(B|C_1) + \dots P(C_n) \cdot P(B|C_n) = \sum_{k=0}^n P(C_k) \cdot P(B|C_k).
+                \end{align}
+
+                La caja $k$ tiene $n-k$ bolas negras y $k$ bolas blancas.
+                Así que
+                $$P(B|C_k) = \frac{k}{n} \cdot \frac{k-1}{n-1} \cdot \frac{k-2}{n-2}.$$
+
+                Por tanto,
+                \begin{align}
+                    P(B) & = \sum_{k=0}^n P(C_k) \cdot P(B|C_k) = \sum_{k=0}^n \frac{1}{n+1} \cdot \frac{k}{n} \cdot \frac{k-1}{n-1} \cdot \frac{k-2}{n-2} = \\
+                    & = \frac{1}{(n+1)n(n-1)(n-2)} \sum_{k=0}^n k(k-1)(k-2).
+                \end{align}
+
+                Desarrollamos la expresión de la suma:
+                \begin{align}
+                    \sum_{k=0}^n k(k-1)(k-2) & = \sum_{k=0}^n (k^3 - 3k^2 + 2k) = \sum_{k=0}^n k^3 - 3\sum_{k=0}^n k^2 + 2\sum_{k=0}^n k = \\
+                    & = \sum_{k=1}^n k^3 - 3\sum_{k=1}^n k^2 + 2\sum_{k=1}^n k.
+                \end{align}
+
+                Hallamos cada uno de estos sumatorios.
+
+                <ul>
+                    <li>
+                        La progresión $\{a_k\} = \{k\}$ es aritmética, así que la suma de sus primeros $n$ términos es
+                        $$\sum_{k=1}^n k = \frac{n(n+1)}{2}.$$
+                    </li>
+
+                    <li>
+                        La progresión $\{b_k\} = \{k^2\}$ es aritmética de orden 2, así que podemos hallar la suma de sus primeros $n$ términos usando diferencias finitas.
+                        \begin{align}
+                            & b_1 = 1, & & \Delta b_1 = b_2 - b_1 = 3, & & \Delta^2 b_1 = \Delta b_2 - \Delta b_1 = 2, \\
+                            & b_2 = 4, & & \Delta b_2 = b_3 - b_2 = 5, \\
+                            & b_3 = 9.
+                        \end{align}
+
+                        Así que:
+                        \begin{align}
+                            \sum_{k=1}^n k^2 & = \binom{n}{1}b_1 + \binom{n}{2}\Delta b_1 + \binom{n}{3}\Delta^2 b_1 = n + \frac{n!}{2!(n-2)!} \cdot 3 + \frac{n!}{3!(n-3)!} \cdot 2 = \\
+                            & = n + \frac{3n(n-1)}{2} + \frac{n(n-1)(n-2)}{3} = \frac{n(6 + 9n - 9 + 2(n-1)(n-2))}{6} = \frac{n(n+1)(2n+1)}{6}.
+                        \end{align}
+                    </li>
+
+                    <li>
+                        La progresión $\{c_k\} = \{k^3\}$ es aritmética de orden 3, así que podemos hallar la suma de sus primeros $n$ términos usando diferencias finitas.
+                        \begin{align}
+                            & c_1 = 1, & & \Delta c_1 = c_2 - c_1 = 7, & & \Delta^2 c_1 = \Delta c_2 - \Delta c_1 = 12, & & \Delta^3 c_1 = \Delta^2 c_2 - \Delta^2 c_1 = 6, \\
+                            & c_2 = 8, & & \Delta c_2 = c_3 - c_2 = 19, & & \Delta^2 c_2 = \Delta c_3 - \Delta c_2 = 18, \\
+                            & c_3 = 27, & & \Delta c_3 = c_4 - c_3 = 37, \\
+                            & c_4 = 64.
+                        \end{align}
+
+                        Así que:
+                        \begin{align}
+                            \sum_{k=1}^n k^3 & = \binom{n}{1}c_1 + \binom{n}{2}\Delta c_1 + \binom{n}{3}\Delta^2 c_1 + \binom{n}{4}\Delta^3 c_1 = \\
+                            & = n + \frac{n!}{2!(n-2)!} \cdot 7 + \frac{n!}{3!(n-3)!} \cdot 12 + \frac{n!}{4!(n-4)!} \cdot 6 = \\
+                            & = n + \frac{7n(n-1)}{2} + 2n(n-1)(n-2) + \frac{n(n-1)(n-2)(n-3)}{4} = \\
+                            & = \frac{n(4 + 14(n-1) + 8(n-1)(n-2) + (n-1)(n-2)(n-3))}{4} = \\
+                            & = \frac{n(4 + 14n - 14 + 8n^2 - 24n + 16 + n^3 - 6 n^2 + 11 n - 6)}{4} = \\
+                            & = \frac{n(n^3 + 2 n^2 + n)}{4} = \frac{n^2(n+1)^2}{4}.
+                        \end{align}
+                    </li>
+                </ul>
+
+                Luego:
+                \begin{align}
+                    \sum_{k=0}^n k(k-1)(k-2) & = \sum_{k=0}^n k^3 - 3\sum_{k=0}^n k^2 + 2\sum_{k=0}^n k = \frac{n^2(n+1)^2}{4} - \frac{n(n+1)(2n+1)}{2} + n(n+1) = \\
+                    & = \frac{n\Big(n(n^2 + 2n + 1) - (2n+2)(2n+1) + 4n + 4\Big)}{4} = \\
+                    & = \frac{n(n^3 + 2n^2 + n - 4n^2 - 6n - 2 + 4n + 4)}{4} = \\
+                    & = \frac{n(n^3 - 2n^2 - n + 2)}{4} = \frac{(n-2)(n-1)n(n+1)}{4}.
+                \end{align}
+
+                Por tanto, la probabilidad de que las tres bolas sean blancas es
+                \begin{align}
+                    P(B) & = \frac{1}{(n+1)n(n-1)(n-2)} \sum_{k=0}^n k(k-1)(k-2) = \\
+                    & = \frac{1}{(n+1)n(n-1)(n-2)} \cdot \frac{(n-2)(n-1)n(n+1)}{4} = \frac{1}{4}.
+                \end{align}
+            </li>
+
+            <li>
+                Queremos que se verifique la igualdad
+                $$P((C_{n-1} \cup C_n) | B) = \frac{2}{3}.$$
+
+                Como $C_{n-1}$ y $C_{n}$ son sucesos incompatibles,
+                $$P((C_{n-1} \cup C_n) | B) = P(C_{n-1}|B) + P(C_n|B).$$
+
+                Calculamos estas probabilidades.
+                \begin{align}
+                    & P(C_{n-1}|B) = \frac{P(C_{n-1} \cap B)}{P(B)} = \frac{P(C_{n-1}) \cdot P(B|C_{n-1})}{\frac{1}{4}} = 4 \cdot \frac{1}{n+1} \cdot \frac{n-1}{n} \cdot \frac{n-2}{n-1} \cdot \frac{n-3}{n-2} = \frac{4(n-3)}{n(n+1)}, \\
+                    & P(C_n|B) = \frac{P(C_n \cap B)}{P(B)} = \frac{P(C_n) \cdot P(B|C_n)}{\frac{1}{4}} = \frac{4}{n+1}.
+                \end{align}
+
+                Luego:
+                \begin{align}
+                    & P((C_{n-1} \cup C_n) | B) = \frac{2}{3} \Leftrightarrow \frac{4(n-3)}{n(n+1)} + \frac{4}{n+1} = \frac{2}{3} \Leftrightarrow \frac{2n - 6 + 2n}{n(n+1)} = \frac{1}{3} \Leftrightarrow 12n - 18 = n(n+1) \Leftrightarrow \\
+                    & \Leftrightarrow n^2 - 11n + 18 = 0 \Leftrightarrow \begin{cases}
+                        n = 2, \\
+                        n = 9.
+                    \end{cases}
+                \end{align}
+
+                La solución $n = 2$ no es válida, puesto que no es posible sacar tres bolas blancas con 3 cajas.
+                Por tanto, se necesitan 10 cajas para que la probabilidad sea $\frac{2}{3}.$
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Suponemos $A(0, 0)$ y $AC$ la recta horizontal $y = 0$, de forma que $C(a, 0)$ para $a > 0.$
+        Sea $P(x, y)$ y sean $D$ y $Q$ las proyecciones de $B$ y $P$ sobre el eje de abscisas, respectivamente.
+        <img src="img/20231.png" alt="Figura" loading="lazy">
+
+        Sea $d = d(A, B) = d(B, C)$ y sea $p = d(P, C).$
+        Como el triángulo $CBD$ es semejante al triángulo $CPQ$, por el teorema de Tales tenemos que:
+        \begin{align}
+            & \frac{d(B, C)}{d(P, C)} = \frac{d(B, D)}{d(P, Q)} = \frac{d(C, D)}{d(C, Q)} \Leftrightarrow \frac{d}{p} = \frac{\sqrt{d^2 - \frac{a^4}{4}}}{y} = \frac{\frac{a}{2}}{a-x} \Leftrightarrow \\
+            & \Leftrightarrow \begin{cases}
+                \dfrac{d}{p} = \dfrac{\frac{a}{2}}{a-x} \Leftrightarrow ad - xd = \dfrac{ap}{2} \Leftrightarrow x = \dfrac{ad - \frac{ap}{2}}{d} = a - \dfrac{ap}{2d}, \\
+                \dfrac{d}{p} = \dfrac{\sqrt{d^2 - \frac{a^2}{4}}}{y} \Leftrightarrow y = \dfrac{p \sqrt{d^2 - \frac{a^2}{4}}}{d}.
+            \end{cases}
+        \end{align}
+
+        Despejando $a$ en la primera ecuación,
+        $$x = a - \frac{ap}{2d} \Leftrightarrow x = a\left(1 - \frac{p}{2d}\right) = a\left(\frac{2d - p}{2d}\right) \Leftrightarrow a = \frac{x}{\frac{2d - p}{2d}} = \frac{2dx}{2d - p}.$$
+
+        Sustituyendo esta expresión en la segunda ecuación,
+        \begin{align}
+            & y = \frac{p \sqrt{d^2 - \frac{a^2}{4}}}{d} = \frac{p}{d} \sqrt{d^2 - \frac{1}{4} \cdot \frac{4d^2x^2}{(2d-p)^2}} = p \sqrt{1 - \frac{x^2}{(2d-p)^2}} \Leftrightarrow \frac{y^2}{p^2} = 1 - \frac{x^2}{(2d-p)^2} \\
+            & \Leftrightarrow \frac{x^2}{(2d-p)^2} + \frac{y^2}{p^2} = 1.
+        \end{align}
+
+        Observamos que se trata de una elipse centrada en $(0, 0)$ con semiejes $a = 2d-p$ y $b = p.$
+    </li>
+</ol>

@@ -15,7 +15,7 @@ function formatear(elemento) {
     else setTimeout(() => formatear(elemento));
 }
 
-async function obtenerProblema(examen, problema, categorias = [], tituloCompleto = false) {
+async function obtenerProblema(examen, problema, resuelto = false, categorias = [], tituloCompleto = false) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
@@ -54,6 +54,23 @@ async function obtenerProblema(examen, problema, categorias = [], tituloCompleto
 
     parrafo.innerHTML = datos;
 
+    if (resuelto) {
+        const contenedorResolucion = document.createElement("details");
+        const tituloResolucion = document.createElement("summary");
+        const textoResolucion = document.createElement("div");
+
+        tituloResolucion.textContent = "Resolución";
+
+        const ruta = "data\\R" + examen + problema + ".txt";
+        const respuesta = await fetch(ruta);
+        const datos = await respuesta.text();
+
+        textoResolucion.innerHTML = datos;
+
+        contenedorResolucion.append(tituloResolucion, textoResolucion);
+        parrafo.append(contenedorResolucion);
+    }
+
     articulo.append(parrafo);
 
     return articulo;
@@ -84,14 +101,18 @@ async function obtenerExamen(examen) {
         }
 
         const codigo = examen * 10 + problema;
-        const datosEjercicio = datos.find(dato => dato.problema == codigo);
+        const datosProblema = datos.find(dato => dato.problema == codigo);
 
+        let resuelto = false;
         let categorias = [];
-        if (datosEjercicio != undefined) categorias = datosEjercicio.categorias;
+        if (datosProblema != undefined) {
+            if (datosProblema.resuelto) resuelto = true;
+            categorias = datosProblema.categorias;
+        }
 
         boton.style.setProperty("--progreso", problema / 6 * 100);
 
-        const seccion = await obtenerProblema(examen, problema, categorias);
+        const seccion = await obtenerProblema(examen, problema, resuelto, categorias);
         main.append(seccion);
         formatear(seccion);
     }

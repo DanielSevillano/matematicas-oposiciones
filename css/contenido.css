@@ -112,6 +112,111 @@ Navegación local
 }
 
 /********************
+Imágenes
+********************/
+
+main img {
+    display: block;
+    max-width: min(100%, 40ch);
+    margin: 1.5em auto;
+}
+
+/********************
+Acordeón
+********************/
+
+details {
+    --parent-color: var(--container-color-alt);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--container-color-alt);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 0.875rem;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--container-color);
+    border-radius: 7px;
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: url(/img/icono-acordeon.svg);
+    display: flex;
+    margin-left: auto;
+    padding: 5px 10px;
+    aspect-ratio: 1;
+    border-radius: 4px;
+    rotate: 180deg;
+    transition: background-color 200ms;
+}
+
+summary:hover::after {
+    background-color: hsla(0, 0%, 50%, 0.1);
+}
+
+summary:active::after {
+    background-color: hsla(0, 0%, 50%, 0.2);
+}
+
+details[open] summary {
+    border-bottom: 1px solid var(--border-color);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+details[open] summary::after {
+    rotate: 0deg;
+}
+
+details div {
+    margin-inline: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+details ol {
+    padding-left: 1em;
+}
+
+/********************
+Tablas
+********************/
+
+.tabla {
+    --parent-color: var(--container-color-alt);
+    max-width: 100%;
+    margin-block: 1.5em;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+table {
+    margin-inline: auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    min-width: max-content;
+    padding-inline: 8px;
+}
+
+tr.subrayado>th {
+    border-bottom: 1px solid var(--on-button);
+}
+
+/********************
 Progreso
 ********************/
 
@@ -145,6 +250,20 @@ Sombras de desplazamiento
     background-size: var(--shadow-margin) 100%, var(--shadow-margin) 100%, var(--shadow-width) 100%, var(--shadow-width) 100%;
     background-attachment: local, local, scroll, scroll;
     background-repeat: no-repeat;
+}
+
+/********************
+Adaptabilidad
+********************/
+
+@media (prefers-color-scheme: dark) {
+    summary::after {
+        filter: invert(1);
+    }
+
+    main img {
+        filter: invert(1) hue-rotate(180deg);
+    }
 }
 
 /********************

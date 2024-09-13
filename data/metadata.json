@@ -1,6 +1,7 @@
 [
     {
         "problema": 20231,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Geometría"
