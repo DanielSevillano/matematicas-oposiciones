@@ -1,0 +1,13 @@
+Dado el determinante:
+$$D_n = \begin{vmatrix}
+    1+x^2 & x & 0 & 0 & \dots & 0 & 0 & 0 \\
+    x & 1+x^2 & x & 0 & \dots & 0 & 0 & 0 \\
+    0 & x & 1+x^2 & x & \dots & 0 & 0 & 0 \\
+    0 & 0 & x & 1+x^2 & \dots & 0 & 0 & 0 \\
+    \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots \\
+    0 & 0 & 0 & 0 & \dots & 1+x^2 & x & 0 \\
+    0 & 0 & 0 & 0 & \dots & x & 1+x^2 & x \\
+    0 & 0 & 0 & 0 & \dots & 0 & x & 1+x^2
+\end{vmatrix}.$$
+
+Calcular el polinomio en $x$ ordenado en función de $n$ que resulta de su desarrollo.

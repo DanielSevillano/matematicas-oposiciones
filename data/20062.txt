@@ -1,0 +1,4 @@
+Dados $0 < x_1 < y_1$, se consideran las sucesiones $\{x_n\}$, $\{y_n\}$ tales que
+$$x_n = \sqrt{x_{n-1} \cdot y_{n-1}}, \quad y_n = \frac{x_{n-1} + y_{n-1}}{2}, \quad \forall n \geq 2.$$
+
+Demostrar que ambas tienen límite y es el mismo.

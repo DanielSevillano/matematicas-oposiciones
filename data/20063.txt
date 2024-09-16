@@ -1,0 +1,2 @@
+Se considera un segmento $AB$ de longitud constante que se mueve apoyando sus extremos en unos ejes cartesianos rectángulos.
+Hallar el lugar geométrico de la proyección del origen sobre el segmento.

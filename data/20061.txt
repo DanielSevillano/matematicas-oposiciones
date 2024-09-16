@@ -1,0 +1,6 @@
+Dada la función $f(x) = \ln(x).$
+
+<ol>
+    <li>Hallar la longitud de arco bajo la curva entre $x = \frac{1}{2}$ y $x = \frac{3}{2}.$</li>
+    <li>Hallar el área bajo la curva delimitada por el eje $OX$ y las ordenadas con abscisas $x = \frac{1}{2}$ y $x = \frac{3}{2}.$</li>
+</ol>

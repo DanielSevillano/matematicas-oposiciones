@@ -1,0 +1,9 @@
+Sea la matriz
+$$M(x) = \begin{pmatrix}
+    1 & 0 & x \\
+    0 & 1 & 0 \\
+    0 & 0 & 1
+\end{pmatrix},$$
+con $x \in \mathbb{R}.$
+Sea $A$ el conjunto de matrices de esta forma.
+Demostrar que $A$ con el producto de matrices tiene estructura de grupo conmutativo.

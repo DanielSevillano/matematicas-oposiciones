@@ -187,5 +187,41 @@
         "categorias": [
             "Geometría"
         ]
+    },
+    {
+        "problema": 20061,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": 20062,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": 20063,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": 20064,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": 20065,
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "problema": 20066,
+        "categorias": [
+            "Álgebra"
+        ]
     }
 ]
