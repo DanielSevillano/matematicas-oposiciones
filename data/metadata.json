@@ -16,6 +16,7 @@
     },
     {
         "problema": 20233,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
