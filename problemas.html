@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
-    <meta name="description" content="Accede a las estadísticas de oposiciones en Andalucía.">
-    <title>Estadísticas</title>
+    <meta name="description" content="Navega por los problemas categorizados por bloques.">
+    <title>Exámenes</title>
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/estadisticas.css" />
-    <script type="module" src="js/estadisticas.js"></script>
+    <link rel="stylesheet" href="css/contenido.css" />
+    <link rel="stylesheet" href="css/problemas.css" />
+    <script type="module" src="js/problemas.js"></script>
+    <script src="js/config.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -37,18 +40,25 @@
         </a>
     </header>
 
+    <nav id="navegacion-local">
+        <h2>📘 Problemas</h2>
+
+        <div class="contenido-grupo">
+            <button id="boton-analisis" class="contorno">Análisis</button>
+            <button id="boton-algebra" class="contorno">Álgebra</button>
+            <button id="boton-geometria" class="contorno">Geometría</button>
+            <button id="boton-probabilidad" class="contorno">Probabilidad</button>
+        </div>
+
+        <div id="cinta" class="oculto">
+            <p><span id="contador"></span> problemas</p>
+        </div>
+    </nav>
+
     <main>
-        <h2>📈 Estadísticas</h2>
+        <p class="pista">Selecciona una categoría para abrirla.</p>
 
-        <h3>Plazas ofertadas y opositores</h3>
-        <div class="contenedor-grafica">
-            <canvas id="grafica-plazas"></canvas>
-        </div>
-
-        <h3>Ratios de obtención de plaza</h3>
-        <div class="contenedor-grafica">
-            <canvas id="grafica-ratios"></canvas>
-        </div>
+        <button id="aleatorio">Categoría aleatoria</button>
     </main>
 </body>
 

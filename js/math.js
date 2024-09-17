@@ -1,4 +1,4 @@
-export { estado, formatear, obtenerProblema, mostrarExamen }
+export { estado, formatear, obtenerProblema, mostrarExamen, mostrarCategoria }
 
 const estado = new Object({
     cancelado: false,
@@ -9,6 +9,17 @@ const estado = new Object({
         this.cancelado = true;
     }
 });
+
+function normalizar(texto) {
+    let procesado = texto.toLowerCase();
+    procesado = procesado.replaceAll("á", "a");
+    procesado = procesado.replaceAll("é", "e");
+    procesado = procesado.replaceAll("í", "i");
+    procesado = procesado.replaceAll("ó", "o");
+    procesado = procesado.replaceAll("ú", "u");
+    procesado = procesado.replaceAll(" ", "-");
+    return procesado;
+}
 
 function formatear(elemento) {
     if (math) MathJax.typeset([elemento]);
@@ -41,6 +52,7 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
         const elementoCategoria = document.createElement("li");
         const enlaceCategoria = document.createElement("a");
         enlaceCategoria.textContent = categoria;
+        enlaceCategoria.href = "/problemas" + html + "?categoria=" + normalizar(categoria);
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
@@ -129,6 +141,47 @@ async function mostrarExamen(examen) {
     main.classList.add("cargando");
 
     obtenerExamen(examen).then(() => {
+        main.classList.remove("cargando");
+        estado.reanudar();
+    });
+}
+
+async function obtenerCategoria(categoria, contador = undefined) {
+    const main = document.querySelector("main");
+
+    const respuesta = await fetch("data\\metadata.json");
+    const datos = await respuesta.json();
+
+    let problemas = datos.filter(problema => problema.categorias.map(c => normalizar(c)).includes(categoria));
+    if (contador) contador.textContent = problemas.length;
+
+    for (let problema of problemas) {
+        if (estado.cancelado) {
+            estado.reanudar();
+            return false;
+        }
+
+        let resuelto = false
+        let categorias = []
+        if (problema != undefined) {
+            if (problema.resuelto) resuelto = true;
+            categorias = problema.categorias;
+        }
+
+        const parrafo = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, resuelto, categorias, true);
+        main.append(parrafo);
+        formatear(parrafo);
+    };
+
+    return true;
+}
+
+async function mostrarCategoria(categoria, contador = undefined) {
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    obtenerCategoria(categoria, contador).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
