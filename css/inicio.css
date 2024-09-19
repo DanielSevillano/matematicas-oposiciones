@@ -60,32 +60,8 @@ Tarjeta
     margin-top: 0.5em;
 }
 
-#ejercicios-diarios .tarjeta:not(:first-of-type) {
-    margin-top: 15px;
-}
-
-#ejercicios-diarios .tarjeta h3:first-of-type {
-    font-size: 1.3rem;
-    font-weight: bolder;
-}
-
-.agradecimiento {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.agradecimiento p {
-    margin: 0;
-}
-
-.agradecimiento p:first-child {
-    font-size: 2rem;
-}
-
-.agradecimiento p:nth-child(2) {
-    font-size: 1.1rem;
-    font-weight: bold;
+.tarjeta h4 {
+    margin-block: 0;
 }
 
 /********************
