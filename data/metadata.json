@@ -9,6 +9,7 @@
     },
     {
         "problema": 20232,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Geometría"

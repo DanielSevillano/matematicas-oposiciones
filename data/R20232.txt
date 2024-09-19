@@ -1,0 +1,138 @@
+<ol>
+    <li>
+        $X$ es una variable aleatoria discreta, con
+        \begin{align}
+            & P(X = 0) = a, \\
+            & P(X = i) = k \cdot i, \quad k \in \mathbb{R}, \; i = 1, 2, \dots, n.
+        \end{align}
+
+        Luego ha de verificarse que
+        \begin{align}
+            & \sum_{i=0}^n P(X = i) = 1 \Leftrightarrow P(X = 0) + \sum_{i=1}^n P(X = i) = 1 \Leftrightarrow a + \sum_{i=1}^n k \cdot i = 1 \Leftrightarrow a + k \sum_{i=1}^n i = 1 \Leftrightarrow \\
+            & \Leftrightarrow a + k \cdot \frac{n(n+1)}{2} = 1 \Leftrightarrow k = \frac{2(1-a)}{n(n+1)}.
+        \end{align}
+
+        Así que
+        $$P(X = i) = \frac{2i(1-a)}{n(n+1)}, \quad i = 1, 2, \dots, n.$$
+
+        <ol>
+            <li>
+                Demostremos la igualdad por inducción.
+
+                <ul>
+                    <li>
+                        Si $n = 1$, se tiene que
+                        $$\sum_{i=1}^1 i^2 = 1 = \frac{1 \cdot 2 \cdot 3}{6}.$$
+                    </li>
+
+                    <li>
+                        Supongamos que la igualdad se verifica para $n-1$, es decir, que se tiene que
+                        $$\sum_{i=1}^{n-1} i^2 = \frac{(n-1)n(2n-1)}{6}.$$
+
+                        Veamos que la igualdad es cierta para $n.$
+                        \begin{align}
+                            \sum_{i=1}^n i^2 & = \sum_{i=1}^{n-1} i^2 + n^2 = \frac{(n-1)n(2n-1)}{6} + n^2 = \frac{(n-1)n(2n-1) + 6n^2}{6} = \frac{n(2n^2 - 3n + 1 + 6n)}{6} = \\
+                            & = \frac{n(2n^2 + 3n + 1)}{6} = \frac{n(n+1)(2n+1)}{6}.
+                        \end{align}
+                    </li>
+                </ul>
+
+                Por tanto,
+                $$\sum_{i=1}^n \frac{n(n+1)(2n+1)}{6}, \quad \forall n \in \mathbb{N}.$$
+            </li>
+
+            <li>
+                La función de masa de probabilidad es
+                $$P_X(x) = P(X = x) = \begin{cases}
+                    a, & \text{si } x = 0, \\
+                    \dfrac{2x(1-a)}{n(n+1)}, & \text{si } x = 1, 2, \dots, n, \\
+                    0, & \text{en otro caso}.
+                \end{cases}$$
+
+                La función de distribución de la variable aleatoria $X$ es
+                $$F(x) = P(X \leq x) = \begin{cases}
+                    0, & \text{si } x < 0, \\
+                    a, & \text{si } 0 \leq x < 1, \\
+                    a + \sum_{i=1}^k P(X = i), & \text{si } k \leq x < k+1, \text{ con } 1 \leq k < n, \\
+                    1, & \text{si } k \geq n
+                \end{cases}$$
+
+                Observamos que:
+                $$\sum_{i=1}^k P(X = i) = \sum_{i=1}^k \frac{2i(1-a)}{n(n+1)} = \frac{2(1-a)}{n(n+1)} \sum_{i=1}^k i = \frac{2(1-a)}{n(n+1)} \cdot \frac{k(k+1)}{2} = \frac{(1-a)k(k+1)}{n(n+1)}.$$
+
+                Por tanto,
+                $$F(x) = P(X \leq x) = \begin{cases}
+                    0, & \text{si } x < 0, \\
+                    a, & \text{si } 0 \leq x < 1, \\
+                    a + \dfrac{(1-a)k(k+1)}{n(n+1)}, & \text{si } k \leq x < k+1, \text{ con } 1 \leq k < n, \\
+                    1, & \text{si } k \geq n
+                \end{cases}$$
+
+            </li>
+
+            <li>
+                El 90% de los días tiene alguna venta, así que:
+                $$P(X \geq 1) = 0,9 \Leftrightarrow P(X = 0) = 0,1 \Rightarrow a = 0,1.$$
+
+                Luego:
+                $$P_X(x) = P(X = x) = \begin{cases}
+                    0,1, & \text{si } x = 0, \\
+                    \dfrac{1,8x}{n(n+1)}, & \text{si } x = 1, 2, \dots, n, \\
+                    0, & \text{en otro caso}.
+                \end{cases}$$
+
+                Como cada 30 días vende una media de 1.485 aparatos, la variable $X$ tiene una media $E(X) = \frac{1.485}{30} = 49,5.$
+                La esperanza de $X$ es:
+                \begin{align}
+                    E(X) & = \sum_{i=0}^n i \cdot P(X = i) = \sum_{i=1}^n i \cdot \frac{1,8i}{n(n+1)} = \frac{1,8}{n(n+1)} \sum_{i=1}^n i^2 = \frac{1,8}{n(n+1)} \cdot \frac{n(n+1)(2n+1)}{6} = \\
+                    & = \frac{1,8(2n+1)}{6} = 0,3(2n+1).
+                \end{align}
+
+                Así que:
+                $$E(X) = 49,5 \Leftrightarrow 0,3(2n+1) = 49,5 \Leftrightarrow 2n + 1 = 165 \Leftrightarrow n = 82.$$
+
+                Por tanto, como máximo puede vender 82 electrodomésticos diarios, con una probabilidad de
+                $$P(X = 82) = \frac{1,8 \cdot 82}{82 \cdot 83} = \frac{1,8}{83} = \frac{9}{415}.$$
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        La ecuación $x^2 + y^2 = 17$ es de la circunferencia de centro $(0, 0)$ y radio $\sqrt{17}.$
+        Por otro lado, completando cuadrados en la segunda ecuación, observamos que
+        $$x^2 + y^2 = 17x \Leftrightarrow x^2 - 17x + y^2 = 0 \Leftrightarrow \left(x - \frac{17}{2}\right)^2 - \left(\frac{17}{2}\right)^2 + y^2 = 0 \Leftrightarrow \left(x - \frac{17}{2}\right)^2 + y^2 = \left(\frac{17}{2}\right)^2.$$
+        Luego esta es la ecuación de la circunferencia de centro $\left(\frac{17}{2}, 0\right)$ y radio $\frac{17}{2}.$
+
+        Hallamos sus puntos de intersección.
+        $$\begin{cases}
+            x^2 + y^2 = 17, \\
+            x^2 + y^2 = 17x
+        \end{cases} \Rightarrow 0 = 17 - 17x \Leftrightarrow x = 1 \Rightarrow y = \sqrt{17 - 1} = \pm 4.$$
+        
+        Con esta información, podemos representar la región del plano indicada.
+        <img src="img/R20232-1.png" alt="Figura" loading="lazy">
+
+        Podemos dividir esta región en dos partes que en conjunto generan el mismo sólido al girar alrededor del eje.
+        <img src="img/R20232-2.png" alt="Figura" loading="lazy">
+
+        <ul>
+            <li>
+                La primera parte es una semicircunferencia de radio $\sqrt{17}$, que al girar alrededor del eje $OX$ genera una semiesfera del mismo radio con volumen:
+                $$V_1 = \frac{1}{2} \cdot \frac{4}{3} \pi \cdot (\sqrt{17})^3 = \frac{2}{3} 17\sqrt{17} \pi = \frac{34\sqrt{17}\pi}{3} \; u^3.$$
+            </li>
+
+            <li>
+                La segunda parte es la región encerrada entre las funciones $f(x) = \sqrt{17-x^2}$ y $g(x) = \sqrt{17x-x^2}$, con $0 \leq x \leq 1.$
+                El volumen del sólido generado al girar esta región será la diferencia de los volúmenes generados por las regiones bajo las funciones $f$ y $g$, respectivamente.
+                Así que:
+                \begin{align}
+                    V_2 & = \pi \int_0^1 (\sqrt{17-x^2})^2 dx - \pi \int_0^1 (\sqrt{17x-x^2})^2 dx = \pi \int_0^1 \Big[(\sqrt{17-x^2})^2 - (\sqrt{17x-x^2})^2\Big] dx = \\
+                    & = \pi \int_0^1 (17 - 17x)dx = \pi \left[17x - \frac{17}{2}x^2\right]_0^1 = \pi \left(17 - \frac{17}{2}\right) = \frac{17\pi}{2} \; u^3.
+                \end{align}
+            </li>
+        </ul>
+
+        Por tanto, el volumen del sólido generado es
+        $$V = V_1 + V_2 = \frac{34\sqrt{17}\pi}{3} + \frac{17\pi}{2} = \frac{68\sqrt{17}\pi + 51\pi}{6} = \frac{17\pi(4\sqrt{17} + 3)}{6} \; u^3.$$
+    </li>
+</ol>

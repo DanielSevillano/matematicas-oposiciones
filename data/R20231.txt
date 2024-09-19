@@ -149,7 +149,7 @@
     <li>
         Suponemos $A(0, 0)$ y $AC$ la recta horizontal $y = 0$, de forma que $C(a, 0)$ para $a > 0.$
         Sea $P(x, y)$ y sean $D$ y $Q$ las proyecciones de $B$ y $P$ sobre el eje de abscisas, respectivamente.
-        <img src="img/20231.png" alt="Figura" loading="lazy">
+        <img src="img/R20231.png" alt="Figura" loading="lazy">
 
         Sea $d = d(A, B) = d(B, C)$ y sea $p = d(P, C).$
         Como el triángulo $CBD$ es semejante al triángulo $CPQ$, por el teorema de Tales tenemos que:
