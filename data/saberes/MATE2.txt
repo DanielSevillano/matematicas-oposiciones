@@ -1,0 +1,162 @@
+<h2>📋 Saberes básicos de 2º de Bachillerato de Ciencias</h2>
+<h3>A. Sentido numérico.</h3>
+<ul>
+    <li><b>MATE.2.A.1. Sentido de las operaciones.</b></li>
+    <ul>
+        <li>MATE.2.A.1.1. Adición y producto de vectores y matrices: interpretación, comprensión y uso adecuado de las
+            propiedades. Potencia de una matriz: cálculo de la potencia de una matriz en situaciones cíclicas. Cálculo
+            de determinantes de orden no superior a 4 mediante la regla de Sarrus y el uso de las propiedades. Cálculo
+            de la inversa de una matriz cuadrada mediante determinantes. Producto escalar de dos vectores en el espacio:
+            definición, propiedades y aplicaciones. Producto vectorial de dos vectores en el espacio: definición,
+            propiedades y aplicaciones. Producto mixto de tres vectores en el espacio: definición, propiedades y
+            aplicaciones.</li>
+        <li>MATE.2.A.1.2. Estrategias para operar con números reales, vectores y matrices: cálculo mental o escrito en
+            los casos sencillos y con herramientas tecnológicas en los casos más complicados.</li>
+    </ul>
+    <li><b>MATE.2.A.2. Relaciones.</b> Conjuntos de vectores y matrices: estructura, comprensión y propiedades.</li>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+<ul>
+    <li><b>MATE.2.B.1. Medición.</b></li>
+    <ul>
+        <li>MATE.2.B.1.1. Resolución de problemas que impliquen medidas de longitud, superficie o volumen en un sistema
+            de coordenadas cartesianas. Planteamiento y resolución de problemas de geometría afín relacionados con la
+            incidencia, el paralelismo y la ortogonalidad de rectas y planos en el espacio tridimensional. Planteamiento
+            y resolución de problemas de geometría métrica relacionados con la medida de ángulos entre rectas y planos y
+            la medida de distancias entre puntos, rectas y planos.</li>
+        <li>MATE.2.B.1.2. Interpretación de la integral definida como el área bajo una curva.</li>
+        <li>MATE.2.B.1.3. Técnicas elementales para el cálculo de primitivas. Aplicación al cálculo de áreas.</li>
+        <li>MATE.2.B.1.4. Técnicas para la aplicación del concepto de integral a la resolución de problemas que
+            impliquen cálculo de superficies planas o volúmenes de revolución.</li>
+        <li>MATE.2.B.1.5. La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios:
+            interpretación subjetiva, clásica y frecuentista.</li>
+    </ul>
+    <li><b>MATE.2.B.2. Cambio.</b></li>
+    <ul>
+        <li>MATE.2.B.2.1. Derivadas: interpretación y aplicación al cálculo de límites.</li>
+        <li>MATE.2.B.2.2. Aplicación de los conceptos de límite, continuidad y derivabilidad a la representación y al
+            estudio de situaciones susceptibles de ser modelizadas mediante funciones.</li>
+        <li>MATE.2.B.2.3. La derivada como razón de cambio en la resolución de problemas de optimización en contextos
+            diversos.</li>
+    </ul>
+</ul>
+
+<h3>C. Sentido espacial.</h3>
+<ul>
+    <li><b>MATE.2.C.1. Formas geométricas de dos y tres dimensiones.</b></li>
+    <ul>
+        <li>MATE.2.C.1.1. Objetos geométricos de tres dimensiones: análisis de las propiedades y determinación de sus
+            atributos.</li>
+        <li>MATE.2.C.1.2. Resolución de problemas relativos a objetos geométricos en el espacio representados con
+            coordenadas cartesianas.</li>
+    </ul>
+    <li><b>MATE.2.C.2. Localización y sistemas de representación.</b></li>
+    <ul>
+        <li>MATE.2.C.2.1. Relaciones de objetos geométricos en el espacio: representación y exploración con ayuda de
+            herramientas digitales.</li>
+        <li>MATE.2.C.2.2. Expresiones algebraicas de los objetos geométricos en el espacio: selección de la más adecuada
+            en función de la situación a resolver. Ecuaciones de la recta y del plano en el espacio tridimensional.
+            Construcción del plano que contiene a una recta y pasa por un punto exterior, así como del plano que
+            contiene a dos rectas paralelas o secantes. Construcción de la recta perpendicular común y de la recta que
+            pasa por un punto y corta a dos rectas que se cruzan.</li>
+    </ul>
+    <li><b>MATE.2.C.3. Visualización, razonamiento y modelización geométrica.</b></li>
+    <ul>
+        <li>MATE.2.C.3.1. Representación de objetos geométricos en el espacio mediante herramientas digitales.</li>
+        <li>MATE.2.C.3.2. Modelos matemáticos (geométricos, algebraicos...) para resolver problemas en el espacio.
+            Conexiones con otras disciplinas y áreas de interés.</li>
+        <li>MATE.2.C.3.3. Conjeturas geométricas en el espacio: validación por medio de la deducción y la demostración
+            de teoremas. Estudio de la posición relativa de puntos, rectas y planos en el espacio. Estudio de la
+            simetría en el espacio: punto simétrico respecto de otro punto, de un plano y de una recta; recta simétrica
+            respecto de un plano; recta proyección ortogonal sobre un plano.</li>
+        <li>MATE.2.C.3.4. Modelización de la posición y el movimiento de un objeto en el espacio utilizando vectores.
+        </li>
+        <li>MATE.2.C.3.5. La geometría en el patrimonio cultural y artístico de Andalucía.</li>
+    </ul>
+</ul>
+
+<h3>D. Sentido algebraico.</h3>
+<ul>
+    <li><b>MATE.2.D.1. Patrones.</b> Generalización de patrones en situaciones diversas.</li>
+    <li><b>MATE.2.D.2. Modelo matemático.</b></li>
+    <ul>
+        <li>MATE.2.D.2.1. Relaciones cuantitativas en situaciones complejas: estrategias de identificación y
+            determinación de la clase o clases de funciones que pueden modelizarlas.</li>
+        <li>MATE.2.D.2.2. Sistemas de ecuaciones: modelización de situaciones en diversos contextos.</li>
+        <li>MATE.2.D.2.3. Técnicas y uso de matrices para, al menos, modelizar situaciones en las que aparezcan sistemas
+            de ecuaciones lineales o grafos. Utilización de las matrices para representar datos estructurados y
+            situaciones de contexto real.</li>
+    </ul>
+    <li><b>MATE.2.D.3. Igualdad y desigualdad.</b></li>
+    <ul>
+        <li>MATE.2.D.3.1. Formas equivalentes de expresiones algebraicas en la resolución de sistemas de ecuaciones e
+            inecuaciones, mediante cálculo mental, algoritmos de lápiz y papel, y con herramientas digitales. Regla de
+            Cramer para la resolución de sistemas compatibles de, como máximo, tres ecuaciones lineales con tres
+            incógnitas.</li>
+        <li>MATE.2.D.3.2. Resolución de sistemas de ecuaciones en diferentes contextos. Resolución de ecuaciones
+            matriciales mediante el uso de la matriz inversa y mediante su transformación en un sistema de ecuaciones
+            lineales.</li>
+    </ul>
+    <li><b>MATE.2.D.4. Relaciones y funciones.</b></li>
+    <ul>
+        <li>MATE.2.D.4.1. Análisis, representación e interpretación de funciones con herramientas digitales.</li>
+        <li>MATE.2.D.4.2. Propiedades de las distintas clases de funciones: comprensión y comparación. Estudio y
+            representación gráfica de funciones polinómicas, racionales, exponenciales, logarítmicas y definidas a
+            trozos a partir de sus propiedades globales y locales obtenidas empleando las herramientas del análisis
+            (límites y derivadas).</li>
+    </ul>
+    <li><b>MATE.2.D.5. Pensamiento computacional.</b></li>
+    <ul>
+        <li>MATE.2.D.5.1. Formulación, resolución y análisis de problemas de la vida cotidiana y de la ciencia y la
+            tecnología empleando las herramientas o los programas más adecuados.</li>
+        <li>MATE.2.D.5.2. Análisis algorítmico de las propiedades de las operaciones con matrices, los determinantes y
+            la resolución de sistemas de ecuaciones lineales.</li>
+    </ul>
+</ul>
+
+<h3>E. Sentido estocástico.</h3>
+<ul>
+    <li><b>MATE.2.E.1. Incertidumbre.</b></li>
+    <ul>
+        <li>MATE.2.E.1.1. Cálculo de probabilidades en experimentos compuestos. Probabilidad condicionada e
+            independencia entre sucesos aleatorios. Diagramas de árbol y tablas de contingencia.</li>
+        <li>MATE.2.E.1.2. Teoremas de la probabilidad total y de Bayes: resolución de problemas e interpretación del
+            teorema de Bayes para actualizar la probabilidad a partir de la observación y la experimentación y la toma
+            de decisiones en condiciones de incertidumbre. Planteamiento y resolución de problemas que requieran del
+            manejo de los axiomas de la probabilidad de Kolmogorov o del trazado de diagramas de Venn. Planteamiento y
+            resolución de problemas de contexto real que requieran del empleo de los teoremas de la probabilidad total y
+            de Bayes o del trazado de diagramas de árbol.</li>
+    </ul>
+    <li><b>MATE.2.E.2. Distribuciones de probabilidad.</b></li>
+    <ul>
+        <li>MATE.2.E.2.1. Variables aleatorias discretas y continuas. Parámetros de la distribución.</li>
+        <li>MATE.2.E.2.2. Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y
+            normal. Cálculo de probabilidades asociadas mediante herramientas tecnológicas. Distribución binomial:
+            definición, parámetros y cálculo de probabilidades en casos en que los números combinatorios implicados sean
+            sencillos. Distribución normal: definición, parámetros y cálculo de probabilidades usando la tabla de la
+            distribución normal estándar. Aproximación de la binomial a la normal. Correcciones de Yates. Resolución de
+            problemas que requieran de estos modelos de probabilidad en situaciones de contexto real o en contextos
+            científicos y tecnológicos.</li>
+    </ul>
+</ul>
+
+<h3>F. Sentido socioafectivo.</h3>
+<ul>
+    <li><b>MATE.2.F.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MATE.2.F.1.1. Destrezas de autogestión encaminadas a reconocer las emociones propias, afrontando eventuales
+            situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.</li>
+        <li>MATE.2.F.1.2. Tratamiento y análisis del error, individual y colectivo, como elemento movilizador de saberes
+            previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.</li>
+    </ul>
+    <li><b>MATE.2.F.2. Toma de decisiones.</b> Destrezas para evaluar diferentes opciones y tomar decisiones en la
+        resolución de problemas.</li>
+    <li><b>MATE.2.F.3. Inclusión, respeto y diversidad.</b></li>
+    <ul>
+        <li>MATE.2.F.3.1. Destrezas sociales y de comunicación efectivas para el éxito en el aprendizaje de las
+            matemáticas.</li>
+        <li>MATE.2.F.3.2. Valoración de la contribución de las Matemáticas y el papel de matemáticos y matemáticas a lo
+            largo de la historia en el avance de la ciencia y la tecnología.</li>
+    </ul>
+</ul>

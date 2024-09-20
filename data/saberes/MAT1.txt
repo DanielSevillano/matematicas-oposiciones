@@ -1,0 +1,210 @@
+<h2>📋 Saberes básicos de 1º de la ESO</h2>
+<h3>A. Sentido numérico.</h3>
+
+<ul>
+    <li><b>MAT.1.A.1. Conteo.</b></li>
+    <ul>
+        <li>MAT.1.A.1.1. Estrategias variadas de recuento sistemático en situaciones de la vida cotidiana.</li>
+        <li>MAT.1.A.1.2. Adaptación del conteo al tamaño de los números en problemas de la vida cotidiana.</li>
+    </ul>
+
+    <li><b>MAT.1.A.2. Cantidad.</b></li>
+    <ul>
+        <li>MAT.1.A.2.1. Números grandes y pequeños: la notación exponencial y científica y el uso de la
+            calculadora.</li>
+        <li>MAT.1.A.2.2. Realización de estimaciones con la precisión requerida.</li>
+        <li>MAT.1.A.2.3. Números enteros, fraccionarios, decimales y raíces en la expresión de cantidades en
+            contextos de la vida cotidiana.</li>
+        <li>MAT.1.A.2.4. Diferentes formas de representación de números enteros, fraccionarios y decimales, incluida
+            la recta numérica.</li>
+        <li>MAT.1.A.2.5. Interpretación del significado de las variaciones porcentuales. Porcentajes mayores que 100
+            y menores que 1.</li>
+    </ul>
+
+    <li><b>MAT.1.A.3. Sentido de las operaciones.</b></li>
+    <ul>
+        <li>MAT.1.A.3.1. Estrategias de cálculo mental con números naturales, enteros, fracciones y decimales.
+        </li>
+        <li>MAT.1.A.3.2. Operaciones con números enteros, fraccionarios o decimales en situaciones
+            contextualizadas.
+        </li>
+        <li>MAT.1.A.3.3. Relaciones inversas entre las operaciones (adición y sustracción; multiplicación y
+            división; elevar al cuadrado y extraer la raíz cuadrada): comprensión y utilización en la
+            simplificación
+            y resolución de problemas.</li>
+        <li>MAT.1.A.3.4. Efecto de las operaciones aritméticas con números enteros, fracciones y expresiones
+            decimales.</li>
+        <li>MAT.1.A.3.5. Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación):
+            cálculos de manera eficiente con números naturales, enteros, fraccionarios y decimales tanto
+            mentalmente
+            como de forma manual, con calculadora u hoja de cálculo.</li>
+    </ul>
+
+    <li><b>MAT.1.A.4. Relaciones.</b></li>
+    <ul>
+        <li>MAT.1.A.4.1. Factores, múltiplos y divisores. Factorización en números primos para resolver
+            problemas:
+            estrategias y herramientas.</li>
+        <li>MAT.1.A.4.2. Selección de la representación adecuada para una misma cantidad en cada situación o
+            problema.</li>
+    </ul>
+
+    <li><b>MAT.1.A.5. Razonamiento proporcional.</b></li>
+    <ul>
+        <li>MAT.1.A.5.1. Razones y proporciones: comprensión y representación de relaciones
+            cuantitativas.</li>
+        <li>MAT.1.A.5.2. Porcentajes: comprensión y resolución de problemas.</li>
+        <li>MAT.1.A.5.3. Situaciones de proporcionalidad en diferentes contextos: análisis y desarrollo
+            de métodos
+            para la resolución de problemas (aumentos y disminuciones porcentuales, rebajas y subidas de
+            precios,
+            impuestos, escalas, cambios de divisas, velocidad y tiempo, etc.).</li>
+    </ul>
+
+    <li>
+        <b>MAT.1.A.6. Educación financiera.</b>
+        Métodos para la toma de decisiones de consumo responsable atendiendo a las relaciones entre
+        calidad y precio, y a las relaciones entre valor y precio en contextos cotidianos.
+    </li>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+
+<ul>
+    <li><b>MAT.1.B.1. Magnitud.</b></li>
+    <ul>
+        <li>MAT.1.B.1.1. Atributos mensurables de los objetos físicos y matemáticos:
+            reconocimiento,
+            investigación y relación entre los mismos.</li>
+        <li>MAT.1.B.1.2. Estrategias de elección de las unidades y operaciones adecuadas en
+            problemas que
+            impliquen medida.</li>
+    </ul>
+
+    <li>
+        <b>MAT.1.B.2. Estimación y relaciones.</b>
+        Estrategias para la toma de decisión justificada del grado de precisión requerida en
+        situaciones de medida.
+    </li>
+</ul>
+
+<h3>D. Sentido algebraico.</h3>
+
+<ul>
+    <li>
+        <b>MAT.1.D.1. Patrones, pautas y regularidades.</b>
+        Observación y determinación de la regla de formación en casos sencillos.
+    </li>
+
+    <li>
+        <b>MAT.1.D.2. Modelo matemático.</b>
+        Modelización de situaciones de la vida cotidiana usando representaciones matemáticas y el lenguaje algebraico.
+    </li>
+
+    <li>
+        <b>MAT.1.D.3. Variable.</b>
+        Comprensión del concepto en sus diferentes naturalezas.
+    </li>
+
+    <li><b>MAT.1.D.4. Igualdad y desigualdad.</b></li>
+    <ul>
+        <li>MAT.1.D.4.1. Relaciones lineales y cuadráticas en situaciones de
+            la vida cotidiana o
+            matemáticamente relevantes: expresión mediante álgebra
+            simbólica.</li>
+        <li>MAT.1.D.4.2. Relaciones lineales y cuadráticas: identificación y
+            comparación de diferentes modos
+            de representación, tablas, gráficas o expresiones algebraicas, y
+            sus propiedades a partir de
+            ellas.</li>
+    </ul>
+</ul>
+
+<h3>E. Sentido estocástico.</h3>
+
+<ul>
+    <li><b>MAT.1.E.1. Organización y análisis de datos.</b></li>
+    <ul>
+        <li>MAT.1.E.1.1. Estrategias de recogida y organización de datos
+            de situaciones de la vida cotidiana
+            que involucran una sola variable. Diferencia entre variable
+            y valores individuales.</li>
+        <li>MAT.1.E.1.2. Análisis e interpretación de tablas y gráficos
+            estadísticos de variables
+            cualitativas, cuantitativas discretas y cuantitativas
+            continuas en contextos reales.</li>
+        <li>MAT.1.E.1.3. Gráficos estadísticos: representación mediante
+            diferentes tecnologías (calculadora,
+            hoja de cálculo, aplicaciones...) y elección del más
+            adecuado.</li>
+        <li>MAT.1.E.1.4. Interpretación de las medidas de localización y
+            dispersión. Elección, en función de
+            la situación objeto de estudio, y cálculo de la medida de
+            centralización más adecuada.</li>
+    </ul>
+
+    <li><b>MAT.1.E.2. Inferencia.</b></li>
+    <ul>
+        <li>MAT.1.E.2.1. Formulación de preguntas adecuadas que
+            permitan conocer las características de
+            interés de una población.</li>
+        <li>MAT.1.E.2.2. Datos relevantes para dar respuesta a
+            cuestiones planteadas en investigaciones
+            estadísticas: selección y presentación de la información
+            procedente de una muestra mediante
+            herramientas digitales.</li>
+        <li>MAT.1.E.2.3. Estrategias de deducción de conclusiones a
+            partir de una muestra con el fin de
+            emitir juicios y tomar decisiones adecuadas.</li>
+    </ul>
+</ul>
+
+<h3>F. Sentido socioafectivo.</h3>
+
+<ul>
+    <li><b>MAT.1.F.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MAT.1.F.1.1. Gestión emocional: emociones que
+            intervienen en el aprendizaje de las matemáticas.
+            Autoconciencia y autorregulación.</li>
+        <li>MAT.1.F.1.2. Estrategias de fomento de la
+            curiosidad, la iniciativa, la perseverancia y la
+            resiliencia en el aprendizaje de las matemáticas.
+        </li>
+        <li>MAT.1.F.1.3. Estrategias de fomento de la
+            flexibilidad cognitiva: apertura a cambios de
+            estrategia y transformación del error en oportunidad
+            de aprendizaje.</li>
+    </ul>
+
+    <li><b>MAT.1.F.2. Trabajo en equipo y toma de
+            decisiones.</b></li>
+    <ul>
+        <li>MAT.1.F.2.1. Técnicas cooperativas para
+            optimizar el trabajo en equipo y compartir y
+            construir
+            conocimiento matemático.</li>
+        <li>MAT.1.F.2.2. Conductas empáticas y estrategias
+            de la gestión de conflictos.</li>
+    </ul>
+
+    <li><b>MAT.1.F.3. Inclusión, respeto y
+            diversidad.</b></li>
+    <ul>
+        <li>MAT.1.F.3.1. Actitudes inclusivas y
+            aceptación de la diversidad presente en el
+            aula y en la
+            sociedad.</li>
+        <li>MAT.1.F.3.2. La contribución de las
+            matemáticas al desarrollo de los distintos
+            ámbitos del
+            conocimiento humano desde una perspectiva de
+            género.</li>
+        <li>MAT.1.F.3.3. Reconocimiento de la
+            contribución de la cultura andaluza, en los
+            diferentes
+            periodos históricos y en particular del
+            andalusí, al desarrollo de las matemáticas.
+        </li>
+    </ul>
+</ul>

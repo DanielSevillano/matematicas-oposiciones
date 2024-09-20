@@ -1,0 +1,150 @@
+<h2>📋 Saberes básicos de 2º de Bachillerato de Sociales</h2>
+<h3>A. Sentido numérico.</h3>
+<ul>
+    <li><b>MACS.2.A.1. Sentido de las operaciones.</b></li>
+    <ul>
+        <li>MACS.2.A.1.1. Adición y producto de matrices: interpretación, comprensión y aplicación adecuada de las
+            propiedades.</li>
+        <li>MACS.2.A.1.2. Aplicación de las operaciones de las matrices y de sus propiedades en la resolución de
+            problemas en contextos reales.</li>
+        <li>MACS.2.A.1.3. Estrategias para operar con números reales y matrices: cálculo mental o escrito en los casos
+            sencillos y con herramientas tecnológicas en los casos más complicados.</li>
+        <li>MACS.2.A.1.4. Cálculo de determinantes hasta de orden 3 para el cálculo del rango y la inversa de una
+            matriz.</li>
+    </ul>
+    <li><b>MACS.2.A.2. Relaciones.</b></li>
+    <ul>
+        <li>Conjuntos de matrices: estructura, comprensión y propiedades. Determinantes y matriz inversa: definición y
+            propiedades.</li>
+    </ul>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+<ul>
+    <li><b>MACS.2.B.1. Medición.</b></li>
+    <ul>
+        <li>MACS.2.B.1.1. Interpretación de la integral definida como el área bajo una curva.</li>
+        <li>MACS.2.B.1.2. Técnicas elementales para el cálculo de primitivas. Aplicación al cálculo de áreas. Cálculo de
+            primitivas inmediatas simples y compuestas. Regla de Barrow.</li>
+        <li>MACS.2.B.1.3. La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios:
+            interpretaciones subjetivas, clásica y frecuentista.</li>
+    </ul>
+    <li><b>MACS.2.B.2. Cambio.</b></li>
+    <ul>
+        <li>MACS.2.B.2.1. Derivadas: interpretación y aplicación al cálculo de límites. Regla de L'Hôpital. Derivación
+            de funciones polinómicas, racionales, irracionales, exponenciales y logarítmicas. Reglas de derivación de
+            las operaciones elementales con funciones y regla de la cadena. Estudio de la derivabilidad de una función
+            (incluyendo funciones definidas a trozos). Relación entre derivabilidad y continuidad de una función en un
+            punto. Derivadas laterales. Aplicaciones de las derivadas: ecuación de la recta tangente a una curva en un
+            punto de la misma; cálculo de los coeficientes de una función para que cumpla una serie de propiedades. La
+            derivada como razón de cambio en resolución de problemas de optimización en contextos diversos.</li>
+        <li>MACS.2.B.2.2. Aplicación de los conceptos de límite y derivada a la representación y al estudio de
+            situaciones susceptibles de ser modelizadas mediante funciones. Obtención de extremos relativos, puntos de
+            inflexión, intervalos de crecimiento y decrecimiento e intervalos de concavidad y convexidad de una función.
+            Teorema de Bolzano, Teorema del Valor Medio (caso particular es el Teorema de Rolle). Demostración del TVM.
+        </li>
+    </ul>
+</ul>
+
+<h3>C. Sentido algebraico.</h3>
+<ul>
+    <li><b>MACS.2.C.1. Patrones.</b></li>
+    <ul>
+        <li>Generalización de patrones en situaciones diversas.</li>
+    </ul>
+    <li><b>MACS.2.C.2. Modelo matemático.</b></li>
+    <ul>
+        <li>MACS.2.C.2.1. Relaciones cuantitativas en situaciones complejas: estrategias de identificación y
+            determinación de la clase o clases de funciones que pueden modelizarlas.</li>
+        <li>MACS.2.C.2.2. Sistemas de ecuaciones: modelización de situaciones en diversos contextos.</li>
+        <li>MACS.2.C.2.3. Técnicas y uso de matrices para, al menos, modelizar situaciones en las que aparezcan sistemas
+            de ecuaciones lineales o grafos. Utilización de las matrices para representar datos estructurados y
+            situaciones de contexto real.</li>
+        <li>MACS.2.C.2.4. Programación lineal: modelización de problemas reales y resolución mediante herramientas
+            digitales. Determinación gráfica de la región factible y cálculo analítico de los vértices de la misma, así
+            como de la solución óptima.</li>
+    </ul>
+    <li><b>MACS.2.C.3. Igualdad y desigualdad.</b></li>
+    <ul>
+        <li>MACS.2.C.3.1. Formas equivalentes de expresiones algebraicas en la resolución de sistemas de ecuaciones e
+            inecuaciones, mediante cálculo mental, algoritmos de lápiz y papel, y con herramientas digitales. Regla de
+            Cramer para la resolución de sistemas compatibles (determinados o indeterminados) de tres ecuaciones
+            lineales con tres incógnitas.</li>
+        <li>MACS.2.C.3.2. Resolución de sistemas de ecuaciones e inecuaciones en diferentes contextos. Resolución de
+            ecuaciones matriciales mediante el uso de la matriz inversa y mediante su transformación en un sistema de
+            ecuaciones lineales.</li>
+    </ul>
+    <li><b>MACS.2.C.4. Relaciones y funciones.</b></li>
+    <ul>
+        <li>MACS.2.C.4.1. Representación, análisis e interpretación de funciones con herramientas digitales.</li>
+        <li>MACS.2.C.4.2. Propiedades de las distintas clases de funciones: comprensión y comparación. Estudio y
+            representación gráfica de funciones polinómicas, racionales, exponenciales, logarítmicas y definidas a
+            trozos sencillas a partir de sus propiedades globales y locales obtenidas empleando las herramientas del
+            análisis (límites y derivadas).</li>
+    </ul>
+    <li><b>MACS.2.C.5. Pensamiento computacional.</b></li>
+    <ul>
+        <li>MACS.2.C.5.1. Formulación, resolución y análisis de problemas de la vida cotidiana y de las ciencias
+            sociales empleando las herramientas o los programas más adecuados.</li>
+        <li>MACS.2.C.5.2. Análisis algorítmico de las propiedades de las operaciones con matrices y la resolución de
+            sistemas de ecuaciones lineales.</li>
+    </ul>
+</ul>
+
+<h3>D. Sentido estocástico.</h3>
+<ul>
+    <li><b>MACS.2.D.1. Incertidumbre.</b></li>
+    <ul>
+        <li>MACS.2.D.1.1. Cálculo de probabilidades en experimentos compuestos. Probabilidad condicionada e
+            independencia de sucesos aleatorios. Diagramas de árbol y tablas de contingencia.</li>
+        <li>MACS.2.D.1.2. Teoremas de la probabilidad total y de Bayes: resolución de problemas e interpretación del
+            teorema de Bayes para actualizar la probabilidad a partir de la observación y la experimentación y la toma
+            de decisiones en condiciones de incertidumbre. Planteamiento y resolución de problemas que requieran del
+            manejo de los axiomas de la probabilidad de Kolmogorov o del trazado de diagramas de Venn. Planteamiento y
+            resolución de problemas de contexto real que requieran del empleo de los teoremas de la probabilidad total y
+            de Bayes o del trazado de diagramas de árbol.</li>
+    </ul>
+    <li><b>MACS.2.D.2. Distribuciones de probabilidad.</b></li>
+    <ul>
+        <li>MACS.2.D.2.1. Variables aleatorias discretas y continuas. Parámetros de la distribución. Distribuciones
+            binomial y normal.</li>
+        <li>MACS.2.D.2.2. Modelización de fenómenos estocásticos mediante las distribuciones de probabilidad binomial y
+            normal. Cálculo de probabilidades asociadas mediante herramientas tecnológicas. Condiciones bajo las cuales
+            se puede aproximar la distribución binomial por la distribución normal.</li>
+    </ul>
+    <li><b>MACS.2.D.3. Inferencia.</b></li>
+    <ul>
+        <li>MACS.2.D.3.1. Selección de muestras representativas. Técnicas de muestreo. Representatividad de una muestra
+            según el proceso de selección. Estimación puntual y estimación por intervalo.</li>
+        <li>MACS.2.D.3.2. Estimación de la media, la proporción y la desviación típica. Aproximación de la distribución
+            de la media y de la proporción muestrales por la normal.</li>
+        <li>MACS.2.D.3.3. Intervalos de confianza basados en la distribución normal: construcción, análisis y toma de
+            decisiones en situaciones contextualizadas. Intervalo de confianza para la media de una distribución normal
+            con desviación típica conocida. Cálculo del tamaño muestral mínimo. Relación entre confianza, error y tamaño
+            muestral.</li>
+        <li>MACS.2.D.3.4. Herramientas digitales en la realización de estudios estadísticos. Lectura y comprensión de la
+            ficha técnica de una encuesta. Grado de relación entre dos variables estadísticas. Regresión lineal.</li>
+    </ul>
+</ul>
+
+<h3>E. Sentido socioafectivo.</h3>
+<ul>
+    <li><b>MACS.2.E.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MACS.2.E.1.1. Destrezas de autogestión encaminadas a reconocer las emociones propias, afrontando eventuales
+            situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.</li>
+        <li>MACS.2.E.1.2. Tratamiento y análisis del error, individual y colectivo, como elemento movilizador de saberes
+            previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.</li>
+    </ul>
+    <li><b>MACS.2.E.2. Toma de decisiones.</b></li>
+    <ul>
+        <li>Destrezas para evaluar diferentes opciones y tomar decisiones en la resolución de problemas.</li>
+    </ul>
+    <li><b>MACS.2.E.3. Inclusión, respeto y diversidad.</b></li>
+    <ul>
+        <li>MACS.2.E.3.1. Destrezas sociales y de comunicación efectivas para el éxito en el aprendizaje de las
+            matemáticas.</li>
+        <li>MACS.2.E.3.2. Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo
+            largo de la historia del avance de las ciencias sociales.</li>
+    </ul>
+</ul>

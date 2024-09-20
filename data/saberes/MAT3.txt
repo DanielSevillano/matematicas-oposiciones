@@ -1,0 +1,243 @@
+<h2>📋 Saberes básicos de 3º de la ESO</h2>
+<h3>A. Sentido numérico.</h3>
+<ul>
+    <li><b>MAT.3.A.1. Conteo.</b></li>
+    <ul>
+        <li>MAT.3.A.1.1. Estrategias variadas de recuento sistemático en situaciones de la vida cotidiana.</li>
+        <li>MAT.3.A.1.2. Adaptación del conteo al tamaño de los números en problemas de la vida cotidiana.</li>
+    </ul>
+
+    <li><b>MAT.3.A.2. Cantidad.</b></li>
+    <ul>
+        <li>MAT.3.A.2.1. Números grandes y pequeños: la notación exponencial y científica y el uso de la calculadora.
+        </li>
+        <li>MAT.3.A.2.2. Realización de estimaciones con la precisión requerida.</li>
+        <li>MAT.3.A.2.3. Números enteros, fraccionarios, decimales y raíces en la expresión de cantidades en contextos
+            de la vida cotidiana.</li>
+        <li>MAT.3.A.2.4. Diferentes formas de representación de números enteros, fraccionarios y decimales, incluida la
+            recta numérica.</li>
+        <li>MAT.3.A.2.5. Interpretación del significado de las variaciones porcentuales.</li>
+    </ul>
+
+    <li><b>MAT.3.A.3. Sentido de las operaciones.</b></li>
+    <ul>
+        <li>MAT.3.A.3.1. Estrategias de cálculo mental con números naturales, enteros, fracciones y decimales.</li>
+        <li>MAT.3.A.3.2. Operaciones con números enteros, fraccionarios o decimales en situaciones contextualizadas.
+        </li>
+        <li>MAT.3.A.3.3. Relaciones inversas entre las operaciones (adición y sustracción; multiplicación y división;
+            elevar al cuadrado y extraer la raíz cuadrada): comprensión y utilización en la simplificación y resolución
+            de problemas.</li>
+        <li>MAT.3.A.3.4. Efecto de las operaciones aritméticas con números enteros, fracciones y expresiones decimales.
+        </li>
+        <li>MAT.3.A.3.5. Propiedades de las operaciones (suma, resta, multiplicación, división y potenciación): cálculos
+            de manera eficiente con números naturales, enteros, fraccionarios y decimales tanto mentalmente como de
+            forma manual, con calculadora u hoja de cálculo.</li>
+    </ul>
+
+    <li><b>MAT.3.A.4. Relaciones.</b></li>
+    <ul>
+        <li>MAT.3.A.4.1. Factores, múltiplos y divisores. Factorización en números primos para resolver problemas:
+            estrategias y herramientas.</li>
+        <li>MAT.3.A.4.2. Comparación y ordenación de fracciones, decimales y porcentajes: situación exacta o aproximada
+            en la recta numérica.</li>
+        <li>MAT.3.A.4.3. Selección de la representación adecuada para una misma cantidad en cada situación o problema.
+        </li>
+        <li>MAT.3.A.4.4. Patrones y regularidades numéricas.</li>
+    </ul>
+
+    <li><b>MAT.3.A.5. Razonamiento proporcional.</b></li>
+    <ul>
+        <li>MAT.3.A.5.1. Razones y proporciones: comprensión y representación de relaciones cuantitativas.</li>
+        <li>MAT.3.A.5.2. Porcentajes: comprensión y resolución de problemas.</li>
+        <li>MAT.3.A.5.3. Situaciones de proporcionalidad en diferentes contextos: análisis y desarrollo de métodos para
+            la resolución de problemas (aumentos y disminuciones porcentuales, rebajas y subidas de precios, impuestos,
+            escalas, cambios de divisas, velocidad y tiempo, etc.).</li>
+    </ul>
+
+    <li><b>MAT.3.A.6. Educación financiera.</b></li>
+    <ul>
+        <li>MAT.3.A.6.1. Interpretación de la información numérica en contextos financieros sencillos.</li>
+        <li>MAT.3.A.6.2. Métodos para la toma de decisiones de consumo responsable atendiendo a las relaciones entre
+            calidad y precio, y a las relaciones entre valor y precio en contextos cotidianos.</li>
+    </ul>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+<ul>
+    <li><b>MAT.3.B.1. Magnitud.</b></li>
+    <ul>
+        <li>MAT.3.B.1.1. Atributos mensurables de los objetos físicos y matemáticos: reconocimiento, investigación y
+            relación entre los mismos.</li>
+        <li>MAT.3.B.1.2. Estrategias de elección de las unidades y operaciones adecuadas en problemas que impliquen
+            medida.</li>
+    </ul>
+
+    <li><b>MAT.3.B.2. Medición.</b></li>
+    <ul>
+        <li>MAT.3.B.2.1. Longitudes, áreas y volúmenes en figuras planas y tridimensionales: deducción, interpretación y
+            aplicación.</li>
+        <li>MAT.3.B.2.2. Representaciones planas de objetos tridimensionales en la visualización y resolución de
+            problemas de áreas.</li>
+        <li>MAT.3.B.2.3. Representaciones de objetos geométricos con propiedades fijadas, como las longitudes de los
+            lados o las medidas de los ángulos.</li>
+        <li>MAT.3.B.2.4. La probabilidad como medida asociada a la incertidumbre de experimentos aleatorios.</li>
+    </ul>
+
+    <li><b>MAT.3.B.3. Estimación y relaciones.</b></li>
+    <ul>
+        <li>MAT.3.B.3.1. Formulación de conjeturas sobre medidas o relaciones entre las mismas basadas en estimaciones.
+        </li>
+        <li>MAT.3.B.3.2. Estrategias para la toma de decisión justificada del grado de precisión requerida en
+            situaciones de medida.</li>
+    </ul>
+</ul>
+
+<h3>C. Sentido espacial.</h3>
+<ul>
+    <li><b>MAT.3.C.1. Figuras geométricas de dos y tres dimensiones.</b></li>
+    <ul>
+        <li>MAT.3.C.1.1. Figuras geométricas planas y tridimensionales: descripción y clasificación en función de sus
+            propiedades o características.</li>
+        <li>MAT.3.C.1.2. Relaciones geométricas como la congruencia, la semejanza, la relación pitagórica y la
+            proporción cordobesa en figuras planas y tridimensionales: identificación y aplicación.</li>
+        <li>MAT.3.C.1.3. Construcción de figuras geométricas con herramientas manipulativas y digitales (programas de
+            geometría dinámica, realidad aumentada…).</li>
+    </ul>
+
+    <li><b>MAT.3.C.2. Localización y sistemas de representación.</b></li>
+    <ul>
+        <li>MAT.3.C.2.1. Relaciones espaciales: localización y descripción mediante coordenadas geométricas y otros
+            sistemas de representación para examinar las propiedades de las figuras geométricas.</li>
+    </ul>
+
+    <li><b>MAT.3.C.3. Movimientos y transformaciones.</b></li>
+    <ul>
+        <li>MAT.3.C.3.1. Transformaciones elementales como giros, traslaciones y simetrías en situaciones diversas
+            utilizando herramientas tecnológicas y manipulativas. Análisis de su uso en el arte andalusí y la cultura
+            andaluza.</li>
+    </ul>
+
+    <li><b>MAT.3.C.4. Visualización, razonamiento y modelización geométrica.</b></li>
+    <ul>
+        <li>MAT.3.C.4.1. Modelización geométrica: relaciones numéricas y algebraicas en la resolución de problemas.</li>
+        <li>MAT.3.C.4.2. Relaciones geométricas en contextos matemáticos y no matemáticos (arte, ciencia, vida
+            diaria...).</li>
+    </ul>
+</ul>
+
+<h3>D. Sentido algebraico.</h3>
+<ul>
+    <li><b>MAT.3.D.1. Patrones.</b></li>
+    <ul>
+        <li>MAT.3.D.1.1. Patrones, pautas y regularidades: observación y determinación de la regla de formación en casos
+            sencillos.</li>
+    </ul>
+
+    <li><b>MAT.3.D.2. Modelo matemático.</b></li>
+    <ul>
+        <li>MAT.3.D.2.1. Modelización de situaciones de la vida cotidiana usando representaciones matemáticas y el
+            lenguaje algebraico.</li>
+        <li>MAT.3.D.2.2. Estrategias de deducción de conclusiones razonables a partir de un modelo matemático.</li>
+    </ul>
+
+    <li><b>MAT.3.D.3. Variable.</b></li>
+    <ul>
+        <li>MAT.3.D.3.1. Comprensión del concepto en sus diferentes naturalezas.</li>
+    </ul>
+
+    <li><b>MAT.3.D.4. Igualdad y desigualdad.</b></li>
+    <ul>
+        <li>MAT.3.D.4.1. Relaciones lineales y cuadráticas en situaciones de la vida cotidiana o matemáticamente
+            relevantes: expresión mediante álgebra simbólica.</li>
+        <li>MAT.3.D.4.2. Equivalencia de expresiones algebraicas en la resolución de problemas basados en relaciones
+            lineales y cuadráticas.</li>
+        <li>MAT.3.D.4.3. Estrategias de búsqueda de las soluciones en ecuaciones y sistemas lineales y ecuaciones
+            cuadráticas en situaciones de la vida cotidiana.</li>
+        <li>MAT.3.D.4.4. Ecuaciones: resolución mediante el uso de la tecnología.</li>
+    </ul>
+
+    <li><b>MAT.3.D.5. Relaciones y funciones.</b></li>
+    <ul>
+        <li>MAT.3.D.5.1. Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que las
+            modelizan.</li>
+        <li>MAT.3.D.5.2. Relaciones lineales y cuadráticas: identificación y comparación de diferentes modos de
+            representación, tablas, gráficas o expresiones algebraicas, y sus propiedades a partir de ellas.</li>
+        <li>MAT.3.D.5.3. Estrategias de deducción de la información relevante de una función mediante el uso de
+            diferentes representaciones simbólicas.</li>
+    </ul>
+
+    <li><b>MAT.3.D.6. Pensamiento computacional.</b></li>
+    <ul>
+        <li>MAT.3.D.6.1. Generalización y transferencia de procesos de resolución de problemas a otras situaciones.</li>
+        <li>MAT.3.D.6.2. Estrategias para la interpretación, modificación de algoritmos.</li>
+        <li>MAT.3.D.6.3. Estrategias de formulación de cuestiones susceptibles de ser analizados mediante programas y
+            otras herramientas.</li>
+    </ul>
+</ul>
+
+<h3>E. Sentido estocástico.</h3>
+<ul>
+    <li><b>MAT.3.E.1. Organización y análisis de datos.</b></li>
+    <ul>
+        <li>MAT.3.E.1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+            involucran una sola variable. Diferencia entre variable y valores individuales.</li>
+        <li>MAT.3.E.1.2. Análisis e interpretación de tablas y gráficos estadísticos de variables cualitativas,
+            cuantitativas discretas y cuantitativas continuas en contextos reales.</li>
+        <li>MAT.3.E.1.3. Gráficos estadísticos: representación mediante diferentes tecnologías (calculadora, hoja de
+            cálculo, aplicaciones...) y elección del más adecuado.</li>
+        <li>MAT.3.E.1.4. Interpretación de las medidas de localización y dispersión. Elección, en función de la
+            situación objeto de estudio, y cálculo de la medida de centralización más adecuada.</li>
+        <li>MAT.3.E.1.5. Reconocimiento de que las medidas de dispersión describen la variabilidad de los datos.</li>
+        <li>MAT.3.E.1.6. Cálculo, manual y con apoyo tecnológico, e interpretación de las medidas de localización y
+            dispersión en situaciones reales.</li>
+        <li>MAT.3.E.1.7. Comparación de dos conjuntos de datos atendiendo a las medidas de localización y dispersión.
+        </li>
+    </ul>
+
+    <li><b>MAT.3.E.2. Incertidumbre.</b></li>
+    <ul>
+        <li>MAT.3.E.2.1. Fenómenos deterministas y aleatorios: identificación.</li>
+        <li>MAT.3.E.2.2. Experimentos simples: planificación, realización, análisis de la incertidumbre asociada.</li>
+        <li>MAT.3.E.2.3. Asignación de probabilidades a partir de la experimentación, el concepto de frecuencia
+            relativa, la regla de Laplace y técnicas simples de recuento.</li>
+    </ul>
+
+    <li><b>MAT.3.E.3. Inferencia.</b></li>
+    <ul>
+        <li>MAT.3.E.3.1. Formulación de preguntas adecuadas que permitan conocer las características de interés de una
+            población.</li>
+        <li>MAT.3.E.3.2. Datos relevantes para dar respuesta a cuestiones planteadas en investigaciones estadísticas:
+            selección y presentación de la información procedente de una muestra mediante herramientas digitales.</li>
+        <li>MAT.3.E.3.3. Estrategias de deducción de conclusiones a partir de una muestra con el fin de emitir juicios y
+            tomar decisiones adecuadas.</li>
+    </ul>
+</ul>
+
+<h3>F. Sentido socioafectivo.</h3>
+<ul>
+    <li><b>MAT.3.F.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MAT.3.F.1.1. Gestión emocional: emociones que intervienen en el aprendizaje de las matemáticas.
+            Autoconciencia y autorregulación.</li>
+        <li>MAT.3.F.1.2. Estrategias de fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia en el
+            aprendizaje de las matemáticas.</li>
+        <li>MAT.3.F.1.3. Estrategias de fomento de la flexibilidad cognitiva: apertura a cambios de estrategia y
+            transformación del error en oportunidad de aprendizaje.</li>
+    </ul>
+
+    <li><b>MAT.3.F.2. Trabajo en equipo y toma de decisiones.</b></li>
+    <ul>
+        <li>MAT.3.F.2.1. Técnicas cooperativas para optimizar el trabajo en equipo y compartir y construir conocimiento
+            matemático.</li>
+        <li>MAT.3.F.2.2. Conductas empáticas y estrategias de la gestión de conflictos.</li>
+    </ul>
+
+    <li><b>MAT.3.F.3. Inclusión, respeto y diversidad.</b></li>
+    <ul>
+        <li>MAT.3.F.3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.</li>
+        <li>MAT.3.F.3.2. La contribución de las matemáticas al desarrollo de los distintos ámbitos del conocimiento
+            humano desde una perspectiva de género.</li>
+        <li>MAT.3.F.3.3. Reconocimiento de la contribución de la cultura andaluza, en los diferentes periodos históricos
+            y en particular del andalusí, al desarrollo de las matemáticas.</li>
+    </ul>
+</ul>

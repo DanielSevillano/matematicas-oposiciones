@@ -1,0 +1,125 @@
+<h2>📋 Saberes básicos de 1º de Bachillerato de Sociales</h2>
+<h3>A. Sentido numérico.</h3>
+<ul>
+    <li><b>MACS.1.A.1. Conteo.</b> Estrategias y técnicas de recuento sistemático (diagramas de árbol, técnicas de
+        combinatoria, etc.).</li>
+    <li><b>MACS.1.A.2. Cantidad.</b> Números reales (racionales e irracionales): comparación, ordenación, clasificación
+        y contraste de sus propiedades.</li>
+    <li><b>MACS.1.A.3. Sentido de las operaciones.</b> Potencias, raíces y logaritmos: comprensión y utilización de sus
+        relaciones para simplificar y resolver problemas.</li>
+    <li><b>MACS.1.A.4. Educación financiera.</b> Resolución de problemas relacionados con la educación financiera
+        (cuotas, tasas, intereses, préstamos, etc.) con herramientas tecnológicas.</li>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+<ul>
+    <li><b>MACS.1.B.1. Medición.</b> La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.
+    </li>
+    <li><b>MACS.1.B.2. Cambio.</b></li>
+    <ul>
+        <li>MACS.1.B.2.1. Límites: estimación y cálculo a partir de una tabla, un gráfico o una expresión algebraica.
+            Límite de una función en un punto: cálculo gráfico y analítico. Resolución de indeterminaciones sencillas
+            (0/0, k/0, ∞–∞, 1∞). Límites laterales. Límite de una función en el infinito: cálculo gráfico y analítico.
+            Resolución de indeterminaciones sencillas. Determinación de las asíntotas de una función racional.</li>
+        <li>MACS.1.B.2.2. Continuidad de funciones: aplicación de límites en el estudio de la continuidad. Estudio de la
+            continuidad de una función, incluyendo funciones definidas a trozos. Tipos de discontinuidades.</li>
+        <li>MACS.1.B.2.3. Derivada de una función: definición a partir del estudio del cambio en contextos de las
+            ciencias sociales. Derivación de funciones polinómicas, racionales, irracionales, exponenciales, y
+            logarítmicas. Reglas de derivación de las operaciones elementales con funciones y regla de la cadena.
+            Aplicaciones de las derivadas: ecuación de la recta tangente a una curva en un punto de la misma; obtención
+            de extremos relativos e intervalos de crecimiento y decrecimiento de una función.</li>
+    </ul>
+</ul>
+
+<h3>C. Sentido algebraico.</h3>
+<ul>
+    <li><b>MACS.1.C.1. Patrones.</b> Generalización de patrones en situaciones sencillas.</li>
+    <li><b>MACS.1.C.2. Modelo matemático.</b></li>
+    <ul>
+        <li>MACS.1.C.2.1. Relaciones cuantitativas esenciales en situaciones sencillas: estrategias de identificación y
+            determinación de la clase o clases de funciones que pueden modelizarlas.</li>
+        <li>MACS.1.C.2.2. Ecuaciones, inecuaciones y sistemas: modelización de situaciones de las ciencias sociales y de
+            la vida real.</li>
+    </ul>
+    <li><b>MACS.1.C.3. Igualdad y desigualdad.</b> Ecuaciones polinómicas, racionales, irracionales, exponenciales y
+        logarítmicas. Inecuaciones polinómicas, racionales y de valor absoluto sencillas. Sistemas de tres ecuaciones
+        lineales con tres incógnitas. Método de Gauss para identificar los tipos de sistemas. Resolución de sistemas
+        compatibles determinados e indeterminados. Sistemas de inecuaciones lineales con dos incógnitas: determinación
+        gráfica de la región factible y cálculo analítico de los vértices. Resolución de ecuaciones, inecuaciones y
+        sistemas de ecuaciones e inecuaciones no lineales en diferentes contextos.</li>
+    <li><b>MACS.1.C.4. Relaciones y funciones.</b></li>
+    <ul>
+        <li>MACS.1.C.4.1. Concepto de función real de variable real: expresión analítica y gráfica. Cálculo gráfico y
+            analítico del dominio de una función. Representación gráfica de funciones utilizando la expresión más
+            adecuada.</li>
+        <li>MACS.1.C.4.2. Propiedades de las distintas clases de funciones, incluyendo, polinómica, exponencial,
+            racional sencilla, irracional, logarítmica, periódica y a trozos: comprensión y comparación.</li>
+        <li>MACS.1.C.4.3. Estudio y representación gráfica de funciones polinómicas y racionales a partir de sus
+            propiedades globales y locales obtenidas empleando las herramientas del análisis (límites y derivadas).
+            Álgebra simbólica en la representación y explicación de relaciones matemáticas de las ciencias sociales.
+        </li>
+    </ul>
+    <li><b>MACS.1.C.5. Pensamiento computacional.</b></li>
+    <ul>
+        <li>MACS.1.C.5.1. Formulación, resolución y análisis de problemas de la vida cotidiana y de las ciencias
+            sociales, utilizando programas y herramientas adecuados.</li>
+        <li>MACS.1.C.5.2. Comparación de algoritmos alternativos para el mismo problema mediante el razonamiento lógico.
+        </li>
+    </ul>
+</ul>
+
+<h3>D. Sentido estocástico.</h3>
+<ul>
+    <li><b>MACS.1.D.1. Organización y análisis de dato.</b></li>
+    <ul>
+        <li>MACS.1.D.1.1. Variable estadística unidimensional y bidimensionales: concepto, tipos, diferencia entre
+            distribución y valores individuales. Representaciones gráficas.</li>
+        <li>MACS.1.D.1.2. Organización de los datos procedentes de variables unidimensionales.</li>
+        <li>MACS.1.D.1.3. Medidas de localización y dispersión en variables cuantitativas: interpretación.</li>
+        <li>MACS.1.D.1.4. Organización de los datos procedentes de variables bidimensionales: distribución conjunta y
+            distribuciones marginales y condicionadas. Análisis de la dependencia estadística.</li>
+        <li>MACS.1.D.1.5. Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática:
+            valoración gráfica de la pertinencia del ajuste. Diferencia entre correlación y causalidad.</li>
+        <li>MACS.1.D.1.6. Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal,
+            predicción y valoración de su fiabilidad en contextos de las ciencias sociales.</li>
+        <li>MACS.1.D.1.7. Calculadora, hoja de cálculo o software específico en el análisis de datos estadísticos.</li>
+    </ul>
+    <li><b>MACS.1.D.2. Incertidumbre.</b></li>
+    <ul>
+        <li>MACS.1.D.2.1. Experimentos aleatorios. Revisión del concepto de espacio muestral y del álgebra de sucesos
+            (suceso complementario, unión e intersección de dos sucesos, leyes de Morgan). Estimación de la probabilidad
+            a partir del concepto de frecuencia relativa.</li>
+        <li>MACS.1.D.2.2. Cálculo de probabilidades en experimentos simples: la regla de Laplace en situaciones de
+            equiprobabilidad y en combinación con diferentes técnicas de recuento. Cálculo de la probabilidad del suceso
+            complementario y de la unión y la intersección de dos sucesos. Probabilidad condicionada. Resolución de
+            problemas que requieran del manejo de los axiomas de la probabilidad de Kolmogorov o del dibujo de diagramas
+            de Venn. Cálculo de probabilidades en experimentos compuestos: teoremas de la probabilidad total y de Bayes.
+            Resolución de problemas que requieran del empleo de estos teoremas o del dibujo de diagramas de árbol.</li>
+    </ul>
+</ul>
+
+<h3>E. Sentido socioafectivo.</h3>
+<ul>
+    <li><b>MACS.1.E.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MACS.1.E.1.1. Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales
+            situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.</li>
+        <li>MACS.1.E.1.2. Tratamiento del error, individual y colectivo, como elemento movilizador de saberes previos
+            adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.</li>
+    </ul>
+    <li><b>MACS.1.E.2. Trabajo en equipo y toma de decisiones.</b></li>
+    <ul>
+        <li>MACS.1.E.2.1. Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas
+            matemáticas, transformando los enfoques de las y los demás en nuevas y mejoradas estrategias propias,
+            mostrando empatía y respeto en el proceso.</li>
+        <li>MACS.1.E.2.2. Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas
+            matemáticas, en grupos heterogéneos.</li>
+    </ul>
+    <li><b>MACS.1.E.3. Inclusión, respeto y diversidad.</b></li>
+    <ul>
+        <li>MACS.1.E.3.1. Destrezas para desarrollar una comunicación efectiva, la escucha activa, la formulación de
+            preguntas o solicitud y prestación de ayuda cuando sea necesario.</li>
+        <li>MACS.1.E.3.2. Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo
+            largo de la historia en el avance de las ciencias sociales.</li>
+    </ul>
+</ul>

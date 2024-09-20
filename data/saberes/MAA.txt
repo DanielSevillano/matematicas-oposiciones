@@ -1,0 +1,167 @@
+<h2>📋 Saberes básicos de 4º de la ESO A</h2>
+<h3>A. Sentido numérico.</h3>
+<ul>
+    <li><b>MAA.4.A.1. Conteo.</b> Resolución de situaciones y problemas de la vida cotidiana: estrategias para el
+        recuento sistemático.</li>
+    <li><b>MAA.4.A.2. Cantidad.</b></li>
+    <ul>
+        <li>MAA.4.A.2.1. Realización de estimaciones en diversos contextos analizando y acotando el error cometido.</li>
+        <li>MAA.4.A.2.2. Expresión de cantidades mediante números reales con la precisión requerida.</li>
+        <li>MAA.4.A.2.3. Los conjuntos numéricos como forma de responder a diferentes necesidades: contar, medir,
+            comparar, etc.</li>
+    </ul>
+    <li><b>MAA.4.A.3. Sentido de las operaciones.</b></li>
+    <ul>
+        <li>MAA.4.A.3.1. Operaciones con números reales en la resolución de situaciones contextualizadas.</li>
+        <li>MAA.4.A.3.2. Propiedades de las operaciones aritméticas: cálculos con números reales, incluyendo
+            herramientas digitales.</li>
+        <li>MAA.4.A.3.3. Algunos números irracionales (pi, el número de oro o el número cordobés, entre otros) en
+            situaciones de la vida cotidiana y su uso en la historia, el arte y la cultura andaluza.</li>
+    </ul>
+    <li><b>MAA.4.A.4. Relaciones.</b></li>
+    <ul>
+        <li>MAA.4.A.4.1. Patrones y regularidades numéricas en las que intervengan números reales.</li>
+        <li>MAA.4.A.4.2. Orden en la recta numérica. Intervalos.</li>
+    </ul>
+    <li><b>MAA.4.A.5. Razonamiento proporcional.</b> Situaciones de proporcionalidad directa e inversa en diferentes
+        contextos: desarrollo y análisis de métodos para la resolución de problemas.</li>
+    <li><b>MAA.4.A.6. Educación financiera.</b> Métodos de resolución de problemas relacionados con aumentos y
+        disminuciones porcentuales, intereses y tasas en contextos financieros.</li>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+<ul>
+    <li><b>MAA.4.B.1. Medición.</b> La pendiente y su relación con un ángulo en situaciones sencillas: deducción y
+        aplicación.</li>
+    <li><b>MAA.4.B.2. Cambio.</b> Estudio gráfico del crecimiento y decrecimiento de funciones en contextos de la vida
+        cotidiana con el apoyo de herramientas tecnológicas: tasas de variación absoluta, relativa y media.</li>
+</ul>
+
+<h3>C. Sentido espacial.</h3>
+<ul>
+    <li><b>MAA.4.C.1. Figuras geométricas de dos y tres dimensiones.</b> Propiedades geométricas de objetos de la vida
+        cotidiana, como la proporción áurea y cordobesa: investigación con programas de geometría dinámica.</li>
+    <li><b>MAA.4.C.2. Movimientos y transformaciones.</b> Transformaciones elementales en la vida cotidiana, en el arte
+        y la arquitectura andaluza: investigación con herramientas tecnológicas como programas de geometría dinámica,
+        realidad aumentada, etc.</li>
+    <li><b>MAA.4.C.3. Visualización, razonamiento y modelización geométrica.</b></li>
+    <ul>
+        <li>MAA.4.C.3.1. Modelos geométricos: representación y explicación de relaciones numéricas y algebraicas en
+            situaciones diversas.</li>
+        <li>MAA.4.C.3.2. Modelización de elementos geométricos de la vida cotidiana con herramientas tecnológicas como
+            programas de geometría dinámica, realidad aumentada...</li>
+        <li>MAA.4.C.3.3. Elaboración y comprobación de conjeturas sobre propiedades geométricas mediante programas de
+            geometría dinámica u otras herramientas.</li>
+    </ul>
+</ul>
+
+<h3>D. Sentido algebraico.</h3>
+<ul>
+    <li><b>MAA.4.D.1. Patrones, pautas y regularidades.</b> Observación, generalización y término general en casos
+        sencillos.</li>
+    <li><b>MAA.4.D.2. Modelo matemático.</b></li>
+    <ul>
+        <li>MAA.4.D.2.1. Modelización y resolución de problemas de la vida cotidiana mediante representaciones
+            matemáticas y en el lenguaje algebraico, haciendo uso de distintos tipos de funciones.</li>
+        <li>MAA.4.D.2.2. Estrategias de deducción y análisis de conclusiones razonables de una situación de la vida
+            cotidiana a partir de un modelo.</li>
+    </ul>
+    <li><b>MAA.4.D.3. Variable.</b></li>
+    <ul>
+        <li>MAA.4.D.3.1. Variables: asociación de expresiones simbólicas al contexto del problema y diferentes usos.
+        </li>
+        <li>MAA.4.D.3.2. Características del cambio en la representación gráfica de relaciones lineales y cuadráticas.
+        </li>
+    </ul>
+    <li><b>MAA.4.D.4. Igualdad y desigualdad.</b></li>
+    <ul>
+        <li>MAA.4.D.4.1. Relaciones lineales, cuadráticas y de proporcionalidad inversa en situaciones de la vida
+            cotidiana o matemáticamente relevantes: expresión mediante álgebra simbólica.</li>
+        <li>MAA.4.D.4.2. Formas equivalentes de expresiones algebraicas en la resolución de ecuaciones lineales y
+            cuadráticas, y sistemas de ecuaciones e inecuaciones lineales.</li>
+        <li>MAA.4.D.4.3. Estrategias de discusión y búsqueda de soluciones en ecuaciones lineales y cuadráticas en
+            situaciones de la vida cotidiana.</li>
+        <li>MAA.4.D.4.4. Ecuaciones, sistemas de ecuaciones e inecuaciones: resolución mediante el uso de la tecnología.
+        </li>
+    </ul>
+    <li><b>MAA.4.D.5. Relaciones y funciones.</b></li>
+    <ul>
+        <li>MAA.4.D.5.1. Relaciones cuantitativas en situaciones de la vida cotidiana y clases de funciones que las
+            modelizan.</li>
+        <li>MAA.4.D.5.2. Relaciones lineales y no lineales: identificación y comparación de diferentes modos de
+            representación, tablas, gráficas o expresiones algebraicas, y sus propiedades a partir de ellas.</li>
+        <li>MAA.4.D.5.3. Representación de funciones: interpretación de sus propiedades en situaciones de la vida
+            cotidiana.</li>
+    </ul>
+    <li><b>MAA.4.D.6. Pensamiento computacional.</b></li>
+    <ul>
+        <li>MAA.4.D.6.1. Resolución de problemas mediante la descomposición en partes, la automatización y el
+            pensamiento algorítmico.</li>
+        <li>MAA.4.D.6.2. Estrategias en la interpretación, modificación y creación de algoritmos.</li>
+        <li>MAA.4.D.6.3. Formulación y análisis de problemas de la vida cotidiana mediante programas y otras
+            herramientas adecuadas.</li>
+    </ul>
+</ul>
+
+<h3>E. Sentido estocástico.</h3>
+<ul>
+    <li><b>MAA.4.E.1. Organización y análisis de datos.</b></li>
+    <ul>
+        <li>MAA.4.E.1.1. Estrategias de recogida y organización de datos de situaciones de la vida cotidiana que
+            involucren una variable bidimensional. Tablas de contingencia.</li>
+        <li>MAA.4.E.1.2. Análisis e interpretación de tablas y gráficos estadísticos de una y dos variables
+            cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.</li>
+        <li>MAA.4.E.1.3. Medidas de localización y dispersión: interpretación y análisis de la variabilidad.</li>
+        <li>MAA.4.E.1.4. Gráficos estadísticos de una y dos variables: representación mediante diferentes tecnologías
+            (calculadora, hoja de cálculo, aplicaciones), análisis, interpretación y obtención de conclusiones
+            razonadas.</li>
+        <li>MAA.4.E.1.5. Interpretación de la relación entre dos variables, valorando gráficamente con herramientas
+            tecnológicas la pertinencia de realizar una regresión lineal. Ajuste lineal con herramientas tecnológicas.
+        </li>
+    </ul>
+    <li><b>MAA.4.E.2. Incertidumbre.</b></li>
+    <ul>
+        <li>MAA.4.E.2.1. Experimentos compuestos: planificación, realización y análisis de la incertidumbre asociada.
+        </li>
+        <li>MAA.4.E.2.2. Probabilidad: cálculo aplicando la regla de Laplace y técnicas de recuento en experimentos
+            simples y compuestos (mediante diagramas de árbol, tablas…) y aplicación a la toma de decisiones
+            fundamentadas.</li>
+    </ul>
+    <li><b>MAA.4.E.3. Inferencia.</b></li>
+    <ul>
+        <li>MAA.4.E.3.1. Diferentes etapas del diseño de estudios estadísticos.</li>
+        <li>MAA.4.E.3.2. Estrategias y herramientas de presentación e interpretación de datos relevantes en
+            investigaciones estadísticas mediante herramientas digitales adecuadas.</li>
+        <li>MAA.4.E.3.3. Análisis del alcance de las conclusiones de un estudio estadístico valorando la
+            representatividad de la muestra.</li>
+    </ul>
+</ul>
+
+<h3>F. Sentido socioafectivo.</h3>
+<ul>
+    <li><b>MAA.4.F.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MAA.4.F.1.1. Gestión emocional: emociones que intervienen en el aprendizaje de las matemáticas.
+            Autoconciencia y autorregulación. Superación de bloqueos emocionales en el aprendizaje de las matemáticas.
+        </li>
+        <li>MAA.4.F.1.2. Estrategias de fomento de la curiosidad, la iniciativa, la perseverancia y la resiliencia hacia
+            el aprendizaje de las matemáticas.</li>
+        <li>MAA.4.F.1.3. Estrategias de fomento de la flexibilidad cognitiva: apertura a cambios de estrategia y
+            transformación del error en oportunidad de aprendizaje.</li>
+    </ul>
+    <li><b>MAA.4.F.2. Trabajo en equipo y toma de decisiones.</b></li>
+    <ul>
+        <li>MAA.4.F.2.1. Asunción de responsabilidades y participación activa, optimizando el trabajo en equipo.
+            Estrategias de gestión de conflictos: pedir, dar y gestionar ayuda.</li>
+        <li>MAA.4.F.2.2. Métodos para la gestión y la toma de decisiones adecuadas en la resolución de situaciones
+            propias del quehacer matemático en el trabajo en equipo.</li>
+    </ul>
+    <li><b>MAA.4.F.3. Inclusión, respeto y diversidad.</b></li>
+    <ul>
+        <li>MAA.4.F.3.1. Actitudes inclusivas y aceptación de la diversidad presente en el aula y en la sociedad.</li>
+        <li>MAA.4.F.3.2. Reflexión sobre la contribución de las matemáticas al desarrollo de los distintos ámbitos del
+            conocimiento humano desde una perspectiva de género.</li>
+        <li>MAA.4.F.3.3. Reflexión sobre la contribución de la ciencia andaluza, en los diferentes periodos históricos y
+            en particular del andalusí, al desarrollo de las matemáticas.</li>
+    </ul>
+</ul>

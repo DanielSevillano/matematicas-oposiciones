@@ -1,0 +1,177 @@
+<h2>📋 Saberes básicos de 1º de Bachillerato de Ciencias</h2>
+<h3>A. Sentido numérico.</h3>
+<ul>
+    <li><b>MATE.1.A.1. Sentido de las operaciones.</b></li>
+    <ul>
+        <li>MATE.1.A.1.1 Adición y producto escalar de vectores: propiedades y representaciones.</li>
+        <li>MATE.1.A.1.2 Estrategias para operar (suma, producto, cociente, potencia, radicación y logaritmo) con
+            números reales y complejos: cálculo mental o escrito en los casos sencillos y con herramientas tecnológicas
+            en los casos más complicados.</li>
+    </ul>
+
+    <li><b>MATE.1.A.2. Relaciones.</b></li>
+    <ul>
+        <li>MATE.1.A.2.1 Conjunto de números: números racionales e irracionales. Los números reales. Logaritmos
+            decimales y neperianos. Los números complejos como soluciones de ecuaciones polinómicas que carecen de
+            raíces reales.</li>
+        <li>MATE.1.A.2.2 Conjunto de vectores: estructura, comprensión y propiedades. Módulo de un vector, coordenada de
+            un vector con respecto a una base, ángulo entre dos vectores y proyección ortogonal.</li>
+    </ul>
+</ul>
+
+<h3>B. Sentido de la medida.</h3>
+<ul>
+    <li><b>MATE.1.B.1. Medición.</b></li>
+    <ul>
+        <li>MATE.1.B.1.1 Cálculo de longitudes y medidas angulares: uso de la trigonometría. Razones trigonométricas de
+            un ángulo cualquiera medido en grados o en radianes. Demostración de las identidades trigonométricas.
+            Razones trigonométricas del ángulo suma, el ángulo diferencia, el ángulo doble y el ángulo mitad. Cálculo de
+            las razones trigonométricas de un ángulo cualquiera empleando las principales fórmulas trigonométricas.
+            Aplicación de las razones trigonométricas, el teorema de los senos y el teorema del coseno en la resolución
+            de triángulos y de problemas geométricos de contexto real. Demostración del teorema del seno y del coseno.
+        </li>
+        <li>MATE.1.B.1.2 La probabilidad como medida de la incertidumbre asociada a fenómenos aleatorios.</li>
+    </ul>
+
+    <li><b>MATE.1.B.2. Cambio.</b></li>
+    <ul>
+        <li>MATE.1.B.2.1 Límites: estimación y cálculo a partir de una tabla, un gráfico o una expresión algebraica.
+            Límite de una función en un punto: cálculo gráfico y analítico. Resolución de indeterminaciones sencillas
+            (0/0, k/0, ∞ - ∞). Límites laterales. Límite de una función en el infinito: cálculo gráfico y analítico.
+            Resolución de indeterminaciones sencillas. Determinación de las asíntotas de una función racional.</li>
+        <li>MATE.1.B.2.2 Continuidad de funciones: aplicación de límites en el estudio de la continuidad. Estudio de la
+            continuidad de una función, incluyendo funciones definidas a trozos. Tipos de discontinuidades.</li>
+        <li>MATE.1.B.2.3 Derivada de una función: definición a partir del estudio del cambio en diferentes contextos.
+            Derivación de funciones polinómicas, racionales, irracionales, exponenciales, logarítmicas y
+            trigonométricas. Reglas de derivación de las operaciones elementales con funciones y regla de la cadena.
+            Aplicaciones de las derivadas: ecuación de la recta tangente a una curva en un punto de la misma; obtención
+            de extremos relativos e intervalos de crecimiento y decrecimiento de una función. Cálculo de derivadas
+            sencillas por definición.</li>
+    </ul>
+</ul>
+
+<h3>C. Sentido espacial.</h3>
+<ul>
+    <li><b>MATE.1.C.1. Formas geométricas de dos dimensiones.</b></li>
+    <ul>
+        <li>MATE.1.C.1.1 Objetos geométricos de dos dimensiones: análisis de las propiedades y determinación de sus
+            atributos. Manejo de triángulos, paralelogramos y otras figuras planas.</li>
+        <li>MATE.1.C.1.2 Resolución de problemas relativos a objetos geométricos en el plano representados con
+            coordenadas cartesianas. Ecuaciones de la recta en el espacio bidimensional. Estudio de la posición relativa
+            de puntos y rectas en el plano. Lugares geométricos: ecuación de la recta mediatriz. Estudio de la simetría
+            en el plano: punto simétrico respecto de otro punto y de una recta; recta simétrica respecto de otra recta.
+            Aplicación de los números complejos para la construcción de polígonos regulares.</li>
+    </ul>
+
+    <li><b>MATE.1.C.2. Localización y sistemas de representación.</b></li>
+    <ul>
+        <li>MATE.1.C.2.1 Relaciones de objetos geométricos en el plano: representación y exploración con ayuda de
+            herramientas digitales.</li>
+        <li>MATE.1.C.2.2 Expresiones algebraicas de objetos geométricos en el plano: selección de la más adecuada en
+            función de la situación a resolver.</li>
+    </ul>
+
+    <li><b>MATE.1.C.3. Visualización, razonamiento y modelización geométrica.</b></li>
+    <ul>
+        <li>MATE.1.C.3.1 Representación de objetos geométricos en el plano mediante herramientas digitales.</li>
+        <li>MATE.1.C.3.2 Modelos matemáticos (geométricos, algebraicos, grafos...) en la resolución de problemas en el
+            plano. Conexiones con otras disciplinas y áreas de interés.</li>
+        <li>MATE.1.C.3.3 Conjeturas geométricas en el plano: validación por medio de la deducción y la demostración de
+            teoremas.</li>
+        <li>MATE.1.C.3.4 Modelización de la posición y el movimiento de un objeto en el plano mediante vectores.</li>
+        <li>MATE.1.C.3.5 La geometría en el patrimonio cultural y artístico de Andalucía.</li>
+    </ul>
+</ul>
+
+<h3>D. Sentido algebraico.</h3>
+<ul>
+    <li><b>MATE.1.D.1. Patrones.</b> Generalización de patrones en situaciones sencillas.</li>
+    <li><b>MATE.1.D.2. Modelo matemático.</b></li>
+    <ul>
+        <li>MATE.1.D.2.1 Relaciones cuantitativas en situaciones sencillas: estrategias de identificación y
+            determinación de la clase o clases de funciones que pueden modelizarlas.</li>
+        <li>MATE.1.D.2.2 Ecuaciones, inecuaciones y sistemas: modelización de situaciones en diversos contextos.</li>
+    </ul>
+    <li><b>MATE.1.D.3. Igualdad y desigualdad.</b> Ecuaciones polinómicas, racionales, irracionales, exponenciales y
+        logarítmicas. Inecuaciones polinómicas, racionales y de valor absoluto sencillas. Sistemas de tres ecuaciones
+        lineales con tres incógnitas. Método de Gauss para identificar los tipos de sistemas y resolver sistemas
+        compatibles determinados e indeterminados. Resolución de ecuaciones, inecuaciones y sistemas de ecuaciones e
+        inecuaciones no lineales en diferentes contextos.</li>
+    <li><b>MATE.1.D.4. Relaciones y funciones.</b></li>
+    <ul>
+        <li>MATE.1.D.4.1 Análisis, representación gráfica e interpretación de relaciones mediante herramientas
+            tecnológicas. Concepto de función real de variables real: expresión analítica y gráfica. Cálculo gráfico y
+            analítico del dominio de una función.</li>
+        <li>MATE.1.D.4.2 Propiedades de las distintas clases de funciones, incluyendo, polinómicas, exponenciales,
+            irracionales, racionales sencillas, logarítmicas, trigonométricas y a trozos: comprensión y comparación.
+            Estudio y representación gráfica de funciones polinómicas y racionales a partir de sus propiedades globales
+            y locales obtenidas empleando las herramientas del análisis matemático (límites y derivadas).</li>
+        <li>MATE.1.D.4.3 Álgebra simbólica en la representación y explicación de relaciones matemáticas de la ciencia y
+            la tecnología.</li>
+    </ul>
+    <li><b>MATE.1.D.5. Pensamiento computacional.</b></li>
+    <ul>
+        <li>MATE.1.D.5.1 Formulación, resolución y análisis de problemas de la vida cotidiana y de la ciencia y la
+            tecnología empleando herramientas o programas más adecuados.</li>
+        <li>MATE.1.D.5.2 Comparación de algoritmos alternativos para el mismo problema mediante el razonamiento lógico.
+        </li>
+    </ul>
+</ul>
+
+<h3>E. Sentido estocástico.</h3>
+<ul>
+    <li><b>MATE.1.E.1. Organización y análisis de datos.</b></li>
+    <ul>
+        <li>MATE.1.E.1.1 Organización de los datos procedentes de variables bidimensionales: distribución conjunta y
+            distribuciones marginales y condicionadas. Análisis de la dependencia estadística.</li>
+        <li>MATE.1.E.1.2 Estudio de la relación entre dos variables mediante la regresión lineal y cuadrática:
+            valoración gráfica de la pertinencia del ajuste. Diferencia entre correlación y causalidad.</li>
+        <li>MATE.1.E.1.3 Coeficientes de correlación lineal y de determinación: cuantificación de la relación lineal,
+            predicción y valoración de su fiabilidad en contextos científicos y tecnológicos.</li>
+        <li>MATE.1.E.1.4 Calculadora, hoja de cálculo o software específico en el análisis de datos estadísticos.</li>
+    </ul>
+
+    <li><b>MATE.1.E.2. Incertidumbre.</b></li>
+    <ul>
+        <li>MATE.1.E.2.1 Experimentos aleatorios. Revisión del concepto de espacio muestral y del álgebra de sucesos
+            (suceso complementario, unión e intersección de dos sucesos, leyes de Morgan). Estimación de la probabilidad
+            a partir del concepto de frecuencia relativa.</li>
+        <li>MATE.1.E.2.2 Cálculo de probabilidades en experimentos simples: la regla de Laplace en situaciones de
+            equiprobabilidad y en combinación con diferentes técnicas de recuento. Cálculo de la probabilidad del suceso
+            complementario y de la unión y la intersección de dos sucesos. Probabilidad condicionada. Resolución de
+            problemas que requieran del manejo de los axiomas de la probabilidad de Kolmogorov o del dibujo de diagramas
+            de Venn. Cálculo de probabilidades en experimentos compuestos: teoremas de la probabilidad total y de Bayes.
+            Resolución de problemas que requieran del empleo de estos teoremas o del dibujo de diagramas de árbol.</li>
+    </ul>
+
+    <li><b>MATE.1.E.3. Inferencia.</b> Análisis de muestras unidimensionales y bidimensionales con herramientas
+        tecnológicas con el fin de emitir juicios y tomar decisiones.</li>
+</ul>
+
+<h3>F. Sentido socioafectivo.</h3>
+<ul>
+    <li><b>MATE.1.F.1. Creencias, actitudes y emociones.</b></li>
+    <ul>
+        <li>MATE.1.F.1.1 Destrezas de autoconciencia encaminadas a reconocer emociones propias, afrontando eventuales
+            situaciones de estrés y ansiedad en el aprendizaje de las matemáticas.</li>
+        <li>MATE.1.F.1.2 Tratamiento del error, individual y colectivo, como elemento movilizador de saberes previos
+            adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.</li>
+    </ul>
+
+    <li><b>MATE.1.F.2. Trabajo en equipo y toma de decisiones.</b></li>
+    <ul>
+        <li>MATE.1.F.2.1 Reconocimiento y aceptación de diversos planteamientos en la resolución de problemas y tareas
+            matemáticas, transformando los enfoques de las y los demás en nuevas y mejoradas estrategias propias,
+            mostrando empatía y respeto en el proceso.</li>
+        <li>MATE.1.F.2.2 Técnicas y estrategias de trabajo en equipo para la resolución de problemas y tareas
+            matemáticas, en equipos heterogéneos.</li>
+    </ul>
+
+    <li><b>MATE.1.F.3. Inclusión, respeto y diversidad.</b></li>
+    <ul>
+        <li>MATE.1.F.3.1 Destrezas para desarrollar una comunicación efectiva, la escucha activa, la formulación de
+            preguntas o solicitud y prestación de ayuda cuando sea necesario.</li>
+        <li>MATE.1.F.3.2 Valoración de la contribución de las matemáticas y el papel de matemáticos y matemáticas a lo
+            largo de la historia en el avance de la ciencia y la tecnología.</li>
+    </ul>
+</ul>
