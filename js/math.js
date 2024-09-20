@@ -73,7 +73,7 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
 
         tituloResolucion.textContent = "Resolución";
 
-        const ruta = "data\\R" + examen + problema + ".txt";
+        const ruta = "data\\problemas\\R" + examen + problema + ".txt";
         const respuesta = await fetch(ruta);
         const datos = await respuesta.text();
 

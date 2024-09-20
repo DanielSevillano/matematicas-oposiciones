@@ -53,9 +53,10 @@
                 $$F(x) = P(X \leq x) = \begin{cases}
                     0, & \text{si } x < 0, \\
                     a, & \text{si } 0 \leq x < 1, \\
-                    a + \sum_{i=1}^k P(X = i), & \text{si } k \leq x < k+1, \text{ con } 1 \leq k < n, \\
-                    1, & \text{si } k \geq n
+                    a + \displaystyle{\sum_{i=1}^{E(x)} P(X = i)}, & \text{si } 1 \leq x < n, \\
+                    1, & \text{si } k \geq n,
                 \end{cases}$$
+                donde $E(x)$ denota la parte entera de $x.$
 
                 Observamos que:
                 $$\sum_{i=1}^k P(X = i) = \sum_{i=1}^k \frac{2i(1-a)}{n(n+1)} = \frac{2(1-a)}{n(n+1)} \sum_{i=1}^k i = \frac{2(1-a)}{n(n+1)} \cdot \frac{k(k+1)}{2} = \frac{(1-a)k(k+1)}{n(n+1)}.$$
@@ -64,8 +65,8 @@
                 $$F(x) = P(X \leq x) = \begin{cases}
                     0, & \text{si } x < 0, \\
                     a, & \text{si } 0 \leq x < 1, \\
-                    a + \dfrac{(1-a)k(k+1)}{n(n+1)}, & \text{si } k \leq x < k+1, \text{ con } 1 \leq k < n, \\
-                    1, & \text{si } k \geq n
+                    a + \dfrac{(1-a)E(x)(E(x)+1)}{n(n+1)}, & \text{si } 1 \leq x < n, \\
+                    1, & \text{si } k \geq n.
                 \end{cases}$$
 
             </li>
@@ -84,7 +85,7 @@
                 Como cada 30 días vende una media de 1.485 aparatos, la variable $X$ tiene una media $E(X) = \frac{1.485}{30} = 49,5.$
                 La esperanza de $X$ es:
                 \begin{align}
-                    E(X) & = \sum_{i=0}^n i \cdot P(X = i) = \sum_{i=1}^n i \cdot \frac{1,8i}{n(n+1)} = \frac{1,8}{n(n+1)} \sum_{i=1}^n i^2 = \frac{1,8}{n(n+1)} \cdot \frac{n(n+1)(2n+1)}{6} = \\
+                    E(X) & = \sum_{i=0}^n i \cdot P(X = i) = \sum_{i=1}^n i \cdot \frac{1,8i}{n(n+1)} = \frac{1,8}{n(n+1)} \sum_{i=1}^n i^2 \overset{\text{(i)}}{=} \frac{1,8}{n(n+1)} \cdot \frac{n(n+1)(2n+1)}{6} = \\
                     & = \frac{1,8(2n+1)}{6} = 0,3(2n+1).
                 \end{align}
 
