@@ -12,11 +12,11 @@
         <li>MACS.2.A.1.4. Cálculo de determinantes hasta de orden 3 para el cálculo del rango y la inversa de una
             matriz.</li>
     </ul>
-    <li><b>MACS.2.A.2. Relaciones.</b></li>
-    <ul>
-        <li>Conjuntos de matrices: estructura, comprensión y propiedades. Determinantes y matriz inversa: definición y
-            propiedades.</li>
-    </ul>
+    <li>
+        <b>MACS.2.A.2. Relaciones.</b>
+        Conjuntos de matrices: estructura, comprensión y propiedades. Determinantes y matriz inversa: definición y
+        propiedades.
+    </li>
 </ul>
 
 <h3>B. Sentido de la medida.</h3>
@@ -48,10 +48,10 @@
 
 <h3>C. Sentido algebraico.</h3>
 <ul>
-    <li><b>MACS.2.C.1. Patrones.</b></li>
-    <ul>
-        <li>Generalización de patrones en situaciones diversas.</li>
-    </ul>
+    <li>
+        <b>MACS.2.C.1. Patrones.</b>
+        Generalización de patrones en situaciones diversas.
+    </li>
     <li><b>MACS.2.C.2. Modelo matemático.</b></li>
     <ul>
         <li>MACS.2.C.2.1. Relaciones cuantitativas en situaciones complejas: estrategias de identificación y
@@ -136,10 +136,10 @@
         <li>MACS.2.E.1.2. Tratamiento y análisis del error, individual y colectivo, como elemento movilizador de saberes
             previos adquiridos y generador de oportunidades de aprendizaje en el aula de matemáticas.</li>
     </ul>
-    <li><b>MACS.2.E.2. Toma de decisiones.</b></li>
-    <ul>
-        <li>Destrezas para evaluar diferentes opciones y tomar decisiones en la resolución de problemas.</li>
-    </ul>
+    <li>
+        <b>MACS.2.E.2. Toma de decisiones.</b>
+        Destrezas para evaluar diferentes opciones y tomar decisiones en la resolución de problemas.
+    </li>
     <li><b>MACS.2.E.3. Inclusión, respeto y diversidad.</b></li>
     <ul>
         <li>MACS.2.E.3.1. Destrezas sociales y de comunicación efectivas para el éxito en el aprendizaje de las
