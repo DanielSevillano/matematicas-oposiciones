@@ -1,0 +1,155 @@
+<ol>
+    <li>
+        Sean $a$ el número de alumnos y $p$ el número de pelotas, con $a, p \in \mathbb{N}.$
+        Se tiene que:
+        \begin{cases}
+            a - p = n, \\
+            n(p-n) = a.
+        \end{cases}
+        
+        Resolvemos el sistema por sustitución.
+        Como $a = n + p$, entonces:
+        $$n(p-n) = p + n \Leftrightarrow np - n^2 = p + n \Leftrightarrow (n-1)p = n^2 + n \Leftrightarrow p = \frac{n^2+n}{n-1}.$$
+
+        Si hacemos la división de polinomios, tenemos que:
+        $$p = \frac{n^2+n}{n-1} = n + 2 + \frac{2}{n-1}.$$
+
+        Como $p, n \in \mathbb{N}$, las únicas posibilidades son $n = 2$ y $n = 3.$
+
+        <ul>
+            <li>Si $n = 2$, entonces $p = 6$ y $a = 8.$</li>
+            <li>Si $n = 3$, entonces $p = 6$ y $a = 9.$</li>
+        </ul>
+
+        En cualquier caso, se ha dispuesto de 6 pelotas.
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                El dominio de la función es $\mathrm{Dom}(f) = (0, 1) \cup (1, +\infty).$
+                Es inmediato ver que no tiene puntos de corte con los ejes ni presenta simetría.
+
+                <ul>
+                    <li>
+                        Estudiamos la existencia de asíntotas verticales.
+
+                        <ul>
+                            <li>
+                                Para $x = 0$,
+                                \begin{align}
+                                    & \lim_{x \to 0^-} f(x) \text{ no existe}, \\
+                                    & \lim_{x \to 0^+} f(x) = \lim_{x \to 0^+} \frac{x}{\ln(x)} = 0.
+                                \end{align}
+
+                                Luego no tiene asíntota vertical en $x = 0.$
+                            </li>
+
+                            <li>
+                                Para $x = 1$,
+                                \begin{align}
+                                    & \lim_{x \to 1^-} f(x) = \lim_{x \to 1^-} \frac{x}{\ln(x)} = \frac{1}{0^-} = -\infty, \\
+                                    & \lim_{x \to 1^+} f(x) = \lim_{x \to 1^+} \frac{x}{\ln(x)} = \frac{1}{0^+} = +\infty.
+                                \end{align}
+
+                                Luego la recta $x = 1$ es una asíntota vertical.
+                            </li>
+                        </ul>
+
+                        Como no es una función racional y además
+                        $$\lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x}{\ln(x)} = +\infty,$$
+                        no tiene asíntota horizontal ni oblicua.
+                    </li>
+
+                    <li>
+                        Para estudiar su monotonía, hallamos en primer lugar la derivada de la función.
+                        $$f'(x) = \frac{\ln(x) - x \cdot \frac{1}{x}}{\ln^2(x)} = \frac{\ln(x) - 1}{\ln^2(x)}.$$
+
+                        Hallamos los puntos críticos igualando la derivada a cero.
+                        $$f'(x) = 0 \Leftrightarrow \frac{\ln(x) - 1}{\ln^2(x)} = 0 \Leftrightarrow \ln(x) = 1 \Leftrightarrow x = e.$$
+
+                        Estudiamos el signo de la derivada.
+
+                        <ul>
+                            <li>
+                                Si $0 < x < 1$, $f'(x) < 0.$
+                                Así que $f$ es decreciente.
+                            </li>
+
+                            <li>
+                                Si $1 < x < e$, $f'(x) < 0.$
+                                Así que $f$ es decreciente.
+                            </li>
+
+                            <li>
+                                Si $x > e$, $f'(x) > 0.$
+                                Así que $f$ es creciente.
+                            </li>
+                        </ul>
+
+                        Luego $f$ es creciente en $(e, +\infty)$ y decreciente en $(0, 1) \cup (1, e)$, con el punto $(e, e)$ como mínimo relativo.
+                    </li>
+
+                    <li>
+                        Para estudiar su curvatura, hallamos su segunda derivada.
+                        $$f''(x) = \frac{\frac{1}{x} \cdot \ln^2(x) - (\ln(x)-1) \cdot 2\ln(x) \cdot \frac{1}{x}}{\ln^4(x)} = \frac{\ln^2(x) - (\ln(x) - 1) \cdot 2\ln(x)}{x\ln^4(x)} = \frac{-\ln^2(x) + 2\ln(x)}{x\ln^4(x)}.$$
+
+                        Hallamos los candidatos a puntos de inflexión igualando la segunda derivada a cero.
+                        \begin{align}
+                            & f''(x) = 0 \Leftrightarrow \frac{-\ln^2(x) + 2\ln(x)}{x\ln^4(x)} = 0 \Leftrightarrow -\ln^2(x) + 2\ln(x) = 0 \Leftrightarrow \ln(x)(\ln(x) - 2) = 0 \overset{x \neq 1}{\Leftrightarrow} \\
+                            & \Leftrightarrow \ln(x) - 2 = 0 \Leftrightarrow \ln(x) = 2 \Leftrightarrow x = e^2.
+                        \end{align}
+
+                        Estudiamos el signo de la segunda derivada.
+
+                        <ul>
+                            <li>
+                                Si $0 < x < 1$, $f''(x) < 0.$
+                                Así que $f$ es cóncava.
+                            </li>
+
+                            <li>
+                                Si $1 < x < e$^2, $f''(x) > 0.$
+                                Así que $f$ es convexa.
+                            </li>
+
+                            <li>
+                                Si $x > e^2$, $f''(x) < 0.$
+                                Así que $f$ es cóncava.
+                            </li>
+                        </ul>
+
+                        Luego $f$ es convexa en $(1, e^2)$ y cóncava en $(0, 1) \cup (e^2, +\infty)$, con el punto de inflexión $\left(e^2, \frac{e^2}{2}\right).$
+                    </li>
+                </ul>
+
+                Representamos la gráfica de la función con toda esta información.
+                <img src="img/R20235.png" alt="Figura" loading="lazy">
+            </li>
+
+            <li>
+                Observamos que:
+                $$x - a\ln(x) = 0 \Leftrightarrow x = a\ln(x) \overset{x \neq 0}{\Leftrightarrow} \frac{x}{\ln(x)} = a \Leftrightarrow f(x) = a.$$
+
+                Luego el número de soluciones de esta ecuación se corresponde con el número de puntos de corte de la función $f$ con la recta horizontal $y = a.$
+                
+                <ul>
+                    <li>Si $a < 0$ hay un único punto de corte, así que la ecuación tiene una solución.</li>
+                    
+                    <li>
+                        Si $a = 0$,
+                        $$x - 0 \cdot \ln(x) = 0 \Leftrightarrow x = 0.$$
+                        
+                        Así que tiene una solución.
+                    </li>
+
+                    <li>Si $0 < a < e$ no hay puntos de corte, así que la ecuación no tiene ninguna solución.</li>
+
+                    <li>Si $a = e$ hay un único punto de corte, así que la ecuación tiene una solución.</li>
+
+                    <li>Si $a > e$ hay dos puntos de corte, así que la ecuación tiene dos soluciones.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>

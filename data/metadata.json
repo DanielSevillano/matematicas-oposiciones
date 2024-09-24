@@ -31,6 +31,7 @@
     },
     {
         "problema": 20235,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Análisis"
