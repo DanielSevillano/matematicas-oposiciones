@@ -1,0 +1,181 @@
+<ol>
+    <li>
+        Calculamos los determinantes.
+        \begin{align}
+            & \det(A_1(a)) = \begin{vmatrix}
+                1+a
+            \end{vmatrix} = 1+a, \\
+            & \det(A_2(a)) = \begin{vmatrix}
+                1+a & 1 \\
+                a & 1+a
+            \end{vmatrix} = (1+a)^2 - a = a^2 + a + 1, \\
+            & \det(A_3(a)) = \begin{vmatrix}
+                1+a & 1 & 0 \\
+                a & 1+a & 1 \\
+                0 & a & 1+a
+            \end{vmatrix} = (1+a)^3 - 2a(1+a) = a^3 + 3a^2 + 3a + 1 - 2a^2 - 2a = a^3 + a^2 + a + 1.
+        \end{align}
+    </li>
+
+    <li>
+        Para hallar una relación lineal entre los determinantes, desarrollamos el determinante de la matriz $A_{n+2}(a).$
+        \begin{align}
+            \det(A_{n+2})(A) & = \begin{vmatrix}
+                1+a & 1 & 0 & 0 & \dots & 0 & 0 \\
+                a & 1+a & 1 & 0 & \dots & 0 & 0 \\
+                0 & a & 1+a & 1 & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & 0 & 0 & \dots & 1+a & 1 \\
+                0 & 0 & 0 & 0 & \dots & a & 1+a
+            \end{vmatrix} \overset{\text{1ª fila}}{=} \\
+            & = (1+a) \begin{vmatrix}
+                1+a & 1 & 0 & \dots & 0 & 0 \\
+                a & 1+a & 1 & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & 0 & \dots & 1+a & 1 \\
+                0 & 0 & 0 & \dots & a & 1+a
+            \end{vmatrix} -
+            \begin{vmatrix}
+                a & 1 & 0 & \dots & 0 & 0 \\
+                0 & 1+a & 1 & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & 0 & \dots & 1+a & 1 \\
+                0 & 0 & 0 & \dots & a & 1+a
+            \end{vmatrix} = \\
+            & = (1+a) \det(A_{n+1}(a)) -
+            \begin{vmatrix}
+                a & 1 & 0 & \dots & 0 & 0 \\
+                0 & 1+a & 1 & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & 0 & \dots & 1+a & 1 \\
+                0 & 0 & 0 & \dots & a & 1+a
+            \end{vmatrix} \overset{\text{1ª columna}}{=} \\
+            & = (1+a) \det(A_{n+1}(a)) - a \begin{vmatrix}
+                1+a & 1 & \dots & 0 & 0 \\
+                \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & \dots & 1+a & 1 \\
+                0 & 0 & \dots & a & 1+a
+            \end{vmatrix} =  \\
+            & = (1+a) \det(A_{n+1}(a)) - a\det(A_n(a)).
+        \end{align}
+    </li>
+
+    <li>
+        Observamos que las expresiones de los primeros determinantes desarrollados en el apartado (a) apuntan a que
+        $$\det(A_n(a)) = a^n + a^{n+1} + \dots + a + 1, \quad \forall n \in \mathbb{N}.$$
+
+        Demostremos esta igualdad por inducción.
+        
+        <ul>
+            <li>
+                Si $n = 1$, se verifica que
+                $$\det(A_1(a)) = 1+a.$$
+            </li>
+
+            <li>
+                Supongamos que la igualdad se verifica hasta $n+1.$
+                En particular, se tiene que
+                \begin{align}
+                    & \det(A_n(a)) = a^n + a^{n-1} + \dots + a + 1, \\
+                    & \det(A_{n+1}(a)) = a^{n+1} + a^n + \dots + a + 1.
+                \end{align}
+
+                Veamos que la igualdad es cierta para $n+2.$
+                \begin{align}
+                    \det(A_{n+2}(a)) & \overset{\text{(b)}}{=} (1+a) \det(A_{n+1}(a)) - a\det(A_n(a)) = \\
+                    & = (1+a)(a^{n+1} + a^n + \dots + a + 1) - a(a^n + a^{n-1} + \dots + a + 1) = \\
+                    & = (a^{n+1} + a^n + \dots + a + 1) + (a^{n+2} + a^{n+1} + \dots + a^2 + a) - (a^{n+1} + a^n + \dots + a^2 + a) = \\
+                    & = a^{n+2} + a^{n+1} + \dots + a + 1.
+                \end{align}
+            </li>
+        </ul>
+
+        Por tanto,
+        $$\det(A_n(a)) = a^n + a^{n+1} + \dots + a + 1, \quad \forall n \in \mathbb{N}.$$
+    </li>
+
+    <li>
+        Consideramos el sistema
+        $$A_n(a) \cdot X = \begin{pmatrix}
+            0 & 0 & \dots & b
+        \end{pmatrix}^t \Leftrightarrow
+        \begin{pmatrix}
+            1+a & 1 & 0 & \dots & 0 & 0 \\
+            a & 1+a & 1 & \dots & 0 & 0 \\
+            0 & a & 1+a & \dots & 0 & 0 \\
+            \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+            0 & 0 & 0 & \dots & 1+a & 1 \\
+            0 & 0 & 0 & \dots & a & 1+a
+        \end{pmatrix} \cdot
+        \begin{pmatrix}
+            x_1 \\ x_2 \\ x_3 \\ \vdots \\ x_{n-1} \\ x_n
+        \end{pmatrix} =
+        \begin{pmatrix}
+            0 \\ 0 \\ 0 \\ \vdots \\ 0 \\ b
+        \end{pmatrix}.$$
+
+        Queremos estudiar cuándo se anula el determinante de la matriz de coeficientes $A_n(a)$, esto es, resolver la ecuación
+        $$a^n + a^{n-1} + \dots + a + 1 = 0.$$
+
+        Si $a \neq 1$, esto es equivalente a que:
+        \begin{align}
+            & \frac{(a^n + a^{n-1} + \dots + a + 1)(a-1)}{a-1} = 0 \Leftrightarrow \frac{(a^{n+1} + a^n + \dots + a + 1) - (a^n + a^{n-1} + \dots + a + 1)}{a-1} = 0 \Leftrightarrow \\
+            & \Leftrightarrow \frac{a^{n+1} - 1}{a-1} = 0 \Leftrightarrow a^{n+1} = 1 \Leftrightarrow a = \sqrt[n+1]{a}.
+        \end{align}
+
+        Si $a = 1$,
+        $$\det(A_n) = 1^n + 1^{n-1} + \dots + 1 + 1 = n+1 \neq 0.$$
+
+        Así pues, si $a \neq \sqrt[n+1]{a}$ o $a = 1$, la matriz de coeficientes tiene rango máximo y, por tanto, el sistema es compatible determinado.
+        Supongamos ahora $a = \sqrt[n+1]{a}$, con $a \neq 1.$
+        En este caso, tenemos que $\det(A_n(a)) = 0$, mientras que:
+        $$\det(A_{n-1}(a)) = a^{n-1} + \dots + a + 1 = \frac{(a^{n-1} + \dots + a + 1)(a-1)}{a-1} = \frac{a^n-1}{a-1} = \frac{(\sqrt[n+1]{1})^n - 1}{\sqrt[n+1]{1} - 1} \neq 0.$$
+
+        Así que $\mathrm{rang}(A_n(a)) = n-1.$
+        Estudiamos el rango de la matriz ampliada:
+        $$\left(\begin{array}{cccccc | c}
+            1+a & 1 & 0 & \dots & 0 & 0 & 0 \\
+            a & 1+a & 1 & \dots & 0 & 0 & 0 \\
+            0 & a & 1+a & \dots & 0 & 0 & 0 \\
+            \vdots & \vdots & \vdots & \ddots & \vdots & \vdots & 0 \\
+            0 & 0 & 0 & \dots & 1+a & 1 & 0 \\
+            0 & 0 & 0 & \dots & a & 1+a & b
+        \end{array}\right)$$
+
+        Observamos que
+        \begin{align}
+            \begin{vmatrix}
+                1+a & 1 & 0 & \dots & 0 & 0 \\
+                a & 1+a & 1 & \dots & 0 & 0 \\
+                0 & a & 1+a & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \ddots & \vdots & 0 \\
+                0 & 0 & 0 & \dots & 1+a & 0 \\
+                0 & 0 & 0 & \dots & a & b
+            \end{vmatrix} \overset{\text{col. } n}{=} b \begin{vmatrix}
+                1+a & 1 & 0 & \dots & 0 \\
+                a & 1+a & 1 & \dots & 0 \\
+                0 & a & 1+a & \dots & 0 \\
+                \vdots & \vdots & \vdots & \ddots & \vdots \\
+                0 & 0 & 0 & \dots & 1+a
+            \end{vmatrix} = b \det(A_{n-1}(a)).
+        \end{align}
+
+        Como $\det(A_{n-1}(a)) = 0$, este determinante solo se anula cuando $b = 0.$
+        Así pues, si $b = 0$, el rango de la matriz ampliada es $n-1$, por lo que se trata de un sistema compatible indeterminado.
+        En caso contrario, el rango es $n$, lo que conlleva que el sistema es incompatible.
+
+        Por tanto:
+
+        <ul>
+            <li>Si $a \neq \sqrt[n+1]{a}$ o $a = 1$, el sistema es compatible determinado.</li>
+            <li>
+                Si $a = \sqrt[n+1]{a}$ y $a \neq 1$, hay dos posibilidades:
+
+                <ul>
+                    <li>Si $b = 0$, el sistema es compatible indeterminado.</li>
+                    <li>Si $b \neq 0$, el sistema es incompatible.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>

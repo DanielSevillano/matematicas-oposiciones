@@ -24,6 +24,7 @@
     },
     {
         "problema": 20234,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
