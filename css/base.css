@@ -245,6 +245,14 @@ a.contorno {
     transition: background-color 200ms;
 }
 
+a.contorno:hover {
+    background-color: var(--button-background-color);
+}
+
+a.contorno:active {
+    background-color: var(--button-background-color-active);
+}
+
 /********************
 Progreso
 ********************/
