@@ -62,7 +62,7 @@
 
     <li>
         Observamos que las expresiones de los primeros determinantes desarrollados en el apartado (a) apuntan a que
-        $$\det(A_n(a)) = a^n + a^{n+1} + \dots + a + 1, \quad \forall n \in \mathbb{N}.$$
+        $$\det(A_n(a)) = a^n + a^{n-1} + \dots + a + 1, \quad \forall n \in \mathbb{N}.$$
 
         Demostremos esta igualdad por inducción.
         
