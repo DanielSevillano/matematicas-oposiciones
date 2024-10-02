@@ -254,6 +254,19 @@ a.contorno:active {
 }
 
 /********************
+Categorías
+********************/
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/********************
 Progreso
 ********************/
 
