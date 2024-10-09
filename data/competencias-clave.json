@@ -1,0 +1,42 @@
+[
+    {
+        "codigo": "CCL",
+        "nombre": "Competencia en comunicación lingüística",
+        "descripcion": "La competencia en comunicación lingüística supone interactuar de forma oral, escrita, signada o multimodal de manera coherente y adecuada en diferentes ámbitos y contextos y con diferentes propósitos comunicativos. Implica movilizar, de manera consciente, el conjunto de conocimientos, destrezas y actitudes que permiten comprender, interpretar y valorar críticamente mensajes orales, escritos, signados o multimodales evitando los riesgos de manipulación y desinformación, así como comunicarse eficazmente con otras personas de manera cooperativa, creativa, ética y respetuosa. Constituye la base para el pensamiento propio y para la construcción del conocimiento en todos los ámbitos del saber. Por ello, su desarrollo está vinculado a la reflexión explícita acerca del funcionamiento de la lengua en los géneros discursivos específicos de cada área de conocimiento, así como a los usos de la oralidad, la escritura o la signación para pensar y para aprender. Por último, hace posible apreciar la dimensión estética del lenguaje y disfrutar de la cultura literaria."
+    },
+    {
+        "codigo": "CP",
+        "nombre": "Competencia plurilingüe",
+        "descripcion": "La competencia plurilingüe implica utilizar distintas lenguas, orales o signadas, de forma apropiada y eficaz para el aprendizaje y la comunicación. Esta competencia supone reconocer y respetar los perfiles lingüísticos individuales y aprovechar las experiencias propias para desarrollar estrategias que permitan mediar y hacer transferencias entre lenguas, incluidas las clásicas, y, en su caso, mantener y adquirir destrezas en la lengua o lenguas familiares y en las lenguas oficiales. Integra, asimismo, dimensiones históricas e interculturales orientadas a conocer, valorar y respetar la diversidad lingüística y cultural de la sociedad con el objetivo de fomentar la convivencia democrática."
+    },
+    {
+        "codigo": "STEM",
+        "nombre": "Competencia matemática y competencia en ciencia, tecnología e ingeniería",
+        "descripcion": "La competencia matemática y competencia en ciencia, tecnología e ingeniería (competencia STEM por sus siglas en inglés) entraña la comprensión del mundo utilizando los métodos científicos, el pensamiento y representación matemáticos, la tecnología y los métodos de la ingeniería para transformar el entorno de forma comprometida, responsable y sostenible. La competencia matemática permite desarrollar y aplicar la perspectiva y el razonamiento matemáticos con el fin de resolver diversos problemas en diferentes contextos. La competencia en ciencia conlleva la comprensión y explicación del entorno natural y social, utilizando un conjunto de conocimientos y metodologías, incluidas la observación y la experimentación, con el fin de plantear preguntas y extraer conclusiones basadas en pruebas para poder interpretar y transformar el mundo natural y el contexto social. La competencia en tecnología e ingeniería comprende la aplicación de los conocimientos y metodologías propios de las ciencias para transformar nuestra sociedad de acuerdo con las necesidades o deseos de las personas en un marco de seguridad, responsabilidad y sostenibilidad."
+    },
+    {
+        "codigo": "CD",
+        "nombre": "Competencia digital",
+        "descripcion": "La competencia digital implica el uso seguro, saludable, sostenible, crítico y responsable de las tecnologías digitales para el aprendizaje, para el trabajo y para la participación en la sociedad, así como la interacción con estas. Incluye la alfabetización en información y datos, la comunicación y la colaboración, la educación mediática, la creación de contenidos digitales (incluida la programación), la seguridad (incluido el bienestar digital y las competencias relacionadas con la ciberseguridad), asuntos relacionados con la ciudadanía digital, la privacidad, la propiedad intelectual, la resolución de problemas y el pensamiento computacional y crítico"
+    },
+    {
+        "codigo": "CPSAA",
+        "nombre": "Competencia personal, social y de aprender a aprender",
+        "descripcion": "La competencia personal, social y de aprender a aprender implica la capacidad de reflexionar sobre uno mismo para autoconocerse, aceptarse y promover un crecimiento personal constante; gestionar el tiempo y la información eficazmente; colaborar con otros de forma constructiva; mantener la resiliencia; y gestionar el aprendizaje a lo largo de la vida. Incluye también la capacidad de hacer frente a la incertidumbre y a la complejidad; adaptarse a los cambios; aprender a gestionar los procesos metacognitivos; identificar conductas contrarias a la convivencia y desarrollar estrategias para abordarlas; contribuir al bienestar físico, mental y emocional propio y de las demás personas, desarrollando habilidades para cuidarse a sí mismo y a quienes lo rodean a través de la corresponsabilidad; ser capaz de llevar una vida orientada al futuro; así como expresar empatía y abordar los conflictos en un contexto integrador y de apoyo."
+    },
+    {
+        "codigo": "CC",
+        "nombre": "Competencia ciudadana",
+        "descripcion": "La competencia ciudadana contribuye a que el alumnado pueda ejercer una ciudadanía responsable y participar plenamente en la vida social y cívica, basándose en la comprensión de los conceptos y las estructuras sociales, económicas, jurídicas y políticas, así como en el conocimiento de los acontecimientos mundiales y el compromiso activo con la sostenibilidad y el logro de una ciudadanía mundial. Incluye la alfabetización cívica, la adopción consciente de los valores propios de una cultura democrática fundada en el respeto a los derechos humanos, la reflexión crítica acerca de los grandes problemas éticos de nuestro tiempo y el desarrollo de un estilo de vida sostenible acorde con los Objetivos de Desarrollo Sostenible planteados en la Agenda 2030."
+    },
+    {
+        "codigo": "CE",
+        "nombre": "Competencia emprendedora",
+        "descripcion": "La competencia emprendedora implica desarrollar un enfoque vital dirigido a actuar sobre oportunidades e ideas, utilizando los conocimientos específicos necesarios para generar resultados de valor para otras personas. Aporta estrategias que permiten adaptar la mirada para detectar necesidades y oportunidades; entrenar el pensamiento para analizar y evaluar el entorno, y crear y replantear ideas utilizando la imaginación, la creatividad, el pensamiento estratégico y la reflexión ética, crítica y constructiva dentro de los procesos creativos y de innovación; y despertar la disposición a aprender, a arriesgar y a afrontar la incertidumbre. Asimismo, implica tomar decisiones basadas en la información y el conocimiento y colaborar de manera ágil con otras personas, con motivación, empatía y habilidades de comunicación y de negociación, para llevar las ideas planteadas a la acción mediante la planificación y gestión de proyectos sostenibles de valor social, cultural y económico-financiero."
+    },
+    {
+        "codigo": "CCEC",
+        "nombre": "Competencia en conciencia y expresiones culturales",
+        "descripcion": "La competencia en conciencia y expresión culturales supone comprender y respetar el modo en que las ideas, las opiniones, los sentimientos y las emociones se expresan y se comunican de forma creativa en distintas culturas y por medio de una amplia gama de manifestaciones artísticas y culturales. Implica también un compromiso con la comprensión, el desarrollo y la expresión de las ideas propias y del sentido del lugar que se ocupa o del papel que se desempeña en la sociedad. Asimismo, requiere la comprensión de la propia identidad en evolución y del patrimonio cultural en un mundo caracterizado por la diversidad, así como la toma de conciencia de que el arte y otras manifestaciones culturales pueden suponer una manera de mirar el mundo y de darle forma."
+    }
+]

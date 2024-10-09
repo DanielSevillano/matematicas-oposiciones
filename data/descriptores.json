@@ -1,0 +1,274 @@
+[
+    {
+        "codigo": "CCL1",
+        "perfiles": [
+            "Se expresa de forma oral, escrita, signada o multimodal, iniciándose progresivamente en el uso de la coherencia, corrección y adecuación en diferentes ámbitos personal, social y educativo y participa de manera activa y adecuada en interacciones comunicativas, mostrando una actitud respetuosa, tanto para el intercambio de información y creación de conocimiento como para establecer vínculos personales.",
+            "Se expresa de forma oral, escrita, signada o multimodal con coherencia, corrección y adecuación a los diferentes contextos sociales, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y transmitir opiniones, como para construir vínculos personales.",
+            "Se expresa de forma oral, escrita, signada o multimodal con fluidez, coherencia, corrección y adecuación a los diferentes contextos sociales y académicos, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y argumentar sus opiniones como para establecer y cuidar sus relaciones interpersonales."
+        ]
+    },
+    {
+        "codigo": "CCL2",
+        "perfiles": [
+            "Comprende, interpreta y valora con actitud reflexiva textos orales, escritos, signados o multimodales de relativa complejidad correspondientes a diferentes ámbitos personal, social y educativo, participando de manera activa e intercambiando opiniones en diferentes contextos y situaciones para construir conocimiento.",
+            "Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los ámbitos personal, social, educativo y profesional para participar en diferentes contextos de manera activa e informada y para construir conocimiento.",
+            "Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los distintos ámbitos, con especial énfasis en los textos académicos y de los medios de comunicación, para participar en diferentes contextos de manera activa e informada y para construir conocimiento."
+        ]
+    },
+    {
+        "codigo": "CCL3",
+        "perfiles": [
+            "Localiza, selecciona y contrasta, siguiendo indicaciones, información procedente de diferentes fuentes y la integra y transforma en conocimiento para comunicarla de manera creativa, valorando aspectos más significativos relacionados con los objetivos de lectura, reconociendo y aprendiendo a evitar los riesgos de desinformación y adoptando un punto de vista crítico y personal con la propiedad intelectual.",
+            "Localiza, selecciona y contrasta de manera progresivamente autónoma información procedente de diferentes fuentes evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla adoptando un punto de vista creativo, crítico y personal a la par que respetuoso con la propiedad intelectual.",
+            "Localiza, selecciona y contrasta de manera autónoma información procedente de diferentes fuentes evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla de manera clara y rigurosa adoptando un punto de vista creativo y crítico a la par que respetuoso con la propiedad intelectual."
+        ]
+    },
+    {
+        "codigo": "CCL4",
+        "perfiles": [
+            "Lee de manera autónoma obras diversas adecuadas a su edad y selecciona las más cercanas a sus propios gustos e intereses, reconociendo muestras relevantes del patrimonio literario como un modo de simbolizar la experiencia individual y colectiva, interpretando y creando obras con intención literaria, a partir de modelos dados, reconociendo la lectura como fuente de enriquecimiento cultural y disfrute personal.",
+            "Lee con autonomía obras diversas adecuadas a su edad, seleccionando las que mejor se ajustan a sus gustos e intereses; aprecia el patrimonio literario como cauce privilegiado de la experiencia individual y colectiva; y moviliza su propia experiencia biográfica y sus conocimientos literarios y culturales para construir y compartir su interpretación de las obras y para crear textos de intención literaria de progresiva complejidad.",
+            "Lee con autonomía obras relevantes de la literatura poniéndolas en relación con su contexto sociohistórico de producción, con la tradición literaria anterior y posterior y examinando la huella de su legado en la actualidad, para construir y compartir su propia interpretación argumentada de las obras, crear y recrear obras de intención literaria y conformar progresivamente un mapa cultural."
+        ]
+    },
+    {
+        "codigo": "CCL5",
+        "perfiles": [
+            "Pone sus prácticas comunicativas al servicio de la convivencia democrática, la gestión dialogada de los conflictos y la igualdad de derechos de todas las personas, identificando y aplicando estrategias para detectar usos discriminatorios, así como rechazar los abusos de poder, para favorecer un uso eficaz y ético de los diferentes sistemas de comunicación.",
+            "Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando los usos discriminatorios, así como los abusos de poder para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación.",
+            "Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando y rechazando los usos discriminatorios, así como los abusos de poder, para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación."
+        ]
+    },
+    {
+        "codigo": "CP1",
+        "perfiles": [
+            "Usa con cierta eficacia una lengua, además de la lengua o lenguas familiares, para responder a necesidades comunicativas breves, sencillas y predecibles, de manera adecuada tanto a su desarrollo e intereses como a situaciones y contextos cotidianos y frecuentes de los ámbitos personal, social y educativo.",
+            "Usa eficazmente una o más lenguas, además de la lengua o lenguas familiares, para responder a sus necesidades comunicativas, de manera apropiada y adecuada tanto a su desarrollo e intereses como a diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional.",
+            "Utiliza con fluidez, adecuación y aceptable corrección una o más lenguas, además de la lengua familiar o de las lenguas familiares, para responder a sus necesidades comunicativas con espontaneidad y autonomía en diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional."
+        ]
+    },
+    {
+        "codigo": "CP2",
+        "perfiles": [
+            "A partir de sus experiencias, utiliza progresivamente estrategias adecuadas que le permiten comunicarse entre distintas lenguas en contextos cotidianos a través del uso de transferencias que le ayuden a ampliar su repertorio lingüístico individual.",
+            "A partir de sus experiencias, realiza transferencias entre distintas lenguas como estrategia para comunicarse y ampliar su repertorio lingüístico individual.",
+            "A partir de sus experiencias, desarrolla estrategias que le permitan ampliar y enriquecer de forma sistemática su repertorio lingüístico individual con el fin de comunicarse de manera eficaz."
+        ]
+    },
+    {
+        "codigo": "CP3",
+        "perfiles": [
+            "Conoce, respeta y muestra interés por la diversidad lingüística y cultural presente en su entorno próximo, permitiendo conseguir su desarrollo personal y valorando su importancia como factor de diálogo, para mejorar la convivencia y promover la cohesión social.",
+            "Conoce, valora y respeta la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal como factor de diálogo, para fomentar la cohesión social.",
+            "Conoce y valora críticamente la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal y anteponiendo la comprensión mutua como característica central de la comunicación, para fomentar la cohesión social."
+        ]
+    },
+    {
+        "codigo": "STEM1",
+        "perfiles": [
+            "Utiliza métodos inductivos y deductivos propios de la actividad matemática en situaciones habituales de la realidad y aplica procesos de razonamiento y estrategias de resolución de problemas, reflexionando y comprobando las soluciones obtenidas.",
+            "Utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones conocidas y selecciona y emplea diferentes estrategias para resolver problemas, analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario.",
+            "Selecciona y utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones propias de la modalidad elegida y emplea estrategias variadas para la resolución de problemas analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario."
+        ]
+    },
+    {
+        "codigo": "STEM2",
+        "perfiles": [
+            "Utiliza el pensamiento científico para entender y explicar los fenómenos observados que suceden en la realidad más cercana, favoreciendo la reflexión crítica, la formulación de hipótesis y la tarea investigadora, mediante la realización de experimentos sencillos, a través de un proceso en el que cada uno asume la responsabilidad de su aprendizaje.",
+            "Utiliza el pensamiento científico para entender y explicar los fenómenos que ocurren a su alrededor, confiando en el conocimiento como motor de desarrollo, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y las limitaciones de la ciencia.",
+            "Utiliza el pensamiento científico para entender y explicar fenómenos relacionados con la modalidad elegida, confiando en el conocimiento como motor de desarrollo, planteándose hipótesis y contrastándolas o comprobándolas mediante la observación, la experimentación y la investigación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y limitaciones de los métodos empleados."
+        ]
+    },
+    {
+        "codigo": "STEM3",
+        "perfiles": [
+            "Realiza proyectos, diseñando, fabricando y evaluando diferentes prototipos o modelos, buscando soluciones, de manera creativa e innovadora, mediante el trabajo en equipo a los problemas a los que se enfrenta, facilitando la participación de todo el grupo, favoreciendo la resolución pacífica de conflictos y modelos de convivencia para avanzar hacia un futuro sostenible.",
+            "Plantea y desarrolla proyectos diseñando, fabricando y evaluando diferentes prototipos o modelos para generar o utilizar productos que den solución a una necesidad o problema de forma creativa y en equipo, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y valorando la importancia de la sostenibilidad.",
+            "Plantea y desarrolla proyectos diseñando y creando prototipos o modelos para generar o utilizar productos que den solución a una necesidad o problema de forma colaborativa, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y evaluando el producto obtenido de acuerdo a los objetivos propuestos, la sostenibilidad y el impacto transformador en la sociedad."
+        ]
+    },
+    {
+        "codigo": "STEM4",
+        "perfiles": [
+            "Interpreta y transmite los elementos más relevantes centrados en el análisis y estudios de casos vinculados a experimentos, métodos y resultados científicos, matemáticos y tecnológicos, en diferentes formatos (tablas, diagramas, gráficos, fórmulas, esquemas…) y aprovechando de forma crítica la cultura digital, usando el lenguaje matemático apropiado, para adquirir, compartir y transmitir nuevos conocimientos.",
+            "Interpreta y transmite los elementos más relevantes de procesos, razonamientos, demostraciones, métodos y resultados científicos, matemáticos y tecnológicos de forma clara y precisa y en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos…), aprovechando de forma crítica la cultura digital e incluyendo el lenguaje matemático-formal, con ética y responsabilidad para compartir y construir nuevos conocimientos.",
+            "Interpreta y transmite los elementos más relevantes de investigaciones de forma clara y precisa, en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos.) y aprovechando la cultura digital con ética y responsabilidad y valorando de forma crítica la contribución de la ciencia y la tecnología en el cambio de las condiciones de vida para compartir y construir nuevos conocimientos."
+        ]
+    },
+    {
+        "codigo": "STEM5",
+        "perfiles": [
+            "Aplica acciones fundamentadas científicamente para promover la salud y cuidar el medio ambiente y los seres vivos, identificando las normas de seguridad desde modelos o proyectos que promuevan el desarrollo sostenible y utilidad social, con objeto de fomentar la mejora de la calidad de vida, a través de propuestas y conductas que reflejen la sensibilización y la gestión sobre el consumo responsable.",
+            "Emprende acciones fundamentadas científicamente para promover la salud física, mental y social, y preservar el medio ambiente y los seres vivos; y aplica principios de ética y seguridad en la realización de proyectos para transformar su entorno próximo de forma sostenible, valorando su impacto global y practicando el consumo responsable.",
+            "Planea/emprende acciones fundamentadas científicamente para promover la salud física y mental, y preservar el medio ambiente y los seres vivos, practicando el consumo responsable, aplicando principios de ética y seguridad para crear valor y transformar su entorno de forma sostenible adquiriendo compromisos como ciudadano en el ámbito local y global."
+        ]
+    },
+    {
+        "codigo": "CD1",
+        "perfiles": [
+            "Realiza, de manera autónoma, búsquedas en internet, seleccionando la información más adecuada y relevante, reflexiona sobre su validez, calidad y fiabilidad y muestra una actitud crítica y respetuosa con la propiedad intelectual.",
+            "Realiza búsquedas en internet atendiendo a criterios de validez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y archivándolos, para recuperarlos, referenciarlos y reutilizarlos, respetando la propiedad intelectual.",
+            "Realiza búsquedas avanzadas comprendiendo cómo funcionan los motores de búsqueda en internet aplicando criterios de validez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y organizando el almacenamiento de la información de manera adecuada y segura para referenciarla y reutilizarla posteriormente."
+        ]
+    },
+    {
+        "codigo": "CD2",
+        "perfiles": [
+            "Gestiona su entorno personal digital de aprendizaje, integrando algunos recursos y herramientas digitales e iniciándose en la búsqueda y selección de estrategias de tratamiento de la información, identificando la más adecuada según sus necesidades para construir conocimiento y contenidos digitales creativos.",
+            "Gestiona y utiliza su entorno personal digital de aprendizaje para construir conocimiento y crear contenidos digitales, mediante estrategias de tratamiento de la información y el uso de diferentes herramientas digitales, seleccionando y configurando la más adecuada en función de la tarea y de sus necesidades de aprendizaje permanente.",
+            "Crea, integra y reelabora contenidos digitales de forma individual o colectiva, aplicando medidas de seguridad y respetando, en todo momento, los derechos de autoría digital para ampliar sus recursos y generar nuevo conocimiento."
+        ]
+    },
+    {
+        "codigo": "CD3",
+        "perfiles": [
+            "Participa y colabora a través de herramientas o plataformas virtuales que le permiten interactuar y comunicarse de manera adecuada a través del trabajo cooperativo, compartiendo contenidos, información y datos, para construir una identidad digital adecuada, reflexiva y cívica, mediante un uso activo de las tecnologías digitales, realizando una gestión responsable de sus acciones en la red.",
+            "Se comunica, participa, colabora e interactúa compartiendo contenidos, datos e información mediante herramientas o plataformas virtuales, y gestiona de manera responsable sus acciones, presencia y visibilidad en la red, para ejercer una ciudadanía digital activa, cívica y reflexiva.",
+            "Selecciona, configura y utiliza dispositivos digitales, herramientas, aplicaciones y servicios en línea y los incorpora en su entorno personal de aprendizaje digital para comunicarse, trabajar colaborativamente y compartir información, gestionando de manera responsable sus acciones, presencia y visibilidad en la red y ejerciendo una ciudadanía digital activa, cívica y reflexiva."
+        ]
+    },
+    {
+        "codigo": "CD4",
+        "perfiles": [
+            "Conoce los riesgos y adopta, con progresiva autonomía, medidas preventivas en el uso de las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente, tomando conciencia de la importancia y necesidad de hacer un uso crítico, responsable, seguro y saludable de dichas tecnologías.",
+            "Identifica riesgos y adopta medidas preventivas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente, y para tomar conciencia de la importancia y necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías.",
+            "Evalúa riesgos y aplica medidas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente y hace un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías."
+        ]
+    },
+    {
+        "codigo": "CD5",
+        "perfiles": [
+            "Desarrolla, siguiendo indicaciones, algunos programas, aplicaciones informáticas sencillas y determinadas soluciones digitales que le ayuden a resolver problemas concretos y hacer frente a posibles retos propuestos de manera creativa, valorando la contribución de las tecnologías digitales en el desarrollo sostenible, para poder llevar a cabo un uso responsable y ético de las mismas.",
+            "Desarrolla aplicaciones informáticas sencillas y soluciones tecnológicas creativas y sostenibles para resolver problemas concretos o responder a retos propuestos, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético.",
+            "Desarrolla soluciones tecnológicas innovadoras y sostenibles para dar respuesta a necesidades concretas, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético."
+        ]
+    },
+    {
+        "codigo": "CPSAA1",
+        "perfiles": [
+            "Toma conciencia y expresa sus propias emociones afrontando con éxito, optimismo y empatía la búsqueda de un propósito y motivación para el aprendizaje, para iniciarse, de manera progresiva, en el tratamiento y la gestión de los retos y cambios que surgen en su vida cotidiana y adecuarlos a sus propios objetivos.",
+            "Regula y expresa sus emociones, fortaleciendo el optimismo, la resiliencia, la autoeficacia y la búsqueda de propósito y motivación hacia el aprendizaje, para gestionar los retos y cambios y armonizarlos con sus propios objetivos.",
+            "Fortalece el optimismo, la resiliencia, la autoeficacia y la búsqueda de objetivos de forma autónoma para hacer eficaz su aprendizaje. Desarrolla una personalidad autónoma, gestionando constructivamente los cambios, la participación social y su propia actividad para dirigir su vida."
+        ]
+    },
+    {
+        "codigo": "CPSAA2",
+        "perfiles": [
+            "Conoce los riesgos más relevantes para la salud, desarrolla hábitos encaminados a la conservación de la salud física, mental y social (hábitos posturales, ejercicio físico, control del estrés…), e identifica conductas contrarias a la convivencia, planteando distintas estrategias para abordarlas.",
+            "Comprende los riesgos para la salud relacionados con factores sociales, consolida estilos de vida saludable a nivel físico y mental, reconoce conductas contrarias a la convivencia y aplica estrategias para abordarlas.",
+            "Adopta de forma autónoma un estilo de vida sostenible y atiende al bienestar físico y mental propio y de los demás, buscando y ofreciendo apoyo en la sociedad para construir un mundo más saludable."
+        ]
+    },
+    {
+        "codigo": "CPSAA3",
+        "perfiles": [
+            "Reconoce y respeta las emociones, experiencias y comportamientos de las demás personas y reflexiona sobre su importancia en el proceso de aprendizaje, asumiendo tareas y responsabilidades de manera equitativa, empleando estrategias cooperativas de trabajo en grupo dirigidas a la consecución de objetivos compartidos.",
+            "Comprende proactivamente las perspectivas y las experiencias de las demás personas y las incorpora a su aprendizaje, para participar en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas.",
+            "Muestra sensibilidad hacia las emociones y experiencias de los demás, siendo consciente de la influencia que ejerce el grupo en las personas, para consolidar una personalidad empática e independiente y desarrollar su inteligencia. Distribuye en un grupo las tareas, recursos y responsabilidades de manera ecuánime, según sus objetivos, favoreciendo un enfoque sistémico para contribuir a la consecución de objetivos compartidos."
+        ]
+    },
+    {
+        "codigo": "CPSAA4",
+        "perfiles": [
+            "Reflexiona y adopta posturas críticas sobre la mejora de los procesos de autoevaluación que intervienen en su aprendizaje, reconociendo el valor del esfuerzo y la dedicación personal, que ayuden a favorecer la adquisición de conocimientos, el contraste de información y la búsqueda de conclusiones relevantes.",
+            "Realiza autoevaluaciones sobre su proceso de aprendizaje, buscando fuentes fiables para validar, sustentar y contrastar la información y para obtener conclusiones relevantes.",
+            "Compara, analiza, evalúa y sintetiza datos, información e ideas de los medios de comunicación, para obtener conclusiones lógicas de forma autónoma, valorando la fiabilidad de las fuentes."
+        ]
+    },
+    {
+        "codigo": "CPSAA5",
+        "perfiles": [
+            "Se inicia en el planteamiento de objetivos a medio plazo y comienza a desarrollar estrategias que comprenden la auto y coevaluación y la retroalimentación para mejorar el proceso de construcción del conocimiento a través de la toma de conciencia de los errores cometidos.",
+            "Planea objetivos a medio plazo y desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores en el proceso de construcción del conocimiento.",
+            "Planifica a largo plazo evaluando los propósitos y los procesos de la construcción del conocimiento, relacionando los diferentes campos del mismo para desarrollar procesos autorregulados de aprendizaje que le permitan transmitir ese conocimiento, proponer ideas creativas y resolver problemas con autonomía."
+        ]
+    },
+    {
+        "codigo": "CC1",
+        "perfiles": [
+            "Comprende ideas y cuestiones relativas a la ciudadanía activa y democrática, así como a los procesos históricos y sociales más importantes que modelan su propia identidad, tomando conciencia de la importancia de los valores y normas éticas como guía de la conducta individual y social, participando de forma respetuosa, dialogante y constructiva en actividades grupales en cualquier contexto.",
+            "Analiza y comprende ideas relativas a la dimensión social y ciudadana de su propia identidad, así como a los hechos culturales, históricos y normativos que la determinan, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con los demás en cualquier contexto.",
+            "Analiza hechos, normas e ideas relativas a la dimensión social, histórica, cívica y moral de su propia identidad, para contribuir a la consolidación de su madurez personal y social, adquirir una conciencia ciudadana y responsable, desarrollar la autonomía y el espíritu crítico, y establecer una interacción pacífica y respetuosa con los demás y con el entorno."
+        ]
+    },
+    {
+        "codigo": "CC2",
+        "perfiles": [
+            "Conoce y valora positivamente los principios y valores básicos que constituyen el marco democrático de convivencia de la Unión Europea, la Constitución española y los derechos humanos y de la infancia, participando, de manera progresiva, en actividades comunitarias de trabajo en equipo y cooperación que promuevan una convivencia pacífica, respetuosa y democrática de la ciudadanía global, tomando conciencia del compromiso con la igualdad de género, el respeto por la diversidad, la cohesión social y el logro de un desarrollo sostenible.",
+            "Analiza y asume fundadamente los principios y valores que emanan del proceso de integración europea, la Constitución española y los derechos humanos y de la infancia, participando en actividades comunitarias, como la toma de decisiones o la resolución de conflictos, con actitud democrática, respeto por la diversidad, y compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial.",
+            "Reconoce, analiza y aplica en diversos contextos, de forma crítica y consecuente, los principios, ideales y valores relativos al proceso de integración europea, la Constitución Española, los derechos humanos, y la historia y el patrimonio cultural propios, a la vez que participa en todo tipo de actividades grupales con una actitud fundamentada en los principios y procedimientos democráticos, el compromiso ético con la igualdad, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial."
+        ]
+    },
+    {
+        "codigo": "CC3",
+        "perfiles": [
+            "Reflexiona y valora sobre los principales problemas éticos de actualidad, desarrollando un pensamiento crítico que le permita afrontar y defender las posiciones personales, mediante una actitud dialogante basada en el respeto, la cooperación, la solidaridad y el rechazo a cualquier tipo de violencia y discriminación provocado por ciertos estereotipos y prejuicios.",
+            "Comprende y analiza problemas éticos fundamentales y de actualidad, considerando críticamente los valores propios y ajenos, y desarrollando juicios propios para afrontar la controversia moral con actitud dialogante, argumentativa, respetuosa, y opuesta a cualquier tipo de discriminación o violencia.",
+            "Adopta un juicio propio y argumentado ante problemas éticos y filosóficos fundamentales y de actualidad, afrontando con actitud dialogante la pluralidad de valores, creencias e ideas, rechazando todo tipo de discriminación y violencia, y promoviendo activamente la igualdad y corresponsabilidad efectiva entre mujeres y hombres."
+        ]
+    },
+    {
+        "codigo": "CC4",
+        "perfiles": [
+            "Comprende las relaciones sistémicas de interdependencia y ecodependencia con el entorno a través del análisis de los principales problemas ecosociales locales y globales, promoviendo estilos de vida comprometidos con la adopción de hábitos que contribuyan a la conservación de la biodiversidad y al logro de los Objetivos de Desarrollo Sostenible.",
+            "Comprende las relaciones sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y globales, y adopta, de forma consciente y motivada, un estilo de vida sostenible y ecosocialmente responsable.",
+            "Analiza las relaciones de interdependencia y ecodependencia entre nuestras formas de vida y el entorno, realizando un análisis crítico de la huella ecológica de las acciones humanas, y demostrando un compromiso ético y ecosocialmente responsable con actividades y hábitos que conduzcan al logro de los Objetivos de Desarrollo Sostenible y la lucha contra el cambio climático."
+        ]
+    },
+    {
+        "codigo": "CE1",
+        "perfiles": [
+            "Se inicia en el análisis y reconocimiento de necesidades y hace frente a retos con actitud crítica, valorando las posibilidades de un desarrollo sostenible, reflexionando sobre el impacto que puedan generar en el entorno, para plantear ideas y soluciones originales y sostenibles en el ámbito social, educativo y profesional.",
+            "Analiza necesidades y oportunidades y afronta retos con sentido crítico, haciendo balance de su sostenibilidad, valorando el impacto que puedan suponer en el entorno, para presentar ideas y soluciones innovadoras, éticas y sostenibles, dirigidas a crear valor en el ámbito personal, social, educativo y profesional.",
+            "Evalúa necesidades y oportunidades y afronta retos, con sentido crítico y ético, evaluando su sostenibilidad y comprobando, a partir de conocimientos técnicos específicos, el impacto que puedan suponer en el entorno, para presentar y ejecutar ideas y soluciones innovadoras dirigidas a distintos contextos, tanto locales como globales, en el ámbito personal, social y académico con proyección profesional emprendedora."
+        ]
+    },
+    {
+        "codigo": "CE2",
+        "perfiles": [
+            "Identifica y analiza las fortalezas y debilidades propias, utilizando estrategias de autoconocimiento, comprendiendo los elementos económicos y financieros elementales y aplicándolos a actividades y situaciones concretas, usando destrezas básicas que le permitan la colaboración y el trabajo en equipo y le ayuden a resolver problemas de la vida diaria para poder llevar a cabo experiencias emprendedoras que generen valor.",
+            "Evalúa las fortalezas y debilidades propias, haciendo uso de estrategias de autoconocimiento y autoeficacia, y comprende los elementos fundamentales de la economía y las finanzas, aplicando conocimientos económicos y financieros a actividades y situaciones concretas, utilizando destrezas que favorezcan el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios que lleven a la acción una experiencia emprendedora que genere valor.",
+            "Evalúa y reflexiona sobre las fortalezas y debilidades propias y las de los demás, haciendo uso de estrategias de autoconocimiento y autoeficacia, interioriza los conocimientos económicos y financieros específicos y los transfiere a contextos locales y globales, aplicando estrategias y destrezas que agilicen el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios, que lleven a la acción una experiencia o iniciativa emprendedora de valor."
+        ]
+    },
+    {
+        "codigo": "CE3",
+        "perfiles": [
+            "Participa en el proceso de creación de ideas y soluciones valiosas, así como en la realización de tareas previamente planificadas e interviene en procesos de toma de decisiones que puedan surgir, considerando el proceso realizado y el resultado obtenido para la creación de un modelo emprendedor e innovador, teniendo en cuenta la experiencia como una oportunidad para aprender.",
+            "Desarrolla el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, utilizando estrategias ágiles de planificación y gestión, y reflexiona sobre el proceso realizado y el resultado obtenido, para llevar a término el proceso de creación de prototipos innovadores y de valor, considerando la experiencia como una oportunidad para aprender.",
+            "Lleva a cabo el proceso de creación de ideas y soluciones innovadoras y toma decisiones, con sentido crítico y ético, aplicando conocimientos técnicos específicos y estrategias ágiles de planificación y gestión de proyectos, y reflexiona sobre el proceso realizado y el resultado obtenido, para elaborar un prototipo final de valor para los demás, considerando tanto la experiencia de éxito como de fracaso, una oportunidad para aprender."
+        ]
+    },
+    {
+        "codigo": "CCEC1",
+        "perfiles": [
+            "Conoce y aprecia con sentido crítico los aspectos fundamentales del patrimonio cultural y artístico, tomando conciencia de la importancia de su conservación, valorando la diversidad cultural y artística como fuente de enriquecimiento personal.",
+            "Conoce, aprecia críticamente y respeta el patrimonio cultural y artístico, implicándose en su conservación y valorando el enriquecimiento inherente a la diversidad cultural y artística.",
+            "Reflexiona, promueve y valora críticamente el patrimonio cultural y artístico de cualquier época, contrastando sus singularidades y partiendo de su propia identidad, para defender la libertad de expresión, la igualdad y el enriquecimiento inherente a la diversidad."
+        ]
+    },
+    {
+        "codigo": "CCEC2",
+        "perfiles": [
+            "Reconoce, disfruta y se inicia en el análisis de las especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas del patrimonio, desarrollando estrategias que le permitan distinguir tanto los diversos canales y medios como los lenguajes y elementos técnicos que las caracterizan.",
+            "Disfruta, reconoce y analiza con autonomía las especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas del patrimonio, distinguiendo los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan.",
+            "Investiga las especificidades e intencionalidades de diversas manifestaciones artísticas y culturales del patrimonio, mediante una postura de recepción activa y deleite, diferenciando y analizando los distintos contextos, medios y soportes en que se materializan, así como los lenguajes y elementos técnicos y estéticos que las caracterizan."
+        ]
+    },
+    {
+        "codigo": "CCEC3",
+        "perfiles": [
+            "Expresa ideas, opiniones, sentimientos y emociones, desarrollando, de manera progresiva, su autoestima y creatividad en la expresión, a través de su propio cuerpo, de producciones artísticas y culturales, mostrando empatía, así como una actitud colaborativa, abierta y respetuosa en su relación con los demás.",
+            "Expresa ideas, opiniones, sentimientos y emociones por medio de producciones culturales y artísticas, integrando su propio cuerpo y desarrollando la autoestima, la creatividad y el sentido del lugar que ocupa en la sociedad, con una actitud empática, abierta y colaborativa.",
+            "Expresa ideas, opiniones, sentimientos y emociones con creatividad y espíritu crítico, realizando con rigor sus propias producciones culturales y artísticas, para participar de forma activa en la promoción de los derechos humanos y los procesos de socialización y de construcción de la identidad personal que se derivan de la práctica artística. Descubre la autoexpresión, a través de la interactuación corporal y la experimentación con diferentes herramientas y lenguajes artísticos, enfrentándose a situaciones creativas con una actitud empática y colaborativa, y con autoestima, iniciativa e imaginación."
+        ]
+    },
+    {
+        "codigo": "CCEC4",
+        "perfiles": [
+            "Conoce y se inicia en el uso de manera creativa de diversos soportes y técnicas plásticas, visuales, audiovisuales, sonoras o corporales, seleccionando las más adecuadas a su propósito, para la creación de productos artísticos y culturales tanto de manera individual como colaborativa y valorando las oportunidades de desarrollo personal, social y laboral.",
+            "Conoce, selecciona y utiliza con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para la creación de productos artísticos y culturales, tanto de forma individual como colaborativa, identificando oportunidades de desarrollo personal, social y laboral, así como de emprendimiento.",
+            "Selecciona e integra con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para diseñar y producir proyectos artísticos y culturales sostenibles, analizando las oportunidades de desarrollo personal, social y laboral que ofrecen sirviéndose de la interpretación, la ejecución, la improvisación o la composición. Planifica, adapta y organiza sus conocimientos, destrezas y actitudes para responder con creatividad y eficacia a los desempeños derivados de una producción cultural o artística, individual o colectiva, utilizando diversos lenguajes, códigos, técnicas, herramientas y recursos plásticos, visuales, audiovisuales, musicales, corporales o escénicos, valorando tanto el proceso como el producto final y comprendiendo las oportunidades personales, sociales, inclusivas y económicas que ofrecen."
+        ]
+    }
+]
