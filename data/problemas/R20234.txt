@@ -120,14 +120,14 @@
         Si $a \neq 1$, esto es equivalente a que:
         \begin{align}
             & \frac{(a^n + a^{n-1} + \dots + a + 1)(a-1)}{a-1} = 0 \Leftrightarrow \frac{(a^{n+1} + a^n + \dots + a + 1) - (a^n + a^{n-1} + \dots + a + 1)}{a-1} = 0 \Leftrightarrow \\
-            & \Leftrightarrow \frac{a^{n+1} - 1}{a-1} = 0 \Leftrightarrow a^{n+1} = 1 \Leftrightarrow a = \sqrt[n+1]{a}.
+            & \Leftrightarrow \frac{a^{n+1} - 1}{a-1} = 0 \Leftrightarrow a^{n+1} = 1 \Leftrightarrow a = \sqrt[n+1]{1}.
         \end{align}
 
         Si $a = 1$,
         $$\det(A_n) = 1^n + 1^{n-1} + \dots + 1 + 1 = n+1 \neq 0.$$
 
-        Así pues, si $a \neq \sqrt[n+1]{a}$ o $a = 1$, la matriz de coeficientes tiene rango máximo y, por tanto, el sistema es compatible determinado.
-        Supongamos ahora $a = \sqrt[n+1]{a}$, con $a \neq 1.$
+        Así pues, si $a \neq \sqrt[n+1]{1}$ o $a = 1$, la matriz de coeficientes tiene rango máximo y, por tanto, el sistema es compatible determinado.
+        Supongamos ahora $a = \sqrt[n+1]{1}$, con $a \neq 1.$
         En este caso, tenemos que $\det(A_n(a)) = 0$, mientras que:
         $$\det(A_{n-1}(a)) = a^{n-1} + \dots + a + 1 = \frac{(a^{n-1} + \dots + a + 1)(a-1)}{a-1} = \frac{a^n-1}{a-1} = \frac{(\sqrt[n+1]{1})^n - 1}{\sqrt[n+1]{1} - 1} \neq 0.$$
 
@@ -167,9 +167,9 @@
         Por tanto:
 
         <ul>
-            <li>Si $a \neq \sqrt[n+1]{a}$ o $a = 1$, el sistema es compatible determinado.</li>
+            <li>Si $a \neq \sqrt[n+1]{1}$ o $a = 1$, el sistema es compatible determinado.</li>
             <li>
-                Si $a = \sqrt[n+1]{a}$ y $a \neq 1$, hay dos posibilidades:
+                Si $a = \sqrt[n+1]{1}$ y $a \neq 1$, hay dos posibilidades:
 
                 <ul>
                     <li>Si $b = 0$, el sistema es compatible indeterminado.</li>
