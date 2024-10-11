@@ -1,0 +1,46 @@
+<ol>
+    <li>
+        Sean $A_i = \textit{obtener cara en el lanzamiento i}$ para $i \in \{1, 2, \dots, n\}$ y $B_j = \textit{obtener j caras}$ para $j \in \{0, 1, \dots, n\}.$
+        Tenemos que:
+        \begin{align}
+            & P(A_i) = p, & & i = 1, 2, \dots, n, \\
+            & P(B_j) = \binom{n}{j} \cdot p^j \cdot (1-p)^{n-j}, & & j = 0, 1, \dots, n.
+        \end{align}
+
+        Supongamos que hemos obtenido $k$ caras, con $0 \leq k \leq n.$
+        La probabilidad de que haya aparecido cara en el primer lanzamiento es:
+        $$P(A_1|B_k) = \frac{P(A_1 \cap B_k)}{P(B_k)} = \frac{p \cdot \binom{n-1}{k-1} \cdot p^{k-1} \cdot (1-p)^{n-k}}{\binom{n}{k} \cdot p^k \cdot (1-p)^{n-k}} = \frac{\binom{n-1}{k-1}}{\binom{n}{k}} = \frac{\frac{(n-1)!}{(k-1)!(n-k)!}}{\frac{n!}{k!(n-k)!}} = \frac{k!(n-1)!}{(k-1)!n!} = \frac{k}{n}.$$
+    </li>
+
+    <li>
+        Sea $z \in \mathbb{C}$ con $|z| = 1$ y $z \neq 1$.
+        Como $z \neq 1$, necesariamente $\mu \neq 0.$
+        Desarrollamos la expresión:
+        $$\frac{1 + \mu i}{1 - \mu i} = \frac{(1+\mu i)(1+\mu i)}{(1-\mu i)(1+\mu i)} = \frac{1 - \mu^2 + 2\mu i}{1 + \mu^2} = \frac{1-\mu^2}{1+\mu^2} + \frac{2\mu}{1+\mu^2}i.$$
+
+        Podemos escribir $z = a + bi$, donde $a, b \in \mathbb{R}$ con $b \neq 0.$
+        De esta forma,
+        $$z = \frac{1 + \mu i}{1 - \mu i} \Leftrightarrow a + bi = \frac{1-\mu^2}{1+\mu^2} + \frac{2\mu}{1+\mu^2}i \Leftrightarrow \begin{cases}
+            a = \frac{1-\mu^2}{1+\mu^2}, \\
+            b = \frac{2\mu}{1+\mu^2}.
+        \end{cases}$$
+
+        Despejando en la segunda ecuación,
+        $$b = \frac{2\mu}{1+\mu^2} \overset{\mu \neq 0}{\Leftrightarrow} \frac{b}{2\mu} = \frac{1}{1+\mu^2}.$$
+
+        Sustituyendo en la primera ecuación,
+        $$a = \frac{1-\mu^2}{1+\mu^2} = (1-\mu^2) \cdot \frac{b}{2\mu} \Leftrightarrow 2a\mu = b - b\mu^2 \Leftrightarrow b\mu^2 + 2a\mu - b = 0.$$
+
+        Como $b \neq 0$, se trata de una ecuación de segundo grado.
+        Luego:
+        $$\mu = \frac{-2a \pm \sqrt{4a^2 + 4b^2}}{2b} = \frac{-a \pm \sqrt{a^2 + b^2}}{b} \overset{|z|=1}{=} \frac{-a \pm 1}{b}.$$
+
+        Se puede comprobar que solo es válida la solución con signo positivo.
+        Por tanto, para este valor de $\mu$ se tiene que:
+        $$z = \frac{1 + \mu i}{1 - \mu i}.$$
+
+        Si $\theta = \arg(z)$, entonces $a = \cos(\theta)$ y $b = \mathrm{sen}(\theta).$
+        Así que:
+        $$\mu = \frac{1-a}{b} = \frac{1 - \cos(\theta)}{\mathrm{sen}(\theta)}.$$
+    </li>
+</ol>

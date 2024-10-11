@@ -45,6 +45,7 @@
     },
     {
         "problema": 20211,
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Análisis"
