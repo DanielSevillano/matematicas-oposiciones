@@ -114,22 +114,32 @@
             0 \\ 0 \\ 0 \\ \vdots \\ 0 \\ b
         \end{pmatrix}.$$
 
-        Queremos estudiar cuándo se anula el determinante de la matriz de coeficientes $A_n(a)$, esto es, resolver la ecuación
-        $$a^n + a^{n-1} + \dots + a + 1 = 0.$$
+        Queremos estudiar cuándo se anula el determinante de la matriz de coeficientes $A_n(a).$
+        Observamos que:
+        $$\det(A_n(a)) = 1 + a + \dots + a^{n-1} + a^n = \sum_{k=0}^n a^k.$$
 
-        Si $a \neq 1$, esto es equivalente a que:
-        \begin{align}
-            & \frac{(a^n + a^{n-1} + \dots + a + 1)(a-1)}{a-1} = 0 \Leftrightarrow \frac{(a^{n+1} + a^n + \dots + a + 1) - (a^n + a^{n-1} + \dots + a + 1)}{a-1} = 0 \Leftrightarrow \\
-            & \Leftrightarrow \frac{a^{n+1} - 1}{a-1} = 0 \Leftrightarrow a^{n+1} = 1 \Leftrightarrow a = \sqrt[n+1]{1}.
-        \end{align}
+        <ul>
+            <li>
+                Si $a \neq 1$,
+                $$\det(A_n(a)) = \sum_{k=0}^n a^k = \frac{a^{n+1} - 1}{a - 1}.$$
 
-        Si $a = 1$,
-        $$\det(A_n) = 1^n + 1^{n-1} + \dots + 1 + 1 = n+1 \neq 0.$$
+                Se tiene que:
+                $$\det(A_n(a)) = 0 \Leftrightarrow \frac{a^{n+1} - 1}{a - 1} = 0 \Leftrightarrow a^{n+1} = 1 \Leftrightarrow a = \sqrt[n+1]{1}.$$
 
-        Así pues, si $a \neq \sqrt[n+1]{1}$ o $a = 1$, la matriz de coeficientes tiene rango máximo y, por tanto, el sistema es compatible determinado.
-        Supongamos ahora $a = \sqrt[n+1]{1}$, con $a \neq 1.$
+                Luego el determinante se anula cuando
+                $$a = \alpha_k = e^{\frac{2k\pi}{n+1}i}, \quad k = 1, 2, \dots, n.$$
+            </li>
+
+            <li>
+                Si $a = 1$,
+                $$\det(A_n(a)) = \sum_{k=0}^n 1 = n+1 \neq 0.$$
+            </li>
+        </ul>
+
+        Así pues, si $a \neq \alpha_k$ para todo $k \in \{1, 2, \dots, n\}$, la matriz de coeficientes tiene rango máximo y, por tanto, el sistema es compatible determinado.
+        Supongamos ahora $a = \alpha_k$ para algún $k \in \{1, 2, \dots, n\}.$
         En este caso, tenemos que $\det(A_n(a)) = 0$, mientras que:
-        $$\det(A_{n-1}(a)) = a^{n-1} + \dots + a + 1 = \frac{(a^{n-1} + \dots + a + 1)(a-1)}{a-1} = \frac{a^n-1}{a-1} = \frac{(\sqrt[n+1]{1})^n - 1}{\sqrt[n+1]{1} - 1} \neq 0.$$
+        $$\det(A_{n-1}(a)) = a^{n-1} + \dots + a + 1 = \sum_{k=0}^{n-1} a^k = \frac{a^n-1}{a-1} = \frac{\alpha_k^n - 1}{\alpha_k - 1} = \frac{e^{\frac{2kn\pi}{n+1}i} - 1}{e^{\frac{2k\pi}{n+1}i} - 1} \neq 0.$$
 
         Así que $\mathrm{rang}(A_n(a)) = n-1.$
         Estudiamos el rango de la matriz ampliada:
@@ -167,9 +177,9 @@
         Por tanto:
 
         <ul>
-            <li>Si $a \neq \sqrt[n+1]{1}$ o $a = 1$, el sistema es compatible determinado.</li>
+            <li>Si $a \neq \alpha_k$ para todo $k \in \{1, 2, \dots, n\}$, el sistema es compatible determinado.</li>
             <li>
-                Si $a = \sqrt[n+1]{1}$ y $a \neq 1$, hay dos posibilidades:
+                Si $a = \alpha_k$ para algún $k \in \{1, 2, \dots, n\}$, hay dos posibilidades:
 
                 <ul>
                     <li>Si $b = 0$, el sistema es compatible indeterminado.</li>

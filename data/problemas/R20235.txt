@@ -29,6 +29,7 @@
             <li>
                 El dominio de la función es $\mathrm{Dom}(f) = (0, 1) \cup (1, +\infty).$
                 Es inmediato ver que no tiene puntos de corte con los ejes ni presenta simetría.
+                Se trata además de una función continua y derivable en todo su dominio.
 
                 <ul>
                     <li>
@@ -92,13 +93,13 @@
 
                     <li>
                         Para estudiar su curvatura, hallamos su segunda derivada.
-                        $$f''(x) = \frac{\frac{1}{x} \cdot \ln^2(x) - (\ln(x)-1) \cdot 2\ln(x) \cdot \frac{1}{x}}{\ln^4(x)} = \frac{\ln^2(x) - (\ln(x) - 1) \cdot 2\ln(x)}{x\ln^4(x)} = \frac{-\ln^2(x) + 2\ln(x)}{x\ln^4(x)}.$$
+                        \begin{align}
+                            f''(x) & = \frac{\frac{1}{x} \cdot \ln^2(x) - (\ln(x)-1) \cdot 2\ln(x) \cdot \frac{1}{x}}{\ln^4(x)} = \frac{\ln^2(x) - (\ln(x) - 1) \cdot 2\ln(x)}{x\ln^4(x)} = \\
+                            & = \frac{-\ln^2(x) + 2\ln(x)}{x\ln^4(x)} \overset{x \neq 1}{=} \frac{-\ln(x) + 2}{x\ln^3(x)}.
+                        \end{align}
 
                         Hallamos los candidatos a puntos de inflexión igualando la segunda derivada a cero.
-                        \begin{align}
-                            & f''(x) = 0 \Leftrightarrow \frac{-\ln^2(x) + 2\ln(x)}{x\ln^4(x)} = 0 \Leftrightarrow -\ln^2(x) + 2\ln(x) = 0 \Leftrightarrow \ln(x)(\ln(x) - 2) = 0 \overset{x \neq 1}{\Leftrightarrow} \\
-                            & \Leftrightarrow \ln(x) - 2 = 0 \Leftrightarrow \ln(x) = 2 \Leftrightarrow x = e^2.
-                        \end{align}
+                        $$f''(x) = 0 \Leftrightarrow \frac{-\ln(x) + 2}{x\ln^3(x)} = 0 \Leftrightarrow -\ln(x) + 2 = 0 \Leftrightarrow \ln(x) = 2 \Leftrightarrow x = e^2.$$
 
                         Estudiamos el signo de la segunda derivada.
 
