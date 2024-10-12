@@ -100,6 +100,37 @@ async function crearGraficas() {
     graficas.push(graficaRatios);
 }
 
+async function obtenerDatos() {
+    const seccion = document.querySelector("#estadisticas");
+
+    const respuesta = await fetch("data\\metadata.json");
+    const datos = await respuesta.json();
+
+    const numeroProblemas = datos.length;
+
+    const tarjetaProblemas = document.createElement("div");
+    tarjetaProblemas.classList.add("tarjeta");
+    tarjetaProblemas.textContent = numeroProblemas + " problemas";
+
+    const tarjetaExamenes = document.createElement("div");
+    tarjetaExamenes.classList.add("tarjeta");
+    tarjetaExamenes.textContent = (numeroProblemas / 6) + " examenes";
+
+    const numeroProblemasResueltos = datos.filter((problema) => problema.resuelto).length;
+
+    const tarjetaProblemasResueltos = document.createElement("div");
+    tarjetaProblemasResueltos.classList.add("tarjeta");
+    tarjetaProblemasResueltos.textContent = numeroProblemasResueltos + " problemas resueltos";
+
+    const tarjetaPorcentajeResueltos = document.createElement("div");
+    tarjetaPorcentajeResueltos.classList.add("tarjeta");
+    tarjetaPorcentajeResueltos.textContent = (numeroProblemasResueltos / numeroProblemas * 100).toFixed(2).replace(".", ",") + "% resuelto";
+
+    seccion.append(tarjetaExamenes, tarjetaProblemas, tarjetaProblemasResueltos, tarjetaPorcentajeResueltos);
+    seccion.classList.remove("cargando");
+}
+
 crearGraficas();
+obtenerDatos();
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", actualizarGrafica);
