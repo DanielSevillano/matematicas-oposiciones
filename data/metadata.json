@@ -53,6 +53,7 @@
     },
     {
         "problema": 20212,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
