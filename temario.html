@@ -179,31 +179,20 @@
 
             <div>
                 <p>
-                    En el examen de oposiciones, se seleccionan al azar cuatro temas de entre los 71 del temario.
-                    Queremos hallar la probabilidad de conocer al menos uno de ellos, en función del número de temas que
+                    En el examen de oposiciones se seleccionan al azar cuatro temas de entre los 71 del temario.
+                    Queremos hallar la probabilidad de conocer al menos uno de ellos en función del número de temas que
                     nos hemos preparado.
                 </p>
 
                 <p>
-                    Sean los sucesos $A_i = \textit{conocer i temas}$ para $i = 1, 2, 3, 4$, que son incompatibles dos a
-                    dos, y supongamos que hemos preparado $k$ temas.
-                    Hallamos sus probabilidades:
-                    \begin{align}
-                    & P(A_1) = \binom{4}{1} \cdot \frac{k}{71} \cdot \frac{71-k}{70} \cdot \frac{70-k}{69} \cdot
-                    \frac{69-k}{68}, \\
-                    & P(A_2) = \binom{4}{2} \cdot \frac{k}{71} \cdot \frac{k-1}{70} \cdot \frac{71-k}{69} \cdot
-                    \frac{70-k}{68},
-                    \\
-                    & P(A_3) = \binom{4}{3} \cdot \frac{k}{71} \cdot \frac{k-1}{70} \cdot \frac{k-2}{69} \cdot
-                    \frac{71-k}{68},
-                    \\
-                    & P(A_4) = \binom{4}{4} \cdot \frac{k}{71} \cdot \frac{k-1}{70} \cdot \frac{k-2}{69} \cdot
-                    \frac{k-3}{68}.
-                    \\
-                    \end{align}
+                    Sea el suceso $A = \textit{conocer algún tema}$ y supongamos que nos hemos preparado $k$ temas.
+                    Hallamos la probabilidad del suceso complementario, es decir, de no conocer ningún tema:
+                    $$P(A^c) = \frac{71-k}{71} \cdot \frac{70-k}{70} \cdot \frac{69-k}{69} \cdot \frac{68-k}{68} =
+                    \frac{(71-k)(70-k)(69-k)(68-k)}{23.319.240}.$$
 
                     Por tanto, la probabilidad de conocer al menos un tema es
-                    $$P(A_1) + P(A_2) + P(A_3) + P(A_4) = \frac{k(139-k)(k^2-139k+9.658)}{23.319.240}.$$
+                    $$P(A) = 1 - P(A^c) = 1 - \frac{(71-k)(70-k)(69-k)(68-k)}{23.319.240} =
+                    \frac{k(139-k)(k^2-139k+9.658)}{23.319.240}.$$
                 </p>
             </div>
         </details>
