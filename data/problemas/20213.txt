@@ -1,7 +1,7 @@
 <ol>
     <li>
         Pruebe que
-        $$\sum_{k=0}^n \cos(k\theta) = \frac{1}{2} + \frac{\mathrm{sen}(n + \frac{1}{2})\theta}{2\mathrm{sen}(\frac{\theta}{2})}.$$
+        $$\sum_{k=0}^n \cos(k\theta) = \frac{1}{2} + \frac{\mathrm{sen}((n + \frac{1}{2})\theta)}{2\mathrm{sen}(\frac{\theta}{2})}.$$
     </li>
 
     <li>
