@@ -29,6 +29,8 @@
             \alpha^2 + \beta^2 & = 235^2(k + \sqrt{85}q)^2 + 235^2(\sqrt{85}k - q)^2 = 235^2(k^2 + 2\sqrt{85}kq + 85q^2 + 85k^2 - 2\sqrt{85}kq + q^2) = \\
             & = 235^2(86k^2 + 86q^2) = 235^2 \cdot 86 \cdot (k^2 + q^2) = 20210 \cdot 235 \cdot (k^2 + q^2).
         \end{align}
+
+        Luego el número $\alpha^2 + \beta^2$ es múltiplo de 20210, así que $\alpha^2 + \beta^2 \in \Upsilon.$
     </li>
 
     <li>
