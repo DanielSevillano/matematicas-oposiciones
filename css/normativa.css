@@ -5,8 +5,13 @@ h4 {
 }
 
 h2+h3,
-h2+ol {
+h2+ol,
+h2+ul {
     margin-top: 1.25em;
+}
+
+main>ul>li {
+    margin-block: 0.25em;
 }
 
 ol li::marker {

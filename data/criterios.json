@@ -1,0 +1,208 @@
+[
+    {
+        "nivel": "MAT1",
+        "codigo": "1.1",
+        "descripcion": "Iniciarse en la interpretación de problemas matemáticos sencillos, reconociendo los datos dados, estableciendo, de manera básica, las relaciones entre ellos y comprendiendo las preguntas formuladas.",
+        "saberes": [
+            "MAT.1.A.2.1",
+            "MAT.1.A.2.3",
+            "MAT.1.E.1.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "1.2",
+        "descripcion": "Aplicar, en problemas de contextos cercanos de la vida cotidiana, herramientas y estrategias apropiadas, como pueden ser la descomposici ón en problemas más sencillos, el tanteo, el ensayo y error o la búsqueda de patrones, que contribuyan a la resolución de problemas de su entorno más cercano.",
+        "saberes": [
+            "MAT.1.A.3.1",
+            "MAT.1.B.1.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "1.3",
+        "descripcion": "Obtener las soluciones matemáticas en problemas de contextos cercanos de la vida cotidiana, activando los conocimientos necesarios, aceptando el error como parte del proceso.",
+        "saberes": [
+            "MAT.1.A.2.2",
+            "MAT.1.A.3.4",
+            "MAT.1.F.1.3"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "2.1",
+        "descripcion": "Comprobar, de forma razonada la corrección de las soluciones de un problema, usando herramientas digitales como calculadoras, hojas de cálculo o programas específicos.",
+        "saberes": [
+            "MAT.1.A.3.5"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "2.2",
+        "descripcion": "Comprobar, mediante la lectura comprensiva, la validez de las soluciones obtenidas en un problema comprobando su coherencia en el contexto planteado y evaluando el alcance y repercusión de estas soluciones desde diferentes perspectivas: igualdad de género, sostenibilidad, consumo responsable, equidad o no discriminación.",
+        "saberes": [
+            "MAT.1.A.6",
+            "MAT.1.B.2",
+            "MAT.1.F.3.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "3.1",
+        "descripcion": "Formular y comprobar conjeturas sencillas en situaciones del entorno cercano, de forma guiada, trabajando de forma individual o colectiva la utilización del razonamiento inductivo para formular argumentos matemáticos, analizando patrones, propiedades y relaciones.",
+        "saberes": [
+            "MAT.1.A.3.3",
+            "MAT.1.B.1.1"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "3.2",
+        "descripcion": "Plantear, en términos matemáticos, variantes de un problema dado, en contextos cercanos de la vida cotidiana, modificando alguno de sus datos o alguna condición del problema, enriqueciendo así los conceptos matemáticos.",
+        "saberes": [
+            "MAT.1.D.4.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "3.3",
+        "descripcion": "Emplear herramientas tecnológicas adecuadas, calculadoras o software matemáticos como paquetes estadísticos o programas de análisis numérico en la investigación y comprobación de conjeturas o problemas.",
+        "saberes": [
+            "MAT.1.E.2.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "4.1",
+        "descripcion": "Reconocer patrones en la resolución de problemas sencillos, organizar datos y descomponer un problema en partes más simples, facilitando su interpretación computacional y relacionando los aspectos básicos de la informática con las necesidades del alumnado.",
+        "saberes": [
+            "MAT.1.A.1.1"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "4.2",
+        "descripcion": "Modelizar situaciones del entorno cercano y resolver problemas sencillos de forma eficaz, interpretando y modificando algoritmos, creando modelos de situaciones cotidianas.",
+        "saberes": [
+            "MAT.1.D.1",
+            "MAT.1.D.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "5.1",
+        "descripcion": "Reconocer y usar las relaciones entre los conocimientos y experiencias matemáticas de los bloques de saberes formando un todo coherente, reconociendo y utilizando las conexiones entre ideas matemáticas en la resolución de problemas sencillos del entorno cercano.",
+        "saberes": [
+            "MAT.1.A.3.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "5.2",
+        "descripcion": "Realizar conexiones entre diferentes procesos matemáticos sencillos, aplicando conocimiento s y experiencias previas y enlazándolas con las nuevas ideas.",
+        "saberes": [
+            "MAT.1.A.2.5",
+            "MAT.1.A.4.1"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "6.1",
+        "descripcion": "Reconocer situaciones en el entorno más cercano susceptibles de ser formuladas y resueltas mediante herramientas y estrategias matemáticas, estableciendo conexiones entre el mundo real y las matemáticas y usando los procesos inherentes a la investigación científica y matemática: inferir, medir, comunicar, clasificar y predecir, aplicando procedimientos sencillos en la resolución de problemas.",
+        "saberes": [
+            "MAT.1.A.1.2",
+            "MAT.1.A.5.1",
+            "MAT.1.A.5.2",
+            "MAT.1.E.1.1",
+            "MAT.1.E.2.1"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "6.2",
+        "descripcion": "Analizar conexiones coherentes entre ideas y conceptos matemáticos con otras materias y con la vida real y aplicarlas mediante el uso de procedimient os sencillos en la resolución de problemas en situaciones del entorno cercano.",
+        "saberes": [
+            "MAT.1.D.4.1"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "6.3",
+        "descripcion": "Reconocer en diferentes contextos del entorno más cercano, la aportación de las matemáticas al progreso de la humanidad y su contribución a la superación de los retos que demanda la sociedad actual, identificando algunas aportaciones hechas desde nuestra comunidad.",
+        "saberes": [
+            "MAT.1.E.2.3",
+            "MAT.1.F.3.2",
+            "MAT.1.F.3.3"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "7.1",
+        "descripcion": "Representar conceptos, procedimientos, información y resultados matemáticos usando herramientas digitales sencillas, y formas de representació n adecuadas para visualizar ideas y estructurar procesos matemáticos, interpretando y resolviendo problemas del entorno cercano y valorando su utilidad para compartir información.",
+        "saberes": [
+            "MAT.1.A.2.4",
+            "MAT.1.E.1.2",
+            "MAT.1.E.1.3"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "7.2",
+        "descripcion": "Esbozar representaciones matemáticas utilizando herramientas de interpretación y modelización como expresiones simbólicas o gráficas que ayuden en la búsqueda de estrategias de resolución de una situación problematizada.",
+        "saberes": [
+            "MAT.1.A.5.3",
+            "MAT.1.E.1.4"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "8.1",
+        "descripcion": "Comunicar ideas, conceptos y procesos sencillos, utilizando el lenguaje matemático apropiado, empleando diferentes medios, incluidos los digitales, oralmente y por escrito, al describir, explicar y justificar sus conocimientos matemáticos.",
+        "saberes": [
+            "MAT.1.D.3"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "8.2",
+        "descripcion": "Reconocer y emplear el lenguaje matemático presente en contextos cotidianos de su entorno personal, expresando y comunicando mensajes con contenido matemático y utilizando terminología matemática adecuada con precisión y rigor.",
+        "saberes": [
+            "MAT.1.A.4.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "9.1",
+        "descripcion": "Gestionar las emociones propias y desarrollar el autoconcepto matemático como herramienta, generando expectativas positivas en la adaptación, el tratamiento y la gestión de retos matemáticos y cambios en contextos cotidianos de su entorno personal e iniciándose en el pensamiento crítico y creativo.",
+        "saberes": [
+            "MAT.1.F.1.1"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "9.2",
+        "descripcion": "Mostrar una actitud positiva y perseverante, aceptando la crítica razonada, analizando sus limitaciones y buscando ayuda al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas.",
+        "saberes": [
+            "MAT.1.F.1.2",
+            "MAT.1.F.1.3"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "10.1",
+        "descripcion": "Colaborar activamente y construir relaciones saludables en el trabajo de las matemáticas en equipos heterogéneos, respetando diferentes opiniones, iniciándose en el desarrollo de destrezas: de comunicación efectiva, de planificación, de indagación, de motivación y confianza en sus propias posibilidades y de pensamiento crítico y creativo, tomando decisiones y realizando juicios informados.",
+        "saberes": [
+            "MAT.1.F.2.1",
+            "MAT.1.F.2.2"
+        ]
+    },
+    {
+        "nivel": "MAT1",
+        "codigo": "10.2",
+        "descripcion": "Participar en el reparto de tareas que deban desarrollarse en equipo, aportando valor, asumiendo las normas de convivencia, y aplicándolas de manera constructiva, dialogante e inclusiva, reconociendo los estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales y responsabilizándose de la propia contribución al equipo.",
+        "saberes": [
+            "MAT.1.F.2.1",
+            "MAT.1.F.3.1"
+        ]
+    }
+]

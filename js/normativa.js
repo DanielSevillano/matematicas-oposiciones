@@ -135,6 +135,63 @@ async function mostrarDescriptores(competencia) {
     obtenerDescriptores(competencia).then(() => main.classList.remove("cargando"));
 }
 
+async function obtenerCriterios(nivel) {
+    const respuesta = await fetch("data\\criterios.json");
+    const datos = await respuesta.json();
+    const criterios = datos.filter((criterio => criterio.nivel == nivel));
+
+    const titulo = document.createElement("h2");
+    if (nivel == "MAT1") titulo.textContent = "📋 Criterios de evaluación de 1º de la ESO";
+    else if (nivel == "MAT2") titulo.textContent = "📋 Criterios de evaluación de 2º de la ESO";
+    else if (nivel == "MAT3") titulo.textContent = "📋 Criterios de evaluación de 3º de la ESO";
+    else if (nivel == "MATA") titulo.textContent = "📋 Criterios de evaluación de 4º de la ESO A";
+    else if (nivel == "MATB") titulo.textContent = "📋 Criterios de evaluación de 4º de la ESO B";
+    else if (nivel == "MATE1") titulo.textContent = "📋 Criterios de evaluación de 1º de Bachillerato de Ciencias";
+    else if (nivel == "MATE2") titulo.textContent = "📋 Criterios de evaluación de 2º de Bachillerato de Ciencias";
+    else if (nivel == "MACS1") titulo.textContent = "📋 Criterios de evaluación de 1º de Bachillerato de Sociales";
+    else titulo.textContent = "📋 Criterios de evaluación de 2º de Bachillerato de Sociales";
+
+    const boton = document.createElement("button");
+    boton.textContent = "🖨️ Imprimir";
+    boton.addEventListener("click", () => window.print());
+    titulo.append(boton);
+
+    const lista = document.createElement("ul");
+
+    criterios.forEach((criterio) => {
+        const elemento = document.createElement("li");
+        elemento.innerHTML = "<b>" + criterio.codigo + ".</b> " + criterio.descripcion;
+
+        const saberes = document.createElement("ul");
+        saberes.classList.add("categorias");
+
+        criterio.saberes.forEach((saber) => {
+            const categoria = document.createElement("li");
+            const enlace = document.createElement("a");
+            enlace.classList.add("contorno");
+            enlace.textContent = saber;
+            enlace.href = direccion.pathname + "?codigo=SB" + saber.split(".")[0] + saber.split(".")[1];
+
+            categoria.append(enlace);
+            saberes.append(categoria);
+        });
+
+        elemento.append(saberes);
+
+        lista.append(elemento);
+    });
+
+    main.append(titulo, lista);
+}
+
+async function mostrarCriterios(nivel) {
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    obtenerCriterios(nivel).then(() => main.classList.remove("cargando"));
+}
+
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
         grupos.forEach(g => {
@@ -159,9 +216,12 @@ function pulsar(boton) {
     } else if (identificador == "CE") {
         const nivel = clave.replace("CE", "");
         mostrarCompetencias(nivel);
-    } else {
+    } else if (identificador == "DO") {
         const competencia = clave.replace("DO", "")
         mostrarDescriptores(competencia);
+    } else {
+        const nivel = clave.replace("EV", "");
+        mostrarCriterios(nivel);
     }
 
     history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?codigo=" + clave);
