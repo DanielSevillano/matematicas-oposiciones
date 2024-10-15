@@ -170,7 +170,7 @@ async function obtenerCriterios(nivel) {
             const enlace = document.createElement("a");
             enlace.classList.add("contorno");
             enlace.textContent = saber;
-            enlace.href = direccion.pathname + "?codigo=SB" + saber.split(".")[0] + saber.split(".")[1];
+            enlace.href = direccion.pathname + "?codigo=SB" + nivel;
 
             categoria.append(enlace);
             saberes.append(categoria);
