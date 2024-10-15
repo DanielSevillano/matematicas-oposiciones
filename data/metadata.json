@@ -80,6 +80,7 @@
     },
     {
         "problema": 20216,
+        "resuelto": true,
         "categorias": [
             "Álgebra",
             "Probabilidad"

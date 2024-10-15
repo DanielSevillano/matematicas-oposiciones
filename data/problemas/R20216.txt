@@ -1,0 +1,83 @@
+<ol>
+    <li>
+        Los números $(\alpha + \sqrt{85}\beta)$ y $(\sqrt{85}\alpha - \beta)$ son múltiplos de 20210, así que existen $k, q \in \mathbb{Z}$ tales que:
+        \begin{align}
+            & \alpha + \sqrt{85}\beta = 20210k \Leftrightarrow \alpha = 20210k - \sqrt{85}\beta, \\
+            & \sqrt{85}\alpha - \beta = 20210q \Leftrightarrow \beta = \sqrt{85}\alpha - 20210q.
+        \end{align}
+        
+        <ul>
+            <li>
+                Sustituyendo la expresión de $\beta$ en la de $\alpha$, tenemos que:
+                \begin{align}
+                    & \alpha = 20210k - \sqrt{85}\beta = 20210k - \sqrt{85}(\sqrt{85}\alpha - 20210q) = 2021k - 85\alpha + 20210\sqrt{85}q \Leftrightarrow \\
+                    & \Leftrightarrow 86\alpha = 20210(k + \sqrt{85}q) \Leftrightarrow \alpha = 235(k + \sqrt{85}q).
+                \end{align}
+            </li>
+
+            <li>
+                Sustituyendo la expresión de $\alpha$ en la de $\beta$, tenemos que:
+                \begin{align}
+                    & \beta = \sqrt{85}\alpha - 20210q = \sqrt{85}(20210k - \sqrt{85}\beta) - 20210q = 20210\sqrt{85}k - 85\beta - 20210q \Leftrightarrow \\
+                    & \Leftrightarrow 86\beta = 20210(\sqrt{85}k - q) \Leftrightarrow \beta = 235(\sqrt{85}k - q).
+                \end{align}
+            </li>
+        </ul>
+
+        Por tanto:
+        \begin{align}
+            \alpha^2 + \beta^2 & = 235^2(k + \sqrt{85}q)^2 + 235^2(\sqrt{85}k - q)^2 = 235^2(k^2 + 2\sqrt{85}kq + 85q^2 + 85k^2 - 2\sqrt{85}kq + q^2) = \\
+            & = 235^2(86k^2 + 86q^2) = 235^2 \cdot 86 \cdot (k^2 + q^2) = 20210 \cdot 235 \cdot (k^2 + q^2).
+        \end{align}
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                La variable $X$ es una variable aleatoria discreta con $D_X = \{2, 3, 4\}.$
+                Por comodidad, representamos las distintas posibilidades mediante números de cuatro dígitos, donde la cifra en la posición $i$ representa la urna en la que está la bola $i.$
+                Por ejemplo, el número 3213 indica que la primera bola está en la urna 3, la segunda en la urna 2, la tercera en la urna 1 y la cuarta en la urna 3.
+                En total, hay $3^4 = 81$ posibilidades.
+                Analizamos cada caso.
+
+                <ul>
+                    <li>
+                        Si $X = 4$, el número tiene todas sus cifras iguales.
+                        Solo hay 3 casos: 1111, 2222 y 3333.
+                        Así que:
+                        $$P(X = 4) = \frac{3}{81} = \frac{1}{27}.$$
+                    </li>
+
+                    <li>
+                        Si $X = 3$, el número tiene tres cifras iguales.
+                        Si se repite el 1, tenemos 8 casos.
+                        Luego en total hay $3 \cdot 8 = 24$ casos.
+                        Así que:
+                        $$P(X = 3) = \frac{24}{81} = \frac{8}{27}.$$
+                    </li>
+
+                    <li>
+                        Si $X = 2$, el número tiene dos cifras iguales.
+                        Le corresponden los casos restantes, es decir, $81 - (3 + 24) = 54$ casos.
+                        Así que:
+                        $$P(X = 2) = \frac{54}{81} = \frac{2}{3}.$$
+                    </li>
+                </ul>
+
+                Por tanto, la distribución de la variable aleatoria $X$ es:
+                $$P(X = n) = \begin{cases}
+                    \frac{2}{3}, & \text{si } n = 2, \\
+                    \frac{8}{27}, & \text{si } n = 3, \\
+                    \frac{1}{27}, & \text{si } n = 4, \\
+                    0, & \text{en otro caso}.
+                \end{cases}$$
+            </li>
+
+
+            <li>
+                Calculamos la esperanza de $X.$
+                $$E(X) = \sum_{x \in D_x} x \cdot P(X = x) = 2 \cdot P(X=2) + 3 \cdot P(X=3) + 4 \cdot P(X=4) = 2 \cdot \frac{2}{3} + 3 \cdot \frac{8}{27} + 4 \cdot \frac{1}{27} = \frac{64}{27}.$$
+            </li>
+        </ol>
+    </li>
+</ol>
