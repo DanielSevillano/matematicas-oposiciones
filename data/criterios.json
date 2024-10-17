@@ -204,5 +204,221 @@
             "MAT.1.F.2.1",
             "MAT.1.F.3.1"
         ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "1.1",
+        "descripcion": "Interpretar problemas matemáticos de la vida cotidiana, organizando los datos dados, estableciendo las relaciones entre ellos y comprendiendo las preguntas formuladas.",
+        "saberes": [
+            "MAT.2.A.2.1",
+            "MAT.2.A.2.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "1.2",
+        "descripcion": "Aplicar, en problemas de la vida cotidiana, herramientas y estrategias apropiadas, como pueden ser la descomposición en problemas más sencillos, el tanteo, la estimación, el ensayo y error o la búsqueda de patrones, que contribuyan a la resolución de problemas en situaciones diversas.",
+        "saberes": [
+            "MAT.2.A.3.1",
+            "MAT.2.B.1.2",
+            "MAT.2.B.2.1",
+            "MAT.2.D.4.2"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "1.3",
+        "descripcion": "Obtener las soluciones matemáticas en problemas de la vida cotidiana, activando los conocimientos necesarios, utilizando las herramientas tecnológicas necesarias, interpretando los resultados y aceptando el error como parte del proceso.",
+        "saberes": [
+            "MAT.2.A.2.2",
+            "MAT.2.A.3.4",
+            "MAT.2.F.1.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "2.1",
+        "descripcion": "Comprobar, mediante el razonamiento matemático la corrección de las soluciones de un problema, usando herramientas digitales como calculadoras, hojas de cálculo o programas específicos.",
+        "saberes": [
+            "MAT.2.A.3.5",
+            "MAT.2.D.4.4",
+            "MAT.2.D.5.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "2.2",
+        "descripcion": "Comprobar, mediante la lectura comprensiva, la validez de las soluciones obtenidas en un problema, comprobando su coherencia en el contexto planteado y evaluando el alcance y repercusión de estas soluciones desde diferentes perspectivas: igualdad de género, sostenibilidad, consumo responsable, equidad o no discriminación.",
+        "saberes": [
+            "MAT.2.A.6",
+            "MAT.2.B.3",
+            "MAT.2.F.3.2"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "3.1",
+        "descripcion": "Formular y comprobar conjeturas sencillas en situaciones del mundo real de forma guiada, trabajando de forma individual o colectiva la utilización del razonamiento inductivo y deductivo para formular argumentos matemáticos, analizando patrones, propiedades y relaciones, y examinando su validez.",
+        "saberes": [
+            "MAT.2.A.3.3",
+            "MAT.2.B.1.1",
+            "MAT.2.D.4.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "3.2",
+        "descripcion": "Plantear, en términos matemáticos, variantes de un problema dado, en contextos de la vida cotidiana, modificando alguno de sus datos o alguna condición del problema, consolidando así los conceptos matemáticos.",
+        "saberes": [
+            "MAT.2.D.5.2",
+            "MAT.2.D.6.1"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "3.3",
+        "descripcion": "Emplear herramientas tecnológicas adecuadas, calculadoras o software matemáticos como entornos de geometría dinámica; paquetes estadísticos o programas de análisis numérico, en la investigación y comprobación de conjeturas o problemas.",
+        "saberes": [
+            "MAT.2.C.1.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "4.1",
+        "descripcion": "Reconocer patrones en la resolución de problemas complejos, organizar datos y descomponer un problema en partes más simples facilitando su interpretación computacional y relacionando los aspectos fundamentales de la informática con las necesidades del alumnado.",
+        "saberes": [
+            "MAT.2.A.1.1",
+            "MAT.2.D.6.2",
+            "MAT.2.D.6.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "4.2",
+        "descripcion": "Modelizar situaciones de la vida cotidiana y resolver problemas de forma eficaz, interpretando y modificando algoritmos, creando modelos abstractos de situaciones cotidianas.",
+        "saberes": [
+            "MAT.2.C.4.1",
+            "MAT.2.D.1",
+            "MAT.2.D.2.1"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "5.1",
+        "descripcion": "Reconocer y usar las relaciones entre los conocimientos y experiencias matemáticas de los bloques de saberes y de los distintos niveles formando un todo coherente, reconociendo y utilizando las conexiones entre ideas matemáticas en la resolución de problemas de la vida cotidiana.",
+        "saberes": [
+            "MAT.2.A.3.2",
+            "MAT.2.C.1.1",
+            "MAT.2.C.1.2",
+            "MAT.2.C.2"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "5.2",
+        "descripcion": "Realizar conexiones entre diferentes procesos matemáticos y entender cómo unas ideas se construyen sobre otras, aplicando conocimientos y experiencias previas y enlazándolas con las nuevas ideas.",
+        "saberes": [
+            "MAT.2.A.2.5",
+            "MAT.2.A.4.1"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "6.1",
+        "descripcion": "Reconocer situaciones en diferentes contextos (personal, escolar y social) susceptibles de ser formuladas y resueltas mediante herramientas y estrategias matemáticas, estableciendo conexiones entre el mundo real y las matemáticas usando los procesos inherentes a la investigación científica y matemática: inferir, medir, comunicar, clasificar y predecir, aplicando distintos procedimientos sencillos en la resolución de problemas en situaciones diversas.",
+        "saberes": [
+            "MAT.2.A.1.2",
+            "MAT.2.A.5.1",
+            "MAT.2.A.5.2"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "6.2",
+        "descripcion": "Analizar conexiones coherentes entre ideas y conceptos matemáticos con otras materias y con la vida real y aplicarlas mediante el uso de procedimientos sencillos en la resolución de problemas en situaciones de la vida cotidiana.",
+        "saberes": [
+            "MAT.2.C.3.2",
+            "MAT.2.D.2.2",
+            "MAT.2.D.4.1"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "6.3",
+        "descripcion": "Reconocer en diferentes contextos (personal, escolar y social), la aportación de las matemáticas al progreso de la humanidad y su contribución a la superación de los retos que demanda la sociedad actual, identificando algunas aportaciones hechas desde nuestra comunidad.",
+        "saberes": [
+            "MAT.2.F.3.2",
+            "MAT.2.F.3.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "7.1",
+        "descripcion": "Representar conceptos, procedimientos, información y resultados matemáticos usando diferentes herramientas digitales y formas de representación adecuadas para visualizar ideas y estructurar procesos matemáticos, interpretando y resolviendo problemas de la vida real de relativa complejidad y valorando su utilidad para compartir información.",
+        "saberes": [
+            "MAT.2.A.2.4",
+            "MAT.2.B.2.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "7.2",
+        "descripcion": "Elaborar, en el contexto del problema, representaciones matemáticas, utilizando herramientas de interpretación y modelización como expresiones simbólicas o gráficas que ayuden a tomar decisiones en la búsqueda de estrategias de resolución de una situación problematizada.",
+        "saberes": [
+            "MAT.2.A.5.3",
+            "MAT.2.B.2.2"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "8.1",
+        "descripcion": "Comunicar ideas, conceptos y procesos, utilizando el lenguaje matemático apropiado y empleando diferentes medios, incluidos los digitales, oralmente y por escrito, al describir, explicar y justificar razonamientos, procedimientos y conclusiones.",
+        "saberes": [
+            "MAT.2.D.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "8.2",
+        "descripcion": "Reconocer y emplear el lenguaje matemático presente en los ámbitos personal, social y educativo, expresando y comunicando mensajes con contenido matemático y utilizando terminología matemática adecuada de forma clara, precisa, rigurosa y veraz.",
+        "saberes": [
+            "MAT.2.A.4.2",
+            "MAT.2.D.5.1"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "9.1",
+        "descripcion": "Gestionar las emociones propias y desarrollar el autoconcepto matemático como herramienta, generando expectativas positivas ante el tratamiento y la gestión de retos matemáticos y cambios, desarrollando, de manera progresiva, el pensamiento crítico y creativo, adaptándose ante la incertidumbre y reconociendo fuentes de estrés.",
+        "saberes": [
+            "MAT.2.F.1.1"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "9.2",
+        "descripcion": "Mostrar una actitud positiva y perseverante, aceptando la crítica razonada, tomando conciencia de los errores cometidos y reflexionando sobre su propio esfuerzo y dedicación personal al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas.",
+        "saberes": [
+            "MAT.2.F.1.2",
+            "MAT.2.F.1.3"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "10.1",
+        "descripcion": "Colaborar activamente y construir relaciones saludables en el trabajo de las matemáticas en equipos heterogéneos, respetando diferentes opiniones, desarrollando destrezas: de comunicación efectiva, de planificación, de indagación, de motivación y confianza en sus propias posibilidades y de pensamiento crítico y creativo, tomando decisiones y realizando juicios informados.",
+        "saberes": [
+            "MAT.2.F.2.1",
+            "MAT.2.F.2.2"
+        ]
+    },
+    {
+        "nivel": "MAT2",
+        "codigo": "10.2",
+        "descripcion": "Participar en el reparto de tareas que deban desarrollarse en equipo, aportando valor, favoreciendo la inclusión, la escucha activa, participando de forma respetuosa, dialogante y constructiva, asumiendo el rol asignado, analizando los estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales y responsabilizándo se de la propia contribución al equipo.",
+        "saberes": [
+            "MAT.2.F.2.1",
+            "MAT.2.F.3.1"
+        ]
     }
 ]
