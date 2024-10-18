@@ -57,7 +57,7 @@ async function obtenerCompetencias(nivel) {
             const enlace = document.createElement("a");
             enlace.classList.add("contorno");
             enlace.textContent = descriptor;
-            enlace.href = direccion.pathname + "?codigo=DO" + descriptor.slice(0, -1);
+            enlace.href = direccion.pathname + "?codigo=DO" + descriptor.split(".")[0].slice(0, -1);
 
             categoria.append(enlace);
             descriptores.append(categoria);

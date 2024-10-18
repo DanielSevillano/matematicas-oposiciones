@@ -215,7 +215,8 @@
             "CD2",
             "CD5",
             "CE3",
-            "CCEC4"
+            "CCEC4.1",
+            "CCEC4.2"
         ]
     },
     {
@@ -229,7 +230,7 @@
             "STEM4",
             "CD2",
             "CD3",
-            "CCEC3"
+            "CCEC3.2"
         ]
     },
     {
@@ -238,8 +239,10 @@
         "descriptores": [
             "CP3",
             "STEM5",
-            "CPSAA1",
-            "CPSAA3",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
             "CC2",
             "CC3",
             "CE2"
@@ -332,7 +335,8 @@
             "CD2",
             "CD5",
             "CE3",
-            "CCEC4"
+            "CCEC4.1",
+            "CCEC4.2"
         ]
     },
     {
@@ -345,7 +349,7 @@
             "STEM2",
             "STEM4",
             "CD3",
-            "CCEC3"
+            "CCEC3.2"
         ]
     },
     {
@@ -354,8 +358,10 @@
         "descriptores": [
             "CP3",
             "STEM5",
-            "CPSAA1",
-            "CPSAA3",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
             "CC2",
             "CC3",
             "CE2"
