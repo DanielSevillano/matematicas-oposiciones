@@ -657,5 +657,221 @@
             "MAT.3.F.2.1",
             "MAT.3.F.3.1"
         ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "1.1",
+        "descripcion": "Reformular problemas matemáticos de forma verbal y gráfica, interpretando los datos, las relaciones entre ellos y las preguntas planteadas",
+        "saberes": [
+            "MAA.4.A.5",
+            "MAA.4.A.6",
+            "MAA.4.E.1.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "1.2",
+        "descripcion": "Seleccionar herramientas y estrategias elaboradas para la resolución de problemas valorando su eficacia e idoneidad",
+        "saberes": [
+            "MAA.4.A.3.1",
+            "MAA.4.D.3.2",
+            "MAA.4.E.2.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "1.3",
+        "descripcion": "Obtener todas las posibles soluciones matemáticas de un problema activando los conocimientos, analizando los resultados y reconociendo el error como parte del proceso, utilizando para ello las herramientas tecnológicas adecuadas.",
+        "saberes": [
+            "MAA.4.A.2.1",
+            "MAA.4.A.3.2",
+            "MAA.4.D.3.1",
+            "MAA.4.D.4.2",
+            "MAA.4.F.1.3"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "2.1",
+        "descripcion": "Comprobar la corrección matemática de las soluciones de un problema.",
+        "saberes": [
+            "MAA.4.A.4.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "2.2",
+        "descripcion": "Seleccionar las soluciones óptimas de un problema valorando tanto la corrección matemática como sus implicaciones desde diferentes perspectivas (de género, de sostenibilidad, de consumo responsable…)",
+        "saberes": [
+            "MAA.4.E.3.3",
+            "MAA.4.F.3.1",
+            "MAA.4.F.3.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "3.1",
+        "descripcion": "Formular, comprobar e investigar conjeturas de forma guiada estudiando patrones, propiedades y relaciones.",
+        "saberes": [
+            "MAA.4.D.1",
+            "MAA.4.D.4.3"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "3.2",
+        "descripcion": "Crear variantes de un problema dado, modificando alguno de sus datos y observando la relación entre los diferentes resultados obtenidos.",
+        "saberes": [
+            "MAA.4.D.6.1"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "3.3",
+        "descripcion": "Emplear herramientas tecnológicas adecuadas en la investigación y comprobación de conjeturas o problemas.",
+        "saberes": [
+            "MAA.4.B.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "4.1",
+        "descripcion": "Reconocer e investigar patrones, organizar datos y descomponer un problema en partes más simples facilitando su interpretación y su tratamiento computacional.",
+        "saberes": [
+            "MAA.4.A.1",
+            "MAA.4.A.4.1",
+            "MAA.4.C.1",
+            "MAA.4.D.6.2",
+            "MAA.4.D.6.3"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "4.2",
+        "descripcion": "Modelizar situaciones y resolver problemas de forma eficaz, interpretando, modificando y creando algoritmos sencillos.",
+        "saberes": [
+            "MAA.4.C.3.2",
+            "MAA.4.D.2.1",
+            "MAA.4.D.4.4",
+            "MAA.4.E.1.5"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "5.1",
+        "descripcion": "Deducir relaciones entre los conocimientos y experiencias matemáticas, formando un todo coherente.",
+        "saberes": [
+            "MAA.4.C.3.1"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "5.2",
+        "descripcion": "Analizar y poner en práctica conexiones entre diferentes procesos matemáticos, aplicando conocimientos y experiencias previas.",
+        "saberes": [
+            "MAA.4.C.2",
+            "MAA.4.D.5.1"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "6.1",
+        "descripcion": "Proponer situaciones susceptibles de ser formuladas y resueltas mediante herramientas y estrategias matemáticas, estableciendo y aplicando conexiones entre el mundo real y las matemáticas, y usando los procesos inherentes a la investigación científica y matemática como inferir, medir, comunicar, clasificar y predecir.",
+        "saberes": [
+            "MAA.4.A.2.3",
+            "MAA.4.B.1",
+            "MAA.4.E.1.1",
+            "MAA.4.E.2.1",
+            "MAA.4.E.3.1."
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "6.2",
+        "descripcion": "Identificar y aplicar conexiones coherentes entre las matemáticas y otras materias, realizando un análisis crítico de los contenidos.",
+        "saberes": [
+            "MAA.4.D.2.2",
+            "MAA.4.D.4.1"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "6.3",
+        "descripcion": "Valorar la aportación de las matemáticas al progreso de la humanidad y su contribución en la superación de los retos que demanda la sociedad actual, identificando algunas aportaciones hechas desde nuestra comunidad.",
+        "saberes": [
+            "MAA.4.C.3.3",
+            "MAA.4.F.3.2",
+            "MAA.4.F.3.3"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "7.1",
+        "descripcion": "Representar matemáticamente la información más relevante de un problema, conceptos, procedimientos y resultados matemáticos, visualizando ideas y estructurando procesos matemáticos.",
+        "saberes": [
+            "MAA.4.E.1.3"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "7.2",
+        "descripcion": "Seleccionar entre diferentes herramientas, incluidas las digitales, y formas de representación (pictórica, gráfica, verbal o simbólica) valorando su utilidad para compartir información.",
+        "saberes": [
+            "MAA.4.E.1.4"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "8.1",
+        "descripcion": "Comunicar ideas, conclusiones, conjeturas y razonamientos matemáticos, utilizando diferentes medios, incluidos los digitales, empleando la terminología apropiada con coherencia y claridad.",
+        "saberes": [
+            "MAA.4.D.5.3",
+            "MAA.4.E.3.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "8.2",
+        "descripcion": "Reconocer y emplear el lenguaje matemático presente en la vida cotidiana y en diversos contextos comunicando mensajes con contenido matemático con precisión y rigor.",
+        "saberes": [
+            "MAA.4.A.2.2",
+            "MAA.4.A.3.3",
+            "MAA.4.D.5.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "9.1",
+        "descripcion": "Identificar y gestionar las emociones propias y desarrollar el autoconcepto matemático generando expectativas positivas ante nuevos retos matemáticos.",
+        "saberes": [
+            "MAA.4.F.1.1"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "9.2",
+        "descripcion": "Mostrar una actitud positiva y perseverante, aceptando la crítica razonada al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas.",
+        "saberes": [
+            "MAA.4.F.1.2",
+            "MAA.4.F.1.3"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "10.1",
+        "descripcion": "Colaborar activamente y construir relaciones trabajando con las matemáticas en equipos heterogéneos, respetando diferentes opiniones, comunicándose de manera efectiva, pensando de forma crítica y creativa, tomando decisiones y realizando juicios informados.",
+        "saberes": [
+            "MAA.4.F.2.1",
+            "MAA.4.F.2.2"
+        ]
+    },
+    {
+        "nivel": "MAA",
+        "codigo": "10.2",
+        "descripcion": "Gestionar el reparto de tareas en el trabajo en equipo, aportando valor, favoreciendo la inclusión, la escucha activa, responsabilizándose del rol asignado y de la propia contribución al equipo.",
+        "saberes": [
+            "MAA.4.F.2.1",
+            "MAA.4.F.3.1"
+        ]
     }
 ]
