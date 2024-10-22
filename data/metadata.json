@@ -39,6 +39,7 @@
     },
     {
         "problema": 20236,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]

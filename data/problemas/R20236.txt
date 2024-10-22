@@ -1,0 +1,87 @@
+<p>
+    Definimos $N$ como el punto de intersección de $\Gamma$ con el lado $AB$ y $Q$ como el punto de intersección de la recta $AP$ con el lado $BC.$
+    <img src="img/R20236-1.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Queremos probar que $AP$ es una mediana del triángulo $ABD.$ Esto es equivalente a que $Q$ sea el punto medio del segmento $BP$, es decir, $\mathrm{dist}(B, Q) = \mathrm{dist}(D, Q).$ Consideramos los triángulos $ABQ$ y $BPQ.$
+    <img src="img/R20236-2.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Veamos que los triángulos $ABQ$ y $BPQ$ son semejantes comprobando que dos de sus ángulos son iguales.
+
+    <ul>
+        <li>Los ángulos $\widehat{AQB}$ y $\widehat{PQB}$ son iguales por construcción.</li>
+        <li>
+            Veamos que los ángulos $\widehat{BPQ}$ y $\widehat{QBA}$ son iguales.
+            Por el teorema de la bisectriz, tenemos que:
+            $$\frac{\overline{AB}}{\overline{AC}} = \frac{\overline{DB}}{\overline{CD}}.$$
+            Como además $\overline{CD} + \overline{DB} = \overline{BC}$, entonces:
+            $$\begin{cases}
+                \overline{CD} = \overline{BC} - \overline{BD}, \\
+                \overline{BD} = \overline{BC} - \overline{CD}.
+            \end{cases}$$
+
+            <ul>
+                <li>
+                    Sustituyendo la expresión de $\overline{CD}$ en la igualdad del teorema,
+                    $$\frac{\overline{AB}}{\overline{AC}} = \frac{\overline{BD}}{\overline{BC} - \overline{BD}} \Leftrightarrow \overline{AB} \cdot \overline{BC} - \overline{AB} \cdot \overline{BD} = \overline{AC} \cdot \overline{BD} \Leftrightarrow \overline{BD} = \frac{\overline{AB} \cdot \overline{BC}}{{\overline{AB} + \overline{AC}}}.$$
+                </li>
+
+                <li>
+                    Sustituyendo la expresión de $\overline{BD}$ en la igualdad del teorema.
+                    $$\frac{\overline{AB}}{\overline{AC}} = \frac{\overline{BC} - \overline{CD}}{\overline{CD}} \Leftrightarrow \overline{AB} \cdot \overline{CD} = \overline{AC} \cdot \overline{BC} - \overline{AC} \cdot \overline{CD} \Leftrightarrow \overline{CD} = \frac{\overline{AC} \cdot \overline{BC}}{{\overline{AB} + \overline{AC}}}.$$
+                </li>
+            </ul>
+
+            Por otro lado, podemos obtener nuevas expresiones mediante la potencia de la circunferencia $\Gamma$ en $B$ y en $C$ usando el punto $N.$
+
+            <ul>
+                <li>
+                    La potencia de $\Gamma$ en $B$ se puede expresar como:
+                    $$\begin{cases}
+                        \mathrm{Pot}_\Gamma(B) = \overline{BA} \cdot \overline{BN}, \\
+                        \mathrm{Pot}_\Gamma(C) = \overline{BD}^2
+                    \end{cases} \Rightarrow \overline{AB} \cdot \overline{BN} = \overline{BD}^2.$$
+
+                    Sustituyendo la expresión obtenida previamente de $\overline{BD}$, tenemos que:
+                    $$\overline{AB} \cdot \overline{BN} = \left(\frac{\overline{AB} \cdot \overline{BC}}{{\overline{AB} + \overline{AC}}}\right)^2 \Leftrightarrow \frac{\overline{BN}}{\overline{AB}} = \frac{\overline{BC}^2}{{(\overline{AB} + \overline{AC}})^2}.$$
+                </li>
+
+                <li>
+                    La potencia de $\Gamma$ en $C$ se puede expresar como:
+                    $$\begin{cases}
+                        \mathrm{Pot}_\Gamma(C) = \overline{CM} \cdot \overline{CA}, \\
+                        \mathrm{Pot}_\Gamma(C) = \overline{CD}^2
+                    \end{cases} \Rightarrow \overline{CM} \cdot \overline{AC} = \overline{CD}^2.$$
+
+                    Sustituyendo la expresión obtenida previamente de $\overline{CD}$, tenemos que:
+                    $$\overline{CM} \cdot \overline{AC} = \left(\frac{\overline{AC} \cdot \overline{BC}}{{\overline{AB} + \overline{AC}}}\right)^2 \Leftrightarrow \frac{\overline{CM}}{\overline{AC}} = \frac{\overline{BC}^2}{{(\overline{AB} + \overline{AC}})^2}.$$
+                </li>
+            </ul>
+
+            Igualando ambas expresiones,
+            $$\frac{\overline{BN}}{\overline{AB}} = \frac{\overline{CM}}{\overline{AC}}.$$
+
+            Usando que $\overline{AC} = \overline{AM} + \overline{MC}$ y $\overline{AB} = \overline{AN} + \overline{NB}$, se tiene que:
+            $$\frac{\overline{AM}}{\overline{AC}} = \frac{\overline{AC} - \overline{CM}}{\overline{AC}} = 1 - \frac{\overline{CM}}{\overline{AC}} = 1 - \frac{\overline{BN}}{\overline{AB}} = \frac{\overline{AB} - \overline{BN}}{\overline{AB}} = \frac{\overline{AN}}{\overline{AB}}.$$
+
+            Como además los triángulos $ABC$ y $AMN$ comparten el vértice $A$, son triángulos semejantes.
+            Luego:
+            $$\widehat{BPQ} = \widehat{MPA} = \widehat{MNA} = \widehat{ABC} = \widehat{QBA}.$$
+        </li>
+    </ul>
+
+    Así que los triángulos $BPQ$ y $ABQ$ son semejantes. Luego se tiene que:
+    $$\frac{\overline{AQ}}{\overline{BQ}} = \frac{\overline{BQ}}{\overline{PQ}} \Leftrightarrow \overline{AQ} \cdot \overline{PQ} = \overline{BQ}^2 = \mathrm{dist}(B, Q)^2.$$
+
+    Usando la potencia de la circunferencia $\Gamma$ en $Q$, tenemos que:
+    $$\begin{cases}
+        \mathrm{Pot}_\Gamma(Q) = \overline{QA} \cdot \overline{QP}, \\
+        \mathrm{Pot}_\Gamma(Q) = \overline{QD}^2.
+    \end{cases} \Rightarrow \overline{AQ} \cdot \overline{PQ} = \overline{DQ}^2 = \mathrm{dist}(D, Q)^2.$$
+
+    Por tanto,
+    $$\mathrm{dist}(B, Q)^2 = \mathrm{dist}(D, Q)^2 \Rightarrow \mathrm{dist}(B, Q) = \mathrm{dist}(D, Q).$$
+</p>
