@@ -7,8 +7,8 @@ async function problemaSemanal() {
     const inicio = new Date(fecha.getFullYear(), 0, 1);
     const diferencia = fecha - inicio;
     const semilla = Math.ceil(diferencia / 86400000 / 7);
-    let multiplicador = 61;
-    const indice = (semilla * multiplicador) % 42;
+    let multiplicador = 47;
+    const indice = (semilla * multiplicador) % 36;
 
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
