@@ -1298,5 +1298,217 @@
             "MATE.1.F.2.2",
             "MATE.1.F.3.1"
         ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "1.1",
+        "descripcion": "Manejar diferentes estrategias y herramientas, incluidas las digitales, que modelizan y resuelven problemas de la vida cotidiana y de la ciencia y tecnología, seleccionando las más adecuadas según su eficiencia.",
+        "saberes": [
+            "MATE.2.A.1.1",
+            "MATE.2.B.1.1",
+            "MATE.2.B.1.3",
+            "MATE.2.C.3.2",
+            "MATE.2.C.3.4",
+            "MATE.2.D.2.2",
+            "MATE.2.E.2.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "1.2",
+        "descripcion": "Obtener todas las posibles soluciones matemáticas de problemas de la vida cotidiana y de la ciencia y la tecnología, usando la estrategia de resolución más apropiada y describiendo el procedimiento utilizado.",
+        "saberes": [
+            "MATE.2.A.1.2",
+            "MATE.2.A.2",
+            "MATE.2.C.1.2",
+            "MATE.2.D.2.3",
+            "MATE.2.D.3.2",
+            "MATE.2.D.5.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "2.1",
+        "descripcion": "Demostrar la validez matemática de las posibles soluciones de un problema e interpretarlas, utilizando el razonamiento y la argumentación.",
+        "saberes": [
+            "MATE.2.A.1.1",
+            "MATE.2.A.1.2",
+            "MATE.2.B.1.3",
+            "MATE.2.B.1.4",
+            "MATE.2.C.3.3",
+            "MATE.2.D.3.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "2.2",
+        "descripcion": "Seleccionar la solución más adecuada de un problema en función del contexto -de sostenibilidad, de consumo responsable, de equidad, etc.-, usando el razonamiento y la argumentación.",
+        "saberes": [
+            "MATE.2.C.2.2",
+            "MATE.2.D.5.1"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "3.1",
+        "descripcion": "Adquirir nuevo conocimiento matemático mediante la formulación, razonamiento y justificación de conjeturas y de la formulación y reformulación de problemas de forma autónoma.",
+        "saberes": [
+            "MATE.2.B.1.2",
+            "MATE.2.B.1.5",
+            "MATE.2.B.2.1",
+            "MATE.2.C.3.3",
+            "MATE.2.D.1",
+            "MATE.2.E.1.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "3.2",
+        "descripcion": "Integrar el uso de herramientas tecnológicas en la formulación o investigación de conjeturas y problemas.",
+        "saberes": [
+            "MATE.2.C.2.1",
+            "MATE.2.C.3.1",
+            "MATE.2.D.1",
+            "MATE.2.D.3.1",
+            "MATE.2.D.4.1",
+            "MATE.2.D.5.1"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "4.1",
+        "descripcion": "Interpretar, modelizar y resolver situaciones problematizadas de la vida cotidiana y de la ciencia y la tecnología utilizando el pensamiento computacional, modificando, creando y generalizando algoritmos, y en su caso, implementándolos en un sistema informático.",
+        "saberes": [
+            "MATE.2.D.1",
+            "MATE.2.D.5.1",
+            "MATE.2.D.5.2",
+            "MATE.2.F.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "5.1",
+        "descripcion": "Demostrar una visión matemática integrada, investigando y conectando las diferentes ideas matemáticas.",
+        "saberes": [
+            "MATE.2.B.1.2",
+            "MATE.2.B.2.2",
+            "MATE.2.C.2.1",
+            "MATE.2.C.2.2",
+            "MATE.2.D.2.1",
+            "MATE.2.D.2.3",
+            "MATE.2.D.4.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "5.2",
+        "descripcion": "Resolver problemas en contextos matemáticos, estableciendo aplicando conexiones entre las diferentes ideas matemáticas y usando diferentes enfoques.",
+        "saberes": [
+            "MATE.2.B.1.1",
+            "MATE.2.B.1.4",
+            "MATE.2.B.2.1",
+            "MATE.2.B.2.3",
+            "MATE.2.C.1.2",
+            "MATE.2.C.3.4"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "6.1",
+        "descripcion": "Resolver problemas en situaciones diversas utilizando procesos matemáticos, reflexionando, estableciendo y aplicando conexiones entre el mundo real, otras áreas de conocimiento y las matemáticas.",
+        "saberes": [
+            "MATE.2.C.3.2",
+            "MATE.2.D.2.1",
+            "MATE.2.D.2.3",
+            "MATE.2.E.1.1",
+            "MATE.2.E.1.2",
+            "MATE.2.E.2.1"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "6.2",
+        "descripcion": "Analizar la aportación de las matemáticas al progreso de la humanidad, valorando su contribución en la propuesta de soluciones a situaciones complejas: consumo responsable, medio ambiente, sostenibilidad, etc., y a los retos científicos y tecnológicos que se plantean en la sociedad.",
+        "saberes": [
+            "MATE.2.B.1.4",
+            "MATE.2.B.2.3",
+            "MATE.2.C.3.2",
+            "MATE.2.C.3.5",
+            "MATE.2.E.2.2",
+            "MATE.2.F.3.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "7.1",
+        "descripcion": "Representar ideas matemáticas, estructurando diferentes razonamientos matemáticos y seleccionando las tecnologías más adecuadas.",
+        "saberes": [
+            "MATE.2.A.2",
+            "MATE.2.B.1.2",
+            "MATE.2.B.1.5",
+            "MATE.2.B.2.1",
+            "MATE.2.C.1.1",
+            "MATE.2.C.2.1",
+            "MATE.2.C.3.1",
+            "MATE.2.D.4.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "7.2",
+        "descripcion": "Seleccionar y utilizar diversas formas de representación, valorando su utilidad para compartir información.",
+        "saberes": [
+            "MATE.2.B.2.2",
+            "MATE.2.C.3.1",
+            "MATE.2.D.4.1"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "8.1",
+        "descripcion": "Mostrar organización al comunicar las ideas matemáticas, empleando el soporte, la terminología y el rigor apropiados.",
+        "saberes": [
+            "MATE.2.B.1.5",
+            "MATE.2.C.2.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "8.2",
+        "descripcion": "Reconocer y emplear el lenguaje matemático en diferentes contextos, comunicando la información con precisión y rigor.",
+        "saberes": [
+            "MATE.2.C.3.5",
+            "MATE.2.E.1.1",
+            "MATE.2.E.1.2",
+            "MATE.2.E.2.1",
+            "MATE.2.E.2.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "9.1",
+        "descripcion": "Afrontar las situaciones de incertidumbre y tomar decisiones, evaluando distintas opciones, identificando y gestionando emociones y aceptando y aprendiendo del error como parte del proceso de aprendizaje de las matemáticas.",
+        "saberes": [
+            "MATE.2.F.1.1",
+            "MATE.2.F.1.2"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "9.2",
+        "descripcion": "Mostrar una actitud positiva y perseverante, aceptando y aprendiendo de la crítica razonada al hacer frente a las diferentes situaciones de aprendizaje de las matemáticas.",
+        "saberes": [
+            "MATE.2.F.2",
+            "MATE.2.F.3.1"
+        ]
+    },
+    {
+        "nivel": "MATE2",
+        "codigo": "9.3",
+        "descripcion": "Trabajar en tareas matemáticas de forma activa en equipos heterogéneos, respetando las emociones y experiencias de las y los demás y escuchando su razonamiento, aplicando las habilidades sociales más propicias y fomentando el bienestar del equipo y las relaciones saludables.",
+        "saberes": [
+            "MATE.2.F.1.2",
+            "MATE.2.F.3.1"
+        ]
     }
 ]
