@@ -74,6 +74,7 @@
     },
     {
         "problema": 20215,
+        "resuelto": true,
         "categorias": [
             "Geometría",
             "Análisis"

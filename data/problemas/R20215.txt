@@ -1,0 +1,105 @@
+<ol>
+    <li>
+        La ecuación $(x-a)^2 + y^2 = b^2$ es de la circunferencia de centro $(a, 0)$ y radio $b.$
+        Para hallar el volumen obtenido al girar esta región alrededor del eje de ordenadas, describimos la circunferencia en función de $y.$
+        $$(x-a)^2 + y^2 = b^2 \Leftrightarrow (x-a)^2 = b^2 - y^2 \Leftrightarrow x = a \pm \sqrt{b^2 - y^2}.$$
+        <img src="img/R20215.png" alt="Figura" loading="lazy">
+
+        El volumen del sólido generado al girar esta región será la diferencia de los volúmenes generados por las regiones descritas por las funciones $f$ y $g$, respectivamente. Así que:
+        \begin{align}
+            V & = \pi \int_{-b}^b f(y)^2dy - \pi \int_{-b}^b g(y)^2dy = \pi \int_{-b}^b (a + \sqrt{b^2-y^2})^2 dy - \pi \int_{-b}^b (a - \sqrt{b^2-y^2})^2 dy = \\
+            & = \pi \int_{-b}^b (a^2 + b^2 - y^2 + 2a\sqrt{b^2-y^2})dy - \pi \int_{-b}^b (a^2 + b^2 - y^2 - 2a\sqrt{b^2-y^2})dy = 4\pi a \int_{-b}^b \sqrt{b^2-y^2}dy.
+        \end{align}
+
+        En primer lugar, hallamos una primitiva del integrando usando el cambio de variable
+        \begin{align}
+            y & = b\mathrm{sen}(u) \Rightarrow u = \mathrm{arcsen}\left(\frac{y}{b}\right), \\
+            dy & = b\cos(u)du.
+        \end{align}
+
+        De esta forma,
+        $$\int \sqrt{b^2-y^2}dy = \int \sqrt{b^2 - b^2\mathrm{sen}^2(u)} \cdot b\cos(u)du = b^2 \int \cos^2(u)du.$$
+
+        Para integrar $\cos^2(u)$, hacemos uso de las siguientes identidades trigonométricas:
+        \begin{align}
+            1 & = \cos^2(u) + \mathrm{sen}^2(u), \\
+            \cos(2u) & = \cos^2(u) - \mathrm{sen}^2(u).
+        \end{align}
+
+        Si sumamos las dos expresiones, obtenemos que:
+        $$1 + \cos(2u) = 2\cos^2(u) \Leftrightarrow \cos^2(u) = \frac{1+\cos(u)}{2}.$$
+
+        Así que:
+        \begin{align}
+            \int \sqrt{b^2-y^2}dy & = b^2 \int \cos^2(u)du = \frac{b^2}{2} \int (1+\cos(u))du = \frac{b^2}{2} \left(u + \frac{1}{2}\mathrm{sen}(2u)\right) = \frac{b^2}{2} \left(u + \mathrm{sen}(u)\cos(u)\right) = \\
+            & = \frac{b^2}{2} \left(u + \mathrm{sen}(u)\sqrt{1-\mathrm{sen}^2(u)}\right) = \frac{b^2}{2} \left(\mathrm{arcsen}\left(\frac{y}{b}\right) + \frac{y}{b}\sqrt{1 - \frac{y^2}{b^2}}\right) = \\
+            & = \frac{b^2}{2} \left(\mathrm{arcsen}\left(\frac{y}{b}\right) + \frac{y\sqrt{b^2-y^2}}{b^2}\right).
+        \end{align}
+
+        Por tanto, el volumen del toro de revolución es
+        \begin{align}
+            V & = 4\pi a \int_{-b}^b \sqrt{b^2-y^2}dy = 4\pi a \cdot \frac{b^2}{2} \left[\mathrm{arcsen}\left(\frac{y}{b}\right) + \frac{y\sqrt{b^2-y^2}}{b^2}\right]_{-b}^b = 2\pi ab^2 \left(\frac{\pi}{2} - \left(-\frac{\pi}{2}\right)\right) = 2\pi^2 ab^2.
+        \end{align}
+    </li>
+
+    <li>
+        <ol>
+            <li>
+                Veamos que el mayor valor entero de $k$ que hace que la serie sea convergente es 1.
+                En primer lugar, observamos que para todo $k, p \in \mathbb{Z}$ con $k < p$ se tiene que:
+                $$0 < n^k < n^p \Leftrightarrow 0 < \frac{n^k}{(n+1)(n+2)(n+3)} < \frac{n^p}{(n+1)(n+2)(n+3)}, \quad n \in \mathbb{N}.$$
+
+                <ul>
+                    <li>
+                        Sea $b_n = \frac{1}{n^2}$, de la que sabemos que $\sum_{n=1}^\infty b_n$ es convergente.
+                        Si $k = 1$,
+                        $$\frac{a_n}{b_n} = \frac{\frac{n}{(n+1)(n+2)(n+3)}}{\frac{1}{n^2}} = \frac{n^3}{(n+1)(n+2)(n+3)} \xrightarrow{n \to \infty} 1.$$
+
+                        Como las dos series tienen el mismo carácter, $\sum_{n=1}^\infty a_n$ es convergente para $k = 1.$
+                        Además, por la desigualdad anterior se tiene que:
+                        $$0 < \frac{n^k}{(n+1)(n+2)(n+3)} \leq \frac{n}{(n+1)(n+2)(n+3)}, \quad \forall k \in \mathbb{Z}, \; k \leq 1.$$
+
+                        Por tanto, $\sum_{n=1}^\infty a_n$ es convergente para $k \leq 1.$
+                    </li>
+
+                    <li>
+                        Sea $c_n = \frac{1}{n}$, de la que sabemos que $\sum_{n=1}^\infty c_n$ es divergente.
+                        Si $k = 2$,
+                        $$\frac{a_n}{c_n} = \frac{\frac{n^2}{(n+1)(n+2)(n+3)}}{\frac{1}{n}} = \frac{n^3}{(n+1)(n+2)(n+3)} \xrightarrow{n \to \infty} 1.$$
+
+                        Como las dos series tienen el mismo carácter, $\sum_{n=1}^\infty a_n$ es divergente para $k = 2.$
+                        Además, por la desigualdad anterior se tiene que:
+                        $$0 < \frac{n^2}{(n+1)(n+2)(n+3)} \leq \frac{n^k}{(n+1)(n+2)(n+3)}, \quad \forall k \in \mathbb{Z}, \; k \geq 2.$$
+
+                        Por tanto, $\sum_{n=1}^\infty a_n$ es divergente para $k \geq 2.$
+                    </li>
+                </ul>
+
+                Por tanto, la serie $\sum_{n=1}^\infty a_n$ es convergente si $k \leq 1$ y divergente si $k \geq 2$, con $k \in \mathbb{Z}.$
+                Luego $k = 1$ es el mayor valor entero para el que la serie es convergente.
+            </li>
+
+            <li>
+                Para hallar la suma de la serie, expresamos $a_n$ como suma de fracciones simples.
+                \begin{align}
+                    \frac{n}{(n+1)(n+2)(n+3)} & = \frac{A}{n+1} + \frac{B}{n+2} + \frac{C}{n+3} = \\
+                    & = \frac{A(n+2)(n+3) + B(n+1)(n+3) + C(n+1)(n+2)}{(n+1)(n+2)(n+3)}.
+                \end{align}
+
+                Hallamos los valores de $A$, $B$ y $C$ mediante sustitución.
+                \begin{align}
+                    n = -1 & \longrightarrow -1 = A \cdot 2 \Leftrightarrow A = -\frac{1}{2}, \\
+                    n = -2 & \longrightarrow -2 = B \cdot (-1) \Leftrightarrow B = 2, \\
+                    n = -3 & \longrightarrow -3 = C \cdot (-2) \cdot (-1) \Leftrightarrow C = -\frac{3}{2}.
+                \end{align}
+
+                Por tanto:
+                \begin{align}
+                    \sum_{n=1}^\infty a_n & = \sum_{n=1}^\infty \frac{n}{(n+1)(n+2)(n+3)} = \sum_{n=1}^\infty \left(-\frac{1}{2(n+1)} + \frac{2}{n+2} - \frac{3}{2(n+3)}\right) = \\
+                    & = -\frac{1}{4} + \frac{2}{3} - \frac{3}{8} - \frac{1}{6} + \frac{2}{4} - \frac{3}{10} - \frac{1}{8} + \frac{2}{5} - \frac{3}{12} - \frac{1}{10} + \frac{2}{6} - \frac{3}{14} - \frac{1}{12} + \frac{2}{7} - \frac{3}{16} + \dots = \\
+                    & = -\frac{1}{4} + \frac{2}{3} - \frac{1}{6} = \frac{1}{4}.
+                \end{align}
+            </li>
+        </ol>
+    </li>
+</ol>
