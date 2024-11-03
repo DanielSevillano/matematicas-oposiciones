@@ -1,6 +1,7 @@
 <ol>
     <li>
-        En primer lugar, expresamos la función $f$ como una función a trozos.
+        En primer lugar, observamos que la función $f$ es continua en un intervalo cerrado y acotado, luego por el teorema de Weierstrass alcanza su máximo y su mínimo absolutos en el intervalo $[-3, 3].$
+        Para hallar sus extremos, expresamos $f$ como una función a trozos.
         $$f(x) = |2x-1|e^{-|x-2|} = \begin{cases}
             (-2x+1)e^{x-2}, & \text{si } -3 \leq x < \frac{1}{2}, \\
             (2x-1)e^{x-2}, & \text{si } \frac{1}{2} \leq x < 2, \\
