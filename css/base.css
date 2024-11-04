@@ -213,11 +213,13 @@ Enlace
 
 a {
     color: var(--accent-link);
+    text-decoration: none;
     transition: color 200ms;
 }
 
 a:hover {
     color: var(--accent-link-hover);
+    text-decoration: underline;
 }
 
 a:active {
