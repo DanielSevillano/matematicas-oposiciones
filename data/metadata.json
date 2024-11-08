@@ -115,6 +115,7 @@
     },
     {
         "problema": 20185,
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]

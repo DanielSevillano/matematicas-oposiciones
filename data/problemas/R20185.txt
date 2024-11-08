@@ -1,0 +1,86 @@
+<ol>
+    <li>
+        El dominio de la función es $\operatorname{Dom}(f) = \mathbb{R}.$
+        Observamos que $(0, 0)$ es el único punto de corte con los ejes coordenados y no presenta simetría.
+        Se trata además de una función continua y derivable en todo su dominio.
+
+        <ul>
+            <li>
+                Estudiamos la existencia de asíntotas horizontales.
+                \begin{align}
+                    & \lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} xe^{-x} = -\infty, \\
+                    & \lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} xe^{-x} = 0.
+                \end{align}
+
+                Luego la recta $y = 0$ es una asíntota horizontal por la derecha.
+                Como no es una función racional, no tiene asíntota oblicua por la izquierda.
+            </li>
+
+            <li>
+                Para estudiar su monotonía, hallamos en primer lugar la derivada de la función.
+                $$f'(x) = e^{-x} - xe^{-x} = (-x+1)e^{-x}.$$
+
+                Hallamos los puntos críticos igualando la derivada a cero.
+                $$f'(x) = 0 \Leftrightarrow (-x+1)e^{-x} = 0 \Leftrightarrow -x + 1 = 0 \Leftrightarrow x = 1.$$
+
+                Estudiamos el signo de la derivada.
+
+                <ul>
+                    <li>
+                        Si $x < 1$, $f'(x) > 0.$
+                        Así que $f$ es creciente.
+                    </li>
+
+                    <li>
+                        Si $x > 1$, $f'(x) < 0.$
+                        Así que $f$ es decreciente.
+                    </li>
+                </ul>
+
+                Luego $f$ es creciente en $(-\infty, 1)$ y decreciente en $(1, +\infty)$, con el punto $\left(1, \frac{1}{e}\right)$ como máximo absoluto.
+            </li>
+
+            <li>
+                Para estudiar su curvatura, hallamos su segunda derivada.
+                \begin{align}
+                    f''(x) & = -e^{-x} - (-x+1)e^{-x} = (x-2)e^{-x}.
+                \end{align}
+
+                Hallamos los candidatos a puntos de inflexión igualando la segunda derivada a cero.
+                $$f''(x) = 0 \Leftrightarrow (x-2)e^{-x} = 0 \Leftrightarrow x - 2 = 0 \Leftrightarrow x = 2.$$
+
+                Estudiamos el signo de la segunda derivada.
+
+                <ul>
+                    <li>
+                        Si $x < 2$, $f''(x) < 0.$
+                        Así que $f$ es cóncava.
+                    </li>
+
+                    <li>
+                        Si $x > 2$, $f''(x) > 0.$
+                        Así que $f$ es convexa.
+                    </li>
+                </ul>
+
+                Luego $f$ es convexa en $(2, +\infty)$ y cóncava en $(-\infty, 2)$, con el punto de inflexión $\left(2, \frac{2}{e^2}\right).$
+            </li>
+        </ul>
+
+        Representamos la gráfica de la función con toda esta información.
+        <img src="img/R20185.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Calculamos el límite.
+        \begin{align}
+            \lim_{x \to 0} \frac{f(x) - g(x) + 2 - x}{x\ln(1-x)} & = \lim_{x \to 0} \frac{xe^{-x} - 2 + x\int_0^x e^{-t^2}dt + 2 - x}{x\ln(1-x)} = \lim_{x \to 0} \frac{xe^{-x} + x\int_0^x e^{-t^2}dt - x}{x\ln(1-x)} \overset{\text{L'H}}{=} \\
+            & = \lim_{x \to 0} \frac{(-x+1)e^{-x} + \int_0^x e^{-t^2}dt + xe^{-x^2} - 1}{\ln(1-x) - \frac{x}{1-x}} \overset{\text{L'H}}{=} \\
+            & = \lim_{x \to 0} \frac{(x-2)e^{-x} + e^{-x^2} + e^{-x^2} - 2x^2e^{-x^2}}{\frac{-1}{1-x} - \frac{1}{(1-x)^2}} = \lim_{x \to 0} \frac{(x-2)e^{-x} - 2(x^2 - 1)e^{-x^2}}{\frac{x-2}{(1-x)^2}} = 0.
+        \end{align}
+
+        Se ha usado que la función
+        $$h(x) = \int_0^x e^{-t^2}dt$$
+        es derivable por el teorema fundamental del cálculo, con $h'(x) = e^{-x^2}.$
+    </li>
+</ol>
