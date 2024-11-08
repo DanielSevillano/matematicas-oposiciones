@@ -75,9 +75,9 @@
         Observamos que $\{b_n\}$ es estrictamente creciente y $\lim \{b_n\} = +\infty.$
         Además, se tiene que:
         \begin{align}
-            \lim \frac{a_{n+1} - a_n}{b_{n+1} - b_n} & = \lim \frac{1 - \cos\left(\frac{\pi}{\sqrt{n+1}}\right)}{\ln(n+1) - \ln(n)} \overset{\text{L'H}}{=} \lim \frac{-\mathrm{sen}\left(\frac{\pi}{\sqrt{n+1}}\right) \cdot \frac{1}{2}\pi(n+1)^{-\frac{3}{2}}}{\frac{1}{n+1} - \frac{1}{n}} = \\
-            & = \lim \frac{-\frac{\pi}{2(n+1)^{\frac{3}{2}}}}{\frac{-1}{n(n+1)}} \cdot \mathrm{sen}\left(\frac{\pi}{\sqrt{n+1}}\right) = \lim \frac{\pi n}{2\sqrt{n+1}} \cdot \mathrm{sen}\left(\frac{\pi}{\sqrt{n+1}}\right) = \\
-            & = \lim \frac{\mathrm{sen}\left(\frac{\pi}{\sqrt{n+1}}\right)}{\frac{\pi}{\sqrt{n+1}}} \cdot \frac{\pi}{\sqrt{n+1}} \cdot \frac{\pi n}{2\sqrt{n+1}} = \lim \frac{\mathrm{sen}\left(\frac{\pi}{\sqrt{n+1}}\right)}{\frac{\pi}{\sqrt{n+1}}} \cdot \frac{\pi^2 n}{2(n+1)} = \frac{\pi^2}{2}.
+            \lim \frac{a_{n+1} - a_n}{b_{n+1} - b_n} & = \lim \frac{1 - \cos\left(\frac{\pi}{\sqrt{n+1}}\right)}{\ln(n+1) - \ln(n)} \overset{\text{L'H}}{=} \lim \frac{-\operatorname{sen}\left(\frac{\pi}{\sqrt{n+1}}\right) \cdot \frac{1}{2}\pi(n+1)^{-\frac{3}{2}}}{\frac{1}{n+1} - \frac{1}{n}} = \\
+            & = \lim \frac{-\frac{\pi}{2(n+1)^{\frac{3}{2}}}}{\frac{-1}{n(n+1)}} \cdot \operatorname{sen}\left(\frac{\pi}{\sqrt{n+1}}\right) = \lim \frac{\pi n}{2\sqrt{n+1}} \cdot \operatorname{sen}\left(\frac{\pi}{\sqrt{n+1}}\right) = \\
+            & = \lim \frac{\operatorname{sen}\left(\frac{\pi}{\sqrt{n+1}}\right)}{\frac{\pi}{\sqrt{n+1}}} \cdot \frac{\pi}{\sqrt{n+1}} \cdot \frac{\pi n}{2\sqrt{n+1}} = \lim \frac{\operatorname{sen}\left(\frac{\pi}{\sqrt{n+1}}\right)}{\frac{\pi}{\sqrt{n+1}}} \cdot \frac{\pi^2 n}{2(n+1)} = \frac{\pi^2}{2}.
         \end{align}
 
         Como este límite existe, por el criterio de Stolz se tiene que:

@@ -27,7 +27,7 @@
     <li>
         <ol>
             <li>
-                El dominio de la función es $\mathrm{Dom}(f) = (0, 1) \cup (1, +\infty).$
+                El dominio de la función es $\operatorname{Dom}(f) = (0, 1) \cup (1, +\infty).$
                 Es inmediato ver que no tiene puntos de corte con los ejes ni presenta simetría.
                 Se trata además de una función continua y derivable en todo su dominio.
 

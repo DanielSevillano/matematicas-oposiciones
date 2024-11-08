@@ -4,7 +4,7 @@
 </p>
 
 <p>
-    Queremos probar que $AP$ es una mediana del triángulo $ABD.$ Esto es equivalente a que $Q$ sea el punto medio del segmento $BP$, es decir, $\mathrm{dist}(B, Q) = \mathrm{dist}(D, Q).$ Consideramos los triángulos $ABQ$ y $BPQ.$
+    Queremos probar que $AP$ es una mediana del triángulo $ABD.$ Esto es equivalente a que $Q$ sea el punto medio del segmento $BP$, es decir, $\operatorname{dist}(B, Q) = \operatorname{dist}(D, Q).$ Consideramos los triángulos $ABQ$ y $BPQ.$
     <img src="img/R20236-2.png" alt="Figura" loading="lazy">
 </p>
 
@@ -41,8 +41,8 @@
                 <li>
                     La potencia de $\Gamma$ en $B$ se puede expresar como:
                     $$\begin{cases}
-                        \mathrm{Pot}_\Gamma(B) = \overline{BA} \cdot \overline{BN}, \\
-                        \mathrm{Pot}_\Gamma(C) = \overline{BD}^2
+                        \operatorname{Pot}_\Gamma(B) = \overline{BA} \cdot \overline{BN}, \\
+                        \operatorname{Pot}_\Gamma(C) = \overline{BD}^2
                     \end{cases} \Rightarrow \overline{AB} \cdot \overline{BN} = \overline{BD}^2.$$
 
                     Sustituyendo la expresión obtenida previamente de $\overline{BD}$, tenemos que:
@@ -52,8 +52,8 @@
                 <li>
                     La potencia de $\Gamma$ en $C$ se puede expresar como:
                     $$\begin{cases}
-                        \mathrm{Pot}_\Gamma(C) = \overline{CM} \cdot \overline{CA}, \\
-                        \mathrm{Pot}_\Gamma(C) = \overline{CD}^2
+                        \operatorname{Pot}_\Gamma(C) = \overline{CM} \cdot \overline{CA}, \\
+                        \operatorname{Pot}_\Gamma(C) = \overline{CD}^2
                     \end{cases} \Rightarrow \overline{CM} \cdot \overline{AC} = \overline{CD}^2.$$
 
                     Sustituyendo la expresión obtenida previamente de $\overline{CD}$, tenemos que:
@@ -74,14 +74,14 @@
     </ul>
 
     Así que los triángulos $BPQ$ y $ABQ$ son semejantes. Luego se tiene que:
-    $$\frac{\overline{AQ}}{\overline{BQ}} = \frac{\overline{BQ}}{\overline{PQ}} \Leftrightarrow \overline{AQ} \cdot \overline{PQ} = \overline{BQ}^2 = \mathrm{dist}(B, Q)^2.$$
+    $$\frac{\overline{AQ}}{\overline{BQ}} = \frac{\overline{BQ}}{\overline{PQ}} \Leftrightarrow \overline{AQ} \cdot \overline{PQ} = \overline{BQ}^2 = \operatorname{dist}(B, Q)^2.$$
 
     Usando la potencia de la circunferencia $\Gamma$ en $Q$, tenemos que:
     $$\begin{cases}
-        \mathrm{Pot}_\Gamma(Q) = \overline{QA} \cdot \overline{QP}, \\
-        \mathrm{Pot}_\Gamma(Q) = \overline{QD}^2.
-    \end{cases} \Rightarrow \overline{AQ} \cdot \overline{PQ} = \overline{DQ}^2 = \mathrm{dist}(D, Q)^2.$$
+        \operatorname{Pot}_\Gamma(Q) = \overline{QA} \cdot \overline{QP}, \\
+        \operatorname{Pot}_\Gamma(Q) = \overline{QD}^2.
+    \end{cases} \Rightarrow \overline{AQ} \cdot \overline{PQ} = \overline{DQ}^2 = \operatorname{dist}(D, Q)^2.$$
 
     Por tanto,
-    $$\mathrm{dist}(B, Q)^2 = \mathrm{dist}(D, Q)^2 \Rightarrow \mathrm{dist}(B, Q) = \mathrm{dist}(D, Q).$$
+    $$\operatorname{dist}(B, Q)^2 = \operatorname{dist}(D, Q)^2 \Rightarrow \operatorname{dist}(B, Q) = \operatorname{dist}(D, Q).$$
 </p>

@@ -2,7 +2,7 @@
     <li>
         Sea $C_i = \textit{obtener cara en el lanzamiento i}$ para $i \in \{1, 2, \dots, n\}$, con $P(C_i) = p.$
         Por otro lado, definimos la variable aleatoria $X = \textit{número de caras obtenidas al lanzar n monedas}.$
-        Como $X \sim \mathrm{Bi}(n, p)$, se tiene que:
+        Como $X \sim \operatorname{Bi}(n, p)$, se tiene que:
         $$P(X = i) = \binom{n}{i} \cdot p^i \cdot (1-p)^{n-i}, \quad i = 0, 1, \dots, n.$$
 
         Supongamos que hemos obtenido $k$ caras, con $0 \leq k \leq n.$
@@ -70,8 +70,8 @@
         Por tanto, todo $z \in \mathbb{C} \setminus \{-1, 1\}$ con $|z| = 1$ se puede escribir de la forma:
         $$z = \frac{1 + \mu i}{1 - \mu i}, \quad \text{donde } \mu = \frac{1-a}{b}.$$
 
-        Si $\theta = \arg(z)$, entonces $a = \cos(\theta)$ y $b = \mathrm{sen}(\theta).$
+        Si $\theta = \arg(z)$, entonces $a = \cos(\theta)$ y $b = \operatorname{sen}(\theta).$
         Así que:
-        $$\mu = \frac{1-a}{b} = \frac{1 - \cos(\theta)}{\mathrm{sen}(\theta)}.$$
+        $$\mu = \frac{1-a}{b} = \frac{1 - \cos(\theta)}{\operatorname{sen}(\theta)}.$$
     </li>
 </ol>

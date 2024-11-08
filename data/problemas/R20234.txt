@@ -141,7 +141,7 @@
         En este caso, tenemos que $\det(A_n(a)) = 0$, mientras que:
         $$\det(A_{n-1}(a)) = a^{n-1} + \dots + a + 1 = \sum_{k=0}^{n-1} a^k = \frac{a^n-1}{a-1} = \frac{\alpha_k^n - 1}{\alpha_k - 1} = \frac{e^{\frac{2kn\pi}{n+1}i} - 1}{e^{\frac{2k\pi}{n+1}i} - 1} \neq 0.$$
 
-        Así que $\mathrm{rang}(A_n(a)) = n-1.$
+        Así que $\operatorname{rang}(A_n(a)) = n-1.$
         Estudiamos el rango de la matriz ampliada:
         $$\left(\begin{array}{cccccc | c}
             1+a & 1 & 0 & \dots & 0 & 0 & 0 \\
