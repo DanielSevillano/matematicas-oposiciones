@@ -110,7 +110,7 @@
                             </li>
 
                             <li>
-                                Si $1 < x < e$^2, $f''(x) > 0.$
+                                Si $1 < x < e^2$, $f''(x) > 0.$
                                 Así que $f$ es convexa.
                             </li>
 
