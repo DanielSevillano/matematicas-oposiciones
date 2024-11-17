@@ -68,6 +68,7 @@
     },
     {
         "problema": 20214,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]

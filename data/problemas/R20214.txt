@@ -1,0 +1,163 @@
+<ol>
+    <li>
+        Supongamos que $v$ es un vector linealmente dependiente de $\{u_1, u_2, u_3\}.$
+        Entonces existen $a, b, c \in \mathbb{K}$ tales que:
+        $$v = au_1 + bu_2 + cu_3.$$
+
+        Además, $v$ no depende linealmente de $\{u_2, u_3\}$, así que $a \neq 0.$
+        Como $a$ es un elemento no nulo de un cuerpo $\mathbb{K}$, tiene inverso.
+        Por tanto:
+        $$v = au_1 + bu_2 + cu_3 \Leftrightarrow au_1 = v - bu_2 - cu_3 \Leftrightarrow u_1 = \frac{1}{a}v - \frac{b}{a}u_2 - \frac{c}{a}u_3.$$
+
+        Luego $u_1$ depende linealmente de $\{v, u_2, u_3\}.$
+    </li>
+    
+    <li>
+        <ol>
+            <li>
+                En primer lugar, hallamos las dimensiones de $S_1$ y $S_3.$
+
+                <ul>
+                    <li>
+                        Veamos si los tres vectores que generan $S_1$ son linealmente independientes.
+                        Observamos que:
+                        $$\begin{vmatrix}
+                            1 & 1 & 0 \\
+                            1 & 0 & -1 \\
+                            1 & 3 & 2
+                        \end{vmatrix} = 0, \quad
+                        \begin{vmatrix}
+                            1 & 1 \\
+                            1 & 0
+                        \end{vmatrix} = -1 \neq 0.$$
+                        
+                        Así que $\dim(S_1) = 2$ y se puede expresar como:
+                        $$S_1 = \Bigg\langle
+                            \begin{pmatrix}
+                                1 \\ 1 \\ 0 \\ 0
+                            \end{pmatrix},
+                            \begin{pmatrix}
+                                1 \\ 0 \\ -1 \\ 0
+                            \end{pmatrix}
+                        \Bigg\rangle.$$
+                    </li>
+
+                    <li>
+                        Hallamos los vectores que generan $S_2.$
+                        Si tomamos $x = \lambda$,
+                        $$S_2: \begin{cases}
+                            x = \lambda, \\
+                            y = \lambda, \\
+                            z = \lambda, \\
+                            t = \mu
+                        \end{cases} \Leftrightarrow
+                        S_2: \Bigg\langle
+                            \begin{pmatrix}
+                                1 \\ 1 \\ 1 \\ 0
+                            \end{pmatrix},
+                            \begin{pmatrix}
+                                0 \\ 0 \\ 0 \\ 1
+                            \end{pmatrix}
+                        \Bigg\rangle.$$
+
+                        Los dos vectores son linealmente independientes, así que $\dim(S_2) = 2.$
+                    </li>
+                </ul>
+
+
+                Hallamos el subespacio $S_1 + S_2.$
+                $$S_1 + S_2 = \Bigg\langle
+                    \begin{pmatrix}
+                        1 \\ 1 \\ 0 \\ 0
+                    \end{pmatrix},
+                    \begin{pmatrix}
+                        1 \\ 0 \\ -1 \\ 0
+                    \end{pmatrix},
+                    \begin{pmatrix}
+                        1 \\ 1 \\ 1 \\ 0
+                    \end{pmatrix},
+                    \begin{pmatrix}
+                        0 \\ 0 \\ 0 \\ 1
+                    \end{pmatrix}
+                \Bigg\rangle.$$
+
+                Observamos que:
+                $$\begin{vmatrix}
+                    1 & 1 & 0 & 0 \\
+                    1 & 0 & -1 & 0 \\
+                    1 & 1 & 1 & 0 \\
+                    0 & 0 & 0 & 1
+                \end{vmatrix} =
+                \begin{vmatrix}
+                    1 & 1 & 0 \\
+                    1 & 0 & -1 \\
+                    1 & 1 & 1
+                \end{vmatrix} = -1 \neq 0.$$
+
+                Así que $\dim(S_1 + S_2) = 4.$
+                Por tanto, también se tiene que:
+                $$\dim(S_1 \cap S_2) = \dim(S_1) + \dim(S_2) - \dim(S_1 + S_2) = 2 + 2 - 4 = 0.$$
+            </li>
+
+            <li>
+                El subespacio $S_1$ se puede expresar como:
+                $$S_1: \begin{cases}
+                    x = \lambda + \mu, \\
+                    y = \lambda, \\
+                    z = -\mu, \\
+                    t = 0
+                \end{cases} = \begin{cases}
+                    x = y - z, \\
+                    t = 0.
+                \end{cases}$$
+
+                Por tanto,
+                $$S_1 \cap S_3: \begin{cases}
+                    x = y - z, \\
+                    t = 0, \\
+                    y + z = 0
+                \end{cases} = \begin{cases}
+                    x = 2y, \\
+                    z = -y, \\
+                    t = 0
+                \end{cases} = \begin{cases}
+                    x = 2\lambda, \\
+                    y = \lambda, \\
+                    z = -\lambda, \\
+                    t = 0
+                \end{cases} \Leftrightarrow
+                S_1 \cap S_3 = \Bigg\langle
+                    \begin{pmatrix}
+                        2 \\ 1 \\ -1 \\ 0
+                    \end{pmatrix}
+                \Bigg\rangle.$$
+            </li>
+
+            <li>
+                En primer lugar, hallamos la dimensión de $S_3.$
+                Si $y = \lambda$,
+                $$S_3: \begin{cases}
+                    x = \alpha, \\
+                    y = \lambda, \\
+                    z = -\lambda, \\
+                    t = \beta
+                \end{cases} \Leftrightarrow
+                S_3 = \Bigg\langle
+                    \begin{pmatrix}
+                        1 \\ 0 \\ 0 \\ 0
+                    \end{pmatrix},
+                    \begin{pmatrix}
+                        0 \\ 1 \\ -1 \\ 0
+                    \end{pmatrix},
+                    \begin{pmatrix}
+                        0 \\ 0 \\ 0 \\ 1
+                    \end{pmatrix}
+                \Bigg\rangle.$$
+
+                Los tres vectores son linealmente independientes, así que $\dim(S_3) = 3.$
+                Como además $\dim(S_1 \cap S_3) = 1$, tenemos que:
+                $$\dim(S_1 + S_3) = \dim(S_1) + \dim(S_3) - \dim(S_1 \cap S_3) = 2 + 3 - 1 = 4.$$
+            </li>
+        </ol>
+    </li>
+</ol>
