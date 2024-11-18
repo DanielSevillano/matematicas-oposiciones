@@ -5,6 +5,8 @@ const formulario = document.querySelector("form");
 const intervalo1 = document.querySelector("#curso-inicial");
 const intervalo2 = document.querySelector("#curso-final");
 
+let metadatos;
+
 async function obtenerExamenGenerado(problemas) {
     const main = document.querySelector("main");
 
@@ -71,10 +73,12 @@ async function procesar(event) {
     const cursoInicial = Math.max(parseInt(intervalo1.value), parseInt(intervalo2.value));
     const cursoFinal = Math.min(parseInt(intervalo1.value), parseInt(intervalo2.value));
 
-    const respuesta = await fetch("data\\metadata.json");
-    const data = await respuesta.json();
+    if (!metadatos) {
+        const respuesta = await fetch("data\\metadata.json");
+        metadatos = await respuesta.json();
+    }
 
-    const datos = data.filter(problema => {
+    const datos = metadatos.filter(problema => {
         const curso = parseInt(problema.problema / 10);
         return curso >= cursoFinal && curso <= cursoInicial;
     });

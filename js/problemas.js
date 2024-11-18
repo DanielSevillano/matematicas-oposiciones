@@ -10,10 +10,13 @@ const botonAleatorio = document.querySelector("#aleatorio");
 const cinta = document.querySelector("#cinta");
 const contador = cinta.querySelector("#contador");
 
+let metadatos;
+const guardarMetadatos = datos => { metadatos = datos };
+
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
-        mostrarCategoria(categoria, contador);
+        mostrarCategoria(categoria, metadatos, guardarMetadatos, contador);
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 

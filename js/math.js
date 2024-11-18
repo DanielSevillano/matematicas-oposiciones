@@ -88,7 +88,7 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
     return articulo;
 }
 
-async function obtenerExamen(examen) {
+async function obtenerExamen(examen, metadatos) {
     const main = document.querySelector("main");
 
     const titulo = document.createElement("h2");
@@ -103,9 +103,6 @@ async function obtenerExamen(examen) {
 
     main.append(titulo);
 
-    const respuesta = await fetch("data\\metadata.json");
-    const datos = await respuesta.json();
-
     for (let problema = 1; problema <= 6; problema++) {
         if (estado.cancelado) {
             estado.reanudar();
@@ -113,7 +110,7 @@ async function obtenerExamen(examen) {
         }
 
         const codigo = examen * 10 + problema;
-        const datosProblema = datos.find(dato => dato.problema == codigo);
+        const datosProblema = metadatos.find(dato => dato.problema == codigo);
 
         let resuelto = false;
         let categorias = [];
@@ -135,24 +132,28 @@ async function obtenerExamen(examen) {
     return true;
 }
 
-async function mostrarExamen(examen) {
+async function mostrarExamen(examen, metadatos, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerExamen(examen).then(() => {
+    let datos;
+    if (!metadatos) {
+        const respuesta = await fetch("data\\metadata.json");
+        datos = await respuesta.json();
+        guardarMetadatos(datos);
+    } else datos = metadatos;
+
+    obtenerExamen(examen, datos).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
 }
 
-async function obtenerCategoria(categoria, contador = undefined) {
+async function obtenerCategoria(categoria, metadatos, contador = undefined) {
     const main = document.querySelector("main");
 
-    const respuesta = await fetch("data\\metadata.json");
-    const datos = await respuesta.json();
-
-    let problemas = datos.filter(problema => problema.categorias.map(c => normalizar(c)).includes(categoria));
+    let problemas = metadatos.filter(problema => problema.categorias.map(c => normalizar(c)).includes(categoria));
     if (contador) contador.textContent = problemas.length;
 
     for (let problema of problemas) {
@@ -176,12 +177,19 @@ async function obtenerCategoria(categoria, contador = undefined) {
     return true;
 }
 
-async function mostrarCategoria(categoria, contador = undefined) {
+async function mostrarCategoria(categoria, metadatos, guardarMetadatos, contador = undefined) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
-    obtenerCategoria(categoria, contador).then(() => {
+    let datos;
+    if (!metadatos) {
+        const respuesta = await fetch("data\\metadata.json");
+        datos = await respuesta.json();
+        guardarMetadatos(datos);
+    } else datos = metadatos;
+
+    obtenerCategoria(categoria, datos, contador).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });

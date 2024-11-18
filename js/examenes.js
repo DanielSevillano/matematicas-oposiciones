@@ -8,10 +8,13 @@ const main = document.querySelector("main");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 
+let metadatos;
+const guardarMetadatos = datos => { metadatos = datos };
+
 function pulsar(boton) {
     if (!estado.cancelado) {
         const examen = boton.id.replace("boton-", "");
-        mostrarExamen(examen);
+        mostrarExamen(examen, metadatos, guardarMetadatos);
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
         botones.forEach(b => {
