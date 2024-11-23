@@ -150,11 +150,16 @@ async function mostrarExamen(examen, metadatos, guardarMetadatos) {
     });
 }
 
-async function obtenerCategoria(categoria, metadatos, contador = undefined) {
+async function obtenerCategoria(categoria, metadatos, soloResueltos, cinta) {
     const main = document.querySelector("main");
 
     let problemas = metadatos.filter(problema => problema.categorias.map(c => normalizar(c)).includes(categoria));
-    if (contador) contador.textContent = problemas.length;
+    if (soloResueltos) problemas = problemas.filter(problema => problema.resuelto);
+    const total = problemas.length;
+
+    cinta.querySelector("#contador").textContent = total;
+    cinta.classList.add("cargando");
+    let contador = 0;
 
     for (let problema of problemas) {
         if (estado.cancelado) {
@@ -169,15 +174,20 @@ async function obtenerCategoria(categoria, metadatos, contador = undefined) {
             categorias = problema.categorias;
         }
 
+        contador++;
+        cinta.style.setProperty("--progreso", contador / total * 100);
+
         const parrafo = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, resuelto, categorias, true);
         main.append(parrafo);
         formatear(parrafo);
     };
 
+    cinta.classList.remove("cargando");
+
     return true;
 }
 
-async function mostrarCategoria(categoria, metadatos, guardarMetadatos, contador = undefined) {
+async function mostrarCategoria(categoria, metadatos, soloResueltos, cinta, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
@@ -189,7 +199,7 @@ async function mostrarCategoria(categoria, metadatos, guardarMetadatos, contador
         guardarMetadatos(datos);
     } else datos = metadatos;
 
-    obtenerCategoria(categoria, datos, contador).then(() => {
+    obtenerCategoria(categoria, datos, soloResueltos, cinta).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
