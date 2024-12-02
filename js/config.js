@@ -2,7 +2,15 @@ let math = false;
 
 window.MathJax = {
     tex: {
-        inlineMath: [["$", "$"]]
+        inlineMath: [["$", "$"]],
+        macros: {
+            arcsin: "\\operatorname{arcsen}",
+            dist: "\\operatorname{dist}",
+            Dom: "\\operatorname{Dom}",
+            Pot: "\\operatorname{Pot}",
+            rang: "\\operatorname{rang}",
+            sin: "\\operatorname{sen}"
+        }
     },
     options: {
         enableMenu: false

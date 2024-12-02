@@ -1,11 +1,11 @@
 <ol>
     <li>
         Pruebe que
-        $$\sum_{k=0}^n \cos(k\theta) = \frac{1}{2} + \frac{\operatorname{sen}((n + \frac{1}{2})\theta)}{2\operatorname{sen}(\frac{\theta}{2})}.$$
+        $$\sum_{k=0}^n \cos(k\theta) = \frac{1}{2} + \frac{\sin((n + \frac{1}{2})\theta)}{2\sin(\frac{\theta}{2})}.$$
     </li>
 
     <li>
         Dado el triángulo $ABC$, pruebe que es rectángulo si y solo si se cumple
-        $$\operatorname{sen}^2(A) + \operatorname{sen}^2(B) + \operatorname{sen}^2(C) = 2.$$
+        $$\sin^2(A) + \sin^2(B) + \sin^2(C) = 2.$$
     </li>
 </ol>

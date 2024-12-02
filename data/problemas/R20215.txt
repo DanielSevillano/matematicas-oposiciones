@@ -13,17 +13,17 @@
 
         En primer lugar, hallamos una primitiva del integrando usando el cambio de variable
         \begin{align}
-            y & = b\operatorname{sen}(u) \Rightarrow u = \operatorname{arcsen}\left(\frac{y}{b}\right), \\
+            y & = b\sin(u) \Rightarrow u = \arcsin\left(\frac{y}{b}\right), \\
             dy & = b\cos(u)du.
         \end{align}
 
         De esta forma,
-        $$\int \sqrt{b^2-y^2}dy = \int \sqrt{b^2 - b^2\operatorname{sen}^2(u)} \cdot b\cos(u)du = b^2 \int \cos^2(u)du.$$
+        $$\int \sqrt{b^2-y^2}dy = \int \sqrt{b^2 - b^2\sin^2(u)} \cdot b\cos(u)du = b^2 \int \cos^2(u)du.$$
 
         Para integrar $\cos^2(u)$, hacemos uso de las siguientes identidades trigonométricas:
         \begin{align}
-            1 & = \cos^2(u) + \operatorname{sen}^2(u), \\
-            \cos(2u) & = \cos^2(u) - \operatorname{sen}^2(u).
+            1 & = \cos^2(u) + \sin^2(u), \\
+            \cos(2u) & = \cos^2(u) - \sin^2(u).
         \end{align}
 
         Si sumamos las dos expresiones, obtenemos que:
@@ -31,14 +31,14 @@
 
         Así que:
         \begin{align}
-            \int \sqrt{b^2-y^2}dy & = b^2 \int \cos^2(u)du = \frac{b^2}{2} \int (1+\cos(u))du = \frac{b^2}{2} \left(u + \frac{1}{2}\operatorname{sen}(2u)\right) = \frac{b^2}{2} \left(u + \operatorname{sen}(u)\cos(u)\right) = \\
-            & = \frac{b^2}{2} \left(u + \operatorname{sen}(u)\sqrt{1-\operatorname{sen}^2(u)}\right) = \frac{b^2}{2} \left(\operatorname{arcsen}\left(\frac{y}{b}\right) + \frac{y}{b}\sqrt{1 - \frac{y^2}{b^2}}\right) = \\
-            & = \frac{b^2}{2} \left(\operatorname{arcsen}\left(\frac{y}{b}\right) + \frac{y\sqrt{b^2-y^2}}{b^2}\right).
+            \int \sqrt{b^2-y^2}dy & = b^2 \int \cos^2(u)du = \frac{b^2}{2} \int (1+\cos(u))du = \frac{b^2}{2} \left(u + \frac{1}{2}\sin(2u)\right) = \frac{b^2}{2} \left(u + \sin(u)\cos(u)\right) = \\
+            & = \frac{b^2}{2} \left(u + \sin(u)\sqrt{1-\sin^2(u)}\right) = \frac{b^2}{2} \left(\arcsin\left(\frac{y}{b}\right) + \frac{y}{b}\sqrt{1 - \frac{y^2}{b^2}}\right) = \\
+            & = \frac{b^2}{2} \left(\arcsin\left(\frac{y}{b}\right) + \frac{y\sqrt{b^2-y^2}}{b^2}\right).
         \end{align}
 
         Por tanto, el volumen del toro de revolución es
         \begin{align}
-            V & = 4\pi a \int_{-b}^b \sqrt{b^2-y^2}dy = 4\pi a \cdot \frac{b^2}{2} \left[\operatorname{arcsen}\left(\frac{y}{b}\right) + \frac{y\sqrt{b^2-y^2}}{b^2}\right]_{-b}^b = 2\pi ab^2 \left(\frac{\pi}{2} - \left(-\frac{\pi}{2}\right)\right) = 2\pi^2 ab^2.
+            V & = 4\pi a \int_{-b}^b \sqrt{b^2-y^2}dy = 4\pi a \cdot \frac{b^2}{2} \left[\arcsin\left(\frac{y}{b}\right) + \frac{y\sqrt{b^2-y^2}}{b^2}\right]_{-b}^b = 2\pi ab^2 \left(\frac{\pi}{2} - \left(-\frac{\pi}{2}\right)\right) = 2\pi^2 ab^2.
         \end{align}
     </li>
 

@@ -70,8 +70,8 @@
         Por tanto, todo $z \in \mathbb{C} \setminus \{-1, 1\}$ con $|z| = 1$ se puede escribir de la forma:
         $$z = \frac{1 + \mu i}{1 - \mu i}, \quad \text{donde } \mu = \frac{1-a}{b}.$$
 
-        Si $\theta = \arg(z)$, entonces $a = \cos(\theta)$ y $b = \operatorname{sen}(\theta).$
+        Si $\theta = \arg(z)$, entonces $a = \cos(\theta)$ y $b = \sin(\theta).$
         Así que:
-        $$\mu = \frac{1-a}{b} = \frac{1 - \cos(\theta)}{\operatorname{sen}(\theta)}.$$
+        $$\mu = \frac{1-a}{b} = \frac{1 - \cos(\theta)}{\sin(\theta)}.$$
     </li>
 </ol>

@@ -1,6 +1,6 @@
 <ol>
     <li>
-        El dominio de la función es $\operatorname{Dom}(f) = \mathbb{R}.$
+        El dominio de la función es $\Dom(f) = \mathbb{R}.$
         Observamos que $(0, 0)$ es el único punto de corte con los ejes coordenados y no presenta simetría.
         Se trata además de una función continua y derivable en todo su dominio.
 

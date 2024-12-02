@@ -151,10 +151,10 @@
         Sea $P(x, y)$ y sean $D$ y $Q$ las proyecciones de $B$ y $P$ sobre el eje de abscisas, respectivamente.
         <img src="img/R20231.png" alt="Figura" loading="lazy">
 
-        Sea $d = d(A, B) = d(B, C)$ y sea $p = d(P, C).$
+        Sea $d = \dist(A, B) = \dist(B, C)$ y sea $p = \dist(P, C).$
         Como el triángulo $CBD$ es semejante al triángulo $CPQ$, por el teorema de Tales tenemos que:
         \begin{align}
-            & \frac{d(B, C)}{d(P, C)} = \frac{d(B, D)}{d(P, Q)} = \frac{d(C, D)}{d(C, Q)} \Leftrightarrow \frac{d}{p} = \frac{\sqrt{d^2 - \frac{a^4}{4}}}{y} = \frac{\frac{a}{2}}{a-x} \Leftrightarrow \\
+            & \frac{\dist(B, C)}{\dist(P, C)} = \frac{\dist(B, D)}{\dist(P, Q)} = \frac{\dist(C, D)}{\dist(C, Q)} \Leftrightarrow \frac{d}{p} = \frac{\sqrt{d^2 - \frac{a^4}{4}}}{y} = \frac{\frac{a}{2}}{a-x} \Leftrightarrow \\
             & \Leftrightarrow \begin{cases}
                 \dfrac{d}{p} = \dfrac{\frac{a}{2}}{a-x} \Leftrightarrow ad - xd = \dfrac{ap}{2} \Leftrightarrow x = \dfrac{ad - \frac{ap}{2}}{d} = a - \dfrac{ap}{2d}, \\
                 \dfrac{d}{p} = \dfrac{\sqrt{d^2 - \frac{a^2}{4}}}{y} \Leftrightarrow y = \dfrac{p \sqrt{d^2 - \frac{a^2}{4}}}{d}.
