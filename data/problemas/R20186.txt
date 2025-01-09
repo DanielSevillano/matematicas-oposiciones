@@ -1,0 +1,83 @@
+<ol>
+    <li>
+        Sabemos que:
+        $$x^2 + bx + c = 0 \Leftrightarrow x = \frac{-b \pm \sqrt{b^2 - 4c}}{2}.$$
+        
+        Las soluciones de esta ecuación son reales si y solo si $b^2 - 4c \geq 0$, con $b, c \in C.$
+        Podemos hacer una tabla para determinar el signo de $b^2 - 4c$ en todos los posibles casos.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>$b$ \ $c$</td>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                </tr>
+
+                <tr>
+                    <th>1</th>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                </tr>
+
+                <tr>
+                    <th>2</th>
+                    <td>0</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                </tr>
+
+                <tr>
+                    <th>3</th>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                    <td>$-$</td>
+                </tr>
+
+                <tr>
+                    <th>4</th>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>0</td>
+                    <td>$-$</td>
+                </tr>
+
+                <tr>
+                    <th>5</th>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                    <td>$+$</td>
+                </tr>
+            </table>
+        </div>
+
+        Por tanto, la probabilidad de que las soluciones sean reales es $\frac{12}{25}.$
+    </li>
+
+    <li>
+        Sea $X$ el número de veces que sale el número 1 al lanzar $n$ veces un dado de cinco caras.
+        Observamos que $X \sim \operatorname{Bi}\left(n, \frac{1}{5}\right)$, así que:
+        $$P(X = k) = \binom{n}{k} \cdot \left(\frac{1}{5}\right)^k \cdot \left(\frac{4}{5}\right)^{n-k}.$$
+
+        Se tiene que verificar que:
+        \begin{align}
+            & P(X \geq 1) > 0,9 \Leftrightarrow 1 - P(X = 0) > 0,9 \Leftrightarrow P(X = 0) < 0,1 \Leftrightarrow \left(\frac{4}{5}\right)^n < 0,1 \Leftrightarrow \\
+            & \Leftrightarrow n\log\left(\frac{4}{5}\right) < -1 \Leftrightarrow n > -\frac{1}{\log\left(\frac{4}{5}\right)} \approx 10,3189.
+        \end{align}
+
+        Por tanto, hay que lanzar el dado un mínimo de 11 veces.
+    </li>
+</ol>

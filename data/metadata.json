@@ -123,6 +123,7 @@
     },
     {
         "problema": 20186,
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
