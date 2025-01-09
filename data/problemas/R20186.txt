@@ -69,8 +69,8 @@
 
     <li>
         Sea $X$ el número de veces que sale el número 1 al lanzar $n$ veces un dado de cinco caras.
-        Observamos que $X \sim \operatorname{Bi}\left(n, \frac{1}{5}\right)$, así que:
-        $$P(X = k) = \binom{n}{k} \cdot \left(\frac{1}{5}\right)^k \cdot \left(\frac{4}{5}\right)^{n-k}.$$
+        Observamos que $X \sim \Bi\left(n, \frac{1}{5}\right)$, así que:
+        $$P(X = k) = \binom{n}{k} \cdot \left(\frac{1}{5}\right)^k \cdot \left(\frac{4}{5}\right)^{n-k}, \quad k = 0, 1, \dots, n.$$
 
         Se tiene que verificar que:
         \begin{align}

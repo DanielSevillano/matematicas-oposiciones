@@ -5,6 +5,7 @@ window.MathJax = {
         inlineMath: [["$", "$"]],
         macros: {
             arcsin: "\\operatorname{arcsen}",
+            Bi: "\\operatorname{Bi}",
             dist: "\\operatorname{dist}",
             Dom: "\\operatorname{Dom}",
             Pot: "\\operatorname{Pot}",

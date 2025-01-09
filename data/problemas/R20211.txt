@@ -2,7 +2,7 @@
     <li>
         Sea $C_i = \textit{obtener cara en el lanzamiento i}$ para $i \in \{1, 2, \dots, n\}$, con $P(C_i) = p.$
         Por otro lado, definimos la variable aleatoria $X = \textit{número de caras obtenidas al lanzar n monedas}.$
-        Como $X \sim \operatorname{Bi}(n, p)$, se tiene que:
+        Observamos que $X \sim \Bi(n, p)$, así que:
         $$P(X = i) = \binom{n}{i} \cdot p^i \cdot (1-p)^{n-i}, \quad i = 0, 1, \dots, n.$$
 
         Supongamos que hemos obtenido $k$ caras, con $0 \leq k \leq n.$
