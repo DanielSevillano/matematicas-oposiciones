@@ -1,0 +1,174 @@
+<ol>
+    <li>
+        Para hallar el rango de la matriz de coeficientes $A$ y la matriz ampliada $(A|b)$, realizamos transformaciones elementales.
+        $$(A|b) = \left(\begin{array}{ccc|c}
+            -1 & 2 & 0 & 0 \\
+            0 & 1 & -1 & 1 \\
+            -1 & 1 & 1 & \alpha - 2 \\
+            0 & 1 & -1 & \alpha^2
+        \end{array}\right) \xrightarrow[F_4 - F_2]{F_3 - F_1}
+        \left(\begin{array}{ccc|c}
+            -1 & 2 & 0 & 0 \\
+            0 & 1 & -1 & 1 \\
+            0 & -1 & 1 & \alpha - 2 \\
+            0 & 0 & 0 & \alpha^2 - 1
+        \end{array}\right) \xrightarrow{F_3 + F_2}
+        \left(\begin{array}{ccc|c}
+            -1 & 2 & 0 & 0 \\
+            0 & 1 & -1 & 1 \\
+            0 & 0 & 0 & \alpha - 1 \\
+            0 & 0 & 0 & \alpha^2 - 1
+        \end{array}\right).$$
+
+        Observamos que $\rang(A) = 2$ para todo $\alpha \in \mathbb{R}.$
+        Estudiamos el rango de la matriz ampliada en función de $\alpha.$
+
+        <ul>
+            <li>
+                Si $\alpha \neq \pm 1$, $\rang(A|b) = 4.$
+                Por el teorema de Rouché-Frobenius, el sistema es incompatible.
+            </li>
+
+            <li>
+                Si $\alpha = -1$, $\rang(A|b) = 3.$
+                Por el teorema de Rouché-Frobenius, el sistema es incompatible.
+            </li>
+
+            <li>
+                Si $\alpha = 1$, $\rang(A|b) = 2.$
+                Por el teorema de Rouché-Frobenius, el sistema es compatible indeterminado.
+            </li>
+        </ul>
+
+        Para $\alpha = 1$, el sistema se puede reducir a:
+        \begin{cases}
+            -x_1 + 2x_2 = 0, \\
+            x_2 - x_3 = 0.
+        \end{cases}
+
+        Por tanto, si tomamos $y = \lambda$, las soluciones del sistema son de la forma:
+        $$\begin{cases}
+            x_1 = 2\lambda, \\
+            x_2 = \lambda, \\
+            x_3 = \lambda - 1,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+    </li>
+
+    <li>
+        El espacio $E$ está generado por los vectores columna de $A.$
+        Como $\rang(A) = 2$, se tiene que:
+        $$E = \Bigg\langle
+            \begin{pmatrix}
+                -1 \\ 0 \\ -1 \\ 0
+            \end{pmatrix},
+            \begin{pmatrix}
+                2 \\ 1 \\ 1 \\ 1
+            \end{pmatrix},
+            \begin{pmatrix}
+                0 \\ -1 \\ 1 \\ -1
+            \end{pmatrix}
+        \Bigg\rangle = \Bigg\langle
+            \begin{pmatrix}
+                -1 \\ 0 \\ -1 \\ 0
+            \end{pmatrix},
+            \begin{pmatrix}
+                2 \\ 1 \\ 1 \\ 1
+            \end{pmatrix}
+        \Bigg\rangle.$$
+
+        Se puede expresar como:
+        $$E: \begin{cases}
+            x_1 = -\lambda + 2\mu, \\
+            x_2 = \mu, \\
+            x_3 = -\lambda + \mu, \\
+            x_4 = \mu
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x_1 - x_3 = x_2, \\
+            x_2 = x_4.
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x_1 - x_2 - x_3 = 0, \\
+            x_2 - x_4 = 0.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Hallamos el subespacio $E \cap F.$
+        $$E \cap F: \begin{cases}
+            x_1 - x_2 - x_3 = 0, \\
+            x_2 - x_4 = 0, \\
+            x_1 + x_2 - x_4 = 0, \\
+            x_1 + x_3 + x_4 = 0
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x_2 = x_4, \\
+            x_1 = 0, \\
+            x_3 = -x_4
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            x_1 = 0, \\
+            x_2 = \lambda, \\
+            x_3 = -\lambda, \\
+            x_4 = \lambda
+        \end{cases} \Leftrightarrow
+        E \cap F = \Bigg\langle
+            \begin{pmatrix}
+                0 \\ 1 \\ -1 \\ 1
+            \end{pmatrix}
+        \Bigg\rangle.$$
+    </li>
+
+    <li>
+        La transformación lineal $T$ verifica:
+        \begin{align}
+            & T(e_1) = A(e_2 + e_3) =
+            \begin{pmatrix}
+                -1 & 2 & 0 \\
+                0 & 1 & -1 \\
+                -1 & 1 & 1 \\
+                0 & 1 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                0 \\ 1 \\ 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                2 \\ 0 \\ 2 \\ 0
+            \end{pmatrix}, \\
+            & T(e_2) = Ae_3 =
+            \begin{pmatrix}
+                -1 & 2 & 0 \\
+                0 & 1 & -1 \\
+                -1 & 1 & 1 \\
+                0 & 1 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                0 \\ 0 \\ 1
+            \end{pmatrix} =
+            \begin{pmatrix}
+                0 \\ -1 \\ 1 \\ -1
+            \end{pmatrix}, \\
+            & T(e_3) = Ae_2 =
+            \begin{pmatrix}
+                -1 & 2 & 0 \\
+                0 & 1 & -1 \\
+                -1 & 1 & 1 \\
+                0 & 1 & -1
+            \end{pmatrix}
+            \begin{pmatrix}
+                0 \\ 1 \\ 0
+            \end{pmatrix} =
+            \begin{pmatrix}
+                2 \\ 1 \\ 1 \\ 1
+            \end{pmatrix}.
+        \end{align}
+
+        Por tanto,
+        $$B = \begin{pmatrix}
+            2 & 0 & 2 \\
+            0 & -1 & 1 \\
+            2 & 1 & 1 \\
+            0 & -1 & 1
+        \end{pmatrix}.$$
+    </li>
+</ol>

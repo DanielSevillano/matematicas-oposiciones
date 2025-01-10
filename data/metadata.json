@@ -91,6 +91,7 @@
     },
     {
         "problema": 20181,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
