@@ -14,13 +14,14 @@ let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
 
 let metadatos;
+let mapaProblemas = new Map();
 const guardarMetadatos = datos => { metadatos = datos };
 
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
         categoriaSeleccionada = categoria;
-        mostrarCategoria(categoria, metadatos, soloResueltos, cinta, guardarMetadatos);
+        mostrarCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta, guardarMetadatos);
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
@@ -33,7 +34,7 @@ function pulsar(boton) {
 }
 
 function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, metadatos, soloResueltos, cinta, guardarMetadatos);
+    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, metadatos, mapaProblemas, soloResueltos, cinta, guardarMetadatos);
     else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 

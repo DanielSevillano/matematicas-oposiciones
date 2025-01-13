@@ -26,7 +26,7 @@ function formatear(elemento) {
     else setTimeout(() => formatear(elemento));
 }
 
-async function obtenerProblema(examen, problema, resuelto = false, categorias = [], tituloCompleto = false) {
+async function obtenerProblema(examen, problema, resuelto = false, categorias = [], tituloCompleto = false, mapaProblemas = undefined) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
@@ -59,10 +59,18 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
     })
     articulo.append(contenedorCategorias);
 
-    const ruta = "data\\problemas\\" + examen + problema + ".txt";
+    const codigo = String(examen) + String(problema);
 
-    const respuesta = await fetch(ruta);
-    const datos = await respuesta.text();
+    let datos;
+    if (!mapaProblemas || !mapaProblemas.get(codigo)) {
+        const ruta = "data\\problemas\\" + codigo + ".txt";
+        const respuesta = await fetch(ruta);
+        datos = await respuesta.text();
+        if (mapaProblemas) mapaProblemas.set(codigo, datos);
+    } else {
+        datos = mapaProblemas.get(codigo);
+        await new Promise(resolve => setTimeout(resolve, 0));
+    }
 
     parrafo.innerHTML = datos;
 
@@ -73,9 +81,17 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
 
         tituloResolucion.textContent = "Resolución";
 
-        const ruta = "data\\problemas\\R" + examen + problema + ".txt";
-        const respuesta = await fetch(ruta);
-        const datos = await respuesta.text();
+        const codigoResolucion = "R" + codigo;
+
+        if (!mapaProblemas || !mapaProblemas.get(codigoResolucion)) {
+            const ruta = "data\\problemas\\" + codigoResolucion + ".txt";
+            const respuesta = await fetch(ruta);
+            datos = await respuesta.text();
+            if (mapaProblemas) mapaProblemas.set(codigoResolucion, datos);
+        } else {
+            datos = mapaProblemas.get(codigoResolucion);
+            await new Promise(resolve => setTimeout(resolve, 0));
+        }
 
         textoResolucion.innerHTML = datos;
 
@@ -150,7 +166,7 @@ async function mostrarExamen(examen, metadatos, guardarMetadatos) {
     });
 }
 
-async function obtenerCategoria(categoria, metadatos, soloResueltos, cinta) {
+async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta) {
     const main = document.querySelector("main");
 
     let problemas = metadatos.filter(problema => problema.categorias.map(c => normalizar(c)).includes(categoria));
@@ -177,7 +193,7 @@ async function obtenerCategoria(categoria, metadatos, soloResueltos, cinta) {
         contador++;
         cinta.style.setProperty("--progreso", contador / total * 100);
 
-        const parrafo = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, resuelto, categorias, true);
+        const parrafo = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, resuelto, categorias, true, mapaProblemas);
         main.append(parrafo);
         formatear(parrafo);
     };
@@ -187,7 +203,7 @@ async function obtenerCategoria(categoria, metadatos, soloResueltos, cinta) {
     return true;
 }
 
-async function mostrarCategoria(categoria, metadatos, soloResueltos, cinta, guardarMetadatos) {
+async function mostrarCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta, guardarMetadatos) {
     const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
@@ -199,7 +215,7 @@ async function mostrarCategoria(categoria, metadatos, soloResueltos, cinta, guar
         guardarMetadatos(datos);
     } else datos = metadatos;
 
-    obtenerCategoria(categoria, datos, soloResueltos, cinta).then(() => {
+    obtenerCategoria(categoria, datos, mapaProblemas, soloResueltos, cinta).then(() => {
         main.classList.remove("cargando");
         estado.reanudar();
     });
