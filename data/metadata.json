@@ -98,6 +98,7 @@
     },
     {
         "problema": 20182,
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
