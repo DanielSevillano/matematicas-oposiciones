@@ -1,0 +1,59 @@
+<p>
+    Sea $A = \{M(x): x \in \mathbb{R}\} \subset \mathcal{M}_{3 \times 3}(\mathbb{R}).$
+    Veamos que $(A, \cdot)$ es un grupo conmutativo.
+</p>
+
+<ul>
+    <li>
+        Veamos que $A$ es cerrado para el producto.
+        Sean $M(x), M(y) \in A$,
+        $$M(x) \cdot M(y) =
+        \begin{pmatrix}
+            1 & 0 & x \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & 0 & y \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} =
+        \begin{pmatrix}
+            1 & 0 & x+y \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} = M(x+y) \in A.$$
+    </li>
+
+    <li>
+        La asociatividad del producto en $A$ se hereda del producto de matrices.
+    </li>
+
+    <li>
+        Consideramos la matriz:
+        $$I = M(0) =
+        \begin{pmatrix}
+            1 & 0 & 0 \\
+            0 & 1 & 0 \\
+            0 & 0 & 1
+        \end{pmatrix} \in A.$$
+
+        La matriz $I$ es el elemento neutro en $A$, heredado del producto de matrices.
+    </li>
+
+    <li>
+        Todo elemento de $A$ tiene un inverso.
+        Dada $M(x) \in A$, la matriz $M(-x)$ verifica que:
+        $$M(x) \cdot M(-x) = M(-x) \cdot M(x) = M(0) = I.$$
+    </li>
+
+    <li>
+        Veamos que el producto en $A$ es conmutativo.
+        Sean $M(x), M(y) \in A$,
+        $$M(x) \cdot M(y) = M(x + y) = M(y + x) = M(y) \cdot M(x).$$
+    </li>
+</ul>
+
+<p>
+    Por tanto, $(A, \cdot)$ es un grupo conmutativo.
+</p>

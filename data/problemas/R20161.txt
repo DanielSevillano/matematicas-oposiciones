@@ -1,0 +1,66 @@
+<ol>
+    <li>
+        Sea $n \in \mathbb{N}$ el número de soldados, con $10.000 \leq n \leq 11.000.$
+
+        <ul>
+            <li>
+                $\frac{23}{165}n$ soldados resultaron muertos, así que $\frac{23}{165}n \in \mathbb{N}.$
+                Luego $n$ es múltiplo de 165.
+            </li>
+
+            <li>
+                $\frac{35}{143}n$ soldados resultaron heridos, así que $\frac{35}{143}n \in \mathbb{N}.$
+                Luego $n$ es múltiplo de 143.
+        </ul>
+        
+        Hallamos el mínimo común múltiplo de 165 y 143.
+        $$\begin{cases}
+            165 = 3 \cdot 5 \cdot 11, \\
+            143 = 11 \cdot 13
+        \end{cases} \Rightarrow \operatorname{mcm}(165, 143) = 3 \cdot 5 \cdot 11 \cdot 13 = 2.145.$$
+
+        Así que $n$ es múltiplo de 2.145.
+        Sus primeros múltiplos son:
+        $$2.145, \quad 4.290, \quad 6.435, \quad 8.580, \quad 10.725, \quad 12.870.$$
+
+        Como $10.000 \leq n \leq 11.000$, necesariamente $n = 10.725.$
+        Calculamos el número de soldados muertos y heridos.
+
+        <ul>
+            <li>
+                Resultaron muertos $\frac{23}{165} \cdot 10.725 = 1.495$ soldados.
+            </li>
+
+            <li>
+                Resultaron heridos $\frac{35}{143} \cdot 10.725 = 2.625$ soldados.
+            </li>
+        </ul>
+
+        Por tanto, resultaron ilesos:
+        $$10.725 - 1.495 - 2.625 = 6.605.$$
+    </li>
+
+    <li>
+        Sea $N = 2^a \cdot 2^b.$
+        Los divisores de $N$ son de la forma $2^r \cdot 2^s$, con $0 \leq r \leq a$ y $0 \leq s \leq b.$
+        La suma de todos los divisores viene dada por:
+        $$\sum_{\begin{aligned}
+            0 \leq r \leq a \\
+            0 \leq s \leq b
+        \end{aligned}} 2^r \cdot 5^s = \sum_{s=0}^b \sum_{r=0}^a 2^r \cdot 5^s = \sum_{s=0}^b 5^s \cdot \sum_{r=0}^a 2^r = \sum_{s=0}^b 5^s \cdot (2^{a+1} - 1) = \frac{1}{4}(2^{a+1} - 1)(5^{b+1} - 1).$$
+
+        La suma los divisores es 961, así que:
+        \begin{align}
+            \sum_{\begin{aligned}
+                0 \leq r \leq a \\
+                0 \leq s \leq b
+            \end{aligned}} 2^r \cdot 5^s = 961 & \Leftrightarrow \frac{1}{4}(2^{a+1} - 1)(5^{b+1} - 1) = 961 \Leftrightarrow (2^{a+1} - 1)(5^{b+1} - 1) = 3.844 = 2^2 \cdot 31^2 = 31 \cdot 124 \Leftrightarrow \\
+            & \Leftrightarrow \begin{cases}
+                2^{a+1} - 1 = 31 \Leftrightarrow 2^{a+1} = 32 \Leftrightarrow a+1 = 5 \Leftrightarrow a = 4, \\
+                5^{b+1} - 1 = 124 \Leftrightarrow 5^{b+1} = 125 \Leftrightarrow b+1 = 3 \Leftrightarrow b = 2.
+            \end{cases}
+        \end{align}
+
+        Por tanto, $N = 2^4 \cdot 5^2 = 400.$
+    </li>
+</ol>

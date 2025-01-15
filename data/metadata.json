@@ -132,6 +132,7 @@
     },
     {
         "problema": 20161,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
@@ -222,6 +223,7 @@
     },
     {
         "problema": 20064,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
@@ -258,6 +260,7 @@
     },
     {
         "problema": 20004,
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
