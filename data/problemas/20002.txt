@@ -1,0 +1,2 @@
+Una parábola tiene el foco en el punto $F(2, 2)$ y es tangente a $OX$ en el punto $P(4, 0)$ y a $OY$ en el punto $Q(0, 4).$
+Calcular el volumen engendrado por el segmento parabólico determinado por dicha parábola y la cuerda $PQ$ al girar alrededor del eje $OX.$

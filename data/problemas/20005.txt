@@ -1,0 +1,1 @@
+Hallar la longitud de la sombra que sobre el plano horizontal arroja un poste de 4 m de altura a las tres de la tarde del día de equinoccio de primavera en un punto $A$ de la tierra de 30° de latitud norte.

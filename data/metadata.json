@@ -237,5 +237,41 @@
         "categorias": [
             "Álgebra"
         ]
+    },
+    {
+        "problema": 20001,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": 20002,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": 20003,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": 20004,
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": 20005,
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": 20006,
+        "categorias": [
+            "Probabilidad"
+        ]
     }
 ]

@@ -1,0 +1,2 @@
+Construir un triángulo conociendo los lados $b$ y $c$ y la bisectriz $d$ del ángulo que forman.
+Discusión del problema a resolver.

@@ -1,0 +1,1 @@
+Hallar el lugar geométrico de los puntos medios de las cuerdas de la elipse $b^2x^2 + a^2y^2 = a^2b^2$, que son vistas desde el centro bajo un ángulo de 90°.
