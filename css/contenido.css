@@ -179,6 +179,10 @@ details ol {
     padding-left: 1em;
 }
 
+details div>ol>li {
+    margin-top: 1em;
+}
+
 /********************
 Tablas
 ********************/
