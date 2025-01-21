@@ -1,0 +1,26 @@
+Sea $\mathbb{R}_3[x]$ el espacio vectorial de los polinomios de grado menor o igual que 3 con coeficientes reales y sea $\mathcal{B}_1 := \{1, x, x^2, x^3\}$ la base canónica de $\mathbb{R}_3[x].$
+Se consideran los subespacios vectoriales
+\begin{align}
+    & U_1 := \mathcal{L} \{x^2 + 2x, -x^2 + x, x^2 + x\}, \\
+    & U_2 := \{a + bx + cx^2 + dx^3 \in \mathbb{R}_3[x] : b + c = 0, \ 2b - c = 0\}, \\
+    & U_3 := \{a + bx + cx^2 + dx^3 \in \mathbb{R}_3[x] : a = 0, \ b = -\beta, \ c = 0, \ d = \alpha + \beta, \ \alpha, \beta \in \mathbb{R} \}.
+\end{align}
+
+<ol>
+    <li>Calcule $U_1 \cap U_2$ y $U_1 + U_2.$ ¿Son $U_1$ y $U_2$ suplementarios?</li>
+    <li>Calcule unas ecuaciones cartesianas respecto de la base $\mathcal{B}_1$ de $U_1$ y $U_2.$</li>
+    <li>Encuentre una aplicación lineal $h : \mathbb{R}_3[x] \to \mathbb{R}^4$ cuyo núcleo sea $U_1.$</li>
+    <li>
+        Halle la matriz de la aplicación lineal anterior respecto de las bases $\mathcal{B}_1$ y 
+        $$\mathcal{B}_2 := \{u_1 := (1,0,0,0), \ u_2 := (1,1,0,0), \ u_3 := (1,1,1,0), \ u_4 := (1,1,1,1)\}.$$ 
+    </li>
+    <li>
+        ¿Es la matriz hallada en el apartado anterior equivalente a la matriz 
+        $$A = \begin{pmatrix}
+        3 & 4 & 2 & 1 \\
+        1 & 0 & 0 & 0 \\
+        3 & 1 & 1 & 1 \\
+        0 & 0 & 0 & 1
+        \end{pmatrix}?$$
+    </li>
+</ol>

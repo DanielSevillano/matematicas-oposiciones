@@ -1,0 +1,8 @@
+Se dan dos circunferencias de centros $O$ y $O'$ y radios $R$ y $r$, respectivamente, tangentes exteriores en el punto $A.$
+Se traza la tangente común en el punto de intersección de las dos circunferencias.
+Por un punto $B$ de dicha tangente se trazan dos tangentes $BC$ y $BC'$, siendo $C$ y $C'$ los puntos de contacto con cada una de las circunferencias.
+
+<ol>
+    <li>Calcule el límite del cociente de las áreas de los triángulos $\triangle ABC$ y $\triangle ABC'$ cuando el punto $B$ tiende hacia el punto $A.$</li>
+    <li>Calcule el límite anterior cuando $B$ se aleja indefinidamente del punto $A.$</li>
+</ol>

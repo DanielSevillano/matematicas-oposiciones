@@ -1,0 +1,7 @@
+Una circunferencia variable $C$ es tangente a la recta $y = 0$ en el punto $A = (-1,0).$
+Sea $r$ la recta tangente a $C$ en el punto diametralmente opuesto al punto $A$ y sea $s$ la recta tangente a $C$, distinta de $y = 0$, que pasa por el punto $B = (1,0).$
+
+<ol>
+    <li>Calcule la ecuación del lugar geométrico formado por los puntos de intersección de las rectas $r$ y $s.$</li>
+    <li>Calcule el área de la región del plano que está encerrada por la curva calculada en el apartado anterior y la recta $x = 0.$</li>
+</ol>

@@ -5,11 +5,27 @@ const parametros = direccion.searchParams;
 const examen = parametros.get("examen");
 
 const main = document.querySelector("main");
+const grupos = document.querySelectorAll(".grupo");
+const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 
 let metadatos;
 const guardarMetadatos = datos => { metadatos = datos };
+
+grupos.forEach((grupo, indice) => {
+    grupo.addEventListener("click", () => {
+        grupos.forEach(g => {
+            if (grupo == g) g.classList.add("seleccionado");
+            else g.classList.remove("seleccionado");
+        });
+
+        contenidoGrupos.forEach((contenido, i) => {
+            if (indice == i) contenido.classList.add("visible");
+            else contenido.classList.remove("visible");
+        });
+    });
+});
 
 function pulsar(boton) {
     if (!estado.cancelado) {
@@ -39,11 +55,15 @@ botonAleatorio.addEventListener("click", () => {
     boton.click();
 });
 
-if (examen) {
+if (!examen) document.querySelector(".grupo").click();
+else {
     try {
+        const comunidad = String(examen).slice(0, 2);
         document.querySelector("#boton-" + examen).click();
+        document.querySelector("#grupo-" + comunidad).click();
     }
     catch {
+        document.querySelector(".grupo").click();
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname);
     }
 }

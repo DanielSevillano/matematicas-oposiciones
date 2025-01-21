@@ -1,0 +1,17 @@
+Sea $k$ un número natural no nulo y sea $f$ la función real de variable real dada por
+$$f(x) := \begin{vmatrix}
+\binom{1}{1} & 0 & 0 & \cdots & 0 & x \\
+\binom{2}{1} & \binom{2}{2} & 0 & \cdots & 0 & x^2 \\
+\binom{3}{1} & \binom{3}{2} & \binom{3}{3} & \cdots & 0 & x^3 \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+\binom{k}{1} & \binom{k}{2} & \binom{k}{3} & \cdots & \binom{k}{k} & x^k \\
+\binom{k+1}{1} & \binom{k+1}{2} & \binom{k+1}{3} & \cdots & \binom{k+1}{k} & x^{k+1}
+\end{vmatrix}$$
+
+<ol>
+    <li>Calcule $f(x+1) - f(x).$</li>
+    <li>
+        Para cada $n \in \mathbb{N}^+$, exprese mediante esta función la suma
+        $$1^k + 2^k + \dots + n^k.$$
+    </li>
+</ol>

@@ -14,7 +14,7 @@
     </li>
 
     <li>
-        Sea $z \in \mathbb{C}$ con $|z| = 1$ y $z \neq 1$.
+        Sea $z \in \mathbb{C}$ con $|z| = 1$ y $z \neq 1.$
         Como $z \neq 1$, necesariamente $\mu \neq 0.$
         También es necesario que $z \neq -1$, puesto que:
         $$-1 = \frac{1 + \mu i}{1 - \mu i} \Leftrightarrow -1 + \mu i = 1 + \mu i \Leftrightarrow -1 = 1.$$

@@ -1,15 +1,14 @@
 import { formatear, obtenerProblema } from "./math.js";
 
+const main = document.querySelector("main");
 const formulario = document.querySelector("form");
-
 const intervalo1 = document.querySelector("#curso-inicial");
 const intervalo2 = document.querySelector("#curso-final");
 
+const numeroProblemas = 6;
 let metadatos;
 
 async function obtenerExamenGenerado(problemas) {
-    const main = document.querySelector("main");
-
     const titulo = document.createElement("h2");
     titulo.innerText = "📋 Examen generado";
 
@@ -22,19 +21,23 @@ async function obtenerExamenGenerado(problemas) {
 
     main.append(titulo);
 
-    for (let numero = 1; numero <= 6; numero++) {
-        const problema = problemas[numero - 1];
+    for (let numero = 1; numero <= numeroProblemas; numero++) {
+        const objeto = problemas[numero - 1];
 
         let resuelto = false;
         let categorias = []
-        if (problema != undefined) {
-            if (problema.resuelto) resuelto = true;
-            categorias = problema.categorias;
+        if (objeto != undefined) {
+            if (objeto.resuelto) resuelto = true;
+            categorias = objeto.categorias;
         }
 
-        boton.style.setProperty("--progreso", numero / 8 * 100);
+        boton.style.setProperty("--progreso", numero / numeroProblemas * 100);
 
-        const seccion = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, resuelto, categorias, true);
+        const comunidad = objeto.problema.slice(0, 2);
+        const examen = objeto.problema.slice(2, 6);
+        const problema = parseInt(objeto.problema.slice(-2));
+
+        const seccion = await obtenerProblema(comunidad, examen, problema, resuelto, categorias, true);
         main.append(seccion);
         formatear(seccion);
     }
@@ -44,7 +47,6 @@ async function obtenerExamenGenerado(problemas) {
 }
 
 async function mostrarExamenGenerado(problemas) {
-    const main = document.querySelector("main");
     const boton = document.querySelector("#generar");
 
     obtenerExamenGenerado(problemas).then(() => {
@@ -63,7 +65,6 @@ function problemaAleatorio(problemas, excepciones = []) {
 async function procesar(event) {
     event.preventDefault();
 
-    const main = document.querySelector("main");
     main.textContent = "";
     main.classList.add("cargando");
 
@@ -78,8 +79,8 @@ async function procesar(event) {
         metadatos = await respuesta.json();
     }
 
-    const datos = metadatos.filter(problema => {
-        const curso = parseInt(problema.problema / 10);
+    const datos = metadatos.filter(objeto => {
+        const curso = objeto.problema.slice(2, 6);
         return curso >= cursoFinal && curso <= cursoInicial;
     });
 
@@ -89,14 +90,12 @@ async function procesar(event) {
         return;
     };
 
-    const problema1 = problemaAleatorio(datos);
-    const problema2 = problemaAleatorio(datos, [problema1]);
-    const problema3 = problemaAleatorio(datos, [problema1, problema2]);
-    const problema4 = problemaAleatorio(datos, [problema1, problema2, problema3]);
-    const problema5 = problemaAleatorio(datos, [problema1, problema2, problema3, problema4]);
-    const problema6 = problemaAleatorio(datos, [problema1, problema2, problema3, problema4, problema5]);
+    let problemas = [];
+    for (let i = 1; i <= numeroProblemas; i++) {
+        problemas.push(problemaAleatorio(datos, problemas));
+    }
 
-    mostrarExamenGenerado([problema1, problema2, problema3, problema4, problema5, problema6]);
+    mostrarExamenGenerado(problemas);
 }
 
 formulario.addEventListener("submit", procesar);

@@ -1,0 +1,2 @@
+En una circunferencia se seleccionan al azar tres puntos $A$, $B$ y $C$, y se unen con tres segmentos, formando un triángulo inscrito en la circunferencia.
+Calcular la probabilidad de que ese triángulo no sea obtusángulo.

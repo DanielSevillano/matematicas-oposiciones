@@ -1,0 +1,7 @@
+Sean $\Sigma$ y $\Gamma$ dos circunferencias; la primera de centro $O$ y radio $R$ y la segunda de centro $C$ y radio $\frac{R}{4}.$
+La circunferencia $\Gamma$ rueda sin deslizar por la parte interior de $\Sigma$, siendo tangentes interiores.
+
+<ol>
+    <li>Halle el lugar geométrico de un punto fijo de $\Gamma.$</li>
+    <li>Deduza la ecuación de la curva resultante en coordenadas cartesianas.</li>
+</ol>

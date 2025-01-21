@@ -10,6 +10,12 @@ const estado = new Object({
     }
 });
 
+const comunidades = new Map([
+    ["AN", "Andalucía"],
+    ["AR", "Aragón"],
+    ["GA", "Galicia"]
+]);
+
 function normalizar(texto) {
     let procesado = texto.toLowerCase();
     procesado = procesado.replaceAll("á", "a");
@@ -26,7 +32,7 @@ function formatear(elemento) {
     else setTimeout(() => formatear(elemento));
 }
 
-async function obtenerProblema(examen, problema, resuelto = false, categorias = [], tituloCompleto = false, mapaProblemas = undefined) {
+async function obtenerProblema(comunidad, examen, problema, resuelto = false, categorias = [], tituloCompleto = false, mapaProblemas = undefined) {
     const articulo = document.createElement("article");
     const titulo = document.createElement("h3");
     const parrafo = document.createElement("p");
@@ -38,8 +44,8 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
         titulo.textContent = "Problema " + problema + ": ";
 
         const enlace = document.createElement("a");
-        enlace.textContent = "Examen de " + examen;
-        enlace.href = "/examenes" + html + "?examen=" + examen;
+        enlace.textContent = "Examen de " + examen + " de " + comunidades.get(comunidad);
+        enlace.href = "/examenes" + html + "?examen=" + comunidad + examen;
 
         titulo.append(enlace);
     } else titulo.textContent = "Problema " + problema;
@@ -56,14 +62,18 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
         enlaceCategoria.classList.add("contorno");
         elementoCategoria.append(enlaceCategoria);
         contenedorCategorias.append(elementoCategoria);
-    })
+    });
     articulo.append(contenedorCategorias);
 
-    const codigo = String(examen) + String(problema);
+    const carpeta = normalizar(comunidades.get(comunidad));
+
+    let numeracion = String(problema);
+    if (problema < 10) numeracion = String(0) + String(problema);
+    const codigo = comunidad + String(examen) + numeracion;
 
     let datos;
     if (!mapaProblemas || !mapaProblemas.get(codigo)) {
-        const ruta = "data\\problemas\\" + codigo + ".txt";
+        const ruta = "data\\problemas\\" + carpeta + "\\" + codigo + ".txt";
         const respuesta = await fetch(ruta);
         datos = await respuesta.text();
         if (mapaProblemas) mapaProblemas.set(codigo, datos);
@@ -84,7 +94,7 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
         const codigoResolucion = "R" + codigo;
 
         if (!mapaProblemas || !mapaProblemas.get(codigoResolucion)) {
-            const ruta = "data\\problemas\\" + codigoResolucion + ".txt";
+            const ruta = "data\\problemas\\" + carpeta + "\\" + codigoResolucion + ".txt";
             const respuesta = await fetch(ruta);
             datos = await respuesta.text();
             if (mapaProblemas) mapaProblemas.set(codigoResolucion, datos);
@@ -107,8 +117,11 @@ async function obtenerProblema(examen, problema, resuelto = false, categorias = 
 async function obtenerExamen(examen, metadatos) {
     const main = document.querySelector("main");
 
+    const comunidad = examen.slice(0, 2);
+    const curso = examen.slice(-4);
+
     const titulo = document.createElement("h2");
-    titulo.innerText = "📋 Examen de " + examen;
+    titulo.innerText = "📋 Examen de " + curso + " de " + comunidades.get(comunidad);
 
     const boton = document.createElement("button");
     boton.textContent = "🖨️ Imprimir";
@@ -119,13 +132,17 @@ async function obtenerExamen(examen, metadatos) {
 
     main.append(titulo);
 
-    for (let problema = 1; problema <= 6; problema++) {
+    const metadatosFiltrados = metadatos.filter(dato => dato.problema.startsWith(examen));
+    const problemas = metadatosFiltrados.length;
+
+    for (let problema = 1; problema <= problemas; problema++) {
         if (estado.cancelado) {
             estado.reanudar();
             return false;
         }
 
-        const codigo = examen * 10 + problema;
+        let codigo = examen + problema;
+        if (problema < 10) codigo = examen + "0" + problema;
         const datosProblema = metadatos.find(dato => dato.problema == codigo);
 
         let resuelto = false;
@@ -135,9 +152,9 @@ async function obtenerExamen(examen, metadatos) {
             categorias = datosProblema.categorias;
         }
 
-        boton.style.setProperty("--progreso", problema / 6 * 100);
+        boton.style.setProperty("--progreso", problema / problemas * 100);
 
-        const seccion = await obtenerProblema(examen, problema, resuelto, categorias);
+        const seccion = await obtenerProblema(comunidad, curso, problema, resuelto, categorias);
         main.append(seccion);
         formatear(seccion);
     }
@@ -177,7 +194,7 @@ async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResuelt
     cinta.classList.add("cargando");
     let contador = 0;
 
-    for (let problema of problemas) {
+    for (let objeto of problemas) {
         if (estado.cancelado) {
             estado.reanudar();
             return false;
@@ -185,15 +202,19 @@ async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResuelt
 
         let resuelto = false
         let categorias = []
-        if (problema != undefined) {
-            if (problema.resuelto) resuelto = true;
-            categorias = problema.categorias;
+        if (objeto != undefined) {
+            if (objeto.resuelto) resuelto = true;
+            categorias = objeto.categorias;
         }
 
         contador++;
         cinta.style.setProperty("--progreso", contador / total * 100);
 
-        const parrafo = await obtenerProblema(parseInt(problema.problema / 10), problema.problema % 10, resuelto, categorias, true, mapaProblemas);
+        const comunidad = objeto.problema.slice(0, 2);
+        const examen = objeto.problema.slice(2, 6);
+        const problema = parseInt(objeto.problema.slice(-2));
+
+        const parrafo = await obtenerProblema(comunidad, examen, problema, resuelto, categorias, true, mapaProblemas);
         main.append(parrafo);
         formatear(parrafo);
     };

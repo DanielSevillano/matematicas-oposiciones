@@ -1,0 +1,2 @@
+Calcule el límite siguiente:
+$$\lim_{n \to \infty} \frac{\sqrt[n]{(a + \sqrt{n^2 + a^2}) \cdot (2a + \sqrt{n^2 + 4a^2}) \cdots (na + \sqrt{n^2 + n^2 a^2})}}{n}.$$

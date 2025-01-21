@@ -1,0 +1,11 @@
+Se considera la familia $\mathcal{T}$ de subconjuntos de $\mathbb{R}$ definida así:
+$$A \in \mathcal{T} \text{ si y solo si } A = \emptyset \text{ o bien } \mathbb{R} \setminus A \text{ es un conjunto finito}.$$
+
+<ol>
+    <li>Demuestre que $\mathcal{T}$ es una topología.</li>
+    <li>Estudie la convergencia de la sucesión $\left\{\frac{1}{n}\right\}$ en el espacio $(\mathbb{R}, \mathcal{T}).$</li>
+    <li>
+        ¿Es Hausdorff el espacio $(\mathbb{R}, \mathcal{T})$?
+        ¿Es un espacio $T_1$?
+    </li>
+</ol>

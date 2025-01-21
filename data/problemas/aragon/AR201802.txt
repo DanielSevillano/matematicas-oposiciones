@@ -1,0 +1,4 @@
+Se considera la sucesión $\{u_n\}$ tal que
+$$u_1 := \sqrt{a}, \quad u_2 := \sqrt{a + \sqrt{a}}, \quad u_3 := \sqrt{a + \sqrt{a + \sqrt{a}}}, \quad \dots$$
+donde $a$ es un número real positivo.
+Estudie si la sucesión $\{u_n\}$ es convergente y, en caso afirmativo, determine su límite.

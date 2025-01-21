@@ -1,0 +1,3 @@
+Dos jugadores A y B están jugando y ganará el juego quien gane antes dos partidas.
+La probabilidad de que gane una partida el jugador A es $p$, la de que la gane B es $q$ y la de que la partida acabe en empate es $r.$
+Sabiendo que $p > 0$, $q > 0$ y $r > 0$, calcule la probabilidad de que el jugador A gane el juego.

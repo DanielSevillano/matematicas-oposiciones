@@ -112,10 +112,6 @@ async function obtenerDatos() {
     tarjetaProblemas.classList.add("tarjeta");
     tarjetaProblemas.textContent = numeroProblemas + " problemas";
 
-    const tarjetaExamenes = document.createElement("div");
-    tarjetaExamenes.classList.add("tarjeta");
-    tarjetaExamenes.textContent = (numeroProblemas / 6) + " examenes";
-
     const numeroProblemasResueltos = datos.filter((problema) => problema.resuelto).length;
 
     const tarjetaProblemasResueltos = document.createElement("div");
@@ -126,7 +122,7 @@ async function obtenerDatos() {
     tarjetaPorcentajeResueltos.classList.add("tarjeta");
     tarjetaPorcentajeResueltos.textContent = (numeroProblemasResueltos / numeroProblemas * 100).toFixed(2).replace(".", ",") + "% resuelto";
 
-    seccion.append(tarjetaExamenes, tarjetaProblemas, tarjetaProblemasResueltos, tarjetaPorcentajeResueltos);
+    seccion.append(tarjetaProblemas, tarjetaProblemasResueltos, tarjetaPorcentajeResueltos);
     seccion.classList.remove("cargando");
 }
 

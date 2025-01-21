@@ -1,0 +1,3 @@
+Un aficionado clasifica cada día como seco o mojado y supone que la probabilidad de que el tiempo atmosférico de cualquier día sea igual al precedente está dada por $p$, siendo $0 < p < 1.$
+Sea $p_1$ la probabilidad de que el tiempo sea seco el primer día y $p_n$ la de que sea seco el $n$-ésimo día.
+Exprese $p_n$ en función de $p$ y $p_1$ y calcule $\lim\limits_{n \to \infty} p_n.$

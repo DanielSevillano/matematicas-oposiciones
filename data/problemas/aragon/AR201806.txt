@@ -1,0 +1,3 @@
+Demuestre que si una función $f$ real de variable real cumple que
+$$f(x) - f(y) \leq (x - y)^2$$
+para cualesquiera números reales $x$ e $y$, entonces $f$ es una función constante.
