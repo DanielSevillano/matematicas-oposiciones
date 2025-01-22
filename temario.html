@@ -11,11 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/contenido.css" />
     <link rel="stylesheet" href="css/temario.css" />
-    <script type="module" src="js/temario.js"></script>
-    <script src="js/config.js"></script>
-    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
@@ -41,10 +37,7 @@
     </header>
 
     <main>
-        <h2>
-            📘 Temario
-            <a href="#calculadora" class="contorno">✨ Calculadora de probabilidad</a>
-        </h2>
+        <h2>📘 Temario</h2>
 
         <ol>
             <li>Números naturales. Sistemas de numeración.</li>
@@ -158,44 +151,6 @@
                 formales.
             </li>
         </ol>
-
-        <h2 id="calculadora">✨ Calculadora de probabilidad</h2>
-
-        <form>
-            <div class="bloque">
-                <label for="temas">Temas preparados</label>
-                <input type="number" id="temas" min="0" max="71" required>
-                <label for="temas-totales">Temas totales</label>
-                <input type="number" id="temas-totales" value="71" disabled>
-                <label for="bolas">Bolas</label>
-                <input type="number" id="bolas" value="4" disabled>
-            </div>
-
-            <button type="submit" id="generar">Calcular</button>
-        </form>
-
-        <details>
-            <summary>Planteamiento</summary>
-
-            <div>
-                <p>
-                    En el examen de oposiciones se seleccionan al azar cuatro temas de entre los 71 del temario.
-                    Queremos hallar la probabilidad de conocer al menos uno de ellos en función del número de temas que
-                    nos hemos preparado.
-                </p>
-
-                <p>
-                    Sea el suceso $A = \textit{conocer algún tema}$ y supongamos que nos hemos preparado $k$ temas.
-                    Hallamos la probabilidad del suceso complementario, es decir, de no conocer ningún tema:
-                    $$P(A^c) = \frac{71-k}{71} \cdot \frac{70-k}{70} \cdot \frac{69-k}{69} \cdot \frac{68-k}{68} =
-                    \frac{(71-k)(70-k)(69-k)(68-k)}{23.319.240}.$$
-
-                    Por tanto, la probabilidad de conocer al menos un tema es
-                    $$P(A) = 1 - P(A^c) = 1 - \frac{(71-k)(70-k)(69-k)(68-k)}{23.319.240} =
-                    \frac{k(139-k)(k^2-139k+9.658)}{23.319.240}.$$
-                </p>
-            </div>
-        </details>
     </main>
 </body>
 
