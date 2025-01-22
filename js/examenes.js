@@ -52,7 +52,9 @@ botones.forEach(boton => {
 
 botonAleatorio.addEventListener("click", () => {
     const boton = botones[Math.floor(Math.random() * botones.length)];
+    const comunidad = boton.id.replace("boton-", "").slice(0, 2);
     boton.click();
+    document.querySelector("#grupo-" + comunidad).click();
 });
 
 if (!examen) document.querySelector(".grupo").click();
