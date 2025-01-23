@@ -1,0 +1,1 @@
+Demuestre que si $n$ es un número entero impar, entonces el residuo de la división entera de $n^2$ entre 8 es 1. 

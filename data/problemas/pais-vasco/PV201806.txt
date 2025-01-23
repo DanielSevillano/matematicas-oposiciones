@@ -1,0 +1,14 @@
+<p>Quieres celebrar el día de <b> Pi</b> (14 de marzo) con tu alumnado de la ESO, y para ello recurres a la aguja de Buffon. <b> La aguja de Buffon</b> es un clásico problema planteado por el matemático y naturalista Georges Louis Leclerc, conde de Buffon, en 1773.
+
+<p>En una hoja se dibujan líneas paralelas de modo que la distancia entre dos consecutivas sea mayor que la longitud de una aguja dada. Sobre esta hoja se deja caer un número de agujas y se anota cuántas de ellas cortan alguna de las líneas paralelas dibujadas. Si se multiplica por 2 el número de agujas lanzadas y se divide por el número de las que cortan alguna de esas paralelas, se obtiene un valor aproximado del número $\pi$.
+
+<p>Dejando aparte su demostración matemática, planteamos un pequeño proyecto en el aula para este día <b> tomando como hilo conductor este problema</b>. Responde de forma concisa y ordenada lo siguiente:
+
+<ul>
+    <li> ¿En qué nivel plantearías este proyecto y cómo lo relacionarías con el currículo de matemáticas de ese nivel? </li>
+    <li> Propón tres objetivos relacionados con este proyecto. </li>
+    <li> Propón tres actividades con una metodología colaborativa. </li>
+    <li> ¿Cuál sería el producto final que tendría que elaborar el alumno? </li>
+    <li> Propón tres indicadores de evaluación relacionados con uno de los objetivos planteados anteriormente. </li>
+    <li> A lo largo del proyecto, dos alumnos/as han empezado a discutir y se han agredido gravemente. Indica dos actuaciones a seguir. </li>
+</ul>

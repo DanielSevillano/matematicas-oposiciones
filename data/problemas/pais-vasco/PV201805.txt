@@ -1,0 +1,12 @@
+¿Cuál es la probabilidad de que un punto elegido al azar cumpliendo las siguientes restricciones:
+
+$$
+\begin{cases}
+ -x + y < 3 \\
+ 3x + y > 3 \\
+ y < \frac{4}{x} \\
+ 2x - y < 7
+\end{cases}
+$$
+
+tenga las dos coordenadas positivas? ¿Y de que las dos coordenadas sean números enteros?

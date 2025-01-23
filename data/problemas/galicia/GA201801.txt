@@ -1,0 +1,6 @@
+Determine el número máximo de puntos de intersección de las diagonales de un polígono convexo de $n$ lados:
+
+<ol>
+<li> Contenidos en el interior del polígono.</li>
+<li> Contenidos en el exterior del polígono.</li>
+</ol>

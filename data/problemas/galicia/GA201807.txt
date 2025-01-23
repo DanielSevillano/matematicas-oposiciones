@@ -1,0 +1,1 @@
+Una persona ha comprado entradas para el cine para personas adultas a 640 unidades monetarias cada una y para menores de edad a 330 unidades monetarias cada una. Sabiendo que invirtió 7140 unidades monetarias en la compra y que compró menos entradas de adultos que de menores, halle el número de entradas de cada tipo que adquirió.

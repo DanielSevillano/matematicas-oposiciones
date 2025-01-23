@@ -1,0 +1,4 @@
+Un excursionista comprueba, tras recorrer 7 km en la primera hora,
+que manteniendo ese ritmo llegaría con una hora de retraso al tren que pretende
+tomar. Acelera el paso, y durante el resto del camino recorre 10 km cada hora, por lo que llega con media hora de adelanto a la estación. ¿Cuánto tiempo estuvo
+andando? ¿Qué distancia recorrió? 

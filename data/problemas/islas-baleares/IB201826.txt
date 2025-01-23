@@ -1,0 +1,10 @@
+Discutir, según los valores del número real $a$, el siguiente sistema de ecuaciones lineales,  
+y resolverlo cuando sea compatible:
+
+$$
+\begin{cases}
+    x + y + 2z = 2, \\
+    3x - 2y - 2z = 3, \\
+    2x + ay - 5z = -4.
+\end{cases}
+$$

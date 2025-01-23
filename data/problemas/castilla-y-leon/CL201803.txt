@@ -1,0 +1,1 @@
+Si $x_1 = \sqrt{2}$ y $x_{n+1} := \sqrt{\frac{2x_n}{1 + x_n}}$, halle $\prod_{n=1}^{\infty} x_n$.

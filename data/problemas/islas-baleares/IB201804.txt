@@ -1,0 +1,2 @@
+Un cuadrado de vértices $A$, $B$, $C$ y $D$ de centro $O$ y lado 1 gira
+un ángulo $\alpha$ alrededor del punto $O$. Encuentre el área común a ambos cuadrados. 

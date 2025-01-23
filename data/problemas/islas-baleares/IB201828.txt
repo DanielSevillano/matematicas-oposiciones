@@ -1,0 +1,3 @@
+Hallar un polinomio de grado 3 sabiendo que tiene un extremo local
+en $x= 0$, que el punto (1,0) es un punto de inflexión de su gráfica y que la
+pendiente de la recta tangente a la gráfica en dicho punto es —3. 

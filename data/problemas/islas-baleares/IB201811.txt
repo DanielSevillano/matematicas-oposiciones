@@ -1,0 +1,12 @@
+Sean $P_3$ el espacio vectorial de los polinomios en la variable $x$ de grado menor o igual que tres,  
+y $P_2$ el espacio vectorial de los polinomios en la variable $x$ de grado menor o igual que dos.  
+Se considera la aplicación  
+
+$$
+f : P_3 \to P_2, \quad ax^3 + bx^2 + cx + d \mapsto 3ax^2 + 2bx + c.
+$$
+
+<ol>
+    <li>Comprobar que $f$ es homomorfismo.</li>
+    <li>Clasificar el homomorfismo.</li>
+</ol>

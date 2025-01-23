@@ -1,0 +1,10 @@
+Consideremos la parte superior $(y \geq 0)$ de las circunferencias
+
+$$
+x^2 + y^2 = R^2, \quad x^2 + y^2 - Rx = 0, \quad x^2 + y^2 + Rx = 0.
+$$
+
+<ol>
+    <li> Determine el radio $r$ del círculo inscrito en la región encerrada entre los tres semicículos y que es tangente a los mismos. </li>
+    <li> Calcule las longitudes de los lados del triángulo cuyos vértices son los puntos de tangencia. </li>
+</ol>

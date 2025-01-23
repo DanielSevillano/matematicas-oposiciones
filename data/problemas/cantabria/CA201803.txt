@@ -1,0 +1,1 @@
+Los afijos de los números complejos $z_1$, $z_2$, $z_3$, $z_4$, $z_5$ y $z_6$ son vértices consecutivos de un hexágono regular. Sabiendo que $z_1 = 0$ y $z_4 = 4 + 6i$, donde $i := \sqrt{-1}$, hallar $z_2$, $z_3$, $z_5$ y $z_6$.
