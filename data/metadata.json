@@ -327,6 +327,171 @@
         ]
     },
     {
+        "problema": "AS201801"
+    },
+    {
+        "problema": "AS201802"
+    },
+    {
+        "problema": "AS201803"
+    },
+    {
+        "problema": "AS201804"
+    },
+    {
+        "problema": "CA201801"
+    },
+    {
+        "problema": "CA201802"
+    },
+    {
+        "problema": "CA201803"
+    },
+    {
+        "problema": "CA201804"
+    },
+    {
+        "problema": "CA201805"
+    },
+    {
+        "problema": "CA201806"
+    },
+    {
+        "problema": "CA201807"
+    },
+    {
+        "problema": "CA201808"
+    },
+    {
+        "problema": "CA201809"
+    },
+    {
+        "problema": "CA201810"
+    },
+    {
+        "problema": "CA201811"
+    },
+    {
+        "problema": "CA201812"
+    },
+    {
+        "problema": "CM201801"
+    },
+    {
+        "problema": "CM201802"
+    },
+    {
+        "problema": "CM201803"
+    },
+    {
+        "problema": "CL201801"
+    },
+    {
+        "problema": "CL201802"
+    },
+    {
+        "problema": "CL201803"
+    },
+    {
+        "problema": "CL201804"
+    },
+    {
+        "problema": "CT201801"
+    },
+    {
+        "problema": "CT201802"
+    },
+    {
+        "problema": "CT201803"
+    },
+    {
+        "problema": "CT201804"
+    },
+    {
+        "problema": "CT201805"
+    },
+    {
+        "problema": "CT201806"
+    },
+    {
+        "problema": "CT201807"
+    },
+    {
+        "problema": "CT201808"
+    },
+    {
+        "problema": "CT201809"
+    },
+    {
+        "problema": "CT201810"
+    },
+    {
+        "problema": "CT201811"
+    },
+    {
+        "problema": "CT201812"
+    },
+    {
+        "problema": "CE201801"
+    },
+    {
+        "problema": "CE201802"
+    },
+    {
+        "problema": "CE201803"
+    },
+    {
+        "problema": "CE201804"
+    },
+    {
+        "problema": "CE201805"
+    },
+    {
+        "problema": "CE201806"
+    },
+    {
+        "problema": "EX201801"
+    },
+    {
+        "problema": "EX201802"
+    },
+    {
+        "problema": "EX201803"
+    },
+    {
+        "problema": "EX201804"
+    },
+    {
+        "problema": "GA201801"
+    },
+    {
+        "problema": "GA201802"
+    },
+    {
+        "problema": "GA201803"
+    },
+    {
+        "problema": "GA201804"
+    },
+    {
+        "problema": "GA201805"
+    },
+    {
+        "problema": "GA201806"
+    },
+    {
+        "problema": "GA201807"
+    },
+    {
+        "problema": "GA201808"
+    },
+    {
+        "problema": "GA201809"
+    },
+    {
+        "problema": "GA201810"
+    },
+    {
         "problema": "GA201701",
         "categorias": [
             "Topología"
@@ -367,5 +532,137 @@
         "categorias": [
             "Análisis"
         ]
+    },
+    {
+        "problema": "IB201801"
+    },
+    {
+        "problema": "IB201802"
+    },
+    {
+        "problema": "IB201803"
+    },
+    {
+        "problema": "IB201804"
+    },
+    {
+        "problema": "IB201805"
+    },
+    {
+        "problema": "IB201806"
+    },
+    {
+        "problema": "IB201807"
+    },
+    {
+        "problema": "IB201808"
+    },
+    {
+        "problema": "IB201809"
+    },
+    {
+        "problema": "IB201810"
+    },
+    {
+        "problema": "IB201811"
+    },
+    {
+        "problema": "IB201812"
+    },
+    {
+        "problema": "IB201813"
+    },
+    {
+        "problema": "IB201814"
+    },
+    {
+        "problema": "IB201815"
+    },
+    {
+        "problema": "IB201816"
+    },
+    {
+        "problema": "IB201817"
+    },
+    {
+        "problema": "IB201818"
+    },
+    {
+        "problema": "IB201819"
+    },
+    {
+        "problema": "IB201820"
+    },
+    {
+        "problema": "IB201821"
+    },
+    {
+        "problema": "IB201822"
+    },
+    {
+        "problema": "IB201823"
+    },
+    {
+        "problema": "IB201824"
+    },
+    {
+        "problema": "IB201825"
+    },
+    {
+        "problema": "IB201826"
+    },
+    {
+        "problema": "IB201827"
+    },
+    {
+        "problema": "IB201828"
+    },
+    {
+        "problema": "IB201829"
+    },
+    {
+        "problema": "IB201830"
+    },
+    {
+        "problema": "IB201831"
+    },
+    {
+        "problema": "IB201832"
+    },
+    {
+        "problema": "IB201833"
+    },
+    {
+        "problema": "IB201834"
+    },
+    {
+        "problema": "IB201835"
+    },
+    {
+        "problema": "IB201836"
+    },
+    {
+        "problema": "IB201837"
+    },
+    {
+        "problema": "IB201838"
+    },
+    {
+        "problema": "PV201801"
+    },
+    {
+        "problema": "PV201802"
+    },
+    {
+        "problema": "PV201803"
+    },
+    {
+        "problema": "PV201804"
+    },
+    {
+        "problema": "PV201805"
+    },
+    {
+        "problema": "PV201806"
     }
 ]

@@ -13,7 +13,16 @@ const estado = new Object({
 const comunidades = new Map([
     ["AN", "Andalucía"],
     ["AR", "Aragón"],
-    ["GA", "Galicia"]
+    ["AS", "Asturias"],
+    ["CA", "Cantabria"],
+    ["CM", "Castilla la Mancha"],
+    ["CL", "Castilla y León"],
+    ["CT", "Cataluña"],
+    ["CE", "Ceuta"],
+    ["EX", "Extremadura"],
+    ["GA", "Galicia"],
+    ["IB", "Islas Baleares"],
+    ["PV", "País Vasco"]
 ]);
 
 function normalizar(texto) {
@@ -52,18 +61,20 @@ async function obtenerProblema(comunidad, examen, problema, resuelto = false, ca
 
     articulo.append(titulo);
 
-    const contenedorCategorias = document.createElement("ul");
-    contenedorCategorias.classList.add("categorias");
-    categorias.forEach(categoria => {
-        const elementoCategoria = document.createElement("li");
-        const enlaceCategoria = document.createElement("a");
-        enlaceCategoria.textContent = categoria;
-        enlaceCategoria.href = "/problemas" + html + "?categoria=" + normalizar(categoria);
-        enlaceCategoria.classList.add("contorno");
-        elementoCategoria.append(enlaceCategoria);
-        contenedorCategorias.append(elementoCategoria);
-    });
-    articulo.append(contenedorCategorias);
+    if (categorias.length > 0) {
+        const contenedorCategorias = document.createElement("ul");
+        contenedorCategorias.classList.add("categorias");
+        categorias.forEach(categoria => {
+            const elementoCategoria = document.createElement("li");
+            const enlaceCategoria = document.createElement("a");
+            enlaceCategoria.textContent = categoria;
+            enlaceCategoria.href = "/problemas" + html + "?categoria=" + normalizar(categoria);
+            enlaceCategoria.classList.add("contorno");
+            elementoCategoria.append(enlaceCategoria);
+            contenedorCategorias.append(elementoCategoria);
+        });
+        articulo.append(contenedorCategorias);
+    }
 
     const carpeta = normalizar(comunidades.get(comunidad));
 

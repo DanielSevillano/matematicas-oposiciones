@@ -2,7 +2,7 @@
     <li>
         Dada una cadena formada por 16 círculos tangentes de radio $r$ como en la Figura, demostrar que la diferencia entre la superficie sombreada y la superficie en blanco permanece constante independientemente de la colocación de la cadena. Expresar dicha diferencia en función del radio del círculo.
     </li>
-    <img src="img/GA201810.png" alt="Figura 12.10: Área sombreada" style="display: block; margin: 10px auto;">
+    <img src="img/problemas/GA201810.png" alt="Figura" loading="lazy">
     <li>
         Justifique la relación de este problema con el currículo de una materia de esta especialidad.
     </li>
