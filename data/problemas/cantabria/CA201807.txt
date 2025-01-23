@@ -1,0 +1,6 @@
+Una recta en el plano se mueve de forma que el segmento determinado por sus puntos de corte con los ejes coordenados mantiene una longitud constante $L$.
+
+<ol>
+    <li> Determine unas ecuaciones paramétricas del lugar geométrico descrito por el pie de la perpendicular a dicho segmento trazada desde el origen de coordenadas. </li>
+    <li> Halle una ecuación implícita de dicho lugar geométrico. </li>
+</ol>

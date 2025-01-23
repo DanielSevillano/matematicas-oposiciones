@@ -1,0 +1,8 @@
+Se define un número perfecto como aquel número entero positivo que es igual a la suma de todos sus divisores positivos excepto él mismo.
+
+<ol>
+    <li> Demuestre que los números pares perfectos son de la forma $2^{k-1} \cdot (2^k - 1)$ donde $2^k - 1$ es un número primo y $k > 1$. </li>
+    <li> Demuestre que si $2^k - 1$ es un número primo entonces $k$ también lo es. </li>
+    <li> Demuestre que los números pares perfectos terminan en 6 u 8. </li>
+    <li> Demuestre que la suma de los inversos de los divisores positivos de un número perfecto par es 2. </li>
+</ol>

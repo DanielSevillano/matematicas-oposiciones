@@ -1,0 +1,17 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ol>
+    <li>Calcule la integral  
+        $$
+        \int \frac{(x+1)dx}{x^3 + 2x}.
+        $$  
+    </li>
+    
+    <li>Dadas las funciones continuas $f, g : [a, b] \to \mathbb{R}$ se define su producto como  
+        $$
+        \langle f, g \rangle := \int_{a}^{b} f(t) g(t) dt.
+        $$
+    </li>
+</ol>
+
+Demuestre que se cumplen las siguientes propiedades:

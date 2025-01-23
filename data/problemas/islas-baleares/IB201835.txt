@@ -1,0 +1,3 @@
+Una región de la India sufre una epidemia de cólera.  
+Uno de los síntomas que presenta la enfermedad es la diarrea, presente en el 99% de los casos en los que un individuo padece cólera,  
+pero este síntoma también se presenta en un 50% de las personas que padecen una intoxicación alimentaria, e incluso en un 0,4% de aquellos que no sufren ninguna enfermedad relevante. Si se sabe que el 2% de la población tiene cólera, que el 0,5% sufre intoxicación alimentaria  y el resto no tiene ninguna enfermedad relevante, calcule la probabilidad de que una persona con diarrea tenga cólera.

@@ -1,0 +1,1 @@
+Se tiene una urna con 3 bolas, blancas o negras, pero no sabemos cuántas hay de cada clase. Extraemos una bola de esta urna y resulta ser blanca. ¿Cuál es la probabilidad de que en la urna hubiese 3 bolas blancas? ¿Y de que hubiese 2 bolas blancas? ¿Y de que hubiese una sola bola blanca?

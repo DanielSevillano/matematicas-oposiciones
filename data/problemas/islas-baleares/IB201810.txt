@@ -1,0 +1,3 @@
+Dado un segmento, se escogen dos puntos al azar que lo dividen
+en tres partes. ¿Cuál es la probabilidad de que se pueda construir un triángulo con
+esas tres partes? 

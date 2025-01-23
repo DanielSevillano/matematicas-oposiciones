@@ -1,0 +1,16 @@
+Dado el sistema de ecuaciones lineales:
+
+$$
+\begin{cases}
+    3x - 2y + z = 5, \\
+    2x - 3y + z = 4.
+\end{cases}
+$$
+
+<ol>
+    <li>Añadir una ecuación lineal al sistema de modo que el sistema resultante sea incompatible.</li>
+    <li>Añadir una ecuación lineal al sistema de modo que el sistema resultante sea compatible e indeterminado,  
+    y resolver el sistema así formado.</li>
+    <li>Añadir una ecuación lineal al sistema de modo que el sistema resultante sea compatible y determinado,  
+    y resolver el sistema así formado.</li>
+</ol>

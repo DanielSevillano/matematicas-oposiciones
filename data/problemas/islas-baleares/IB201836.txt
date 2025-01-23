@@ -1,0 +1,4 @@
+Supongamos que un concursante llega a la prueba final de un concurso,  
+en la que se le ofrece escoger entre tres puertas: detrás de una de ellas hay un coche, y detrás de las otras dos hay cabras. El concursante escoge una puerta, digamos la n°1, y el presentador, que sabe lo que hay detrás de las puertas,  
+abre otra, digamos la n°3, que contiene una cabra. Entonces le pregunta: ¿No prefieres escoger la n°2? Se trata de averiguar qué es mejor para el concursante;  
+cambiar o no cambiar su elección inicial.

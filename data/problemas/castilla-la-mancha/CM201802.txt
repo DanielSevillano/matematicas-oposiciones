@@ -1,0 +1,1 @@
+Demuestre que una recta $d$ que divide a un triángulo $\triangle ABC$ en dos polígonos del mismo perímetro y de la misma área pasa por el centro de la circunferencia inscrita al triángulo $\triangle ABC$.

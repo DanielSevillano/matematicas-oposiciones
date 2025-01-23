@@ -1,0 +1,3 @@
+¿Cuál es el número de tres cifras cuya suma es 8 que cumple que la
+cifra de las centenas coincide con la de las decenas, y que la suma de ambas es la
+de las unidades? 

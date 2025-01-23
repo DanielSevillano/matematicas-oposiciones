@@ -1,0 +1,1 @@
+Las alturas de un triángulo acutángulo $\triangle ABC$ se cortan en el ortocentro $H$. Se sabe que $AB = CH$. Determine el valor del ángulo $\angle ACB$.

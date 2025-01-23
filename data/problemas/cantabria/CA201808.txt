@@ -1,0 +1,1 @@
+Sea $f : \mathbb{R} \to \mathbb{R}$ una función continua que para todo $x, y \in \mathbb{R}$ cumple $f(x + y) = f(x) + f(y)$. Demuestre que existe $a \in \mathbb{R}$ tal que $f(x) = ax$ para todo $x \in \mathbb{R}$.

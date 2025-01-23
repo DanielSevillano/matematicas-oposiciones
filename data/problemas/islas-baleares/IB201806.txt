@@ -1,0 +1,1 @@
+Encuentre un número natural $n$ de tal manera que el número $25 \cdot 18^n$ tenga 348 divisores más que el número 72. 

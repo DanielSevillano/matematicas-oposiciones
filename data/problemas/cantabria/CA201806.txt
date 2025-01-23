@@ -1,0 +1,6 @@
+Responda razonadamente a las siguientes cuestiones, que son independientes entre sí:
+
+<ol>
+    <li> En una batalla en la que participaron entre 8000 y 10000 soldados resultaron muertos $\frac{23}{165}$ del total y heridos $\frac{16}{65}$ del total. Calcule cuántos resultaron ilesos. </li>
+    <li> Halle el número $2^n \cdot 3^m$ sabiendo que la suma de todos sus divisores es igual a 363. </li>
+</ol>

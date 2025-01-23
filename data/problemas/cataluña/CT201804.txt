@@ -1,0 +1,8 @@
+¿Cuál es el comando de Geogebra para hacer el producto vectorial de dos vectores $u$ y $v$?
+
+<ol>
+    <li> Hemos de crear nuestro propio comando para ejecutar el producto vectorial. </li>
+    <li> Ponemos Vec(u, v) en la ventana CAS. </li>
+    <li> Usamos el comando ProductoExterno. </li>
+    <li> Ponemos ProductoVectorial en la barra de entrada. </li>
+</ol>

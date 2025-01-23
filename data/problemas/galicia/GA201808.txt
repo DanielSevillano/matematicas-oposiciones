@@ -1,0 +1,2 @@
+Dadas dos circunferencias que no tienen puntos en común, calcule
+el lugar geométrico de los centros de las circunferencias tangentes a ambas. 

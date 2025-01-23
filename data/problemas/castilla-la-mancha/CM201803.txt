@@ -1,0 +1,16 @@
+Una variable aleatoria $X$ tiene una función de densidad dada por
+
+$$
+f(x) =
+\begin{cases}
+0, & \text{si } x \leq 0, \\
+kxe^{-x^2}, & \text{si } x > 0.
+\end{cases}
+$$
+
+<ol>
+    <li> Halle el valor de $k$ para que, en efecto, sea una función de densidad de probabilidad. </li>
+    <li> Halle la función de distribución de la variable aleatoria $X$ y calcule la probabilidad $P(-1 \leq X \leq 1)$. </li>
+    <li> Determine el valor de la moda y de la mediana. </li>
+    <li> Halle el valor esperado de $X$ y su varianza. </li>
+</ol>

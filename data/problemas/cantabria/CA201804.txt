@@ -1,0 +1,3 @@
+Una urna contiene una bola blanca y una bola negra. Una persona extrae, con reemplazamiento, dos bolas, y ganará una cierta cantidad $C$ si saca dos veces bola blanca. En caso contrario, se introduce una nueva bola negra en la urna y se le permite hacer dos nuevas extracciones. Ganará si, como antes, saca dos veces la bola blanca. Si esto no ocurre, se le vuelve a permitir sacar otras dos bolas de la urna en la que se ha introducido otra bola negra y, así, indefinidamente. 
+
+¿Cuál es la probabilidad de que esa persona gane la cantidad $C$ (supuesto que viva eternamente)?

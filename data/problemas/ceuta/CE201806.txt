@@ -1,0 +1,7 @@
+Una línea de autobuses tiene longitud $\ell$. La probabilidad de que un pasajero suba al autobús en las proximidades del punto $x$ es proporcional al producto $x \cdot (\ell - x)^2$, y la probabilidad de que un pasajero que subió en el punto $x$ baje en el punto $y$ es proporcional a $(y - x)^r$, siendo $r > 0$. Calcule:
+
+<ol>
+    <li> Las constantes de proporcionalidad de ambas probabilidades. </li>
+    <li> La probabilidad de que un pasajero no suba al autobús antes del punto $z$ del recorrido. </li>
+    <li> La probabilidad de que un pasajero que subió en el punto $x$ descienda después del punto $z$ del recorrido del autobús. </li>
+</ol>

@@ -1,0 +1,5 @@
+Si $\xi_1$, $\xi_2$, $\xi_3$, $\xi_4$ y $\xi_5$ son las raíces quintas de la unidad y $n \in \mathbb{N}$, estudie qué valores toma la suma
+
+$$
+S = \xi_1^n + \xi_2^n + \xi_3^n + \xi_4^n + \xi_5^n.
+$$

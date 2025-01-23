@@ -1,0 +1,12 @@
+Se considera la aplicación lineal $f : \mathbb{R}^3 \to \mathbb{R}^3$ definida por
+
+$$
+f(e_1) = e_2 + e_3, \quad f(e_2) = e_1 + e_3, \quad \text{y} \quad f(e_3) = e_1 + e_2,
+$$
+
+siendo $\mathcal{B} := \{e_1, e_2, e_3\}$ la base canónica de $\mathbb{R}^3$.
+
+<ol>
+    <li> Calcule la matriz asociada a $f$ respecto de $\mathcal{B}$ y analice si esta aplicación lineal es o no inyectiva. </li>
+    <li> Pruebe que para todo $n \in \mathbb{N}$ se cumple que $f^n = a_n f + b_n \operatorname{id}$ donde $a_n$ y $b_n$ son números reales a determinar e $\operatorname{id} : \mathbb{R}^3 \to \mathbb{R}^3$ es la identidad de $\mathbb{R}^3$. </li>
+</ol>

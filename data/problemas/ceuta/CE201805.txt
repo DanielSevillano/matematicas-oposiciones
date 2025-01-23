@@ -1,0 +1,6 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ol>
+    <li> Demuestre que entre todos los triángulos con la misma base y mismo ángulo opuesto el isósceles tiene área máxima. </li>
+    <li> Pruebe que entre todos los triángulos inscritos en una circunferencia dada el equilátero tiene área máxima. </li>
+</ol>
