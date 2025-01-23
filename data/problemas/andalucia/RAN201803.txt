@@ -1,7 +1,7 @@
 <ol>
     <li>
         Sea $P(x, y)$ el vértice del triángulo en el semiplano derecho, es decir, con $x > 0.$
-        <img src="img/R20183.png" alt="Figura" loading="lazy">
+        <img src="img/problemas/RAN201803.png" alt="Figura" loading="lazy">
 
         Observamos que la base del triángulo es $2x$ y su altura es $2-y.$
         Así que el área del triángulo viene dada por:

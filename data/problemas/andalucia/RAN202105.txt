@@ -3,7 +3,7 @@
         La ecuación $(x-a)^2 + y^2 = b^2$ es de la circunferencia de centro $(a, 0)$ y radio $b.$
         Para hallar el volumen obtenido al girar esta región alrededor del eje de ordenadas, describimos la circunferencia en función de $y.$
         $$(x-a)^2 + y^2 = b^2 \Leftrightarrow (x-a)^2 = b^2 - y^2 \Leftrightarrow x = a \pm \sqrt{b^2 - y^2}.$$
-        <img src="img/R20215.png" alt="Figura" loading="lazy">
+        <img src="img/problemas/RAN202105.png" alt="Figura" loading="lazy">
 
         El volumen del sólido generado al girar esta región será la diferencia de los volúmenes generados por las regiones descritas por las funciones $f$ y $g$, respectivamente. Así que:
         \begin{align}

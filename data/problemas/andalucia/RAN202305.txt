@@ -125,7 +125,7 @@
                 </ul>
 
                 Representamos la gráfica de la función con toda esta información.
-                <img src="img/R20235.png" alt="Figura" loading="lazy">
+                <img src="img/problemas/RAN202305.png" alt="Figura" loading="lazy">
             </li>
 
             <li>

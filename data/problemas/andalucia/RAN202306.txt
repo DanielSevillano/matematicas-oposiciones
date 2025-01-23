@@ -1,11 +1,11 @@
 <p>
     Definimos $N$ como el punto de intersección de $\Gamma$ con el lado $AB$ y $Q$ como el punto de intersección de la recta $AP$ con el lado $BC.$
-    <img src="img/R20236-1.png" alt="Figura" loading="lazy">
+    <img src="img/problemas/RAN202306-1.png" alt="Figura" loading="lazy">
 </p>
 
 <p>
     Queremos probar que $AP$ es una mediana del triángulo $ABD.$ Esto es equivalente a que $Q$ sea el punto medio del segmento $BP$, es decir, $\dist(B, Q) = \dist(D, Q).$ Consideramos los triángulos $ABQ$ y $BPQ.$
-    <img src="img/R20236-2.png" alt="Figura" loading="lazy">
+    <img src="img/problemas/RAN202306-2.png" alt="Figura" loading="lazy">
 </p>
 
 <p>

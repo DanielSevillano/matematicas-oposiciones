@@ -111,10 +111,10 @@
         \end{cases} \Rightarrow 0 = 17 - 17x \Leftrightarrow x = 1 \Rightarrow y = \sqrt{17 - 1} = \pm 4.$$
         
         Con esta información, podemos representar la región del plano indicada.
-        <img src="img/R20232-1.png" alt="Figura" loading="lazy">
+        <img src="img/problemas/RAN202302-1.png" alt="Figura" loading="lazy">
 
         Podemos dividir esta región en dos partes que en conjunto generan el mismo sólido al girar alrededor del eje.
-        <img src="img/R20232-2.png" alt="Figura" loading="lazy">
+        <img src="img/problemas/RAN202302-2.png" alt="Figura" loading="lazy">
 
         <ul>
             <li>
