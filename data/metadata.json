@@ -105,6 +105,7 @@
     },
     {
         "problema": "AN201803",
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Geometría"

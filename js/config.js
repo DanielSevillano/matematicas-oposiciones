@@ -11,7 +11,8 @@ window.MathJax = {
             Dom: "\\operatorname{Dom}",
             Pot: "\\operatorname{Pot}",
             rang: "\\operatorname{rang}",
-            sin: "\\operatorname{sen}"
+            sin: "\\operatorname{sen}",
+            tan: "\\operatorname{tg}"
         }
     },
     options: {

@@ -1,0 +1,93 @@
+<ol>
+    <li>
+        Sea $P(x, y)$ el vértice del triángulo en el semiplano derecho, es decir, con $x > 0.$
+        <img src="img/R20183.png" alt="Figura" loading="lazy">
+
+        Observamos que la base del triángulo es $2x$ y su altura es $2-y.$
+        Así que el área del triángulo viene dada por:
+        $$S = \frac{2x \cdot (2-y)}{2} = x(2-y).$$
+
+        Como está inscrito en la circunferencia de ecuación $x^2 + y^2 = 4$, se verifica que $x = \sqrt{4-y^2}.$
+        Luego la función a maximizar es:
+        $$S(y) = (2-y)\sqrt{4-y^2}.$$
+
+        En primer lugar, hallamos la derivada de la función $S.$
+        $$S'(y) = -\sqrt{4-y^2} + (2-y) \cdot \frac{-2y}{2\sqrt{4-y^2}} = -\sqrt{4-y^2} - \frac{y(2-y)}{\sqrt{4-y^2}}.$$
+
+        Hallamos los puntos críticos de $S$ igualando la derivada a cero.
+        \begin{align}
+            & S'(y) = 0 \Leftrightarrow -\sqrt{4-y^2} - \frac{y(2-y)}{\sqrt{4-y^2}} = 0 \Leftrightarrow -\frac{y(2-y)}{\sqrt{4-y^2}} \Leftrightarrow \sqrt{4-y^2} = -2y + y^2 = 4 - y^2 \Leftrightarrow \\
+            & \Leftrightarrow 2y^2 - 2y - 4 = 0 \Leftrightarrow y^2 - y - 2 = 0 \Leftrightarrow \begin{cases}
+                y = -1, \\
+                y = 2.
+            \end{cases}
+        \end{align}
+
+        Como $P$ es un vértice distinto de $A$, la solución $y = 2$ no es válida.
+        Comprobamos que se alcanza el máximo en $y = -1.$
+
+        <ul>
+            <li>
+                Si $-2 < y < -1$, $S'(y) > 0.$
+                Así que $S$ es creciente.
+            </li>
+
+            <li>
+                Si $-1 < y < 2$, $S'(y) < 0.$
+                Así que $S$ es decreciente.
+            </li>
+        </ul>
+
+        Luego $S$ alcanza el mínimo en $y = -1$, así que $x = \sqrt{3}.$
+
+        Por tanto, el triángulo de área máxima es el de vértices $A(0, 2)$, $B(\sqrt{3}, -1)$ y $C(-\sqrt{3}, -1).$
+    </li>
+    
+    <li>
+        En primer lugar, expresamos la curva $C \equiv x^2 + y^2 = 4$ en ecuaciones paramétricas:
+        $$\begin{cases}
+            x = 2\cos(t), \\
+            y = 2\sin(t),
+        \end{cases} \quad t \in [0, 2\pi].$$
+
+        La familia de curvas con centro en $C$ y radio 1 viene dada por la ecuación:
+        $$(x - 2\cos(t))^2 + (y - 2\sin(t))^2 = 1 \Leftrightarrow (x - 2\cos(t))^2 + (y - 2\sin(t))^2 - 1 = 0.$$
+
+        Sea $F(x, y, t) = (x - 2\cos(t))^2 + (y - 2\sin(t))^2 - 1.$
+        La ecuación de la envolvente viene dada por:
+        \begin{align}
+            \begin{cases}
+                F(x, y, t) = 0, \\
+                \dfrac{\partial F(x, y, t)}{\partial t} = 0
+            \end{cases} & \Leftrightarrow
+            \begin{cases}
+                (x - 2\cos(t))^2 + (y - 2\sin(t))^2 - 1 = 0, \\
+                2(x - 2\cos(t)) \cdot 2\sin(t) + 2(y - 2\sin(t)) \cdot (-2\cos(t)) = 0
+            \end{cases} \\
+            & \Leftrightarrow \begin{cases}
+                x^2 - 4x\cos(t) + 4\cos^2(t) + y^2 - 4y\sin(t) + 4\sin^2(t) - 1 = 0, \\
+                x\sin(t) - 2\sin(t)\cos(t) - y\cos(t) + 2\sin(t)\cos(t) = 0
+            \end{cases} \\
+            & \Leftrightarrow \begin{cases}
+                4x\cos(t) + 4y\sin(t) = x^2 + y^2 + 3, \\
+                x\sin(t) - y\cos(t) = 0.
+            \end{cases}
+        \end{align}
+
+        Despejando en la segunda ecuación,
+        $$x\sin(t) - y\cos(t) = 0 \Leftrightarrow x\sin(t) = y\cos(t) \Leftrightarrow \tan(t) = \frac{y}{x}.$$
+
+        Luego se tiene que:
+        $$\sin(t) = \frac{y}{\sqrt{x^2+y^2}} \quad \text{y} \quad \cos(t) = \frac{x}{\sqrt{x^2+y^2}}.$$
+
+        Sustituyendo en la primera ecuación, obtenemos que:
+        $$\frac{4x^2}{\sqrt{x^2+y^2}} + \frac{4y^2}{\sqrt{x^2+y^2}} = x^2 + y^2 + 3 \Leftrightarrow 4\sqrt{x^2+y^2} = x^2 + y^2 + 3.$$
+
+        Realizamos el cambio de variable $u = \sqrt{x^2 + y^2}.$
+        Entonces:
+        $$4u = u^2 + 3 \Leftrightarrow u^2 - 4u + 3 = 0 \Leftrightarrow \begin{cases}
+            u = 1 \Leftrightarrow \sqrt{x^2 + y^2} = 1 \Leftrightarrow x^2 + y^2 = 1, \\
+            u = 3 \Leftrightarrow \sqrt{x^2 + y^2} = 3 \Leftrightarrow x^2 + y^2 = 9.
+        \end{cases}$$
+    </li>
+</ol>
