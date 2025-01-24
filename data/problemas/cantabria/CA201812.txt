@@ -1,1 +1,1 @@
-Determine el área de la región del primer cuadrante del plano limitada por la gráfica de la curva $y = e^{-x} \sin x$ y el eje $OX$.
+Determine el área de la región del primer cuadrante del plano limitada por la gráfica de la curva $y = e^{-x} \sin x$ y el eje $OX.$

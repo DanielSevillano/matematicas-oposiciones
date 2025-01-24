@@ -1,5 +1,2 @@
 Halle el número de $n$-uplas $(a_1, \dots, a_n)$ cuyas componentes son números enteros $a_i$ positivos y que satisfacen las tres ecuaciones siguientes:
-
-$$
-\sum_{i=1}^{n} a_i = 26, \quad \sum_{i=1}^{n} a_i^2 = 72 \quad \text{y} \quad \sum_{i=1}^{n} a_i^3 = 224.
-$$
+$$\sum_{i=1}^{n} a_i = 26, \quad \sum_{i=1}^{n} a_i^2 = 72 \quad \text{y} \quad \sum_{i=1}^{n} a_i^3 = 224.$$

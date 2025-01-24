@@ -1,1 +1,3 @@
-Se tiene una pirámide regular de base un triángulo equilátero y cuyas caras son triángulos isósceles iguales. Si abatimos las caras laterales sobre el plano de la base se forma una estrella de tres puntas que quedará inscrita dentro de un círculo de radio 10 cm. Determinar las longitudes de las aristas de la base y de las caras laterales que hacen máximo el volumen de la pirámide.
+Se tiene una pirámide regular de base un triángulo equilátero y cuyas caras son triángulos isósceles iguales.
+Si abatimos las caras laterales sobre el plano de la base se forma una estrella de tres puntas que quedará inscrita dentro de un círculo de radio 10 cm.
+Determinar las longitudes de las aristas de la base y de las caras laterales que hacen máximo el volumen de la pirámide

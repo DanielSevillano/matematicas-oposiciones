@@ -1,3 +1,5 @@
-Sean $r$ y $s$ dos rectas del plano afín ordinario que se cortan en un punto $O$. Tenemos tres puntos $A$, $B$ y $C$ en la recta $r$ y tres puntos $A'$, $B'$ y $C'$ en la recta $s$. Las rectas $CB'$ y $BC'$ se cortan en un punto $M$, las rectas $CA'$ y $AC'$ se cortan en un punto $N$, y las rectas $AB'$ y $BA'$ se cortan en un punto $P$. 
+Sean $r$ y $s$ dos rectas del plano afín ordinario que se cortan en un punto $O.$
+Tenemos tres puntos $A$, $B$ y $C$ en la recta $r$ y tres puntos $A'$, $B'$ y $C'$ en la recta $s.$
+Las rectas $CB'$ y $BC'$ se cortan en un punto $M$, las rectas $CA'$ y $AC'$ se cortan en un punto $N$, y las rectas $AB'$ y $BA'$ se cortan en un punto $P.$ 
 
 Demostrar que $M$, $N$ y $P$ están alineados.

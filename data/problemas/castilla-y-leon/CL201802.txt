@@ -1,7 +1,4 @@
-Sea $f : [0,1] \to [0,+\infty)$ una función continua tal que
+Sea $f: [0,1] \to [0,+\infty)$ una función continua tal que
+$$f(0) = f(1) = 0 \quad \text{y} \quad f(x) > 0 \quad \text{para todo } x \in (0,1).$$
 
-$$
-f(0) = f(1) = 0 \quad \text{y} \quad f(x) > 0 \quad \text{para todo } x \in (0,1).
-$$
-
-Demuestre que existe un cuadrado con dos vértices en el eje de abscisas y otros dos en la gráfica de $f$.
+Demuestre que existe un cuadrado con dos vértices en el eje de abscisas y otros dos en la gráfica de $f.$

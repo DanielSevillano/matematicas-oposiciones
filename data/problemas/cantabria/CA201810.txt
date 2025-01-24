@@ -1,3 +1,6 @@
-Se dispone de dos monedas $A$ y $B$ cuyas probabilidades respectivas de caer de cara son $\alpha$ y $\beta$. Se efectúan lanzamientos de acuerdo con el siguiente sistema: para el primer lanzamiento se escoge al azar (probabilidad $\frac{1}{2}$) una de las dos monedas. En los lanzamientos sucesivos se utiliza la misma moneda que en el lanzamiento anterior si ésta ha caído de cara o, en caso contrario, se cambia de moneda. 
+Se dispone de dos monedas $A$ y $B$ cuyas probabilidades respectivas de caer de cara son $\alpha$ y $\beta.$
+Se efectúan lanzamientos de acuerdo con el siguiente sistema: para el primer lanzamiento se escoge al azar (probabilidad $\frac{1}{2}$) una de las dos monedas.
+En los lanzamientos sucesivos se utiliza la misma moneda que en el lanzamiento anterior si ésta ha caído de cara o, en caso contrario, se cambia de moneda. 
 
-Halle las probabilidades $\lambda_n$ y $\mu_n$, respectivamente, de utilizar la moneda $A$ en el $n$-ésimo lanzamiento y de obtener cara en el $n$-ésimo lanzamiento. Estudiar el comportamiento de $\lambda_n$ y $\mu_n$ cuando $n \to \infty$.
+Halle las probabilidades $\lambda_n$ y $\mu_n$, respectivamente, de utilizar la moneda $A$ en el $n$-ésimo lanzamiento y de obtener cara en el $n$-ésimo lanzamiento.
+Estudiar el comportamiento de $\lambda_n$ y $\mu_n$ cuando $n \to \infty.$

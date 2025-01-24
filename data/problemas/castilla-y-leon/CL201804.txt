@@ -1,6 +1,9 @@
 Responda razonadamente a las siguientes cuestiones, que son independientes entre sí:
 
 <ol>
-    <li> Sean $\mathcal{C}$ una circunferencia y en ella dos puntos distintos $A$ y $B$ no diametralmente opuestos. Describir el lugar geométrico de los ortocentros de los triángulos $\triangle ABC$, donde $C$ es un punto de $\mathcal{C}$ distinto de $A$ y $B$. </li>
-    <li> ¿Para qué valores de $a > 0$ se cumple que si se eligen al azar los números $b, c \in [0,a]$ la probabilidad de que la distancia en el plano complejo de las raíces del polinomio $z^2 + bz + c$ no sea mayor que 1, no sea menor que $\frac{1}{4}$? </li>
+    <li>
+        Sean $\mathcal{C}$ una circunferencia y en ella dos puntos distintos $A$ y $B$ no diametralmente opuestos.
+        Describir el lugar geométrico de los ortocentros de los triángulos $\triangle ABC$, donde $C$ es un punto de $\mathcal{C}$ distinto de $A$ y $B.$
+   </li>
+    <li>¿Para qué valores de $a > 0$ se cumple que si se eligen al azar los números $b, c \in [0,a]$ la probabilidad de que la distancia en el plano complejo de las raíces del polinomio $z^2 + bz + c$ no sea mayor que 1, no sea menor que $\frac{1}{4}$?</li>
 </ol>

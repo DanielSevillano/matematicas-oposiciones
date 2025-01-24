@@ -1,14 +1,10 @@
 Sean $n$ un entero positivo y la variable aleatoria $X$ definida por la función de probabilidad
-
-$$
-f(x) =
-\begin{cases}
-kx, & \text{si } x \in \{1, \dots, n\}, \\
-0, & \text{en el resto de los casos}.
-\end{cases}
-$$
+$$f(x) = \begin{cases}
+    kx, & \text{si } x \in \{1, \dots, n\}, \\
+    0, & \text{en el resto de los casos}.
+\end{cases}$$
 
 <ol>
-    <li> Obtenga el valor de $k$ y la función de distribución de $X$. </li>
-    <li> Calcule la probabilidad de que $X$ tome un valor par. </li>
+    <li>Obtenga el valor de $k$ y la función de distribución de $X.$</li>
+    <li>Calcule la probabilidad de que $X$ tome un valor par.</li>
 </ol>

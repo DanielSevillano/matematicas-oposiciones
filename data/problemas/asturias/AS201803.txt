@@ -1,10 +1,7 @@
-Sean $a$ y $b$ dos números reales tales que $a + b \neq 0$ y consideramos las sucesiones $(u_n)$ y $(v_n)$ definidas recursivamente a partir de $u_0 = a$ y $v_0 = b$ mediante:
-
-$$
-u_{n+1} := \frac{u_n^2}{u_n + v_n}, \quad v_{n+1} := \frac{v_n^2}{u_n + v_n}, \quad (n \geq 0).
-$$
+Sean $a$ y $b$ dos números reales tales que $a + b \neq 0$ y consideramos las sucesiones $\{u_n\}$ y $\{v_n\}$ definidas recursivamente a partir de $u_0 = a$ y $v_0 = b$ mediante:
+$$u_{n+1} := \frac{u_n^2}{u_n + v_n}, \quad v_{n+1} := \frac{v_n^2}{u_n + v_n}, \quad (n \geq 0).$$
 
 <ol>
-    <li> Si $a = b$, calcule los límites de $(u_n)$ y $(v_n)$. </li>
-    <li> Si $|b| < |a|$, demuestre que las sucesiones $(u_n)$ y $(v_n)$ son convergentes y calcule los límites de ambas. </li>
+    <li>Si $a = b$, calcule los límites de $\{u_n\}$ y $\{v_n\}.$</li>
+    <li>Si $|b| < |a|$, demuestre que las sucesiones $\{u_n\}$ y $\{v_n\}$ son convergentes y calcule los límites de ambas.</li>
 </ol>

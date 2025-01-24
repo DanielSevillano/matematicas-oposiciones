@@ -1,5 +1,2 @@
 Demuestre que para todo número real $x$ se cumple la desigualdad
-
-$$
-\cos (\sin x) > \sin (\cos x).
-$$
+$$\cos (\sin x) > \sin (\cos x).$$

@@ -1,6 +1,6 @@
 Dado el triángulo rectángulo cuyos lados miden 6, 8 y 10, se pide:
 
 <ol>
-    <li> Demuestre que la recta que biseca su área y su perímetro es única. </li>
-    <li> Calcule dicha recta. </li>
+    <li>Demuestre que la recta que biseca su área y su perímetro es única.</li>
+    <li>Calcule dicha recta.</li>
 </ol>
