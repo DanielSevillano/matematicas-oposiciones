@@ -22,6 +22,11 @@ const comunidades = new Map([
     ["EX", "Extremadura"],
     ["GA", "Galicia"],
     ["IB", "Islas Baleares"],
+    ["LR", "La Rioja"],
+    ["MA", "Madrid"],
+    ["ME", "Melilla"],
+    ["MU", "Murcia"],
+    ["NA", "Navarra"],
     ["PV", "País Vasco"]
 ]);
 
