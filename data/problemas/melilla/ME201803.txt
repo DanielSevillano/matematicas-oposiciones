@@ -1,0 +1,2 @@
+Considere la elipse de la figura. Determine en función de las longitudes $a$ y $b$ de sus semiejes, un punto $P$ de dicha cónica situado en el primer cuadrante,  
+tal que la superficie del cuadrilátero definido por las rectas tangentes a la cónica en $P$ y en $A$, y los semiejes coordenados positivos sea mínima.

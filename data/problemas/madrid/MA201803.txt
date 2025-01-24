@@ -1,0 +1,4 @@
+En una de las mesas de un casino se juega a los dados como
+sigue: El jugador realizará sucesivos lanzamientos de dos dados equilibrados hasta
+que la suma de los resultados de ambos sea 4 o 7. Si sale 4 habrá ganado, y si sale
+7 habrá perdido. ¿Cuál es la probabilidad de que gane el jugador? 

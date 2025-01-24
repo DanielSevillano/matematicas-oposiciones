@@ -1,0 +1,16 @@
+Dados $x \in \mathbb{R}$ y el determinante  
+
+$$
+\Delta_n :=
+\begin{vmatrix}
+1 & -\frac{1}{2} & 0 & 0 & \cdots & 0 & 0 \\
+x & 1 & -\frac{1}{3} & 0 & \cdots & 0 & 0 \\
+x^2 & 0 & 1 & -\frac{1}{4} & \cdots & 0 & 0 \\
+x^3 & 0 & 0 & 1 & \cdots & 0 & 0 \\
+\vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+x^{n-2} & 0 & 0 & 0 & \cdots & 1 & -\frac{1}{n} \\
+x^{n-1} & 0 & 0 & 0 & \cdots & 0 & 1
+\end{vmatrix}
+$$
+
+calcule $\lim_{n \to \infty} \Delta_n$.

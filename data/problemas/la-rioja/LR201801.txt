@@ -1,0 +1,2 @@
+Se corta por un plano paralelo a una generatriz un cono equilátero de lado 10. Se pide el área del segmento parabólico así obtenido cuando esta
+área es máxima. 

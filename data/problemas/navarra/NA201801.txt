@@ -1,0 +1,12 @@
+Se consideran los siguientes subespacios vectoriales de $\mathbb{R}^4$:
+
+$$
+S_1 := \mathcal{L} \{(1,1,-2,1), \ (0,1,-1,2), \ (2,-1,-1,-4)\},
+$$
+
+$$
+S_2 := \{(x,y,z,t) \in \mathbb{R}^4 : 3x + az = 0, \ x - 2y - 2t = 0\}.
+$$
+
+Halle $a$ para que $S_1 + S_2$ sea distinto de $\mathbb{R}^4$.  
+En este caso, obtenga la dimensión y una base de $S_1 \cap S_2$.
