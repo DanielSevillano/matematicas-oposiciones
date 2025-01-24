@@ -1,0 +1,1 @@
+Sea $P$ un punto de la parábola de ecuación $y^2 = 2x$. Las rectas tangente y normal a la parábola que pasan por $P$ cortan al eje $OY$ en los puntos $A$ y $B$, respectivamente. Hallar una ecuación del lugar geométrico de los baricentros de los triángulos $\triangle PAB$ cuando $P$ recorre la parábola.

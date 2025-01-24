@@ -1,0 +1,4 @@
+En un triángulo $\triangle ABC$ los puntos $D$, $E$ y $F$ dividen cada lado  
+en el que están situados en dos segmentos de longitud uno doble que el otro.  
+
+Determine la relación entre el área del triángulo sombreado y el área $S$ del triángulo original.

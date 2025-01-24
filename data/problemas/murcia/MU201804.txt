@@ -1,0 +1,12 @@
+Sean $A$, $B$, $C$ y $D$ cuatro puntos en una esfera de radio $r$  
+tales que los puntos $A$, $B$ y $C$ forman un triángulo rectángulo en el plano que los contiene.
+
+<ol>
+    <li>Determine el volumen del tetraedro de vértices $A$, $B$, $C$ y $D$  
+        y estudie si $\frac{2}{3} r^3$ es una cota superior para ese volumen.  
+        En su caso, determine, si existe, un tetraedro con volumen $\frac{2}{3} r^3$.</li>
+
+    <li>Determine el volumen del tetraedro de vértices $A_1$, $B_1$, $C_1$ y $D$,  
+        donde $A_1$, $B_1$ y $C_1$ son, respectivamente,  
+        los puntos medios de los lados $BC$, $AC$ y $AB$.</li>
+</ol>

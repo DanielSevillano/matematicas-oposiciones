@@ -1,0 +1,3 @@
+Se denomina cicloide a la curva descrita por un punto de una circunferencia,  
+cuando ésta rueda sin resbalar sobre una línea recta.  
+Sean $r$ el radio de la circunferencia y el eje $OX$ la recta sobre la que ésta rueda. Si $P$ es dicho punto y $\theta$ es el ángulo generado por $P$ cuando gira, las ecuaciones paramétricas de

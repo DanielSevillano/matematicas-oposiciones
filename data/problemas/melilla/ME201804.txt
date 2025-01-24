@@ -1,0 +1,1 @@
+En una circunferencia se escogen al azar tres puntos. Calcule la probabilidad de que los tres puntos estén situados en un mismo arco de 90 grados. 
