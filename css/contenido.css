@@ -97,8 +97,7 @@ Pestañas
 .contenedor-grupos {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
-    overflow-x: auto;
+    flex-wrap: wrap;
 }
 
 .grupo {
@@ -271,7 +270,6 @@ button.cargando::after {
 Sombras de desplazamiento
 ********************/
 
-.contenedor-grupos,
 .tabla {
     --shadow-color: hsla(0, 0%, 50%, 0.4);
     --shadow-margin: 40px;
