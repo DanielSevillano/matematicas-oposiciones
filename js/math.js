@@ -197,7 +197,7 @@ async function mostrarExamen(examen, metadatos, guardarMetadatos) {
 async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta) {
     const main = document.querySelector("main");
 
-    let problemas = metadatos.filter(problema => problema.categorias.map(c => normalizar(c)).includes(categoria));
+    let problemas = metadatos.filter(problema => problema.categorias && problema.categorias.map(c => normalizar(c)).includes(categoria));
     if (soloResueltos) problemas = problemas.filter(problema => problema.resuelto);
     const total = problemas.length;
 
