@@ -9,7 +9,7 @@ Sea $b$ un número real positivo.
 
     <li>Sea $a$ un número real positivo. Calcule:
         $$
-        \int_0^a \int_0^b e^{\max \left\{ \frac{a^2 x^2}{b^2} - y^2 \right\}} dx \, dy.
+        \int_0^a \int_0^b e^{\max \left\{ \frac{a^2 x^2}{b^2}, y^2 \right\}} dx \, dy.
         $$
     </li>
 </ol>
