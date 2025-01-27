@@ -113,6 +113,7 @@
     },
     {
         "problema": "AN201804",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]

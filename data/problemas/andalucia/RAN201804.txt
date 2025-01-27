@@ -1,0 +1,37 @@
+<ol>
+    <li>
+        La función $f(x) = \cos(x)$ es de clase $\mathcal{C}^\infty$, con derivadas sucesivas:
+        $$f'(x) = -\sin(x), \quad f''(x) = -\cos(x), \quad f'''(x) \sin(x), \quad f^{(IV)}(x) = \cos(x) = f(x).$$
+
+        Como $|f^{(n)}(x)| \leq 1$ para todo $n \in \mathbb{N}$ y todo $x \in \mathbb{R}$, $f$ es desarrollable en serie de potencias en $\mathbb{R}.$
+        La serie de Taylor centrada en $a$ de la función $f$ es:
+        $$f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!}(x-a)^n = \sum_{n=0}^\infty \frac{(-1)^n \cos(a)}{(2n)!}(x-a)^{2n} + \sum_{n=0}^\infty \frac{(-1)^{n+1} \sin(a)}{(2n+1)!}(x-a)^{2n+1}, \quad x \in \mathbb{R}.$$
+
+        En particular, la serie de Taylor centrada en 0 de la función es:
+        $$f(x) = \sum_{n=0}^\infty \frac{(-1)^n x^{2n}}{(2n)!}, \quad x \in \mathbb{R}.$$
+    </li>
+
+    <li>
+        Usamos la serie de Taylor centrada en 0 de la función.
+        \begin{align}
+            \int_0^1 \frac{\cos(x)}{2\sqrt{x}}dx & = \int_0^1 \left(\frac{1}{2\sqrt{x}} \sum_{n=0}^\infty \frac{(-1)^n x^{2n}}{(2n)!}\right)dx = \int_0^1 \left(\sum_{n=0}^\infty \frac{(-1)^n x^{2n}}{(2n)!} \cdot \frac{1}{2\sqrt{x}}\right)dx = \\
+            & = \sum_{n=0}^\infty \left(\int_0^1 \frac{(-1)^n x^{2n}}{(2n)!} \cdot \frac{1}{2\sqrt{x}}dx\right) = \sum_{n=0}^\infty \left(\frac{(-1)^n}{(2n)!} \int_0^1 \frac{x^{2n}}{2\sqrt{x}}dx\right) = \\
+            & = \sum_{n=0}^\infty \left(\frac{(-1)^n}{(2n)!} \cdot \frac{1}{2} \int_0^1 x^{2n-\frac{1}{2}}dx\right) = \sum_{n=0}^\infty \frac{(-1)^n}{(2n)!} \cdot \frac{1}{2} \left[\frac{1}{2n+\frac{1}{2}}{x^{2n+\frac{1}{2}}}\right]_0^1 = \\
+            & = \sum_{n=0}^\infty \frac{(-1)^n}{(2n)!} \cdot \frac{1}{2(2n + \frac{1}{2})} = \sum_{n=0}^\infty \frac{(-1)^n}{(4n+1)(2n)!}.
+        \end{align}
+    </li>
+
+    <li>
+        Usamos la igualdad del apartado anterior.
+        Sean:
+        $$a_n = \frac{(-1)^n}{(4n+1)(2n)!} \quad \text{y} \quad S_n = \sum_{k=0}^n a_k.$$
+
+        Como $a_n$ es monótona decreciente y tiende a cero, el error al aproximar la integral por $S_n$ es menor que $a_{n+1}.$
+        Hallamos los primeros términos de la sucesión.
+        $$a_0 = 1, \quad a_1 = -\frac{1}{10}, \quad a_2 = \frac{1}{216}, \quad a_4 = -\frac{1}{9.360} < 10^{-3}.$$
+
+        Por tanto, podemos aproximar:
+        $$\int_0^1 \frac{\cos(x)}{2\sqrt{x}}dx \approx S_2 = 1 - \frac{1}{10} + \frac{1}{216} \approx 0,9046,$$
+        con un error menor que $10^{-3}.$
+    </li>
+</ol>
