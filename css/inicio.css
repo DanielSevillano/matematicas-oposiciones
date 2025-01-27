@@ -82,6 +82,8 @@ Tarjeta
 
 .agradecimiento p {
     margin: 0;
+    text-align: center;
+    text-wrap: balance;
 }
 
 .agradecimiento p:first-child {
@@ -91,6 +93,10 @@ Tarjeta
 .agradecimiento p:nth-child(2) {
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+.agradecimiento p:nth-child(3) {
+    line-height: 1.25;
 }
 
 /********************
