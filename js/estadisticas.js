@@ -106,13 +106,23 @@ async function obtenerDatos() {
     const respuesta = await fetch("data\\metadata.json");
     const datos = await respuesta.json();
 
-    const numeroProblemas = datos.length;
+    const problemasAndalucia = datos.filter((objeto) => objeto.problema.slice(0, 2) == "AN");
+    const numeroProblemas = problemasAndalucia.length;
 
     const tarjetaProblemas = document.createElement("div");
     tarjetaProblemas.classList.add("tarjeta");
     tarjetaProblemas.textContent = numeroProblemas + " problemas";
 
-    const numeroProblemasResueltos = datos.filter((problema) => problema.resuelto).length;
+    const examenes = new Set();
+    problemasAndalucia.forEach((objeto) => {
+        examenes.add(objeto.problema.slice(0, 6));
+    });
+
+    const tarjetaExamenes = document.createElement("div");
+    tarjetaExamenes.classList.add("tarjeta");
+    tarjetaExamenes.textContent = examenes.size + " exámenes";
+
+    const numeroProblemasResueltos = problemasAndalucia.filter((problema) => problema.resuelto).length;
 
     const tarjetaProblemasResueltos = document.createElement("div");
     tarjetaProblemasResueltos.classList.add("tarjeta");
@@ -122,7 +132,7 @@ async function obtenerDatos() {
     tarjetaPorcentajeResueltos.classList.add("tarjeta");
     tarjetaPorcentajeResueltos.textContent = (numeroProblemasResueltos / numeroProblemas * 100).toFixed(2).replace(".", ",") + "% resuelto";
 
-    seccion.append(tarjetaProblemas, tarjetaProblemasResueltos, tarjetaPorcentajeResueltos);
+    seccion.append(tarjetaProblemas, tarjetaExamenes, tarjetaProblemasResueltos, tarjetaPorcentajeResueltos);
     seccion.classList.remove("cargando");
 }
 
