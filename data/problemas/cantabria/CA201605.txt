@@ -1,0 +1,1 @@
+Un lazo corredizo formado por una cuerda de longitud $l$, se envuelve en una columna cilíndrica de radio $r$ perfectamente lisa, estando sujeto al extremo libre de la cuerda. Averigüe a qué distancia de la columna está el lazo corredizo en el momento en que la cuerda está completamente tensa.

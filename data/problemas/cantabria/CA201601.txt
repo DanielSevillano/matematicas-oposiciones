@@ -1,0 +1,27 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ol type="a">
+    <li>Dadas las matrices:
+        $$
+        \mathbf{A} =
+        \begin{pmatrix}
+        0 & 0 & 0 & 0 \\
+        2 & 0 & 0 & 0 \\
+        2 & 2 & 0 & 0 \\
+        2 & 2 & 2 & 0
+        \end{pmatrix}, \quad
+        \mathbf{B} = \mathbf{I} + \mathbf{A}
+        $$
+        y un número entero positivo $n$, calcule $\mathbf{A}^n$  
+        y demuestre que la inversa de $\mathbf{B}$ es la matriz  
+        $\mathbf{I} - \mathbf{A} + \mathbf{A}^2$, donde $\mathbf{I}$  
+        es la matriz identidad de orden $4$.</li>
+
+    <li>Sea $P$ un polinomio de grado $n \geq 1$ con coeficientes reales  
+        tal que para cierto $a \in \mathbb{R}$ es  
+        $P^{(k)}(a) > 0$ para $0 \leq k \leq n$,  
+        donde entendemos $P^{(0)} = P$.  
+
+        Demuestre que $a$ acota superiormente a todas  
+        las raíces reales de $P$.</li>
+</ol>

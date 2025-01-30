@@ -1,0 +1,15 @@
+Dado los números $a, b \in \mathbb{R}$, se considera la serie de números complejos:
+
+$$
+\sum_{n=0}^{\infty} e^{n(a+bi)}
+$$
+
+<ol type="a">
+    <li>Estudie la convergencia de la serie para los distintos valores de $a$ y $b$.</li>
+    <li>¿Existe algún valor real de $a$ para el que la suma de la serie sea un número imaginario puro?</li>
+    <li>Calcule los valores reales de $b$ para los que se cumple la igualdad:
+        $$
+        \frac{1}{2} \cos b + \frac{1}{4} \cos 2b + \frac{1}{8} \cos 3b + \dots = 0
+        $$
+    </li>
+</ol>

@@ -1,0 +1,8 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ol>
+    <li>Dado un triángulo rectángulo de catetos $a$ y $b$ e hipotenusa $c$,  
+    exprese la longitud del radio $r$ de la circunferencia inscrita  
+    en el triángulo en función de $a$, $b$ y $c$.</li>
+    <li>Un cuadrado de papel $ABCD$ se dobla según el segmento $PQ$, donde $P$ es  un punto del lado $AB$ y $Q$ es un punto del lado $CD$, hasta que el vértice $A$ coincide con un punto $R$ del lado $BC$, formándose así tres triángulos rectángulos $PBR$, $RCS$ y $QTS$ de una sola capa de papel. Demuestre que el cateto $ST$ del triángulo $QTS$ mide lo mismo que el radio de la circunferencia inscrita  en el triángulo $RCS$.</li>
+</ol>

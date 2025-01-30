@@ -1,0 +1,21 @@
+Responda a las siguientes cuestiones independientes entre sí:
+
+<ol type="a">
+    <li>Calcule la suma finita  
+        $$ S = 7 + 77 + 777 + \dots + \overbrace{77 \dots 7}^{n}.$$  
+    </li>
+
+    <li>En una urna hay $10$ bolas numeradas del $1$ al $10$.  
+        Se extrae al azar una bola, obteniéndose el número $a$.  
+        Se devuelve la bola a la urna y se repite el proceso dos veces más,  
+        obteniéndose los números $b$ y $c$.  
+
+        ¿Cuál es la probabilidad de que el sistema  
+        $$  
+        \begin{cases}  
+        ax + by + c = 0 \\  
+        2x + 3y = 0  
+        \end{cases}  
+        $$  
+        sea incompatible?</li>
+</ol>
