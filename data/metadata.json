@@ -354,6 +354,18 @@
         ]
     },
     {
+        "problema": "AS201601"
+    },
+    {
+        "problema": "AS201602"
+    },
+    {
+        "problema": "AS201603"
+    },
+    {
+        "problema": "AS201604"
+    },
+    {
         "problema": "CA201801",
         "categorias": [
             "Análisis"
@@ -425,6 +437,24 @@
         "categorias": [
             "Análisis"
         ]
+    },
+    {
+        "problema": "CA201601"
+    },
+    {
+        "problema": "CA201602"
+    },
+    {
+        "problema": "CA201603"
+    },
+    {
+        "problema": "CA201604"
+    },
+    {
+        "problema": "CA201605"
+    },
+    {
+        "problema": "CA201606"
     },
     {
         "problema": "CM201801",
