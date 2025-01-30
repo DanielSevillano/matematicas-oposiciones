@@ -1,1 +1,1 @@
-Halle el lugar geométrico de los centros de los triángulos equiláteros inscritos en una elipse. 
+Halle el lugar geométrico de los centros de los triángulos equiláteros inscritos en una elipse.

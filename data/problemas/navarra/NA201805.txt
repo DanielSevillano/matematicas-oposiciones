@@ -1,16 +1,11 @@
 Sea $\mathbb{R}_2[t]$ el espacio vectorial de los polinomios de grado menor o igual que 2 con coeficientes reales.
 
 <ol>
-    <li>Encuentre los valores de $a, b, c \in \mathbb{R}$ de modo que  
-        $$
-        P(t) := \frac{t^3 + at^2 + bt + c}{t - 1}  
-        + \frac{t^3 + bt^2 + ct + a}{t + 1}  
-        + \frac{t^3 + ct^2 + at + b}{t - 2}
-        $$  
-        pertenezca a $\mathbb{R}_2[t]$.</li>
+    <li>
+        Encuentre los valores de $a, b, c \in \mathbb{R}$ de modo que  
+        $$P(t) := \frac{t^3 + at^2 + bt + c}{t - 1} + \frac{t^3 + bt^2 + ct + a}{t + 1} + \frac{t^3 + ct^2 + at + b}{t - 2}$$  
+        pertenezca a $\mathbb{R}_2[t].$
+    </li>
 
-    <li>Demuestre que $\mathcal{B} := \{t^2 + t + 1, t^2 - 1, P(t)\}$  
-        es una base de $\mathbb{R}_2[t]$  
-        y calcule las coordenadas respecto de dicha base del polinomio  
-        $Q(t) := 2t^2 + 3t$.</li>
+    <li>Demuestre que $\mathcal{B} := \{t^2 + t + 1, t^2 - 1, P(t)\}$ es una base de $\mathbb{R}_2[t]$ y calcule las coordenadas respecto de dicha base del polinomio $Q(t) := 2t^2 + 3t.$</li>
 </ol>

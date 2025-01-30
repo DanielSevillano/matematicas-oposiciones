@@ -9,7 +9,7 @@ Sea $T : \mathbb{R}^3 \to \mathbb{R}^3$ la aplicación lineal que cumple las sig
         $$V := \{(x, y, z) \in \mathbb{R}^3 : 2x + 4y + 3z = 0, \quad x + y + z = 0\}$$  
         en sí mismo.</li>
     
-    <li>$T(3,0,-1) = (6,-6,8)$.</li>
+    <li>$T(3,0,-1) = (6,-6,8).$</li>
 </ol>
 
 Determinar la matriz de $T$ respecto de la base canónica.

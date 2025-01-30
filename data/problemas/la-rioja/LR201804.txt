@@ -1,3 +1,2 @@
 Se tienen $n$ bolas numeradas $1, 2, \dots, n$, y se ordenan aleatoriamente una detrás de otra.  
-
-Calcular $\lim_{n \to \infty} p_n$, donde $p_n$ es la probabilidad de que ninguna bola esté en la posición que indica su número.
+Calcular $\lim\limits_{n \to \infty} p_n$, donde $p_n$ es la probabilidad de que ninguna bola esté en la posición que indica su número.

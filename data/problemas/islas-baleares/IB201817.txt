@@ -5,8 +5,8 @@ Sea $A$ el suceso ''la bola negra es extraída antes de haber sido extraída alg
 Determine:
 
 <ol>
-    <li>La función de probabilidad de $X$.</li>
-    <li>El valor esperado, esto es, la media $E[X]$ de $X$.</li>
-    <li>La función de probabilidad de la variable aleatoria $X|A$, esto es, $X$ condicionada por $A$.</li>
-    <li>El valor esperado, $E[X|A]$ de $X|A$.</li>
+    <li>La función de probabilidad de $X.$</li>
+    <li>El valor esperado, esto es, la media $E[X]$ de $X.$</li>
+    <li>La función de probabilidad de la variable aleatoria $X|A$, esto es, $X$ condicionada por $A.$</li>
+    <li>El valor esperado, $E[X|A]$ de $X|A.$</li>
 </ol>

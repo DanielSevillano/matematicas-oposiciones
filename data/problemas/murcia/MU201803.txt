@@ -1,15 +1,15 @@
 Sea $b$ un número real positivo.
 
 <ol>
-    <li>Pruebe que si $f : \mathbb{R} \to \mathbb{R}$ es una función continua tal que $f(0) = 0$ y  
-        $$
-        f'(x) = \frac{1}{1 + b e^{f(x)}},
-        $$  
-        entonces $f(x) \leq \frac{x}{b}$ para cada $x > 0$.</li>
+    <li>
+        Pruebe que si $f: \mathbb{R} \to \mathbb{R}$ es una función continua tal que $f(0) = 0$ y
+        $$f'(x) = \frac{1}{1 + b e^{f(x)}},$$  
+        entonces $f(x) \leq \frac{x}{b}$ para cada $x > 0.$
+    </li>
 
-    <li>Sea $a$ un número real positivo. Calcule:
-        $$
-        \int_0^a \int_0^b e^{\max \left\{ \frac{a^2 x^2}{b^2}, y^2 \right\}} dx \, dy.
-        $$
+    <li>
+        Sea $a$ un número real positivo.
+        Calcule:
+        $$\int_0^a \int_0^b e^{\max \left\{ \frac{a^2 x^2}{b^2}, y^2 \right\}} dx \, dy.$$
     </li>
 </ol>

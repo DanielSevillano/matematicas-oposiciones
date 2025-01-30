@@ -1,22 +1,16 @@
 Sean $a$ y $b$ números reales y $A_n \in \mathcal{M}_n(\mathbb{R})$ definida como  
-
-$$
-A_n :=
-\begin{pmatrix}
-1 & -1 & 0 & 0 & \cdots & 0 \\
-a & b & -1 & 0 & \cdots & 0 \\
-a^2 & ab & b & -1 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
-a^{n-1} & a^{n-2}b & a^{n-3}b & a^{n-4}b & \dots & b
-\end{pmatrix}
-$$
-
-para cada $n \geq 3$. Halle:
+$$A_n := \begin{pmatrix}
+    1 & -1 & 0 & 0 & \cdots & 0 \\
+    a & b & -1 & 0 & \cdots & 0 \\
+    a^2 & ab & b & -1 & \cdots & 0 \\
+    \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+    a^{n-1} & a^{n-2}b & a^{n-3}b & a^{n-4}b & \dots & b
+\end{pmatrix}$$
+para cada $n \geq 3.$
+Halle:
 
 <ol>
-    <li>El determinante de $A_n$.</li>
-    <li>Ecuaciones implícitas del subespacio vectorial de $\mathbb{R}^n$ generado por los vectores columna de $A_n$.</li>
-    <li>La dimensión del cociente $\mathbb{R}^n / \ker f$,  
-        donde $f : \mathbb{R}^n \to \mathbb{R}^n$  
-        es la aplicación lineal cuya matriz respecto de la base canónica de $\mathbb{R}^n$ es $A_n$.</li>
+    <li>El determinante de $A_n.$</li>
+    <li>Ecuaciones implícitas del subespacio vectorial de $\mathbb{R}^n$ generado por los vectores columna de $A_n.$</li>
+    <li>La dimensión del cociente $\mathbb{R}^n / \ker f$, donde $f : \mathbb{R}^n \to \mathbb{R}^n$ es la aplicación lineal cuya matriz respecto de la base canónica de $\mathbb{R}^n$ es $A_n.$</li>
 </ol>

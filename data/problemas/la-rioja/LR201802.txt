@@ -1,24 +1,18 @@
 Sea la matriz $T := (t_{ij}) \in \mathcal{M}_3(\mathbb{Z})$ definida por  
-
-$$
-t_{ij} =
-\begin{cases} 
-    0 & \text{si } i = j, \\
-    1 & \text{si } i \neq j.
-\end{cases}
-$$
+$$t_{ij} = \begin{cases} 
+    0, & \text{si } i = j, \\
+    1, & \text{si } i \neq j.
+\end{cases}$$
 
 <ol>
-    <li>Demuestre que para todo $k \in \mathbb{N}$ existen números reales $a_k$ y $b_k$ tales que  
-        $$
-        T^k = a_k T + b_k I_3,
-        $$  
-        donde $I_3 \in \mathcal{M}_3(\mathbb{Z})$ es la matriz identidad,  
-        y halle la relación de recurrencia de los escalares $a_k$ y $b_k$.</li>
+    <li>
+        Demuestre que para todo $k \in \mathbb{N}$ existen números reales $a_k$ y $b_k$ tales que  
+        $$T^k = a_k T + b_k I_3,$$  
+        donde $I_3 \in \mathcal{M}_3(\mathbb{Z})$ es la matriz identidad, y halle la relación de recurrencia de los escalares $a_k$ y $b_k.$
+    </li>
 
-    <li>Calcule los límites  
-        $$
-        \lim_{k \to \infty} \frac{a_k}{b_k} \quad \text{y} \quad \lim_{k \to \infty} \frac{a_k}{a_{k-1}}.
-        $$  
+    <li>
+        Calcule los límites  
+        $$\lim_{k \to \infty} \frac{a_k}{b_k} \quad \text{y} \quad \lim_{k \to \infty} \frac{a_k}{a_{k-1}}.$$  
     </li>
 </ol>

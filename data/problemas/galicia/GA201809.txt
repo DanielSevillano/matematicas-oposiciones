@@ -4,6 +4,6 @@ La función de densidad de probabilidad conjunta de una variable aleatoria bidim
 
 <ol>
     <li>Halle la función de densidad de probabilidad conjunta y compruebe que lo es.</li>
-    <li>Calcule $ p(X < \frac{d}{2}, Y < \frac{d}{4}) $. </li>
+    <li>Calcule $ p(X < \frac{d}{2}, Y < \frac{d}{4}) .$ </li>
     <li>Halle las funciones de densidad marginales de probabilidad y compruebe que lo son.</li>
 </ol>

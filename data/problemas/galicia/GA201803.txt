@@ -1,9 +1,9 @@
-Las circunferencias $\mathcal{C}_0, \mathcal{C}_1, \dots, \mathcal{C}_n, \dots$ son tangentes a dos rectas $a$ y $b$ que se cortan en un punto $P$, y cada $C_n$ es tangente a la siguiente de menor radio, que es $C_{n+1}$. Llamaremos $O_n$ al centro de la circunferencia $C_n$, $r_n$ a su radio, $A_n$ a su punto de tangencia con la recta $a$, $T_n$ a su punto de tangencia con $C_{n+1}$ y $d_n$ a la distancia de $P$ a $O_n$. Sean, además, $r_0 = 3$ y $d_0 = 12$.
+Las circunferencias $\mathcal{C}_0, \mathcal{C}_1, \dots, \mathcal{C}_n, \dots$ son tangentes a dos rectas $a$ y $b$ que se cortan en un punto $P$, y cada $C_n$ es tangente a la siguiente de menor radio, que es $C_{n+1}.$ Llamaremos $O_n$ al centro de la circunferencia $C_n$, $r_n$ a su radio, $A_n$ a su punto de tangencia con la recta $a$, $T_n$ a su punto de tangencia con $C_{n+1}$ y $d_n$ a la distancia de $P$ a $O_n.$ Sean, además, $r_0 = 3$ y $d_0 = 12.$
 
 <ol>
-<li> Exprese $r_n$ y $d_n$ en función de $n$. </li>
+<li> Exprese $r_n$ y $d_n$ en función de $n.$ </li>
 
 <li> Calcule el límite de la suma de las áreas de todos los círculos. </li>
 
-<li> Pruebe que los triángulos $\triangle A_n T_n A_{n+1}$ son semejantes y rectángulos en $T_n$. </li>
+<li> Pruebe que los triángulos $\triangle A_n T_n A_{n+1}$ son semejantes y rectángulos en $T_n.$ </li>
 </ol>

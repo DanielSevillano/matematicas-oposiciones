@@ -9,7 +9,7 @@ F_X(x) :=
 $$
 
 <ol>
-    <li>Encuentre la función de densidad de $X$.</li>
+    <li>Encuentre la función de densidad de $X.$</li>
     <li>Calcule la esperanza matemática o duración media de las llamadas.</li>
     <li>Calcule la probabilidad de que la duración de una llamada telefónica esté comprendida entre 3 y 6 minutos.</li>
     <li>Calcule la probabilidad de que una llamada cuya duración excede los tres minutos no dure más de 6 minutos.</li>

@@ -1,1 +1,1 @@
-Dada la cónica $y^2 = 2px$ y el haz de rectas $y - a = t(x - b)$, halle el lugar geométrico de los puntos en que las rectas de este haz cortan a las tangentes a la cónica en los puntos de intersección de ésta con el haz de rectas $y = tx$.
+Dada la cónica $y^2 = 2px$ y el haz de rectas $y - a = t(x - b)$, halle el lugar geométrico de los puntos en que las rectas de este haz cortan a las tangentes a la cónica en los puntos de intersección de ésta con el haz de rectas $y = tx.$

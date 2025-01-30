@@ -1,1 +1,3 @@
-Un tanque cilíndrico de radio $R$ y altura $h$, sin tapa superior, se encuentra lleno de agua hasta un nivel $a$, donde $a \leq h$. Se elige al azar un punto cualquiera sobre la superficie del cilindro, incluyendo el fondo, y allí se hace una perforación. Halle el valor esperado del volumen de agua en el tanque después de realizar la perforación y haberse vaciado el agua hasta el punto de perforación.
+Un tanque cilíndrico de radio $R$ y altura $h$, sin tapa superior, se encuentra lleno de agua hasta un nivel $a$, donde $a \leq h.$
+Se elige al azar un punto cualquiera sobre la superficie del cilindro, incluyendo el fondo, y allí se hace una perforación.
+Halle el valor esperado del volumen de agua en el tanque después de realizar la perforación y haberse vaciado el agua hasta el punto de perforación.

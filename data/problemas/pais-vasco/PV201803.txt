@@ -5,6 +5,6 @@ A_n := 2^n + 2^{2n} + 2^{3n}.
 $$
 
 <ol>
-    <li> Demuestre que $A_{n+3}$ es congruente con $A_n$ módulo $7$ para cada número natural $n$. </li>
-    <li> Encuentre para qué valores de $n$ se cumple que $A_n$ es divisible por $7$. (Utilice el resultado anterior). </li>
+    <li> Demuestre que $A_{n+3}$ es congruente con $A_n$ módulo $7$ para cada número natural $n.$ </li>
+    <li> Encuentre para qué valores de $n$ se cumple que $A_n$ es divisible por $7.$ (Utilice el resultado anterior). </li>
 </ol>

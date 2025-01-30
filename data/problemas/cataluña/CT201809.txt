@@ -1,1 +1,1 @@
-Sea $A(t)$ el área limitada en el primer cuadrante entre la elipse de ecuación $4x^2 + y^2 = 1$, la recta $y = 1$ y la recta $x = t$, para $0 \leq t \leq \frac{1}{2}$. Calcule los valores máximo y mínimo de $A(t)$.
+Sea $A(t)$ el área limitada en el primer cuadrante entre la elipse de ecuación $4x^2 + y^2 = 1$, la recta $y = 1$ y la recta $x = t$, para $0 \leq t \leq \frac{1}{2}.$ Calcule los valores máximo y mínimo de $A(t).$

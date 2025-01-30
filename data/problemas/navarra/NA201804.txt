@@ -1,23 +1,13 @@
-El número de piezas por minuto que llegan a una máquina en una industria automovilística  
-es una variable aleatoria $X$ que sigue una distribución de Poisson de parámetro $\lambda$.  
-Y el tiempo, en minutos, que transcurre entre las llegadas de un par de piezas,  
-es una variable aleatoria $T$ cuya función de densidad es:
-
-$$
-f(x) =
-\begin{cases} 
-    \lambda^2 t e^{-\lambda t} & \text{si } t \geq 0, \\
-    0 & \text{si } t < 0.
-\end{cases}
-$$
+El número de piezas por minuto que llegan a una máquina en una industria automovilística es una variable aleatoria $X$ que sigue una distribución de Poisson de parámetro $\lambda.$
+Y el tiempo, en minutos, que transcurre entre las llegadas de un par de piezas, es una variable aleatoria $T$ cuya función de densidad es:
+$$f(x) = \begin{cases} 
+    \lambda^2 t e^{-\lambda t}, & \text{si } t \geq 0, \\
+    0, & \text{si } t < 0.
+\end{cases}$$
 
 Suponiendo $\lambda = 3$ en ambas variables aleatorias se pide:
 
 <ol>
-    <li>Si en un período de 120 segundos ya han llegado tres piezas,  
-        ¿cuál es la probabilidad de que en ese período lleguen, como mucho, dos piezas más?</li>
-
-    <li>Obtener la función de distribución acumulada de $T$  
-        y utilizarla para calcular la probabilidad de que transcurran menos de 90 segundos  
-        entre las llegadas de un par de piezas.</li>
+    <li>Si en un período de 120 segundos ya han llegado tres piezas, ¿cuál es la probabilidad de que en ese período lleguen, como mucho, dos piezas más?</li>
+    <li>Obtener la función de distribución acumulada de $T$ y utilizarla para calcular la probabilidad de que transcurran menos de 90 segundos entre las llegadas de un par de piezas.</li>
 </ol>

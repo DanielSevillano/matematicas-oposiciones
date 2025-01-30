@@ -1,7 +1,8 @@
-Una variable aleatoria $X$ sigue una distribución normal $\mathcal{N}(\mu, \sigma)$. Si se toma una muestra de tamaño $n$ y se consideran la media muestral $\bar{x}$ y el estimador de la desviación típica $s$, ¿cuál es la distribución muestral?
+Una variable aleatoria $X$ sigue una distribución normal $N(\mu, \sigma).$
+Si se toma una muestra de tamaño $n$ y se consideran la media muestral $\bar{x}$ y el estimador de la desviación típica $s$, ¿cuál es la distribución muestral?
 
 <ol>
-    <li> $\mathcal{N}(\mu, \sigma)$, </li>
-    <li> $\mathcal{N}(\bar{x}, s)$, </li>
-    <li> $t$-Student con $n - 1$ grados de libertad. </li>
+    <li>$N(\mu, \sigma).$</li>
+    <li>$N(\bar{x}, s).$</li>
+    <li>$t$-Student con $n - 1$ grados de libertad.</li>
 </ol>

@@ -10,9 +10,9 @@ $$
 \pi := \{(x, y, z) \in \mathbb{R}^3 : x + y - z - 1 = 0\},
 $$  
 
-se proyecta ortogonalmente sobre el plano $OXY$.  
+se proyecta ortogonalmente sobre el plano $OXY.$  
 
 <ol>
-    <li>Determine e identifique cuál es la cónica proyección de $\mathcal{C}$.</li>
+    <li>Determine e identifique cuál es la cónica proyección de $\mathcal{C}.$</li>
     <li>Encuentre la ecuación reducida de dicha cónica.</li>
 </ol>

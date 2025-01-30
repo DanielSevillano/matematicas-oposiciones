@@ -9,6 +9,6 @@ k e^{-x/2} & \text{si } x > 0, \\
 $$
 
 <ol>
-    <li>Calcule el valor del parámetro $k$.</li>
-    <li>Encuentre la esperanza matemática de $X$.</li>
+    <li>Calcule el valor del parámetro $k.$</li>
+    <li>Encuentre la esperanza matemática de $X.$</li>
 </ol>

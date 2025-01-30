@@ -1,2 +1,1 @@
-Hallar todas las cuaternas $\mathbf{u} := (x, y, z, t) \in \mathbb{R}^4$  
-tales que la suma de cualquiera de sus coordenadas con el producto de las tres restantes valga 2.
+Hallar todas las cuaternas $u := (x, y, z, t) \in \mathbb{R}^4$ tales que la suma de cualquiera de sus coordenadas con el producto de las tres restantes valga 2.
