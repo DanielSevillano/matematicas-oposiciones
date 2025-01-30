@@ -1,0 +1,17 @@
+<p>
+    Sea $a \in \mathbb{R}.$
+    Para cada $x \in \mathbb{R} \setminus \{a\}$ se tiene que:
+    \begin{align}
+        f(x) - f(a) & \leq (x-a)^2, \\
+        f(a) - f(x) & \leq (a-x)^2 = (x-a)^2.
+    \end{align}
+
+    Combinando ambas expresiones, obtenemos que:
+    $$0 \leq |f(x) - f(a)| \leq (x-a)^2 \Leftrightarrow 0 \leq \frac{|f(x)-f(a)|}{|x-a|} \leq |x-a|.$$
+
+    Por el criterio del sándwich, se tiene que:
+    $$\lim_{x \to a} \frac{|f(x)-f(a)|}{|x-a|} = 0.$$
+
+    Luego $f$ es derivable en $a$ y $f'(a) = 0.$
+    Por tanto, $f$ es constante.
+</p>

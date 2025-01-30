@@ -311,6 +311,7 @@
     },
     {
         "problema": "AR201806",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
@@ -323,6 +324,7 @@
     },
     {
         "problema": "AR201808",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -419,6 +421,7 @@
     },
     {
         "problema": "CA201812",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]

@@ -1,0 +1,72 @@
+<p>
+    Supongamos sin pérdida de generalidad que la circunferencia es de longitud 1.
+    Sea $x$ el arco de $A$ a $B$ y sea $y$ el arco de A a C, ambos en sentido positivo.
+    <img src="img/problemas/RAR201808-1.png" alt="Figura" loading="lazy">
+
+    Como la circunferencia es de longitud 1, entonces $0 < x < 1$ y $0 < y < 1.$
+</p>
+
+<ul>
+    <li>
+        Veamos qué condiciones tienen que verificarse para que el triángulo sea acutángulo.
+    
+        <ul>
+            <li>
+                Si $x < y$, se tienen que verificar las siguientes ecuaciones:
+                \begin{cases}
+                    x < \frac{1}{2}, \\
+                    y - x < \frac{1}{2}, \\
+                    1 - y < \frac{1}{2}.
+                \end{cases}
+            </li>
+
+            <li>
+                Si $x > y$, se tienen que verificar las siguientes ecuaciones:
+                \begin{cases}
+                    y < \frac{1}{2}, \\
+                    x - y < \frac{1}{2}, \\
+                    1 - x < \frac{1}{2}.
+                \end{cases}
+            </li>
+        </ul>
+
+        Representamos la región favorable.
+        <img src="img/problemas/RAR201808-2.png" alt="Figura" loading="lazy">
+
+        Observamos que la región factible tiene un area de $1 \; u^2.$
+        Además, el área de la región favorable es:
+        $$\frac{1}{8} + \frac{1}{8} = \frac{1}{4} \; u^2.$$
+
+        Por tanto, la probabilidad que el triángulo sea acutángulo es $\frac{1}{4}.$
+    </li>
+
+    <li>
+        Veamos qué condiciones tienen que verificarse para que el triángulo sea rectángulo.
+
+        <ul>
+            <li>
+                Si $x < y$, se tienen que verificar las siguientes ecuaciones:
+                \begin{cases}
+                    x = \frac{1}{2}, \\
+                    y - x = \frac{1}{2}, \\
+                    1 - y = \frac{1}{2}.
+                \end{cases}
+            </li>
+
+            <li>
+                Si $x > y$, se tienen que verificar las siguientes ecuaciones:
+                \begin{cases}
+                    y = \frac{1}{2}, \\
+                    x - y = \frac{1}{2}, \\
+                    1 - x = \frac{1}{2}.
+                \end{cases}
+            </li>
+        </ul>
+
+        Como el área de la región favorable es nula, la probabilidad de que el triángulo sea rectángulo es cero.
+    </li>
+</ul>
+
+<p>
+    Por tanto, la probabilidad de que el triángulo no sea obtusángulo es $1 - \frac{1}{4} = \frac{3}{4}.$
+</p>

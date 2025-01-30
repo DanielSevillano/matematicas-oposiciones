@@ -1,0 +1,29 @@
+<p>
+    En primer lugar, hallamos una primitiva de la función.
+    \begin{align}
+        & \int e^{-x}\sin(x)dx = -e^{-x}\sin(x) + \int e^{-x}\cos(x)dx = -e^{-x}\sin(x) - e^{-x}\cos(x) - \int e^{-x}\sin(x)dx \Rightarrow \\
+        & \Rightarrow \int e^{-x}\sin(x)dx = -\frac{1}{2}e^{-x}(\sin(x) + \cos(x)).
+    \end{align}
+</p>
+
+<p>
+    Por otro lado, observamos que:
+    $$e^{-x}\sin(x) \geq 0 \Leftrightarrow \sin(x) \geq 0 \Leftrightarrow x \in [2k\pi, (2k+1)\pi], \quad k \in \mathbb{Z}.$$
+
+    Así que el área de la región viene dada por:
+    $$\sum_{k=0}^\infty \int_{2k\pi}^{(2k+1)\pi} e^{-x}\sin(x)dx.$$
+</p>
+
+<p>
+    Calculamos estas integrales.
+    Sea $k \geq 0$, entonces:
+    \begin{align}
+        \int_{2k\pi}^{(2k+1)\pi} e^{-x}\sin(x)dx & = -\frac{1}{2}\Big[e^{-x}(\sin(x) + \cos(x))\Big]_{2k\pi}^{(2k+1)\pi} = -\frac{1}{2} (-e^{-(2k+1)\pi} - e^{-2k\pi}) = \\
+        & = \frac{1}{2} (e^{-(2k+1)\pi} + e^{-2k\pi}) = \frac{1}{2}e^{-2k\pi}(e^{-\pi} + 1).
+    \end{align}
+</p>
+
+<p>
+    Por tanto, el área es:
+    $$\sum_{k=0}^\infty \int_{2k\pi}^{(2k+1)\pi} e^{-x}\sin(x)dx = \frac{1}{2}(e^{-\pi} + 1) \sum_{k=0}^\infty e^{-2k\pi} = \frac{1}{2}(e^{-\pi} + 1) \cdot \frac{1}{1-e^{-2\pi}} = \frac{1 + e^{-\pi}}{2(1-e^{-2\pi})} \; u^2.$$
+</p>
