@@ -1,0 +1,19 @@
+De un depósito que contiene un fluido viscoso se desprenden gotas  
+que supondremos esféricas. El radio de una gota es una variable $X$  
+medida en milímetros de tamaño mínimo $\rho$, siendo $\rho > 1$,  
+cuya probabilidad de desprenderse es inversamente proporcional a su volumen.
+
+<ol>
+    <li>Calcule $\rho$ sabiendo para que la esperanza de $X$  
+        supera en $1$ a su mediana.</li>
+
+    <li>Si se desprenden cinco gotas, ¿cuál es la probabilidad  
+        de que exactamente tres de ellas superen el doble  
+        del tamaño mínimo?</li>
+
+    <li>Si el número de gotas que se desprenden por minuto  
+        sigue una distribución de Poisson de parámetro $\lambda$,  
+        calcule su esperanza, sabiendo que la probabilidad  
+        de que caigan cinco gotas en un minuto es la mitad  
+        de la probabilidad de que caigan cinco gotas en dos minutos.</li>
+</ol>

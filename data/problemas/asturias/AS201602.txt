@@ -1,0 +1,10 @@
+Sea $\{x_n\}$ la sucesión de números reales dada recursivamente por
+
+$$
+x_{n+1} = \frac{x_n^3 + 6}{7}, \quad n \in \mathbb{N}
+$$
+
+a partir de $x_1 = a$ ($a \in \mathbb{R}$).  
+
+Estudie la convergencia de la sucesión $\{x_n\}$ según los valores de $a$  
+y calcule su límite cuando exista.

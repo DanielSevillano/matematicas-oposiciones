@@ -1,0 +1,2 @@
+Resuelva, en el campo $\mathbb{C}$ de los números complejos, la ecuación
+$$5 \tan z = 2 \sin^2 z + \frac{3}{\cos^2 z}$$

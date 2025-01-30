@@ -1,0 +1,7 @@
+Se da la circunferencia $\mathcal{C}: x^2 + y^2 - 2ax = 0$ y la recta $r: x = 2a$, siendo $a > 0$. Una recta variable $s$ que pasa por el origen $O(0,0)$ corta a la circunferencia $\mathcal{C}$ en un punto $A$ distinto de $O$ y a la recta $r$ en un punto $B$.
+
+<ol>
+    <li>Halle la ecuación cartesiana del lugar geométrico $\mathcal{P}$ de los puntos $P \in s$ tales que $OP = AB$, al variar $s$.</li>
+    <li>Estudie y represente la curva cuya ecuación es la obtenida en (a).</li>
+    <li>Si dicha curva girase alrededor de su asíntota, indique cómo se obtendría la expresión del volumen limitado por la superficie engendrada (no es preciso calcularlo).</li>
+</ol>
