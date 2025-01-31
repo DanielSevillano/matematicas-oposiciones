@@ -5,17 +5,19 @@ let metadatos;
 async function problemaSemanal() {
     const contenedor = document.querySelector("#problema-semanal");
 
-    const fecha = new Date();
-    const inicio = new Date(fecha.getFullYear(), 0, 1);
-    const diferencia = fecha - inicio;
-    const semilla = Math.ceil(diferencia / 86400000 / 7);
-    let multiplicador = 47;
-    const indice = (semilla * multiplicador) % 52;
-
     if (!metadatos) {
         const respuesta = await fetch("data\\metadata.json");
         metadatos = await respuesta.json();
     }
+
+    const total = metadatos.length;
+
+    const fecha = new Date();
+    const inicio = new Date(fecha.getFullYear(), 0, 1);
+    const diferencia = fecha - inicio;
+    const semilla = Math.ceil(diferencia / 86400000 / 7);
+    let multiplicador = 115;
+    const indice = (semilla * multiplicador) % Math.min(total, 365);
 
     const objeto = metadatos[indice];
 
