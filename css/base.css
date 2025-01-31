@@ -274,7 +274,7 @@ Progreso
 
 main.cargando::after,
 section.cargando::after,
-div.cargando::after {
+.galeria.cargando::after {
     content: "";
     display: block;
     margin-top: 40px;
