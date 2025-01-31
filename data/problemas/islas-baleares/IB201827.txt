@@ -1,3 +1,27 @@
-¿Cuál es el número de tres cifras cuya suma es 8 que cumple que la
-cifra de las centenas coincide con la de las decenas, y que la suma de ambas es la
-de las unidades? 
+En un determinado país se padece la enfermedad endémica $X$, y unos laboratorios han desarrollado un test para detectar la enfermedad.
+Este test da positivo al 99% de las personas que la padecen.
+Este valor se denomina sensibilidad del test.
+Además, el test arroja un resultado negativo en el 95% de las personas que no la padecen.
+Este valor recibe el nombre de especificidad del test.
+
+<ol>
+    <li>
+        Resolver las siguientes cuestiones:
+
+        <ol>
+            <li>
+                Si la proporción de personas en el país que padecen la enfermedad $X$ es $p := 0.02$, calcular el valor predictivo positivo del test, es decir, la probabilidad de que una persona esté enferma si el test ha dado positivo.
+                Calcular también el valor predictivo negativo del test, es decir, la probabilidad de que una persona cuyo test ha dado negativo no padezca la enfermedad.
+            </li>
+
+            <li>
+                Si ahora la proporción de enfermos es $p$, donde $0 \leq p \leq 1$, escribir el valor predictivo positivo como una función de $p$, si tanto la sensibilidad como la especificidad del test son los del enunciado.
+                Determinar si es una función creciente y calcular su valor máximo.
+            </li>
+
+            <li>En las condiciones del apartado anterior determinar cuál debe ser la proporción mínima de enfermos con la enfermedad $X$ en este país para que el valor predictivo positivo sea, al menos, el 75%.</li>
+        </ol>
+    </li>
+
+    <li>Situar el problema dentro de un curso de la Educación Secundaria Obligatoria o Bachillerato, indicando los conocimientos previos que debe poseer el alumnado, las posibles relaciones con otras ramas de la matemática y/o con otras materias, las diversas alternativas para su resolución, los recursos y medios que se podrían utilizar, los posibles instrumentos de evaluación y otros aspectos de carácter didáctico que se consideren significativos.</li>
+</ol>

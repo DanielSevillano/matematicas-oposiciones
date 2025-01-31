@@ -1,1 +1,2 @@
-Sea $f: [0,1] \to (0,1)$ una función continua. Demuestre que la ecuación $$2x - \int_{0}^{x} f(t) dt = 1$$ tiene una única solución real.
+Sea $f: [0, 1] \to (0, 1)$ una función continua.
+Demuestre que la ecuación $$2x - \int_{0}^{x} f(t)dt = 1$$ tiene una única solución real.

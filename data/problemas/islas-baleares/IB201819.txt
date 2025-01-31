@@ -1,17 +1,14 @@
 <ol>
-    <li>Calcule la integral  
-        $$
-        \int_{0}^{\pi/2} \sin^7 x \cos^2 x \,dx.
-        $$  
+    <li>
+        Calcule la integral  
+        $$\int_{0}^{\pi/2} \sin^7(x) \cos^2(x)dx.$$  
     </li>
 
-    <li>Estudie la continuidad, existencia de derivadas parciales, derivadas direccionales y diferenciabilidad en el punto $(0,0)$, de la función  
-        $$
-        f(x, y) := 
-        \begin{cases} 
-        \frac{4x^3}{x^2 + y^2} & \text{si } (x,y) \neq (0,0), \\
-        0 & \text{si } (x,y) = (0,0).
-        \end{cases}
-        $$
+    <li>
+        Estudie la continuidad, existencia de derivadas parciales, derivadas direccionales y diferenciabilidad en el punto $(0, 0)$, de la función  
+        $$f(x, y) := \begin{cases} 
+            \frac{4x^3}{x^2 + y^2}, & \text{si } (x, y) \neq (0, 0), \\
+            0, & \text{si } (x, y) = (0, 0).
+        \end{cases}$$
     </li>
 </ol>

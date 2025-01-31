@@ -759,118 +759,172 @@
         ]
     },
     {
-        "problema": "IB201801"
+        "problema": "IB201801",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201802"
+        "problema": "IB201802",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201803"
+        "problema": "IB201803",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201804"
+        "problema": "IB201804",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "IB201805"
+        "problema": "IB201805",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201806"
+        "problema": "IB201806",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201807"
+        "problema": "IB201807",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201808"
+        "problema": "IB201808",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201809"
+        "problema": "IB201809",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "IB201810"
+        "problema": "IB201810",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201811"
+        "problema": "IB201811",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201812"
+        "problema": "IB201812",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201813"
+        "problema": "IB201813",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201814"
+        "problema": "IB201814",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "IB201815"
+        "problema": "IB201815",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201816"
+        "problema": "IB201816",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201817"
+        "problema": "IB201817",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201818"
+        "problema": "IB201818",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201819"
+        "problema": "IB201819",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201820"
+        "problema": "IB201820",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201821"
+        "problema": "IB201821",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "IB201822"
+        "problema": "IB201822",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201823"
+        "problema": "IB201823",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201824"
+        "problema": "IB201824",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IB201825"
+        "problema": "IB201825",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201826"
+        "problema": "IB201826",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201827"
+        "problema": "IB201827",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "IB201828"
-    },
-    {
-        "problema": "IB201829"
-    },
-    {
-        "problema": "IB201830"
-    },
-    {
-        "problema": "IB201831"
-    },
-    {
-        "problema": "IB201832"
-    },
-    {
-        "problema": "IB201833"
-    },
-    {
-        "problema": "IB201834"
-    },
-    {
-        "problema": "IB201835"
-    },
-    {
-        "problema": "IB201836"
-    },
-    {
-        "problema": "IB201837"
-    },
-    {
-        "problema": "IB201838"
+        "problema": "IB201828",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
         "problema": "LR201801",

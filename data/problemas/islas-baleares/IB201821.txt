@@ -1,15 +1,13 @@
 Responda razonadamente a las siguientes cuestiones:
 
 <ol>
-    <li>Calcule el límite de la sucesión  
-        $$
-        a_n := \frac{\frac{n}{1} + \frac{n-1}{2} + \frac{n-2}{3} + \cdots + \frac{3}{n-2} + \frac{2}{n-1} + \frac{1}{n}}{\log_7 n!}.
-        $$
+    <li>
+        Calcule el límite de la sucesión  
+        $$a_n := \frac{\frac{n}{1} + \frac{n-1}{2} + \frac{n-2}{3} + \cdots + \frac{3}{n-2} + \frac{2}{n-1} + \frac{1}{n}}{\log_7 n!}.$$
     </li>
 
-    <li>Estudie la convergencia de la serie  
-        $$
-        \sum_{n=1}^{\infty} \left( \sqrt[n]{e} - 1 - \frac{1}{n} \right).
-        $$
+    <li>
+        Estudie la convergencia de la serie  
+        $$\sum_{n=1}^{\infty} \left(\sqrt[n]{e} - 1 - \frac{1}{n}\right).$$
     </li>
 </ol>

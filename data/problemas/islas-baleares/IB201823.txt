@@ -1,13 +1,14 @@
 Tres máquinas $A$, $B$ y $C$ producen una barra metálica.  
-La longitud de las fabricadas por la máquina $A$ se distribuye según una distribución normal de parámetros  
-$\mu_A := 165$ y $\sigma_A := 5.$  
-La longitud de las fabricadas por la máquina $B$ se distribuye según una distribución normal de parámetros  
-$\mu_B := 175$ y $\sigma_B := 5$,  
-mientras que la longitud de las fabricadas por la máquina $C$ se distribuye según una distribución normal  
-de parámetros $\mu_C := 170$ y $\sigma_C := 5.$  
+La longitud de las fabricadas por la máquina $A$ se distribuye según una distribución normal de parámetros $\mu_A := 165$ y $\sigma_A := 5.$  
+La longitud de las fabricadas por la máquina $B$ se distribuye según una distribución normal de parámetros $\mu_B := 175$ y $\sigma_B := 5$, mientras que la longitud de las fabricadas por la máquina $C$ se distribuye según una distribución normal de parámetros $\mu_C := 170$ y $\sigma_C := 5.$
 En todos los casos la longitud viene expresada en milímetros.
 
 <ol>
-    <li>El 50% de la producción de la fábrica la hace la máquina $A$, el 20% la realiza la máquina $B$ y el resto lo elabora la máquina $C.$ Se eligen tres piezas al azar y se sabe que miden más de 173 mm cada una. ¿Cuál es la probabilidad de que las tres procedan de la máquina $C$?</li>
+    <li>
+        El 50% de la producción de la fábrica la hace la máquina $A$, el 20% la realiza la máquina $B$ y el resto lo elabora la máquina $C.$
+        Se eligen tres piezas al azar y se sabe que miden más de 173 mm cada una.
+        ¿Cuál es la probabilidad de que las tres procedan de la máquina $C$?
+    </li>
+    
     <li>Si se eligen al azar, de forma independiente, 100 piezas fabricadas por la máquina $B$, calcular la probabilidad de que al menos 60 de ellas midan más de 173 milímetros.</li>
 </ol>

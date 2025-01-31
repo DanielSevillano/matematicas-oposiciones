@@ -1,12 +1,8 @@
-La función de densidad de una variable aleatoria continua $X$ es</p>
-
-$$
-f(x) =
-\begin{cases} 
-k e^{-x/2} & \text{si } x > 0, \\ 
-0 & \text{si } -\infty < x \leq 0.
-\end{cases}
-$$
+La función de densidad de una variable aleatoria continua $X$ es
+$$f(x) = \begin{cases} 
+    ke^{-x/2}, & \text{si } x > 0, \\ 
+    0, & \text{si } -\infty < x \leq 0.
+\end{cases}$$
 
 <ol>
     <li>Calcule el valor del parámetro $k.$</li>

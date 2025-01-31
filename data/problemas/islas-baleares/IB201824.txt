@@ -1,21 +1,11 @@
-Dado el siguiente sistema de ecuaciones:  
-
-$$
+Dado el siguiente sistema de ecuaciones:
 \begin{cases}
     ax + (2a + 1)y - az = 1, \\
     ax + y - az = -2b, \\
     ay + (1 - a)z = b.
 \end{cases}
-$$
 
 <ol>
     <li>Discutir y resolver el sistema.</li>
-
-    <li>Situar el problema dentro de un curso de la Educación Secundaria Obligatoria o Bachillerato,  
-    indicando los conocimientos previos que debe poseer el alumnado,  
-    las posibles relaciones con otras ramas de la matemática y/o con otras materias,  
-    las diversas alternativas para su resolución,  
-    los recursos y medios que se podrían utilizar,  
-    los posibles instrumentos de evaluación  
-    y otros aspectos de carácter didáctico que se consideren significativos.</li>
+    <li>Situar el problema dentro de un curso de la Educación Secundaria Obligatoria o Bachillerato, indicando los conocimientos previos que debe poseer el alumnado, las posibles relaciones con otras ramas de la matemática y/o con otras materias, las diversas alternativas para su resolución, los recursos y medios que se podrían utilizar, los posibles instrumentos de evaluación y otros aspectos de carácter didáctico que se consideren significativos.</li>
 </ol>

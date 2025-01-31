@@ -1,7 +1,7 @@
-Una urna contiene $N$ bolas blancas, dos bolas rojas y una bola negra.  
-Se extraen todas las bolas de una en una sin reemplazamiento.  
-Sea $X$ la variable aleatoria que indica el número de la extracción en la que ha salido, por primera vez, una bola roja.  
-Sea $A$ el suceso ''la bola negra es extraída antes de haber sido extraída alguna de las bolas rojas''.  
+Una urna contiene $N$ bolas blancas, dos bolas rojas y una bola negra.
+Se extraen todas las bolas de una en una sin reemplazamiento.
+Sea $X$ la variable aleatoria que indica el número de la extracción en la que ha salido, por primera vez, una bola roja.
+Sea $A$ el suceso "la bola negra es extraída antes de haber sido extraída alguna de las bolas rojas".
 Determine:
 
 <ol>
