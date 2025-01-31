@@ -1,6 +1,2 @@
-Siendo $\tan z := \frac{\sin z}{\cos z}$, pruebe que para $z := x + y i$ se cumple que  
-
-$$
-\tan z = \frac{\sin 2x + i \sinh 2y}{\cos 2x + \cosh 2y},
-\quad \text{donde } i := \sqrt{-1}.
-$$
+Siendo $\tan(z) := \frac{\sin(z)}{\cos(z)}$, pruebe que para $z := x + yi$ se cumple que  
+$$\tan(z) = \frac{\sin(2x) + i\sinh(2y)}{\cos(2x) + \cosh(2y)}, \quad \text{donde } i := \sqrt{-1}.$$

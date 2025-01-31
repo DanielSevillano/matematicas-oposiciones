@@ -531,37 +531,67 @@
         ]
     },
     {
-        "problema": "CT201801"
+        "problema": "CT201801",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "CT201802"
+        "problema": "CT201802",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "CT201803"
+        "problema": "CT201803",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
         "problema": "CT201804"
     },
     {
-        "problema": "CT201805"
+        "problema": "CT201805",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "CT201806"
+        "problema": "CT201806",
+        "categorias": [
+            "Estadística"
+        ]
     },
     {
-        "problema": "CT201807"
+        "problema": "CT201807",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "CT201808"
+        "problema": "CT201808",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "CT201809"
+        "problema": "CT201809",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "CT201810"
+        "problema": "CT201810",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "CT201811"
+        "problema": "CT201811",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
         "problema": "CT201812"
@@ -615,7 +645,10 @@
         ]
     },
     {
-        "problema": "EX201803"
+        "problema": "EX201803",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
         "problema": "EX201804",
@@ -624,34 +657,64 @@
         ]
     },
     {
-        "problema": "GA201801"
+        "problema": "GA201801",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "GA201802"
+        "problema": "GA201802",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "GA201803"
+        "problema": "GA201803",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "GA201804"
+        "problema": "GA201804",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "GA201805"
+        "problema": "GA201805",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "GA201806"
+        "problema": "GA201806",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "GA201807"
+        "problema": "GA201807",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "GA201808"
+        "problema": "GA201808",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "GA201809"
+        "problema": "GA201809",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "GA201810"
+        "problema": "GA201810",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
         "problema": "GA201701",
@@ -858,22 +921,40 @@
         ]
     },
     {
-        "problema": "ME201801"
+        "problema": "ME201801",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "ME201802"
+        "problema": "ME201802",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "ME201803"
+        "problema": "ME201803",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "ME201804"
+        "problema": "ME201804",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "ME201805"
+        "problema": "ME201805",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "ME201806"
+        "problema": "ME201806",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
         "problema": "MU201801",
@@ -954,19 +1035,34 @@
         ]
     },
     {
-        "problema": "PV201801"
+        "problema": "PV201801",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "PV201802"
+        "problema": "PV201802",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "PV201803"
+        "problema": "PV201803",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "PV201804"
+        "problema": "PV201804",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "PV201805"
+        "problema": "PV201805",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
         "problema": "PV201806"

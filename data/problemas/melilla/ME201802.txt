@@ -1,6 +1,2 @@
-La recta tangente a la parábola $\mathcal{P}$ de ecuación $y^2 = 2x$ en uno de sus puntos $P \in \mathcal{P}$  
-corta al eje de ordenadas en el punto $A$  
-y la recta normal en $P$ corta a dicho eje en un punto $B.$  
-
-Halle la ecuación del lugar geométrico que describe el baricentro del triángulo $\triangle PAB$  
-cuando el punto $P$ recorre $\mathcal{P}.$
+La recta tangente a la parábola $\mathcal{P}$ de ecuación $y^2 = 2x$ en uno de sus puntos $P \in \mathcal{P}$ corta al eje de ordenadas en el punto $A$ y la recta normal en $P$ corta a dicho eje en un punto $B.$  
+Halle la ecuación del lugar geométrico que describe el baricentro del triángulo $\triangle PAB$ cuando el punto $P$ recorre $\mathcal{P}.$

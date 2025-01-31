@@ -1,6 +1,12 @@
 Responda razonadamente a las siguientes cuestiones:
 
 <ol>
-    <li> Tenemos una bolsa con $N$ bolas y un subconjunto $S$ que consta de $k$ bolas. Extraemos sin repetición dos bolas de la bolsa. Dar una expresión matemática para la probabilidad de que, como mínimo, una de las dos bolas elegidas sea de $S.$ Utilícela para comprobar que, si $k = N$, entonces la probabilidad anterior es $p = 1$ (suceso seguro), y para calcular la probabilidad en el caso $k = N - 1.$ </li>
-    <li> Calcule la probabilidad de que dos puntos elegidos al azar sobre una circunferencia determinen una cuerda de longitud superior al radio de dicha circunferencia. </li>
+    <li>
+        Tenemos una bolsa con $N$ bolas y un subconjunto $S$ que consta de $k$ bolas.
+        Extraemos sin repetición dos bolas de la bolsa.
+        Dar una expresión matemática para la probabilidad de que, como mínimo, una de las dos bolas elegidas sea de $S.$
+        Utilícela para comprobar que, si $k = N$, entonces la probabilidad anterior es $p = 1$ (suceso seguro), y para calcular la probabilidad en el caso $k = N - 1.$
+    </li>
+
+    <li>Calcule la probabilidad de que dos puntos elegidos al azar sobre una circunferencia determinen una cuerda de longitud superior al radio de dicha circunferencia.</li>
 </ol>

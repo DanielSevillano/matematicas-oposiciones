@@ -1,8 +1,10 @@
-Dada una función continua $ f : [3,5] \to \mathbb{R} $ que es derivable en el intervalo abierto $ (3,5) $ y tal que $ f(3) = 6 $ y $ f(5) = 10 $, se considera la función $ g : [3,5] \to \mathbb{R} $ definida por $ g(x) = \frac{f(x)}{x} .$</p>
+Dada una función continua $f: [3,5] \to \mathbb{R}$ que es derivable en el intervalo abierto $(3, 5)$ y tal que $f(3) = 6$ y $f(5) = 10$, se considera la función $g: [3, 5] \to \mathbb{R}$ definida por $g(x) = \frac{f(x)}{x}.$
 
 <ol>
-    <li>Demuestre que existe $ x_0 \in (3,5) $ tal que $ g'(x_0) = 0 .$</li>
-    <li>Demuestre que alguna tangente a la gráfica de $ f $ pasa por el origen.</li>
-    <li>Sean $ a $ y $ b $ números reales no nulos tales que $ 0 \notin [a, b] $ y $ h : [a, b] \to \mathbb{R} $ una función continua, derivable en $ (a, b) $, tal que $ \frac{h(a)}{a} = \frac{h(b)}{b} .$ Demuestre que alguna de las rectas tangentes a la gráfica de $ h $ pasa por el origen.</li>
+    <li>Demuestre que existe $x_0 \in (3, 5)$ tal que $g'(x_0) = 0.$</li>
+    <li>Demuestre que alguna tangente a la gráfica de $f$ pasa por el origen.</li>
+    <li>
+        Sean $a$ y $b$ números reales no nulos tales que $0 \notin [a, b]$ y $h: [a, b] \to \mathbb{R}$ una función continua, derivable en $(a, b)$, tal que $\frac{h(a)}{a} = \frac{h(b)}{b}.$
+        Demuestre que alguna de las rectas tangentes a la gráfica de $h$ pasa por el origen.
+    </li>
 </ol>
-

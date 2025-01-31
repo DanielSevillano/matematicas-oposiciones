@@ -1,3 +1,5 @@
-Tres amigos quieren hacer un muñeco de nieve apilando esferas. Con el objetivo de hacer un muñeco lo más alto posible, Marta dice: Hagamos el muñeco de dos bolas para que sea más alto. Bernardo responde: No, lo hemos de hacer de diez bolas y será más alto. Por su parte, Juana dice: Yo creo que la altura no cambia con el número de bolas, por lo que propongo hacerlo de seis bolas. 
-
+Tres amigos quieren hacer un muñeco de nieve apilando esferas.
+Con el objetivo de hacer un muñeco lo más alto posible, Marta dice: Hagamos el muñeco de dos bolas para que sea más alto.
+Bernardo responde: No, lo hemos de hacer de diez bolas y será más alto.
+Por su parte, Juana dice: Yo creo que la altura no cambia con el número de bolas, por lo que propongo hacerlo de seis bolas. 
 Asumiendo que los tres disponen de la misma cantidad de nieve y que las bolas no se aplastarán ni caerán, ¿cuál de ellos tiene razón?

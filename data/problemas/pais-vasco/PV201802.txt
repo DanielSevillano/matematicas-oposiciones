@@ -1,1 +1,2 @@
-Sea $p$ un número primo. Determine todos los enteros $k \in \mathbb{Z}$ tales que $\sqrt{k^2 - kp}$ sea un número entero no negativo.
+Sea $p$ un número primo.
+Determine todos los enteros $k \in \mathbb{Z}$ tales que $\sqrt{k^2 - kp}$ sea un número entero no negativo.

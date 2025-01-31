@@ -1,17 +1,13 @@
-El conjunto $F$ formado por las funciones $f : [0,1] \to \mathbb{R}$ dotado con las operaciones:
-
-\[
-(f+g)(x) := f(x) + g(x) \quad \text{y} \quad (f \cdot g)(x) := f(x) \cdot g(x)
-\]
-
-es un anillo conmutativo y unitario. Consideremos un subanillo $A$ de $F$ que contiene a las funciones constantes y para cada $x \in [0,1]$ consideramos la función evaluación en $x$ definida por
-
-\[
-\text{ev}_x : A \to \mathbb{R}, \quad f \mapsto f(x).
-\]
+El conjunto $F$ formado por las funciones $f: [0,1] \to \mathbb{R}$ dotado con las operaciones:
+$$(f+g)(x) := f(x) + g(x) \quad \text{y} \quad (f \cdot g)(x) := f(x) \cdot g(x)$$
+es un anillo conmutativo y unitario.
+Consideremos un subanillo $A$ de $F$ que contiene a las funciones constantes y para cada $x \in [0,1]$ consideramos la función evaluación en $x$ definida por
+$$\operatorname{ev}_x : A \to \mathbb{R}, \quad f \mapsto f(x).$$
 
 <ol>
-<li> Pruebe que para cada $x \in [0,1]$ el núcleo $\ker \text{ev}_x$ es un ideal maximal de $A.$ </li>
-
-<li> ¿Es cierto que para cada ideal maximal $m$ de $A$ existe un punto $x \in [0,1]$ tal que $m = \ker \text{ev}_x$? En caso afirmativo, demuéstrese y en caso negativo búsquese un ejemplo que lo avale. </li>
+    <li>Pruebe que para cada $x \in [0,1]$ el núcleo $\ker \operatorname{ev}_x$ es un ideal maximal de $A.$</li>
+    <li>
+        ¿Es cierto que para cada ideal maximal $m$ de $A$ existe un punto $x \in [0,1]$ tal que $m = \ker \operatorname{ev}_x$?
+        En caso afirmativo, demuéstrese y en caso negativo búsquese un ejemplo que lo avale.
+    </li>
 </ol>
