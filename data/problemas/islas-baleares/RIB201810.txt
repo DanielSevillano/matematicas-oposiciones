@@ -1,0 +1,37 @@
+<p>
+    Supongamos sin pérdida de generalidad que el segmento es de longitud 1.
+    Sea $x$ la longitud de la primera parte y sea $y$ la longitud de la segunda parte.
+    <img src="img/problemas/RIB201810-1.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    La región factible es el conjunto:
+    $$\Omega = \{(x, y) \in \mathbb{R}^2: 0 < x < 1, \; 0 < y < 1, \; x + y < 1\}.$$
+</p>
+
+<p>
+    Para que se pueda construir un rectángulo, es necesario que la longitud de cada lado sea menor que la suma de los otros dos.
+    Así que se tienen que verificar las siguientes condiciones:
+    $$\begin{cases}
+        x < y + 1 - x - y, \\
+        y < x + 1 - x - y, \\
+        1 - x - y < x + y
+    \end{cases} \Leftrightarrow
+    \begin{cases}
+        x < \frac{1}{2}, \\
+        y < \frac{1}{2}, \\
+        2x + 2y > 1.
+    \end{cases}$$
+
+    Representamos la región favorable.
+    <img src="img/problemas/RIB201810-2.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Observamos que el área de la región favorable es:
+    $$S_F = \frac{\frac{1}{2} \cdot \frac{1}{2}}{2} =  \frac{1}{8} \; u^2.$$
+
+    Además, el área de la región factible es $S_\Omega = \frac{1}{2} \; u^2.$
+    Por tanto, la probabilidad de que se pueda construir un triángulo con las tres partes es:
+    $$p = \frac{S_F}{S_\Omega} = \frac{\frac{1}{8}}{\frac{1}{2}} = \frac{1}{4}.$$
+</p>

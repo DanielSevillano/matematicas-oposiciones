@@ -1,0 +1,46 @@
+<ol>
+    <li>
+        La función $g$ está bien definida, es continua en $[3, 5]$ y es derivable en $(3, 5).$
+        Además, se tiene que:
+        $$\left.\begin{aligned}
+            & g(3) = \frac{f(3)}{3} = \frac{6}{3} = 2, \\
+            & g(5) = \frac{f(5)}{5} = \frac{10}{5} = 2
+        \end{aligned}\right\} \Rightarrow g(3) = g(5).$$
+
+        Por el teorema de Rolle, existe $c \in (3, 5)$ tal que $g'(c) = 0.$
+    </li>
+
+    <li>
+        Las rectas tangentes a la gráfica de $f$ son de la forma:
+        $$y - f(a) = f'(a)(x-a) \Leftrightarrow y = f'(a)x + f(a) - f'(a)a, \quad a \in (3, 5).$$
+
+        Observamos que su ordenada en el origen es $n = f(a) - f'(a)a.$
+        Para que la recta pase por el origen, ha de verificarse que:
+        $$n = 0 \Leftrightarrow f(a) - f'(a)a = 0 \overset{a \neq 0}{\Leftrightarrow} f'(a) = \frac{f(a)}{a} = g(a), \quad a \in (3, 5).$$
+
+        La derivada de la función $g$ es:
+        $$g'(x) = \frac{f'(x)x - f(x)}{x^2} = \frac{f'(x) - g(x)}{x}.$$
+
+        Por el apartado anterior, existe $c \in (3, 5)$ tal que:
+        $$g'(c) = 0 \Leftrightarrow \frac{f'(c) - g(c)}{c} = 0 \Leftrightarrow f'(c) = g(c).$$
+    </li>
+
+    <li>
+        Sea $d: [a, b] \to \mathbb{R}$ definida por $d(x) = \frac{h(x)}{x}.$
+        La función $d$ está bien definida, es continua en $[a, b]$ y es derivable en $(a, b)$. con:
+        $$d'(x) = \frac{h'(x)x - h(x)}{x^2} = \frac{h'(x) - d(x)}{x}.$$
+
+        Además, se tiene que:
+        $$\frac{h(a)}{a} = \frac{h(b)}{b} \Leftrightarrow d(a) = d(b).$$
+
+        Las rectas tangentes a la gráfica de $h$ son de la forma:
+        $$y - h(x_0) = h'(x_0)(x-x_0) \Leftrightarrow y = h'(x_0)x + h(x_0) - h'(x_0)x_0, \quad x_0 \in (a, b).$$
+
+        Observamos que su ordenada en el origen es $n = h(x_0) - h'(x_0)x_0.$
+        Para que la recta pase por el origen, ha de verificarse que:
+        $$n = 0 \Leftrightarrow h(x_0) - h'(x_0)x_0 = 0 \overset{x_0 \neq 0}{\Leftrightarrow} h'(x_0) = \frac{h(x_0)}{x_0} = d(x_0), \quad x_0 \in (a, b).$$
+
+        Por el teorema de Rolle, existe $c \in (a, b)$ tal que:
+        $$d'(c) = 0 \Leftrightarrow \frac{h'(c) - d(c)}{c} = 0 \Leftrightarrow h'(c) = d(c).$$
+    </li>
+</ol>

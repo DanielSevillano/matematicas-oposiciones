@@ -501,6 +501,7 @@
     },
     {
         "problema": "CM201803",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
@@ -688,6 +689,7 @@
     },
     {
         "problema": "GA201806",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
@@ -814,6 +816,7 @@
     },
     {
         "problema": "IB201810",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
