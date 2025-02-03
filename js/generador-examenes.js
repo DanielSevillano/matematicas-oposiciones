@@ -2,10 +2,11 @@ import { formatear, obtenerProblema } from "./math.js";
 
 const main = document.querySelector("main");
 const formulario = document.querySelector("form");
+const campoNumeroProblemas = document.querySelector("#numero-problemas");
+const campoComunidad = document.querySelector("#comunidad");
 const intervalo1 = document.querySelector("#curso-inicial");
 const intervalo2 = document.querySelector("#curso-final");
 
-const numeroProblemas = 6;
 let metadatos;
 
 async function obtenerExamenGenerado(problemas) {
@@ -20,6 +21,8 @@ async function obtenerExamenGenerado(problemas) {
     titulo.append(boton);
 
     main.append(titulo);
+
+    const numeroProblemas = campoNumeroProblemas.value;
 
     for (let numero = 1; numero <= numeroProblemas; numero++) {
         const objeto = problemas[numero - 1];
@@ -74,14 +77,22 @@ async function procesar(event) {
     const cursoInicial = Math.max(parseInt(intervalo1.value), parseInt(intervalo2.value));
     const cursoFinal = Math.min(parseInt(intervalo1.value), parseInt(intervalo2.value));
 
+    let comunidadSeleccionada;
+    if (campoComunidad.value != "todas") comunidadSeleccionada = campoComunidad.value;
+    const numeroProblemas = campoNumeroProblemas.value;
+
     if (!metadatos) {
         const respuesta = await fetch("data\\metadata.json");
         metadatos = await respuesta.json();
     }
 
     const datos = metadatos.filter(objeto => {
+        const comunidad = objeto.problema.slice(0, 2);
         const curso = objeto.problema.slice(2, 6);
-        return curso >= cursoFinal && curso <= cursoInicial;
+
+        const condicionComunidad = !comunidadSeleccionada || comunidad == comunidadSeleccionada;
+        const condicionCurso = curso >= cursoFinal && curso <= cursoInicial;
+        return condicionComunidad && condicionCurso;
     });
 
     if (datos.length == 0) {
