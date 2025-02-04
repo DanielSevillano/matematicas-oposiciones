@@ -1,0 +1,5 @@
+El problema de los repartos: Pascal (1623 - 1662) – Fermat (1601 - 1665).
+Dos jugadores A y B apuestan en un cierto juego equitativo 32 euros cada uno.
+El juego se desarrolla por partidas y gana la apuesta el primero que consiga cinco partidas.
+Cuando el primero ha ganado tres partidas y el segundo dos, el juego se interrumpe.
+¿Cómo hay que repartir las cantidades apostadas para ser justos?

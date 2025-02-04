@@ -1,0 +1,7 @@
+Sean $R$ y $Q$ las proyecciones ortogonales de un punto $P$ del plano sobre dos rectas fijas $e_1$, $e_2$ que forman un ángulo $\alpha.$
+
+<ol>
+    <li>Determinar las ecuaciones del lugar geométrico que describe $P$ si el segmento $RQ$ es de longitud constante.</li>
+    <li>Referir las ecuaciones del lugar a la referencia oblicua que definen las rectas $e_1$, $e_2.$</li>
+    <li>Particularizar para el caso en el que $\alpha = \frac{\pi}{2}.$</li>
+</ol>

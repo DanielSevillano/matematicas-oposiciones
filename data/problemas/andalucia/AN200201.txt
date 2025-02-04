@@ -1,0 +1,10 @@
+Se dan las rectas:
+\begin{align}
+    & r_1 \equiv x + y - 2 = 0, \\
+    & r_2 \equiv x + 2y - 3 = 0, \\
+    & r_3 \equiv 3x + y - 4 = 0.
+\end{align}
+
+Hallar los vértices $A$, $B$ y $C$ de un triángulo sabiendo que el radio de la circunferencia es 2 y que $r_1$ es la mediatriz de $AB$, $r_2$ es la de $BC$ y $r_3$ es la de $CA.$
+¿Cuántas soluciones hay?
+Hallarlas todas.

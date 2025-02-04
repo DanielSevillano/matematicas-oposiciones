@@ -243,6 +243,42 @@
         ]
     },
     {
+        "problema": "AN200607",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "AN200201",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "AN200202",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "AN200203",
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "problema": "AN200204",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "AN200205",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
         "problema": "AN200001",
         "categorias": [
             "Geometría"

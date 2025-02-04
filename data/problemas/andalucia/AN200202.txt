@@ -1,0 +1,9 @@
+El triángulo equilátero ABP (ver figura adjunta) de lado unidad está dentro del cuadrado $TXYZ$ de lado 2, en una posición que llamaremos "posición inicial".
+El triángulo gira en sentido horario con centro en $B$, luego con centro en $P$ y así sucesivamente a lo largo de los lados del cuadrado, hasta que retorna a la "posición inicial".
+<img src="img/problemas/AN200202.png" alt="Figura" loading="lazy">
+
+<ol>
+    <li>¿Cuál es la longitud de camino recorrido por el vértice $P$?</li>
+    <li>¿Y si el lado del cuadrado mide cinco unidades?</li>
+    <li>Generalícese el resultado para cuando el lado del cuadrado sea igual a $3n+2$ veces el lado del triángulo.</li>
+</ol>
