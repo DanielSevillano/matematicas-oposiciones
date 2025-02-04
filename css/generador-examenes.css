@@ -7,15 +7,12 @@ form {
 }
 
 .bloque {
-    margin-top: 1em;
-    margin-bottom: 1.25em;
-}
-
-.cuadricula {
     display: grid;
     grid-template-columns: 12ch 1fr;
     align-items: center;
     row-gap: 5px;
+    margin-top: 1em;
+    margin-bottom: 1.25em;
 }
 
 input[type='number'] {
