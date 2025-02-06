@@ -27,7 +27,7 @@
 
     <li>
         Sea $d: [a, b] \to \mathbb{R}$ definida por $d(x) = \frac{h(x)}{x}.$
-        La función $d$ está bien definida, es continua en $[a, b]$ y es derivable en $(a, b)$. con:
+        La función $d$ está bien definida, es continua en $[a, b]$ y es derivable en $(a, b)$ con:
         $$d'(x) = \frac{h'(x)x - h(x)}{x^2} = \frac{h'(x) - d(x)}{x}.$$
 
         Además, se tiene que:
