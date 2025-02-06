@@ -1141,6 +1141,7 @@
     },
     {
         "problema": "PV201803",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
