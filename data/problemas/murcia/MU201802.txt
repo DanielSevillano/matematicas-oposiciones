@@ -1,5 +1,5 @@
 Sean $a$ y $b$ números reales y $A_n \in \mathcal{M}_n(\mathbb{R})$ definida como  
-$$A_n := \begin{pmatrix}
+$$A_n = \begin{pmatrix}
     1 & -1 & 0 & 0 & \cdots & 0 \\
     a & b & -1 & 0 & \cdots & 0 \\
     a^2 & ab & b & -1 & \cdots & 0 \\

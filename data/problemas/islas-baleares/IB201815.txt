@@ -3,13 +3,13 @@ Sea $T: \mathbb{R}^3 \to \mathbb{R}^3$ la aplicación lineal que cumple las sigu
 <ul>
     <li>
         La restricción de $T$ al subespacio vectorial  
-        $$U := \{(x, y, z) \in \mathbb{R}^3 : x + y - z = 0\}$$  
+        $$U = \{(x, y, z) \in \mathbb{R}^3 : x + y - z = 0\}$$  
         es una homotecia de razón 4.
     </li>
     
     <li>
         $T$ transforma el subespacio vectorial  
-        $$V := \{(x, y, z) \in \mathbb{R}^3 : 2x + 4y + 3z = 0, \quad x + y + z = 0\}$$  
+        $$V = \{(x, y, z) \in \mathbb{R}^3 : 2x + 4y + 3z = 0, \quad x + y + z = 0\}$$  
         en sí mismo.
     </li>
     

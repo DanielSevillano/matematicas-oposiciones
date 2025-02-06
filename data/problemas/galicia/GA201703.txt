@@ -1,5 +1,5 @@
 Los vértices del triángulo $\triangle ABC$ son los afijos de los números complejos 
-$z_A := 1$, $z_B := -\frac{1}{2} + \frac{\sqrt{3}}{2} i$ y $z_C := -\frac{1}{2} - \frac{\sqrt{3}}{2} i$, donde $i := \sqrt{-1}.$
+$z_A = 1$, $z_B = -\frac{1}{2} + \frac{\sqrt{3}}{2} i$ y $z_C = -\frac{1}{2} - \frac{\sqrt{3}}{2} i$, donde $i = \sqrt{-1}.$
 
 <ol>
     <li>
@@ -8,7 +8,7 @@ $z_A := 1$, $z_B := -\frac{1}{2} + \frac{\sqrt{3}}{2} i$ y $z_C := -\frac{1}{2} 
         donde $M_1$, $M_2$ y $M_3$ son, respectivamente, los afijos de $z_1$, $z_2$ y $z_3.$
     </li>
     <li>
-        Determine, si el punto $M$ describe la circunferencia circunscrita al triángulo $\triangle ABC$, la línea descrita por el afijo de $z_4 := z + \frac{a^2}{z}$, donde $a \in \mathbb{R}.$
+        Determine, si el punto $M$ describe la circunferencia circunscrita al triángulo $\triangle ABC$, la línea descrita por el afijo de $z_4 = z + \frac{a^2}{z}$, donde $a \in \mathbb{R}.$
         Especifique, en particular, el caso en que $a$ coincida con el radio de la circunferencia.
     </li>
 </ol>

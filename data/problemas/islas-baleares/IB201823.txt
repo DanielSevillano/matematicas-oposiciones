@@ -1,6 +1,6 @@
 Tres máquinas $A$, $B$ y $C$ producen una barra metálica.  
-La longitud de las fabricadas por la máquina $A$ se distribuye según una distribución normal de parámetros $\mu_A := 165$ y $\sigma_A := 5.$  
-La longitud de las fabricadas por la máquina $B$ se distribuye según una distribución normal de parámetros $\mu_B := 175$ y $\sigma_B := 5$, mientras que la longitud de las fabricadas por la máquina $C$ se distribuye según una distribución normal de parámetros $\mu_C := 170$ y $\sigma_C := 5.$
+La longitud de las fabricadas por la máquina $A$ se distribuye según una distribución normal de parámetros $\mu_A = 165$ y $\sigma_A = 5.$  
+La longitud de las fabricadas por la máquina $B$ se distribuye según una distribución normal de parámetros $\mu_B = 175$ y $\sigma_B = 5$, mientras que la longitud de las fabricadas por la máquina $C$ se distribuye según una distribución normal de parámetros $\mu_C = 170$ y $\sigma_C = 5.$
 En todos los casos la longitud viene expresada en milímetros.
 
 <ol>

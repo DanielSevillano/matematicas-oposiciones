@@ -8,7 +8,7 @@ Responda razonadamente a las siguientes cuestiones:
     
     <li>
         Dadas las funciones continuas $f, g: [a, b] \to \mathbb{R}$ se define su producto como  
-        $$\langle f, g \rangle := \int_{a}^{b} f(t) g(t) dt.$$
+        $$\langle f, g \rangle = \int_{a}^{b} f(t) g(t) dt.$$
         
         Demuestre que se cumplen las siguientes propiedades:
 

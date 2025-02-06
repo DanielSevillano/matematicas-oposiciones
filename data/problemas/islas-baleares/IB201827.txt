@@ -10,7 +10,7 @@ Este valor recibe el nombre de especificidad del test.
 
         <ol>
             <li>
-                Si la proporción de personas en el país que padecen la enfermedad $X$ es $p := 0.02$, calcular el valor predictivo positivo del test, es decir, la probabilidad de que una persona esté enferma si el test ha dado positivo.
+                Si la proporción de personas en el país que padecen la enfermedad $X$ es $p = 0.02$, calcular el valor predictivo positivo del test, es decir, la probabilidad de que una persona esté enferma si el test ha dado positivo.
                 Calcular también el valor predictivo negativo del test, es decir, la probabilidad de que una persona cuyo test ha dado negativo no padezca la enfermedad.
             </li>
 

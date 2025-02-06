@@ -1,5 +1,5 @@
 Dados $x \in \mathbb{R}$ y el determinante  
-$$\Delta_n :=
+$$\Delta_n =
 \begin{vmatrix}
     1 & -\frac{1}{2} & 0 & 0 & \cdots & 0 & 0 \\
     x & 1 & -\frac{1}{3} & 0 & \cdots & 0 & 0 \\

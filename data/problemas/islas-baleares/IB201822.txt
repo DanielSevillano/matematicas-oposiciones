@@ -19,7 +19,7 @@ Demostrar que:
     </li>
 
     <li>
-        Sea $h := (\psi + \phi) \circ (\psi - \phi)^{-1}.$  
+        Sea $h = (\psi + \phi) \circ (\psi - \phi)^{-1}.$  
         Se cumple que $\|h(x)\| = \|x\|$ para todo $x \in E.$
     </li>
 

@@ -1,5 +1,5 @@
 El conjunto $F$ formado por las funciones $f: [0,1] \to \mathbb{R}$ dotado con las operaciones:
-$$(f+g)(x) := f(x) + g(x) \quad \text{y} \quad (f \cdot g)(x) := f(x) \cdot g(x)$$
+$$(f+g)(x) = f(x) + g(x) \quad \text{y} \quad (f \cdot g)(x) = f(x) \cdot g(x)$$
 es un anillo conmutativo y unitario.
 Consideremos un subanillo $A$ de $F$ que contiene a las funciones constantes y para cada $x \in [0,1]$ consideramos la función evaluación en $x$ definida por
 $$\operatorname{ev}_x : A \to \mathbb{R}, \quad f \mapsto f(x).$$

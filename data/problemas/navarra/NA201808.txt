@@ -1,6 +1,6 @@
 Una empresa especializada en la iluminación fabrica dos tipos, $A$ y $B$, de diodos LED.
-La vida útil (en miles de horas) de un diodo del tipo $A$ sigue una distribución normal, siendo su media $\mu_A := 45$ y su desviación típica $\sigma_A := 5.$
-En cambio, un diodo de tipo $B$ también sigue una distribución normal, pero su media es $\mu_B := 42$ y su desviación típica $\sigma_B := 7.$
+La vida útil (en miles de horas) de un diodo del tipo $A$ sigue una distribución normal, siendo su media $\mu_A = 45$ y su desviación típica $\sigma_A = 5.$
+En cambio, un diodo de tipo $B$ también sigue una distribución normal, pero su media es $\mu_B = 42$ y su desviación típica $\sigma_B = 7.$
 Suponiendo que las vidas útiles de los diodos LED del tipo $A$ y $B$ son independientes entre sí:
 
 <ol>

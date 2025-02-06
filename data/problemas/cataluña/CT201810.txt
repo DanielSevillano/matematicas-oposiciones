@@ -1,5 +1,5 @@
 Dado un conjunto $X$ se consideran el conjunto $\mathcal{P}(X)$ formado por los subconjuntos de $X$ y las operaciones en $\mathcal{P}(X)$ definidas mediante:
-$$(A,B) \mapsto A \triangle B := (A \cup B) \setminus (A \cap B), \quad (A,B) \mapsto A * B := A \cap B.$$
+$$(A,B) \mapsto A \triangle B = (A \cup B) \setminus (A \cap B), \quad (A,B) \mapsto A * B = A \cap B.$$
 
 <ol>
     <li>Demuestre que $(\mathcal{P}(X), \triangle, *)$ es un anillo conmutativo tomando $\triangle$ como suma y $*$ como producto.</li>

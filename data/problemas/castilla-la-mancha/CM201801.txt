@@ -1,2 +1,2 @@
 Demuestre que todos los términos de la sucesión $\{a_n\}$ son múltiplos de 600, donde
-$$a_n := (n^2 - 1)(n^2 + 1)(n^4 - 16)n^2.$$
+$$a_n = (n^2 - 1)(n^2 + 1)(n^4 - 16)n^2.$$

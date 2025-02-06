@@ -1,4 +1,4 @@
-Sean $E$ y $F$ espacios vectoriales, $S$ un subespacio vectorial de $E$, $f: E \to F$ una aplicación lineal y $g := f|_S : S \to F$ su restricción a $S.$
+Sean $E$ y $F$ espacios vectoriales, $S$ un subespacio vectorial de $E$, $f: E \to F$ una aplicación lineal y $g = f|_S : S \to F$ su restricción a $S.$
 ¿Cuál de las siguientes respuestas es correcta?
 
 <ol>

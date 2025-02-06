@@ -6,7 +6,7 @@
 
     <li>
         Estudie la continuidad, existencia de derivadas parciales, derivadas direccionales y diferenciabilidad en el punto $(0, 0)$, de la función  
-        $$f(x, y) := \begin{cases} 
+        $$f(x, y) = \begin{cases} 
             \frac{4x^3}{x^2 + y^2}, & \text{si } (x, y) \neq (0, 0), \\
             0, & \text{si } (x, y) = (0, 0).
         \end{cases}$$

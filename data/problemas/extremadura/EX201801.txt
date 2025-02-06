@@ -1,5 +1,5 @@
 Calcule una y solo una de las siguientes integrales:
-$$I_1 := \int_0^1 (1 - x^2)^ndx, \quad 
-I_2 := \int \frac{dx}{3\cos x - 4\sin x}, \quad
-I_3 := \int_0^{+\infty} e^{-x^2}dx, \quad 
-I_4 := \int \frac{\sqrt{x^2 - 2x}}{(x - 1)^3}dx.$$
+$$I_1 = \int_0^1 (1 - x^2)^ndx, \quad 
+I_2 = \int \frac{dx}{3\cos x - 4\sin x}, \quad
+I_3 = \int_0^{+\infty} e^{-x^2}dx, \quad 
+I_4 = \int \frac{\sqrt{x^2 - 2x}}{(x - 1)^3}dx.$$
