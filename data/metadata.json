@@ -1155,6 +1155,7 @@
     },
     {
         "problema": "PV201805",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

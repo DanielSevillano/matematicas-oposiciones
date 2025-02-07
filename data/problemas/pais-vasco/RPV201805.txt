@@ -1,0 +1,31 @@
+<p>
+    Representamos la región factible.
+    <img src="img/problemas/RPV201805.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Hallamos el área de esta región.
+    \begin{align}
+        S_\Omega & = \int_0^1 (x + 3 - (-3x + 3))dx + \int_1^2 \left(\frac{4}{x} - (-3x + 3)\right)dx + \int_2^4 \left(\frac{4}{x} - (2x - 7)\right)dx = \\
+        & = \int_0^1 4xdx + \int_1^2 \left(\frac{4}{x} + 3x - 3\right)dx + \int_2^4 \left(\frac{4}{x} - 2x + 7\right)dx = \\
+        & = \Big[2x^2\Big]_0^1 + \left[4\ln(x) + \frac{3}{2}x^2 - 3x\right]_1^2 + \Big[4\ln(x) - x^2 + 7x\Big]_2^4 = \\
+        & = 2 + 4\ln(2) + 6 - 6 - \frac{3}{2} + 3 + 4\ln(4) - 16 + 28 - 4\ln(2) + 4 - 14 = 4\ln(4) + \frac{11}{2} \; u^2.
+    \end{align}
+</p>
+
+<ul>
+    <li>
+        La superficie en la que esta región tiene las dos coordenadas positivas se puede obtener quitándole el triángulo inferior, de área:
+        $$S_T = \frac{\frac{5}{2} \cdot 3}{2} = \frac{15}{4} \; u^2.$$
+
+        Luego el área de la región factible es:
+        $$S_F = S_\Omega - \frac{15}{4} = 4\ln(4) + \frac{11}{2} - \frac{15}{4} = 4\ln(4) + \frac{7}{4} \; u^2.$$
+
+        Por tanto, la probabilidad de que un punto tenga las dos coordenadas positivas es:
+        $$p = \frac{S_F}{S_\Omega} = \frac{4\ln(4) + \frac{7}{4}}{4\ln(4) + \frac{11}{2}} \approx 0,6605.$$
+    </li>
+
+    <li>
+        La superficie en la que esta región tiene las dos coordenadas enteras es nula, así que la probabilidad de que las dos coordenadas de un punto sean números enteros es 0.
+    </li>
+</ul>
