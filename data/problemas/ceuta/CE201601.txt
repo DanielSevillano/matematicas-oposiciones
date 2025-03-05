@@ -1,0 +1,2 @@
+Resuelve la siguiente ecuación en $\mathbb{R}$, conocido $\alpha \in \mathbb{R}$:
+$$\left(\frac{1 + i x}{1 - i x}\right)^4 = \frac{1 + i \tan \frac{\alpha}{2}}{1 - i \tan \frac{\alpha}{2}}$$

@@ -1,0 +1,2 @@
+Halla la ecuación del plano que pasa por el punto (1,1,1) y forma con
+los semiejes coordenados positivos un tetraedro de volumen mínimo.

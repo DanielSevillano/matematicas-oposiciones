@@ -1,0 +1,3 @@
+Se considera un triángulo $ABC$ y se llama $E$ al punto medio del lado $AC$. Demuestre que<
+
+$$ \text{área}(ABC) = \frac{BC^2 - AB^2}{4} \cdot \tan(\angle AEB) $$

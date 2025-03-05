@@ -1,0 +1,13 @@
+La longitud del radio de una esfera es una variable aleatoria con función de densidad
+
+$$
+f(x) = kx(1-x), \quad \text{si } 0 \leq x \leq 1
+$$
+
+y nula en el resto.
+
+<ul>
+    <li>Calcule el valor de la constante $k$ para que $f$ sea efectivamente una función de densidad. Calcule asimismo la función de distribución.</li>
+    <li>Se sabe que el radio de la esfera mide más de $ \frac{1}{3} $. Calcule la probabilidad de que su longitud sea inferior a $ \frac{3}{4} $.</li>
+    <li>Si $ S = 4\pi x^2 $ es la superficie de la esfera de la radio $ x $, calcule $ P(S > s) $.</li>
+</ul>

@@ -1,0 +1,1 @@
+Un triángulo equilátero inscrito en una circunferencia de centro $O$ y radio 4 cm se gira un ángulo recto en torno al punto $O$ obteniendo un nuevo triángulo. Determine el área de la parte común a ambos triángulos.

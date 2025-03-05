@@ -1,0 +1,1 @@
+Sean $m,n \in \mathbb{N}$. Determine todas las curvas decrecientes contenidas en el primer cuadrante y tales que para cada punto $P$ de la curva, la recta tangente a dicha curva en $P$ corta a los ejes $OX$ y $OY$ en dos puntos $A$ y $B$ tales que la proporción entre las longitudes $PB$ y $PA$ sea $\frac{m}{n}$. ¿Qué tipo de curvas se obtienen en el caso $m = n$?

@@ -1,0 +1,6 @@
+Un chico y una chica deciden encontrarse en determinado lugar en algún momento entre las 17:00 y las 18:00. Cada uno esperará al otro un máximo de 10 minutos. Halle la probabilidad de que ambos se encuentren, suponiendo que llegan independientemente al lugar de la cita, si:
+
+<ul>
+    <li>El chico llega a las 17:30.</li>
+    <li>Llegando uno y el otro en cualquier momento.</li>
+</ul>

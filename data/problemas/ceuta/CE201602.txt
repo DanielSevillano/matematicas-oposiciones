@@ -1,0 +1,12 @@
+Se considera la aplicación $f: \mathbb{R}^3 \to \mathbb{R}^3$ definida por
+
+$$ f(x,y,z) = (x - 4y, -y, 2y + z). $$
+
+<ol>
+    <li>Demuestre que $f$ es un endomorfismo del espacio vectorial $\mathbb{R}^3$.</li>
+    <li>Determine la expresión matricial de $f$ respecto de la base canónica de $\mathbb{R}^3$.</li>
+    <li>Calcule el núcleo y la imagen de $f$.</li>
+    <li>Calcule los valores propios de $f$ y los subespacios de vectores propios asociados.</li>
+    <li>Determine si la matriz $A$ asociada a la aplicación lineal $f$ en la base canónica es diagonalizable y, en caso afirmativo, calcule una matriz diagonal semejante a $A$ y una matriz de paso correspondientes.</li>
+    <li>Calcule la matriz $A^9$.</li>
+</ol>
