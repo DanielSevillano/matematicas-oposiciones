@@ -1,10 +1,9 @@
-La corona circular que forman dos circunferencias concéntricas $\Gamma$ y $\Gamma'$  
-de radios $r$ y $r'$ ($r < r'$) contiene a 8 circunferencias $\Gamma_1, \dots, \Gamma_8$ tales que:
+La corona circular que forman dos circunferencias concéntricas $\Gamma$ y $\Gamma'$ de radios $r$ y $r'$ ($r < r'$) contiene a 8 circunferencias $\Gamma_1, \dots, \Gamma_8$ tales que:
 
-<ol>
-    <li>$\Gamma_i$ es tangente a $\Gamma$ y $\Gamma'$ para cada $i = 1, \dots, 8$.</li>
-    <li>$\Gamma_i$ y $\Gamma_{i+1}$ son tangentes para cada $i = 1, \dots, 7$.</li>
+<ul>
+    <li>$\Gamma_i$ es tangente a $\Gamma$ y $\Gamma'$ para cada $i = 1, \dots, 8.$</li>
+    <li>$\Gamma_i$ y $\Gamma_{i+1}$ son tangentes para cada $i = 1, \dots, 7.$</li>
     <li>$\Gamma_8$ y $\Gamma_1$ son tangentes.</li>
-</ol>
+</ul>
 
-Determine el cociente $\frac{r'}{r}$.
+Determine el cociente $\frac{r'}{r}.$

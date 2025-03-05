@@ -1,1 +1,1 @@
-Encuentre todos los números enteros $b$ y $c$ que hacen que la ecuación $x^2+bx+c=0$ tenga dos soluciones diferentes y reales, $\alpha$ y $\beta$, y tales que $\alpha^2 + \beta^2 = 5$.
+Encuentre todos los números enteros $b$ y $c$ que hacen que la ecuación $x^2 + bx + c = 0$ tenga dos soluciones diferentes y reales, $\alpha$ y $\beta$, y tales que $\alpha^2 + \beta^2 = 5.$

@@ -1,1 +1,5 @@
-El triángulo $\triangle ABC$ de la Figura 8.4 es rectángulo en $B$. Se gira $\triangle ABC$ dos veces con centro en $A$ con igual amplitud de giro. Calcule $\frac{BC}{AN}$.
+El triángulo $\triangle ABC$ de la figura es rectángulo en $B.$
+Se gira $\triangle ABC$ dos veces con centro en $A$ con igual amplitud de giro.
+Calcule $\frac{BC}{AN}.$
+
+<img src="img/problemas/CT201811.png" alt="Figura" loading="lazy">

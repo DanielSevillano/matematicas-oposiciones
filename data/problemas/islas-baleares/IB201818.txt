@@ -1,17 +1,37 @@
 Responda razonadamente a las siguientes cuestiones:
 
 <ol>
-    <li>Calcule la integral  
-        $$
-        \int \frac{(x+1)dx}{x^3 + 2x}.
-        $$  
+    <li>
+        Calcule la integral
+        $$\int \frac{(x+1)dx}{x^3 + 2x}.$$  
     </li>
     
-    <li>Dadas las funciones continuas $f, g : [a, b] \to \mathbb{R}$ se define su producto como  
-        $$
-        \langle f, g \rangle := \int_{a}^{b} f(t) g(t) dt.
-        $$
+    <li>
+        Dadas las funciones continuas $f, g: [a, b] \to \mathbb{R}$ se define su producto como  
+        $$\langle f, g \rangle = \int_{a}^{b} f(t) g(t) dt.$$
+        
+        Demuestre que se cumplen las siguientes propiedades:
+
+        <ol>
+            <li>
+                Si $f_1$, $f_2$, $g: [a, b] \to \mathbb{R}$ son continuas y $\alpha, \beta \in \mathbb{R}$, entonces:
+                $$\langle \alpha f_1 + \beta f_2, g \rangle = \alpha \langle f_1, g \rangle + \beta \langle f_2, g \rangle.$$
+            </li>
+            
+            <li>
+                Si $f$, $g : [a, b] \to \mathbb{R}$ son continuas, entonces:
+                $$\langle f, g \rangle = \langle g, f \rangle.$$
+            </li>
+            
+            <li>
+                Si $f : [a, b] \to \mathbb{R}$ es continua, se cumple que:
+                $$\langle f, f \rangle \geq 0.$$
+            </li>
+            
+            <li>
+                Si $f : [a, b] \to \mathbb{R}$ es continua, entonces:
+                $$\langle f, f \rangle = 0 \text{ si y sólo si } f = 0.$$
+            </li>
+        </ol>
     </li>
 </ol>
-
-Demuestre que se cumplen las siguientes propiedades:

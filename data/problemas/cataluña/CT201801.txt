@@ -1,5 +1,2 @@
 Calcule el volumen de la figura resultante de girar alrededor del eje de ordenadas la superficie limitada por la curva de ecuación
-
-$$
-4x^2 = y(1 - y)(2 - y)^2.
-$$
+$$4x^2 = y(1 - y)(2 - y)^2.$$

@@ -44,10 +44,14 @@
         <h2>🪄 Generador de exámenes</h2>
 
         <div class="bloque">
-            <label for="curso-inicial">Desde</label>
-            <input type="number" id="curso-inicial" min="2000" max="2024" value="2024" required>
-            <label for="curso-final">hasta</label>
-            <input type="number" id="curso-final" min="2000" max="2024" value="2000" required>
+            <label for="numero-problemas">Problemas</label>
+            <input type="number" name="numero-problemas" id="numero-problemas" min="3" max="10" value="6" required>
+
+            <label for="comunidad">Comunidad</label>
+            <select name="comunidad" id="comunidad">
+                <option value="todas">Todas</option>
+                <option value="AN">Andalucía</option>
+            </select>
         </div>
 
         <button type="submit" id="generar">Generar</button>

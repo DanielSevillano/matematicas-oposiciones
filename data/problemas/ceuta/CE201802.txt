@@ -1,1 +1,1 @@
-Demuestre que para todo número natural positivo $n$, el número entero $a_n := 4^{n+1} + 5^{2n-1}$ es múltiplo de 21.
+Demuestre que para todo número natural positivo $n$, el número entero $a_n = 4^{n+1} + 5^{2n-1}$ es múltiplo de 21.

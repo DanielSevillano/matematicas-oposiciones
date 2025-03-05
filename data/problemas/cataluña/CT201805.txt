@@ -1,8 +1,9 @@
-Sean $E$ y $F$ espacios vectoriales, $S$ un subespacio vectorial de $E$, $f : E \to F$ una aplicación lineal y $g := f|_S : S \to F$ su restricción a $S$. ¿Cuál de las siguientes respuestas es correcta?
+Sean $E$ y $F$ espacios vectoriales, $S$ un subespacio vectorial de $E$, $f: E \to F$ una aplicación lineal y $g = f|_S : S \to F$ su restricción a $S.$
+¿Cuál de las siguientes respuestas es correcta?
 
 <ol>
-    <li> $\operatorname{im} f = \operatorname{im} g$. </li>
-    <li> $\ker f = \ker g$. </li>
-    <li> $\ker g = S \cap \ker f$. </li>
-    <li> Ninguna de las respuestas anteriores es correcta. </li>
+    <li>$\Im f = \Im g.$ </li>
+    <li>$\ker f = \ker g.$ </li>
+    <li>$\ker g = S \cap \ker f.$ </li>
+    <li>Ninguna de las respuestas anteriores es correcta. </li>
 </ol>

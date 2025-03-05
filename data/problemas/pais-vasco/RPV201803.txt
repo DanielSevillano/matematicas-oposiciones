@@ -1,0 +1,28 @@
+<ol>
+    <li>
+        En primer lugar, desarrollamos la expresión de $A_{n+3}.$
+        $$A_{n+3} = 2^{n+3} + 2^{2n+6} + 2^{3n+9} = 2^n \cdot 2^3 + 2^{2n} \cdot 2^6 + 2^{3n} \cdot 2^9 = 8 \cdot 2^n + 64 \cdot 2^{2n} + 512 \cdot 2^{3n}.$$
+
+        Observamos que:
+        $$8 \equiv 1 \, (\mod 7), \quad 64 \equiv 1 \, (\mod 7), \quad 512 \equiv 1 \, (\mod 7).$$
+
+        Por tanto,
+        $$A_{n+3} = 8 \cdot 2^n + 64 \cdot 2^{2n} + 512 \cdot 2^{3n} \equiv 2^n + 2^{2n} + 2^{3n} = A_n \, (\mod 7).$$
+    </li>
+
+    <li>
+        $A_n$ es divisible por 7 si y solo si:
+        $$A_n \equiv 0 \, (\mod 7) \Leftrightarrow A_{n+3} \equiv 0 \, (\mod 7).$$
+
+        Luego, si $A_k$ es divisible por 7 para algún $k \in \mathbb{N}$, entonces $A_{k + 3r}$ es también divisible por 7 para todo $r \in \mathbb{N}.$
+        Estudiamos la divisibilidad de los primeros términos.
+        
+        <ul>
+            <li>$A_1 = 2 + 4 + 8 = 14$ es divisible por 7, así que $A_{1 + 3k}$ es divisible por 7 para todo $k \in \mathbb{N} \cup \{0\}.$</li>
+            <li>$A_2 = 4 + 16 + 64 = 84$ es divisible por 7, así que $A_{2 + 3k}$ es divisible por 7 para todo $k \in \mathbb{N} \cup \{0\}.$</li>
+            <li>$A_3 = 8 + 64 + 512 = 584$ no es divisible por 7, así que $A_{3k}$ no es divisible por 7 para ningún $k \in \mathbb{N}.$</li>
+        </ul>
+
+        Por tanto, $A_n$ es divisible por 7 si y solo si $n$ no es múltiplo de 3.
+    </li>
+</ol>

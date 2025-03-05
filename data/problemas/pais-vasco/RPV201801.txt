@@ -1,0 +1,37 @@
+<p>
+    Hallamos el punto de corte de las dos curvas en el intervalo $\left(0, \frac{\pi}{2}\right).$
+    $$2\cos(x) = a\sin(x) \Leftrightarrow \tan(x) = \frac{2}{a} \Leftrightarrow x = \arctan\left(\frac{2}{a}\right).$$
+</p>
+
+<p>
+    Realizamos un esbozo de las dos curvas.
+    <img src="img/problemas/RPV201801.png" alt="Figura" loading="lazy">
+</p>
+
+<p>
+    Llamamos $A_1$ al área de la región superior, $A_2$ al de la región inferior y $A$ al de la región completa, con $A = A_1 + A_2.$
+    Ha de verificarse que $A_1 = A_2$ o, equivalentemente, $A_1 = \frac{A}{2}.$
+    Hallamos estas áreas.
+    \begin{align}
+        A & = \int_0^{\frac{\pi}{2}} 2\cos(x)dx = 2\Big[\sin(x)\Big]_0^{\frac{\pi}{2}} = 2 \; u^2, \\
+        A_1 & = \int_0^{\arctan\left(\frac{2}{a}\right)} (2\cos(x) - a\sin(x))dx = \Big[2\sin(x) + a\cos(x)\Big]_0^{\arctan\left(\frac{2}{a}\right)} = \\
+        & = 2\sin\left(\arctan\left(\frac{2}{a}\right)\right) + a\cos\left(\arctan\left(\frac{2}{a}\right)\right) - a
+    \end{align}
+</p>
+
+<p>
+    Sea $\alpha = \arctan\left(\frac{2}{a}\right).$
+    Entonces:
+    $$\tan(\alpha) = \frac{2}{a} \Rightarrow \begin{cases}
+        \sin(\alpha) = \dfrac{2}{\sqrt{4 + a^2}}, \\
+        \cos(\alpha) = \dfrac{a}{\sqrt{4 + a^2}}.
+    \end{cases}$$
+
+    Luego:
+    $$A_1 = 2\sin(\alpha) + a\cos(\alpha) - a = \frac{4}{\sqrt{4 + a^2}} + \frac{a^2}{\sqrt{4 + a^2}} - a = \frac{4+a^2}{\sqrt{4+a^2}} - a = \sqrt{4+a^2} - a.$$
+</p>
+
+<p>
+    Por tanto,
+    $$A_1 = A_2 \Leftrightarrow A_1 = \frac{A}{2} \Leftrightarrow \sqrt{4+a^2} - a = 1 \Leftrightarrow 4 + a^2 = a^2 + 2a + 1 \Leftrightarrow 2a = 3 \Leftrightarrow a = \frac{3}{2}.$$
+</p>

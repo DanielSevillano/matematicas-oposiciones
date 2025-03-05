@@ -1,28 +1,27 @@
-Sea $(E, \langle \cdot, \cdot \rangle)$ un espacio euclídeo de dimensión finita $n > 1$.  
+Sea $(E, \langle \cdot, \cdot \rangle)$ un espacio euclídeo de dimensión finita $n > 1.$  
 Sean $\psi$ y $\phi$ dos automorfismos de $E$ que conmutan y tales que:  
 
 <ul>
-    <li>$\psi$ es autoadjunto, es decir, $\langle \psi(x), y \rangle = \langle x, \psi(y) \rangle$ para cualesquiera vectores $x, y \in E$.</li>
-    <li>$\langle \phi(x), y \rangle = -\langle x, \phi(y) \rangle$ para cualesquiera vectores $x, y \in E$.</li>
+    <li>$\psi$ es autoadjunto, es decir, $\langle \psi(x), y \rangle = \langle x, \psi(y) \rangle$ para cualesquiera vectores $x, y \in E.$</li>
+    <li>$\langle \phi(x), y \rangle = -\langle x, \phi(y) \rangle$ para cualesquiera vectores $x, y \in E.$</li>
 </ul>
 
 Demostrar que:
 
 <ol>
     <li>Para todo $x \in E$ los vectores $\psi(x)$ y $\phi(x)$ son ortogonales.</li>
+    <li>Los endomorfismos $\psi + \phi$ y $\psi - \phi$ son automorfismos de $E.$</li>
 
-    <li>Los endomorfismos $\psi + \phi$ y $\psi - \phi$ son automorfismos de $E$.</li>
-
-    <li>Sea $\|\cdot\|$ la norma inducida por el producto escalar $\langle \cdot, \cdot \rangle$.  
+    <li>
+        Sea $\|\cdot\|$ la norma inducida por el producto escalar $\langle \cdot, \cdot \rangle.$  
         Demostrar que para cada vector $x \in E$ se cumple la igualdad  
-        $$
-        \|(\psi + \phi)(x)\| = \|(\psi - \phi)(x)\|.
-        $$
+        $$\|(\psi + \phi)(x)\| = \|(\psi - \phi)(x)\|.$$
     </li>
 
-    <li>Sea $h := (\psi + \phi) \circ (\psi - \phi)^{-1}$.  
-        Se cumple que $\|h(x)\| = \|x\|$ para todo $x \in E$.
+    <li>
+        Sea $h = (\psi + \phi) \circ (\psi - \phi)^{-1}.$  
+        Se cumple que $\|h(x)\| = \|x\|$ para todo $x \in E.$
     </li>
 
-    <li>Se cumple la igualdad $\langle h(x), h(y) \rangle = \langle x, y \rangle$ para cualesquiera $x, y \in E$.</li>
-</ol>
+    <li>Se cumple la igualdad $\langle h(x), h(y) \rangle = \langle x, y \rangle$ para cualesquiera $x, y \in E.$</li>
+</ol

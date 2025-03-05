@@ -2,7 +2,7 @@ Una prueba de selección en una empresa de análisis de datos
 consiste en realizar una jornada laboral de 8 horas,  
 donde el aspirante debe emitir los análisis que le soliciten, igual que el resto de trabajadores.  
 La empresa sabe que el tiempo estimado por los aspirantes para realizar un análisis  
-sigue una distribución normal con media $\mu$ y desviación típica $\frac{\mu}{10}$.
+sigue una distribución normal con media $\mu$ y desviación típica $\frac{\mu}{10}.$
 
 <ol>
     <li>Si la empresa fija como objetivo realizar al menos 100 análisis en una jornada laboral,  

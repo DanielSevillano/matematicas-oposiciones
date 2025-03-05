@@ -1,7 +1,6 @@
 Se llama cicloide a la curva que describe un punto de una circunferencia cuando ésta rueda a lo largo de una recta.
 
 <ol>
-<li> Halle unas ecuaciones paramétricas de la cicloide utilizando como parámetro el ángulo que describe el giro efectuado por la circunferencia al rodar. </li>
-
-<li> Utilice el resultado de (a) para determinar la longitud de un arco de cicloide. </li>
+    <li>Halle unas ecuaciones paramétricas de la cicloide utilizando como parámetro el ángulo que describe el giro efectuado por la circunferencia al rodar.</li>
+    <li>Utilice el resultado de (a) para determinar la longitud de un arco de cicloide.</li>
 </ol>

@@ -1,5 +1,3 @@
-Un nadador se encuentra situado en un punto $A$ del borde de un estanque circular cuyo radio mide 50 metros,  
-y quiere llegar al punto $B$ diametralmente opuesto al punto $A$.  
-Nadando alcanza un punto $P$ del borde del estanque y, a continuación, se dirige hacia el punto $B$ caminando por dicho borde.  
-Si nada 50 metros por minuto y camina 100 metros por minuto,  
-¿a qué punto $P$ debe dirigirse para minimizar el tiempo empleado en su recorrido?
+Un nadador se encuentra situado en un punto $A$ del borde de un estanque circular cuyo radio mide 50 metros, y quiere llegar al punto $B$ diametralmente opuesto al punto $A.$
+Nadando alcanza un punto $P$ del borde del estanque y, a continuación, se dirige hacia el punto $B$ caminando por dicho borde.
+Si nada 50 metros por minuto y camina 100 metros por minuto, ¿a qué punto $P$ debe dirigirse para minimizar el tiempo empleado en su recorrido?

@@ -1,9 +1,8 @@
-La función de densidad de probabilidad conjunta de una variable aleatoria bidimensional $ (X,Y) $ es uniforme en el recinto sombreado de la Figura 12.10.</p>
-
+La función de densidad de probabilidad conjunta de una variable aleatoria bidimensional $(X, Y)$ es uniforme en el recinto sombreado de la figura.
 <img src="img/problemas/GA201809.png" alt="Figura" loading="lazy">
 
 <ol>
     <li>Halle la función de densidad de probabilidad conjunta y compruebe que lo es.</li>
-    <li>Calcule $ p(X < \frac{d}{2}, Y < \frac{d}{4}) $. </li>
+    <li>Calcule $P(X < \frac{d}{2}, Y < \frac{d}{4}).$</li>
     <li>Halle las funciones de densidad marginales de probabilidad y compruebe que lo son.</li>
 </ol>

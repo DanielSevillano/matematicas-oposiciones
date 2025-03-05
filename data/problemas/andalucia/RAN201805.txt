@@ -74,13 +74,10 @@
     <li>
         Calculamos el límite.
         \begin{align}
-            \lim_{x \to 0} \frac{f(x) - g(x) + 2 - x}{x\ln(1-x)} & = \lim_{x \to 0} \frac{xe^{-x} - 2 + x\int_0^x e^{-t^2}dt + 2 - x}{x\ln(1-x)} = \lim_{x \to 0} \frac{xe^{-x} + x\int_0^x e^{-t^2}dt - x}{x\ln(1-x)} \overset{\text{L'H}}{=} \\
-            & = \lim_{x \to 0} \frac{(-x+1)e^{-x} + \int_0^x e^{-t^2}dt + xe^{-x^2} - 1}{\ln(1-x) - \frac{x}{1-x}} \overset{\text{L'H}}{=} \\
-            & = \lim_{x \to 0} \frac{(x-2)e^{-x} + e^{-x^2} + e^{-x^2} - 2x^2e^{-x^2}}{\frac{-1}{1-x} - \frac{1}{(1-x)^2}} = \lim_{x \to 0} \frac{(x-2)e^{-x} - 2(x^2 - 1)e^{-x^2}}{\frac{x-2}{(1-x)^2}} = 0.
+            \lim_{x \to 0} \frac{f(x) - g(x) + 2 - x}{x\ln(1-x)} & = \lim_{x \to 0} \frac{xe^{-x} - 2 + x\int_0^x e^{-t^2}dt + 2 - x}{x\ln(1-x)} = \lim_{x \to 0} \frac{xe^{-x} + x\int_0^x e^{-t^2}dt - x}{x\ln(1-x)} = \\
+            & = \lim_{x \to 0} \frac{e^{-x} + \int_0^x e^{-t^2}dt - 1}{\ln(1-x)} \overset{\text{L'H}}{=} \lim_{x \to 0} \frac{-e^{-x} + e^{-x^2}}{\frac{-1}{1-x}} = 0.
         \end{align}
 
-        Se ha usado que la función
-        $$h(x) = \int_0^x e^{-t^2}dt$$
-        es derivable por el teorema fundamental del cálculo, con $h'(x) = e^{-x^2}.$
+        Se ha usado que la función $h(x) = \int_0^x e^{-t^2}dt$ es derivable por el teorema fundamental del cálculo, con $h'(x) = e^{-x^2}.$
     </li>
 </ol>

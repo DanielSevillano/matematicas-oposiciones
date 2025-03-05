@@ -2,18 +2,14 @@ Responda razonadamente a las siguientes cuestiones:
 
 <ol>
     <li>
-        Demuestre que para cualquier sucesión de números enteros $(a_n)$, la sucesión $(b_n)$ dada por  
-        $$
-        b_1 := a_1, \quad b_2 := a_1^{a_2}, \quad b_3 := a_1^{a_2^{a_3}}, \dots
-        $$  
-        se hace constante módulo $m$ para cualquier número natural $m$.
+        Demuestre que para cualquier sucesión de números enteros $\{a_n\}$, la sucesión $\{b_n\}$ dada por  
+        $$b_1 = a_1, \quad b_2 = a_1^{a_2}, \quad b_3 = a_1^{a_2^{a_3}}, \dots$$
+        se hace constante módulo $m$ para cualquier número natural $m.$
     </li>
 
     <li>
         Utilice el apartado anterior para demostrar que en la sucesión  
-        $$
-        7, \ 7^7, \ 7^{7^7}, \ 7^{7^{7^7}}, \dots
-        $$  
+        $$7, \ 7^7, \ 7^{7^7}, \ 7^{7^{7^7}}, \dots$$
         la cifra de las unidades se hace constante y calcule dicha cifra.
     </li>
 </ol>

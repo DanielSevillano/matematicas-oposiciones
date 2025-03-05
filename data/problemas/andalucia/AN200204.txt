@@ -1,0 +1,14 @@
+Representar gráficamente una función de la que se tienen los siguientes datos:
+<ul>
+    <li>Sea $f$  una función definida, continua y derivable en $\mathbb{R} \setminus \{- 1\}.$</li>
+    <li>La ecuación $f(x) = 0$ tiene exactamente una solución negativa, que además es única.</li>
+    <li>La ecuación $f'(x) = 0$ también tiene una única solución (simple) positiva.</li>
+    <li>Se verifica que $f(0) = 4$ y $f(1) = \frac{3}{4}.$</li>
+    <li>La recta $y = x + 1$ es una asíntota oblicua.</li>
+    <li>$\lim\limits_{x \to -1^\pm} f(x) = +\infty.$</li>
+</ul>
+
+<ol>
+    <li>Hacer la representación gráfica de la función sabiendo que es una función racional.</li>
+    <li>Obtener la expresión analítica de una función.</li>
+</ol>

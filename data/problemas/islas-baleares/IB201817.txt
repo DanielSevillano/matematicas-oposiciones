@@ -1,12 +1,12 @@
-Una urna contiene $N$ bolas blancas, dos bolas rojas y una bola negra.  
-Se extraen todas las bolas de una en una sin reemplazamiento.  
-Sea $X$ la variable aleatoria que indica el número de la extracción en la que ha salido, por primera vez, una bola roja.  
-Sea $A$ el suceso ''la bola negra es extraída antes de haber sido extraída alguna de las bolas rojas''.  
+Una urna contiene $N$ bolas blancas, dos bolas rojas y una bola negra.
+Se extraen todas las bolas de una en una sin reemplazamiento.
+Sea $X$ la variable aleatoria que indica el número de la extracción en la que ha salido, por primera vez, una bola roja.
+Sea $A$ el suceso "la bola negra es extraída antes de haber sido extraída alguna de las bolas rojas".
 Determine:
 
 <ol>
-    <li>La función de probabilidad de $X$.</li>
-    <li>El valor esperado, esto es, la media $E[X]$ de $X$.</li>
-    <li>La función de probabilidad de la variable aleatoria $X|A$, esto es, $X$ condicionada por $A$.</li>
-    <li>El valor esperado, $E[X|A]$ de $X|A$.</li>
+    <li>La función de probabilidad de $X.$</li>
+    <li>El valor esperado, esto es, la media $E[X]$ de $X.$</li>
+    <li>La función de probabilidad de la variable aleatoria $X|A$, esto es, $X$ condicionada por $A.$</li>
+    <li>El valor esperado, $E[X|A]$ de $X|A.$</li>
 </ol>

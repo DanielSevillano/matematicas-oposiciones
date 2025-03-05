@@ -1,8 +1,8 @@
 Indique justificadamente si las siguientes afirmaciones son verdaderas o falsas:
 
 <ol>
-    <li> $\pi$ es un número irracional porque no es solución de ninguna ecuación. </li>
-    <li> $\pi$ es un número irracional porque no se puede escribir como una fracción de números enteros. </li>
-    <li> $\pi$ es un número irracional porque no se puede escribir como una fracción de números primos. </li>
-    <li> Ninguna de las afirmaciones anteriores es cierta. </li>
+    <li>$\pi$ es un número irracional porque no es solución de ninguna ecuación.</li>
+    <li>$\pi$ es un número irracional porque no se puede escribir como una fracción de números enteros.</li>
+    <li>$\pi$ es un número irracional porque no se puede escribir como una fracción de números primos.</li>
+    <li>Ninguna de las afirmaciones anteriores es cierta.</li>
 </ol>

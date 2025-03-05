@@ -1,22 +1,15 @@
-Una empresa especializada en la iluminación fabrica dos tipos, $A$ y $B$, de diodos LED.  
-"La vida útil" (en miles de horas) de un diodo del tipo $A$ sigue una distribución normal,  
-siendo su media $\mu_A := 45$ y su desviación típica $\sigma_A := 5$.  
-
-En cambio, un diodo de tipo $B$ también sigue una distribución normal,  
-pero su media es $\mu_B := 42$ y su desviación típica $\sigma_B := 7$.  
-
-Suponiendo que las "vidas útiles" de los diodos LED del tipo $A$ y $B$ son independientes entre sí:
+Una empresa especializada en la iluminación fabrica dos tipos, $A$ y $B$, de diodos LED.
+La vida útil (en miles de horas) de un diodo del tipo $A$ sigue una distribución normal, siendo su media $\mu_A = 45$ y su desviación típica $\sigma_A = 5.$
+En cambio, un diodo de tipo $B$ también sigue una distribución normal, pero su media es $\mu_B = 42$ y su desviación típica $\sigma_B = 7.$
+Suponiendo que las vidas útiles de los diodos LED del tipo $A$ y $B$ son independientes entre sí:
 
 <ol>
-    <li>Calcule la probabilidad de que la diferencia entre  
-        "las vidas útiles" de los diodos tipo $A$ y $B$  
-        sea menor que 1000 horas.</li>
+    <li>Calcule la probabilidad de que la diferencia entre las vidas útiles de los diodos tipo $A$ y $B$ sea menor que 1.000 horas.</li>
 
-    <li>Para fabricar una bombilla se utilizaron 35 diodos del tipo $A$.  
-        ¿Cuál es la probabilidad de que, pasadas 40000 horas,  
-        exactamente 30 de ellos sigan funcionando?</li>
+    <li>
+        Para fabricar una bombilla se utilizaron 35 diodos del tipo $A.$
+        ¿Cuál es la probabilidad de que, pasadas 40.000 horas, exactamente 30 de ellos sigan funcionando?
+    </li>
 
-    <li>En una muestra aleatoria de 20 diodos del tipo $B$,  
-        ¿cuál es la probabilidad de que la media de las horas de "vida útil"  
-        esté entre 40000 y 43000?</li>
+    <li>En una muestra aleatoria de 20 diodos del tipo $B$, ¿cuál es la probabilidad de que la media de las horas de vida útil esté entre 40.000 y 43.000?</li>
 </ol>

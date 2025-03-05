@@ -192,6 +192,40 @@ async function mostrarCriterios(nivel) {
     obtenerCriterios(nivel).then(() => main.classList.remove("cargando"));
 }
 
+async function obtenerObjetivos(etapa) {
+    const respuesta = await fetch("data\\objetivos.json");
+    const datos = await respuesta.json();
+    const objetivos = datos.filter((objetivo => objetivo.etapa == etapa));
+
+    const titulo = document.createElement("h2");
+    if (etapa == "ESO") titulo.textContent = "📋 Objetivos de etapa de la ESO";
+    else titulo.textContent = "📋 Objetivos de etapa de Bachillerato";
+
+    const boton = document.createElement("button");
+    boton.textContent = "🖨️ Imprimir";
+    boton.addEventListener("click", () => window.print());
+    titulo.append(boton);
+
+    const lista = document.createElement("ol");
+    lista.classList.add("letras");
+
+    objetivos.forEach((objetivo) => {
+        const elemento = document.createElement("li");
+        elemento.textContent = objetivo.descripcion;
+        lista.append(elemento);
+    });
+
+    main.append(titulo, lista);
+}
+
+async function mostrarObjetivos(etapa) {
+    const main = document.querySelector("main");
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    obtenerObjetivos(etapa).then(() => main.classList.remove("cargando"));
+}
+
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
         grupos.forEach(g => {
@@ -217,11 +251,14 @@ function pulsar(boton) {
         const nivel = clave.replace("CE", "");
         mostrarCompetencias(nivel);
     } else if (identificador == "DO") {
-        const competencia = clave.replace("DO", "")
+        const competencia = clave.replace("DO", "");
         mostrarDescriptores(competencia);
-    } else {
+    } else if (identificador == "EV") {
         const nivel = clave.replace("EV", "");
         mostrarCriterios(nivel);
+    } else if (identificador == "OE") {
+        const etapa = clave.replace("OE", "");
+        mostrarObjetivos(etapa);
     }
 
     history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?codigo=" + clave);

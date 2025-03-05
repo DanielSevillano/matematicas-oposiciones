@@ -1,0 +1,13 @@
+Sean $k, p, n \in \mathbb{N}$, con $0 \leq k \leq p \leq n.$
+
+<ol>
+    <li>
+        Demostrar:
+        $$\binom{n}{k}\binom{n-k}{p-k} = \binom{p}{k}\binom{n}{p}.$$
+    </li>
+
+    <li>
+        Demostrar:
+        $$\binom{n}{0}\binom{n}{p} + \binom{n}{1}\binom{n-1}{p-1} + \binom{n}{2}\binom{n-2}{p-2} + \dots + \binom{n}{p}\binom{n-p}{0} = 2^p\binom{n}{p}.$$
+    </li>
+</ol>

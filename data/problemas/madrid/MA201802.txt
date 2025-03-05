@@ -1,6 +1,6 @@
 Dados dos números reales positivos $x$ e $y$ se pide:
 
 <ol>
-    <li>Demuestre que $x^y < y^x$ cuando $x < y < e$.</li>
-    <li>Demuestre que $x^y > y^x$ cuando $e < x < y$.</li>
+    <li>Demuestre que $x^y < y^x$ cuando $x < y < e.$</li>
+    <li>Demuestre que $x^y > y^x$ cuando $e < x < y.$</li>
 </ol>

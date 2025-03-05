@@ -1,1 +1,2 @@
-Sea $R$ la región del plano definida por la parte positiva de los ejes de coordenadas y la curva $y = 2\cos x$ para $0 \leq x \leq \frac{\pi}{2}$. Halle el valor del parámetro $a$ para que la curva $y = a\sin x$ divida la región $R$ en dos partes de igual área.
+Sea $R$ la región del plano definida por la parte positiva de los ejes de coordenadas y la curva $y = 2\cos(x)$ para $0 \leq x \leq \frac{\pi}{2}.$
+Halle el valor del parámetro $a$ para que la curva $y = a\sin(x)$ divida la región $R$ en dos partes de igual área.

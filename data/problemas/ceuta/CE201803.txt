@@ -1,7 +1,5 @@
-Sea $g : \mathbb{R} \to \mathbb{R}$ una función continua. Se define la función
+Sea $g : \mathbb{R} \to \mathbb{R}$ una función continua.
+Se define la función
+$$f: \mathbb{R} \to \mathbb{R}, \quad x \mapsto \int_0^x \sin(t) \cdot g(x - t)dt.$$
 
-$$
-f : \mathbb{R} \to \mathbb{R}, \quad x \mapsto \int_0^x \sin t \cdot g(x - t) \,dt.
-$$
-
-Demuestre que $f$ es dos veces derivable y que cumple la igualdad $f'' + f = g$.
+Demuestre que $f$ es dos veces derivable y que cumple la igualdad $f'' + f = g.$

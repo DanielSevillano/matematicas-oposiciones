@@ -2,10 +2,9 @@ import { formatear, obtenerProblema } from "./math.js";
 
 const main = document.querySelector("main");
 const formulario = document.querySelector("form");
-const intervalo1 = document.querySelector("#curso-inicial");
-const intervalo2 = document.querySelector("#curso-final");
+const campoNumeroProblemas = document.querySelector("#numero-problemas");
+const campoComunidad = document.querySelector("#comunidad");
 
-const numeroProblemas = 6;
 let metadatos;
 
 async function obtenerExamenGenerado(problemas) {
@@ -21,11 +20,13 @@ async function obtenerExamenGenerado(problemas) {
 
     main.append(titulo);
 
+    const numeroProblemas = campoNumeroProblemas.value;
+
     for (let numero = 1; numero <= numeroProblemas; numero++) {
         const objeto = problemas[numero - 1];
 
         let resuelto = false;
-        let categorias = []
+        let categorias = [];
         if (objeto != undefined) {
             if (objeto.resuelto) resuelto = true;
             categorias = objeto.categorias;
@@ -71,8 +72,9 @@ async function procesar(event) {
     const boton = document.querySelector("#generar");
     boton.disabled = true;
 
-    const cursoInicial = Math.max(parseInt(intervalo1.value), parseInt(intervalo2.value));
-    const cursoFinal = Math.min(parseInt(intervalo1.value), parseInt(intervalo2.value));
+    let comunidadSeleccionada;
+    if (campoComunidad.value != "todas") comunidadSeleccionada = campoComunidad.value;
+    const numeroProblemas = campoNumeroProblemas.value;
 
     if (!metadatos) {
         const respuesta = await fetch("data\\metadata.json");
@@ -80,15 +82,15 @@ async function procesar(event) {
     }
 
     const datos = metadatos.filter(objeto => {
-        const curso = objeto.problema.slice(2, 6);
-        return curso >= cursoFinal && curso <= cursoInicial;
+        const comunidad = objeto.problema.slice(0, 2);
+        return !comunidadSeleccionada || comunidad == comunidadSeleccionada;
     });
 
     if (datos.length == 0) {
         main.classList.remove("cargando");
         boton.disabled = false;
         return;
-    };
+    }
 
     let problemas = [];
     for (let i = 1; i <= numeroProblemas; i++) {

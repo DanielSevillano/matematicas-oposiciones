@@ -1,13 +1,13 @@
 Dado un conjunto $X$ se consideran el conjunto $\mathcal{P}(X)$ formado por los subconjuntos de $X$ y las operaciones en $\mathcal{P}(X)$ definidas mediante:
-
-$$
-(A,B) \mapsto A \triangle B := (A \cup B) \setminus (A \cap B), \quad (A,B) \mapsto A * B := A \cap B.
-$$
+$$(A,B) \mapsto A \triangle B = (A \cup B) \setminus (A \cap B), \quad (A,B) \mapsto A * B = A \cap B.$$
 
 <ol>
-    <li> Demuestre que $(\mathcal{P}(X), \triangle, *)$ es un anillo conmutativo tomando $\triangle$ como suma y $*$ como producto. </li>
-    <li> Calcule todos los elementos invertibles de este anillo. </li>
-    <li> Demuestre que todos los elementos de este anillo son idempotentes, es decir, se cumple que $A^2 = A$ para cada $A \in \mathcal{P}(X)$. </li>
-    <li> Demuestre que $2A = 0$ para cada $A \in \mathcal{P}(X)$, donde $0$ es el elemento neutro para la suma en este anillo. </li>
-    <li> Demuestre que si $A,B \in \mathcal{P}(X)$ entonces el ideal generado por $A$ y $B$ también está generado por $A \cup B$. Deduza que todos los ideales finitamente generados de este anillo son principales. </li>
+    <li>Demuestre que $(\mathcal{P}(X), \triangle, *)$ es un anillo conmutativo tomando $\triangle$ como suma y $*$ como producto.</li>
+    <li>Calcule todos los elementos invertibles de este anillo.</li>
+    <li>Demuestre que todos los elementos de este anillo son idempotentes, es decir, se cumple que $A^2 = A$ para cada $A \in \mathcal{P}(X).$</li>
+    <li>Demuestre que $2A = 0$ para cada $A \in \mathcal{P}(X)$, donde $0$ es el elemento neutro para la suma en este anillo.</li>
+    <li>
+        Demuestre que si $A,B \in \mathcal{P}(X)$ entonces el ideal generado por $A$ y $B$ también está generado por $A \cup B.$
+        Deduzca que todos los ideales finitamente generados de este anillo son principales.
+    </li>
 </ol>

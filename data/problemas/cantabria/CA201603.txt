@@ -1,11 +1,9 @@
 Dos amigos $A$ y $B$ se citan en un determinado lugar de la siguiente forma:  
-Ambos llegarán en momentos al azar del intervalo $[0,T]$ (en minutos) e  
-independientemente el uno del otro.  
-Si $A$ está dispuesto a esperar $a$ minutos y $B$ está dispuesto a esperar $b$ minutos,  
-siendo $0 < a, b < T$, se pide:
+Ambos llegarán en momentos al azar del intervalo $[0,T]$ (en minutos) e independientemente el uno del otro.  
+Si $A$ está dispuesto a esperar $a$ minutos y $B$ está dispuesto a esperar $b$ minutos, siendo $0 < a, b < T$, se pide:
 
 <ol>
-    <li>Calcule la probabilidad de que $A$ llegue antes que $B$.</li>
+    <li>Calcule la probabilidad de que $A$ llegue antes que $B.$</li>
     <li>Determine la probabilidad de que ambos se encuentren.</li>
-    <li>Supuesto que ambos se encuentran, calcule la probabilidad de que $B$ haya llegado antes que $A$.</li>
+    <li>Supuesto que ambos se encuentran, calcule la probabilidad de que $B$ haya llegado antes que $A.$</li>
 </ol>

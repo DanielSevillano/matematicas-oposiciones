@@ -1,0 +1,103 @@
+<ol>
+    <li>
+        Observamos que:
+        $$\int_\mathbb{R} f(x)dx = \int_0^\infty kxe^{-x^2}dx = -\frac{k}{2}\Big[e^{-x^2}\Big]_0^\infty = \frac{k}{2}.$$
+
+        Para que $f$ sea una función de densidad, ha de verificarse que:
+        $$\int_\mathbb{R} f(x)dx = 1 \Leftrightarrow \frac{k}{2} = 1 \Leftrightarrow k = 2.$$
+    </li>
+
+    <li>
+        La función de distribución $F$ viene dada por:
+        $$F(x) = \int_{-\infty}^x f(t)dt.$$
+
+        <ul>
+            <li>
+                Para $x \leq 0$, $F(x) = 0.$
+            </li>
+
+            <li>
+                Para $x > 0$,
+                $$F(x) = \int_0^x 2xe^{-x^2}dx = \Big[-e^{-x^2}\Big]_0^x = 1 - e^{-x^2}.$$
+            </li>
+        </ul>
+
+        Por tanto,
+        $$F(x) = \begin{cases}
+            0, & \text{si } x \leq 0, \\
+            1 - e^{-x^2}, & \text{si } x > 0.
+        \end{cases}$$
+
+        Así que la probabilidad es:
+        $$P(-1 \leq X \leq 1) = F(1) - F(-1) = 1 - e^{-1} = 1 - \frac{1}{e} \approx 0,6321.$$
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                La moda de $X$ es el valor que maximiza la función de distribución $f.$
+                Para $x > 0$, la función $f$ es derivable con:
+                $$f'(x) = 2e^{-x^2} - 4x^2e^{-x^2} = -2e^{-x^2}(2x^2 - 1).$$
+
+                Hallamos los puntos críticos para $x > 0$ igualando la derivada a cero.
+                $$f'(x) = 0 \Leftrightarrow -2e^{-x^2}(2x^2 - 1) = 0 \Leftrightarrow 2x^2 - 1 = 0 \Leftrightarrow x = \frac{1}{\sqrt{2}}.$$
+
+                Estudiamos el signo de la derivada.
+                <ul>
+                    <li>
+                        Si $0 < x < \frac{1}{\sqrt{2}}$, $f'(x) > 0.$
+                        Así que $f$ es creciente.
+                    </li>
+
+                    <li>
+                        Si $x > \frac{1}{\sqrt{2}}$, $f'(x) < 0.$
+                        Así que $f$ es decreciente.
+                    </li>
+                </ul>
+
+                Luego $f$ alcanza su máximo absoluto en $x = \frac{1}{\sqrt{2}}.$
+                Por tanto, la moda de $X$ es $\frac{1}{\sqrt{2}}.$
+            </li>
+
+            <li>
+                La mediana de $X$ es el valor $x_0$ tal que $P(X < x_0) = \frac{1}{2}.$
+                Se tiene que:
+                $$P(X < x_0) = \frac{1}{2} \Leftrightarrow F(x_0) = \frac{1}{2} \Leftrightarrow 1 - e^{-x_0^2} = \frac{1}{2} \Leftrightarrow e^{-x_0^2} = \frac{1}{2} \Leftrightarrow e^{x_0^2} = 2 \Leftrightarrow x_0 = \sqrt{\ln(2)}.$$
+
+                Por tanto, la mediana de $X$ es $\sqrt{\ln(2)}.$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                La esperanza de $X$ viene dada por:
+                $$E(X) = \int_\mathbb{R} xf(x)dx = \int_0^\infty 2x^2e^{-x^2}dx.$$
+
+                Integramos por partes.
+                \begin{align}
+                    u = x & \Rightarrow u' = 1, \\
+                    v' = 2xe^{-x^2} & \Rightarrow v = -e^{-x^2}.
+                \end{align}
+
+                Por tanto,
+                $$E(X) = \int_0^\infty 2x^2e^{-x^2}dx = \Big[-xe^{-x^2}\Big]_0^\infty + \int_0^\infty e^{-x^2}dx = \frac{\sqrt{\pi}}{2}.$$
+            </li>
+
+            <li>
+                La varianza de $X$ viene dada por:
+                $$V(X) = E(X^2) - E(X)^2 = \int_\mathbb{R} x^2f(x)dx - \frac{\pi}{4} = \int_0^\infty 2x^3e^{-x^2}dx - \frac{\pi}{4}.$$
+
+                Integramos por partes.
+                \begin{align}
+                    u = x^2 & \Rightarrow u' = 2x, \\
+                    v' = 2xe^{-x^2} & \Rightarrow v = -e^{-x^2}.
+                \end{align}
+
+                Por tanto,
+                $$V(X) = \int_0^\infty 2x^3e^{-x^2}dx - \frac{\pi}{4} = \Big[-x^2e^{-x^2}\Big]_0^\infty + \int_0^\infty 2xe^{-x^2}dx - \frac{\pi}{4} = 1 - \frac{\pi}{4}.$$
+            </li>
+        </ul>
+    </li>
+</ol>

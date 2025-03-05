@@ -1,5 +1,5 @@
 Sea $k$ un número natural no nulo y sea $f$ la función real de variable real dada por
-$$f(x) := \begin{vmatrix}
+$$f(x) = \begin{vmatrix}
 \binom{1}{1} & 0 & 0 & \cdots & 0 & x \\
 \binom{2}{1} & \binom{2}{2} & 0 & \cdots & 0 & x^2 \\
 \binom{3}{1} & \binom{3}{2} & \binom{3}{3} & \cdots & 0 & x^3 \\

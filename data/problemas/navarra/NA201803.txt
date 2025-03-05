@@ -1,2 +1,1 @@
-Demuestre que la astroide de ecuación  $x^{2/3} + y^{2/3} = L^{2/3}$ es la envolvente de la familia de segmentos móviles de longitud constante $L$  
-cuyos extremos se apoyan en los ejes de coordenadas.
+Demuestre que la astroide de ecuación  $x^{2/3} + y^{2/3} = L^{2/3}$ es la envolvente de la familia de segmentos móviles de longitud constante $L$ cuyos extremos se apoyan en los ejes de coordenadas.

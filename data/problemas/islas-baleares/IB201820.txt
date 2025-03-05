@@ -1,1 +1,1 @@
-Demuestre por inducción que $N(n) := n \left(n + \frac{1}{2}\right) (n+1)$ es múltiplo de 3 para cada entero positivo $n$.
+Demuestre por inducción que $N(n) = n \left(n + \frac{1}{2}\right) (n+1)$ es múltiplo de 3 para cada entero positivo $n.$

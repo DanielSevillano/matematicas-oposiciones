@@ -272,13 +272,9 @@ Categorías
 Progreso
 ********************/
 
-main::after,
-section::after {
-    display: none;
-}
-
 main.cargando::after,
-section.cargando::after {
+section.cargando::after,
+.galeria.cargando::after {
     content: "";
     display: block;
     margin-top: 40px;

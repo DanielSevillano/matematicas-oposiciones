@@ -1,13 +1,9 @@
-Sean $(X,Y)$ una variable aleatoria bidimensional continua  
-y la función $f : \mathbb{R}^2 \to \mathbb{R}$ definida como  
-
-$$
-f(x, y) =
+Sean $(X, Y)$ una variable aleatoria bidimensional continua y la función $f : \mathbb{R}^2 \to \mathbb{R}$ definida como
+$$f(x, y) =
 \begin{cases} 
-    k(y - x) & \text{si } 0 \leq x \leq y \leq 2, \\
-    0 & \text{en otro caso}.
-\end{cases}
-$$
+    k(y - x), & \text{si } 0 \leq x \leq y \leq 2, \\
+    0, & \text{en otro caso}.
+\end{cases}$$
 
 <ol>
     <li>Determine el valor de $k$ para que $f$ sea función de densidad.</li>

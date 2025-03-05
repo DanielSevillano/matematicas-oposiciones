@@ -1,7 +1,8 @@
-Sean $V$ un $\mathbb{K}$-espacio vectorial, donde $\mathbb{K}$ es un cuerpo de característica distinta de $2$, y $f: V \to V$ una aplicación lineal tal que $f^2 = \text{id}.$
+Sean $V$ un $\mathbb{K}$-espacio vectorial, donde $\mathbb{K}$ es un cuerpo de característica distinta de $2$, y $f: V \to V$ una aplicación lineal tal que $f^2 = \Id.$
 Sean
-$$V_1 := \{x \in V : f(x) = x\} \quad \text{y} \quad V_2 := \{x \in V : f(x) = -x\}.$$
+$$V_1 = \{x \in V : f(x) = x\} \quad \text{y} \quad V_2 = \{x \in V : f(x) = -x\}.$$
 
-Demuestre que $V = V_1 \oplus V_2.$ ¿Significa esto que para todo $v \in V$ se cumple que $f(v) = v$ o bien $f(v) = -v$?
+Demuestre que $V = V_1 \oplus V_2.$
+¿Significa esto que para todo $v \in V$ se cumple que $f(v) = v$ o bien $f(v) = -v$?
 
 <br><br><b>Nota:</b> $f^2 = f \circ f = \text{id}$ es el endomorfismo identidad.

@@ -1,3 +1,9 @@
-Se denomina cicloide a la curva descrita por un punto de una circunferencia,  
-cuando ésta rueda sin resbalar sobre una línea recta.  
-Sean $r$ el radio de la circunferencia y el eje $OX$ la recta sobre la que ésta rueda. Si $P$ es dicho punto y $\theta$ es el ángulo generado por $P$ cuando gira, las ecuaciones paramétricas de
+Se denomina cicloide a la curva descrita por un punto de una circunferencia, cuando ésta rueda sin resbalar sobre una línea recta.  
+Sean $r$ el radio de la circunferencia y el eje $OX$ la recta sobre la que ésta rueda.
+Si $P$ es dicho punto y $\theta$ es el ángulo generado por $P$ cuando gira, las ecuaciones paramétricas de la cicloide son las siguientes:
+\begin{cases}
+    x = r(\theta - \sin(\theta)), \\
+    y = r(1 - \cos(\theta)).
+\end{cases}
+
+Hallar los valores de los números reales $k$ tales que la recta $\{y = k\} corta a un arco completo de cicloide en dos puntos de modo que los tres arcos resultantes miden lo mismo.

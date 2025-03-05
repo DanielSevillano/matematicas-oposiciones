@@ -1,5 +1,6 @@
 Dada la ecuación  $x^4 + 4x^3 - 2x^2 - 12x + k = 0$ con $k \in \mathbb{R}$ se pide:
+
 <ol>
-    <li>Discuta sus soluciones en función de los valores del parámetro $k \in \mathbb{R}$.</li>
-    <li>Resuelva la ecuación si $k = -27$.</li>
+    <li>Discuta sus soluciones en función de los valores del parámetro $k \in \mathbb{R}.$</li>
+    <li>Resuelva la ecuación si $k = -27.$</li>
 </ol>

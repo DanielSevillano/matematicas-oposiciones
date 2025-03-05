@@ -1,10 +1,4 @@
-Discutir, según los valores del número real $a$, el siguiente sistema de ecuaciones lineales,  
-y resolverlo cuando sea compatible:
-
-$$
-\begin{cases}
-    x + y + 2z = 2, \\
-    3x - 2y - 2z = 3, \\
-    2x + ay - 5z = -4.
-\end{cases}
-$$
+Un juego consiste en extraer dos bolas, con reemplazamiento, de una bolsa que contiene una bola blanca y una negra.
+Si las dos bolas son blancas, se gana el juego.
+Si no, se introduce en la bolsa otra bola negra y se efectúan dos nuevas extracciones, y este proceso se repite indefinidamente.
+¿Cuál es la probabilidad de ganar el juego?

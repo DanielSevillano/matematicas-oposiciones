@@ -1,5 +1,2 @@
-Calcule el siguiente límite:  
-
-$$
-\lim_{n \to \infty} \int_{0}^{2\pi} \frac{\sin (nx)}{x^2 + n^2} \,dx.
-$$
+Calcule el siguiente límite:
+$$\lim_{n \to \infty} \int_{0}^{2\pi} \frac{\sin(nx)}{x^2 + n^2} dx.$$

@@ -1,15 +1,19 @@
-Sea $T : \mathbb{R}^3 \to \mathbb{R}^3$ la aplicación lineal que cumple las siguientes condiciones (referidas a la base canónica):
+Sea $T: \mathbb{R}^3 \to \mathbb{R}^3$ la aplicación lineal que cumple las siguientes condiciones (referidas a la base canónica):
 
-<ol>
-    <li>La restricción de $T$ al subespacio vectorial  
-        $$U := \{(x, y, z) \in \mathbb{R}^3 : x + y - z = 0\}$$  
-        es una homotecia de razón 4.</li>
+<ul>
+    <li>
+        La restricción de $T$ al subespacio vectorial  
+        $$U = \{(x, y, z) \in \mathbb{R}^3 : x + y - z = 0\}$$  
+        es una homotecia de razón 4.
+    </li>
     
-    <li>$T$ transforma el subespacio vectorial  
-        $$V := \{(x, y, z) \in \mathbb{R}^3 : 2x + 4y + 3z = 0, \quad x + y + z = 0\}$$  
-        en sí mismo.</li>
+    <li>
+        $T$ transforma el subespacio vectorial  
+        $$V = \{(x, y, z) \in \mathbb{R}^3 : 2x + 4y + 3z = 0, \quad x + y + z = 0\}$$  
+        en sí mismo.
+    </li>
     
-    <li>$T(3,0,-1) = (6,-6,8)$.</li>
-</ol>
+    <li>$T(3,0,-1) = (6,-6,8).$</li>
+</ul>
 
 Determinar la matriz de $T$ respecto de la base canónica.

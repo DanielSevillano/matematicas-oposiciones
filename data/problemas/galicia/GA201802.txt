@@ -1,7 +1,10 @@
 Responda razonadamente a las siguientes cuestiones:
 
 <ol>
-<li> En una división se conocen el dividendo $258728$ y los restos sucesivos que se obtuvieron al ir efectuando la división, que son $379$, $480$ y $392$. Hallar el divisor y el cociente. ¿Existe más de una solución?</li>
-
-<li> Justifique la relación de este problema con el currículo de una materia de esta especialidad.</li>
+    <li>
+        En una división se conocen el dividendo 258.728 y los restos sucesivos que se obtuvieron al ir efectuando la división, que son 379, 480 y 392.
+        Hallar el divisor y el cociente.
+        ¿Existe más de una solución?
+    </li>
+    <li>Justifique la relación de este problema con el currículo de una materia de esta especialidad.</li>
 </ol>

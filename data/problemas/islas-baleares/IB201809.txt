@@ -1,3 +1,3 @@
-Sean $\triangle ABC$ un triángulo, $\beta := \angle ABC$ y $\gamma := \angle ACB$.  
-Se denotan las longitudes de los lados mediante $a := BC$, $b := AC$ y $c := AB$.  
-Pruebe que si $\gamma = 2\beta$ entonces $c^2 = (a + b)b$.
+Sean $\triangle ABC$ un triángulo, $\beta = \angle ABC$ y $\gamma = \angle ACB.$
+Se denotan las longitudes de los lados mediante $a = BC$, $b = AC$ y $c = AB.$
+Pruebe que si $\gamma = 2\beta$ entonces $c^2 = (a + b)b.$

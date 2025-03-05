@@ -1,13 +1,6 @@
 Es fácil demostrar que
-
-$$
-3 = \sqrt{6 + \sqrt{6 + \sqrt{6 + \cdots}}}
-$$
+$$3 = \sqrt{6 + \sqrt{6 + \sqrt{6 + \cdots}}}$$
 
 ¿Para cuántos valores $a \in \mathbb{Z}$ tales que $1 \leq a \leq 1000$ se cumple que
-
-$$
-\ell := \sqrt{a + \sqrt{a + \sqrt{a + \cdots}}}
-$$
-
+$$l = \sqrt{a + \sqrt{a + \sqrt{a + \cdots}}}$$
 es un número entero?

@@ -1,9 +1,0 @@
-En un centro educativo se ofrecen tres modalidades excluyentes, $A$, $B$ y $C$, y dos idiomas excluyentes, inglés y francés.  
-La modalidad $A$ es elegida por un 50% de los alumnos, la $B$, por un 30%, y la $C$ por un 20%.  
-Se sabe que ha elegido inglés el 80% de los alumnos de la modalidad $A$, el 90% de la modalidad $B$ y el 75% de la modalidad $C$,  
-habiendo elegido francés el resto.
-
-<ol>
-    <li>¿Qué porcentaje de los alumnos ha elegido francés?</li>
-    <li>Si se elige al azar un estudiante de francés, ¿cuál es la probabilidad de que sea de la modalidad $A$?</li>
-</ol>
