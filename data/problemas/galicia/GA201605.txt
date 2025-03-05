@@ -1,0 +1,14 @@
+Dada la función de densidad $f: \mathbb{R}^2 \to \mathbb{R}$, que vale
+
+$$
+f(x,y) = k(x^2 + y^3) \cdot e^{-(x+y)}, \quad \text{si } x \geq 0, \, y \geq 0
+$$
+
+y que es nula en el resto, se pide:
+
+<ul>
+    <li>El valor de $k$.</li>
+    <li>Las funciones de densidad marginales.</li>
+    <li>La función de densidad condicional $f(y \mid x)$.</li>
+    <li>Estudie si las variables $X$ e $Y$ son independientes.</li>
+</ul>

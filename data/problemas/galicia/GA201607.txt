@@ -1,0 +1,15 @@
+Sea $\alpha \in \mathbb{C}$ una solución de la ecuación
+
+$$
+E: x^2 - bx + c = 0
+$$
+
+donde $b,c \in \mathbb{Z}$ son tales que $b^2 - 4c < 0$ y sea $\mathbb{Z}[\alpha]$ el conjunto de los $z = p + q\alpha \in \mathbb{C}$ tales que $p, q \in \mathbb{Z}$.
+
+<ul>
+    <li>Demuestre que $\mathbb{Z}[\alpha]$ es un subanillo conmutativo y unitario de $\mathbb{C}$ respecto de las operaciones usuales de suma y producto de $\mathbb{C}$.</li>
+    <li>Demuestre que el conjunto $U(\mathbb{Z}[\alpha])$ de los elementos invertibles del anillo conmutativo y unitario $\mathbb{Z}[\alpha]$ es un grupo con la multiplicación de $\mathbb{C}$ (<i>grupo multiplicativo de</i> $\mathbb{Z}[\alpha]$).</li>
+    <li>Pruebe que $\mathbb{Z}[\alpha] = \mathbb{Z}[\overline{\alpha}]$.</li>
+    <li>Si se considera la aplicación $f: \mathbb{Z}[\alpha] \to \mathbb{N}$ definida por $f(z) = |z|^2$, calcule $f(p + q\alpha)$ en función de $b, c, p, q$.</li>
+    <li>Si $f$ es la aplicación definida en el apartado anterior, calcule $f(U(\mathbb{Z}[\alpha]))$.</li>
+</ul>

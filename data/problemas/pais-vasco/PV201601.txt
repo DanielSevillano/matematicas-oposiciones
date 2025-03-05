@@ -1,0 +1,11 @@
+Halle todos los polinomios $P(x) \in \mathbb{R}[x]$ tales que
+
+$$
+P(x) - P(x-1) = x^2, \quad P(0) = 0
+$$
+
+y deduzca de ello el valor de la suma
+
+$$
+\sum_{k=1}^{n} k^2.
+$$
