@@ -1,0 +1,1 @@
+Halle todos los polinomios $P(x) \in \mathbb{R}[x]$ tales que $P(x) - 1$ sea divisible por $(x+1)^4$ y $P(x) + 1$ sea divisible por $(x-1)^4$.

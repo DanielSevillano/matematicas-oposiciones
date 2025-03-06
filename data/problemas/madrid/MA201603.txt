@@ -1,0 +1,10 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ul>
+    <li>Calcule la longitud de la curva $\mathcal{C}$ que tiene por ecuación:
+    $$
+    \left( \frac{x}{a} \right)^{2/3} + \left( \frac{y}{a} \right)^{2/3} = 1 \quad (a > 0)
+    $$</li>
+    
+    <li>Sea $f$ una función real de variable real que cumple, para los $x$ de cierto intervalo que contiene al origen, la desigualdad $|f(x)| \leq |x|^r$, donde $r \geq 1$. Demuestre que $f$ es derivable en el origen y calcule $f'(0)$.</li>
+</ul>

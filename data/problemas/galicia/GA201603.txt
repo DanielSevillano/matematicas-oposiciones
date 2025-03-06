@@ -1,0 +1,11 @@
+En el espacio vectorial $C^\infty(\mathbb{R})$ de las funciones $f : \mathbb{R} \to \mathbb{R}$ que son infinitamente derivables, se considera el endomorfismo $P$ de $C^\infty(\mathbb{R})$ definido por:
+
+$$
+P(f)(x) = x \cdot f(x) + f'(x), \quad f \in C^\infty(\mathbb{R}), \quad x \in \mathbb{R}
+$$
+
+<ul>
+    <li>Calcule el núcleo de $P$.</li>
+    <li>Calcule una función $g$ del núcleo de $P$ tal que $g(0) = 1$.</li>
+    <li>Demuestre que toda función $f \in C^\infty(\mathbb{R})$ cumple que $P^n(g \cdot f) = g \cdot f^{(n)}$, para todo $n \in \mathbb{N}$, donde $P^n$ es la composición de $P$ consigo mismo $n$ veces y $g \cdot f$ el producto usual de $g$ y $f$.</li>
+</ul>
