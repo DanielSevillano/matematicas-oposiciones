@@ -1,9 +1,5 @@
 Dada la función de densidad $f: \mathbb{R}^2 \to \mathbb{R}$, que vale
-
-$$
-f(x,y) = k(x^2 + y^3) \cdot e^{-(x+y)}, \quad \text{si } x \geq 0, \, y \geq 0
-$$
-
+$$f(x,y) = k(x^2 + y^3) \cdot e^{-(x+y)}, \quad \text{si } x \geq 0, \, y \geq 0$$
 y que es nula en el resto, se pide:
 
 <ul>

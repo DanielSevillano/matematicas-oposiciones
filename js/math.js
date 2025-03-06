@@ -1,4 +1,4 @@
-export { estado, formatear, obtenerProblema, mostrarExamen, mostrarCategoria }
+export { estado, formatear, obtenerProblema, mostrarExamen, mostrarCategoria };
 
 const estado = new Object({
     cancelado: false,
@@ -27,7 +27,8 @@ const comunidades = new Map([
     ["ME", "Melilla"],
     ["MU", "Murcia"],
     ["NA", "Navarra"],
-    ["PV", "País Vasco"]
+    ["PV", "País Vasco"],
+    ["VA", "Valencia"]
 ]);
 
 function normalizar(texto) {
@@ -216,8 +217,8 @@ async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResuelt
             return false;
         }
 
-        let resuelto = false
-        let categorias = []
+        let resuelto = false;
+        let categorias = [];
         if (objeto != undefined) {
             if (objeto.resuelto) resuelto = true;
             categorias = objeto.categorias;

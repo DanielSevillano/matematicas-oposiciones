@@ -1,11 +1,4 @@
 Dada la función $F$, real de variable real, mediante
-
-$$
-F(x) = \int_1^x \frac{1 - \ln t}{t} \, dt,
-$$
-
+$$F(x) = \int_1^x \frac{1 - \ln(t)}{t} \, dt,$$
 determine su dominio de definición, sus máximos y mínimos y además
-
-$$
-\lim\limits_{n \to \infty} |F(n+1) - F(n)|.
-$$
+$$\lim_{n \to \infty} |F(n+1) - F(n)|.$$

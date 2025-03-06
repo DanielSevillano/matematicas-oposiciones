@@ -1,6 +1,5 @@
 Se considera la aplicación $f: \mathbb{R}^3 \to \mathbb{R}^3$ definida por
-
-$$ f(x,y,z) = (x - 4y, -y, 2y + z). $$
+$$ f(x,y,z) = (x - 4y, -y, 2y + z).$$
 
 <ol>
     <li>Demuestre que $f$ es un endomorfismo del espacio vectorial $\mathbb{R}^3$.</li>
