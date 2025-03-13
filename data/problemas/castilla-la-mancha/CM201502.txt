@@ -1,3 +1,2 @@
 Demuestre la veracidad o falsedad del siguiente enunciado:
-
-<i>Para todo $n \in \mathbb{N}$ se puede encontrar un conjunto de $n$ números naturales consecutivos que no contiene a ningún número primo.</i>
+Para todo $n \in \mathbb{N}$ se puede encontrar un conjunto de $n$ números naturales consecutivos que no contiene a ningún número primo.
