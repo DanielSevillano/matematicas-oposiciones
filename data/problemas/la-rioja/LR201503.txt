@@ -1,0 +1,7 @@
+Se sabe que cierta elección entre dos candidatos $A$ y $B$ ha terminado con el resultado de $a$ votos a favor de $A$ y $b$ votos a favor de $B$, con $a > b$.
+
+<ol>
+<li>Calcule la probabilidad de que, durante el escrutinio de los votos, el candidato $A$ haya ido siempre por delante.</li>
+
+<li>Calcule la probabilidad de que, a lo largo del escrutinio, la diferencia de votos a favor de $A$ no haya sido mayor que $a - b$.</li>
+</ol>

@@ -1,0 +1,9 @@
+Un profesor de Educación Secundaria quiere poner el siguiente ejercicio a sus alumnos:  
+
+<p><i>Un depósito posee dos grifos de llenado; uno de ellos llena el depósito en $a$ minutos y el otro, independiente del anterior, lo llena en $b$ minutos. ¿Cuántos minutos se tarda en llenar el depósito si se abren los dos grifos a la vez?</i> </p> 
+
+<ol>
+<li>Para que resulte sencillo, el profesor elige $a$, $b$ y la solución $c$ entre los números naturales. ¿Qué valores pueden tomar $a$ y $b$ en función de $c$?</li>
+
+<li>Utilice el apartado anterior para encontrar todas las soluciones $(a,b)$ del problema, con $a, b \in \mathbb{N}$, para $c = 6$.</li>
+</ol>

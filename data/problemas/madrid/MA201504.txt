@@ -1,0 +1,5 @@
+El centro de una plaza de una ciudad es un espacio peatonal con forma de triángulo isósceles. El lado desigual de dicho triángulo y la altura sobre dicho lado miden lo mismo: $a$ metros.  
+
+Un peatón atraviesa dicho triángulo en línea recta, entrando por un punto del lado desigual y saliendo por un punto de alguno de los dos lados iguales.  
+
+Si tanto el punto de entrada en el triángulo como la dirección del camino que sigue son aleatorios e independientes, ¿cuál es la probabilidad de que recorra una distancia mayor que $a$ metros dentro del triángulo?

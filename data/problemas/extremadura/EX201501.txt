@@ -1,0 +1,27 @@
+Sea $\mathcal{M}_\mathbb{C}$ el conjunto de todas las matrices $2\times2$ de la forma
+
+$$
+M(a,b) =
+\begin{pmatrix}
+a & -b \\
+b & a
+\end{pmatrix}, \quad (a,b \in \mathbb{R}).
+$$
+
+<ol>
+<li>Demuestre que $\mathcal{M}_\mathbb{C}$ tiene estructura algebraica de cuerpo conmutativo con las operaciones usuales de suma y producto de matrices.</li>
+
+<li>Demuestre que $\mathcal{M}_\mathbb{C}$ es isomorfo al cuerpo $\mathbb{C}$ de los números complejos, hallando el isomorfismo $f: \mathbb{C} \to \mathcal{M}_\mathbb{C}$ correspondiente.</li>
+
+<li>Utilizando el isomorfismo definido anteriormente, calcule
+
+$$
+\sqrt{
+\begin{pmatrix}
+\frac{1}{2} & -\frac{\sqrt{3}}{2} \\
+\frac{\sqrt{3}}{2} & \frac{1}{2}
+\end{pmatrix}
+}
+$$
+</li>
+</ol>
