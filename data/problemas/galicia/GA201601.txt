@@ -1,7 +1,3 @@
 Dada la curva $\mathcal{H}$, que admite la parametrización
-
-$$
-\alpha(t) = (e^t \cos t, e^t \sin t, \sqrt{3} \, e^t) \quad (t \in \mathbb{R}),
-$$
-
+$$\alpha(t) = (e^t \cos(t), e^t \sin(t), \sqrt{3} \, e^t), \quad t \in \mathbb{R},$$
 determine las ecuaciones de la recta tangente, del plano normal y del plano osculador a la curva $\mathcal{H}$ en el punto $P = \alpha(0)$.

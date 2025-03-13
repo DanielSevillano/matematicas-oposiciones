@@ -1,1 +1,2 @@
-Los puntos $A(0,2m)$ y $B(0,m)$ se transforman por una semejanza en los puntos respectivos $A'(0,0)$ y $B'(m,0)$, siendo $m \neq 0$. Especifique un movimiento y una homotecia cuya composición sea la semejanza anterior y determine el centro de la semejanza, caso de que exista.
+Los puntos $A(0, 2m)$ y $B(0, m)$ se transforman por una semejanza en los puntos respectivos $A'(0, 0)$ y $B'(m, 0)$, siendo $m \neq 0$.
+Especifique un movimiento y una homotecia cuya composición sea la semejanza anterior y determine el centro de la semejanza, caso de que exista.

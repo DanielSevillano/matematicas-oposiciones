@@ -1,10 +1,6 @@
 Sea $\alpha \in \mathbb{C}$ una solución de la ecuación
-
-$$
-E: x^2 - bx + c = 0
-$$
-
-donde $b,c \in \mathbb{Z}$ son tales que $b^2 - 4c < 0$ y sea $\mathbb{Z}[\alpha]$ el conjunto de los $z = p + q\alpha \in \mathbb{C}$ tales que $p, q \in \mathbb{Z}$.
+$$E: x^2 - bx + c = 0,$$
+donde $b, c \in \mathbb{Z}$ son tales que $b^2 - 4c < 0$ y sea $\mathbb{Z}[\alpha]$ el conjunto de los $z = p + q\alpha \in \mathbb{C}$ tales que $p, q \in \mathbb{Z}$.
 
 <ul>
     <li>Demuestre que $\mathbb{Z}[\alpha]$ es un subanillo conmutativo y unitario de $\mathbb{C}$ respecto de las operaciones usuales de suma y producto de $\mathbb{C}$.</li>

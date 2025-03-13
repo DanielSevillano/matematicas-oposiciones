@@ -1,22 +1,41 @@
 [
     {
+        "curso": 2014,
+        "plazasTotales": 55,
+        "turnoGeneral": 46
+    },
+    {
+        "curso": 2016,
+        "plazasTotales": 200,
+        "turnoGeneral": 176
+    },
+    {
         "curso": 2018,
-        "plazas": 586,
+        "plazasTotales": 586,
+        "turnoGeneral": 507,
         "opositores": 2609
     },
     {
         "curso": 2021,
-        "plazas": 703,
+        "plazasTotales": 703,
+        "turnoGeneral": 595,
         "opositores": 3282
     },
     {
         "curso": 2023,
-        "plazas": 632,
+        "plazasTotales": 632,
+        "turnoGeneral": 562,
         "opositores": 2493
     },
     {
         "curso": 2024,
-        "plazas": 148,
+        "plazasTotales": 148,
+        "turnoGeneral": 133,
         "opositores": 1882
+    },
+    {
+        "curso": 2025,
+        "plazasTotales": 400,
+        "turnoGeneral": 354
     }
 ]

@@ -1,15 +1,8 @@
-Dadas las funciones $\mathbf{f} : \mathbb{R}^3 \to \mathbb{R}^2$ y $\mathbf{g} : \mathbb{R}^2 \to \mathbb{R}^2$ definidas por:
+Dadas las funciones $f: \mathbb{R}^3 \to \mathbb{R}^2$ y $g: \mathbb{R}^2 \to \mathbb{R}^2$ definidas por:
+$$f(x,y,z) = (\sin(xy+z), (1 + x^2)^{yz}), \quad g(u,v) = (u + e^v, v + e^u).$$
 
-$$
-\mathbf{f}(x,y,z) = (\sin(xy+z), (1 + x^2)^{yz}),
-$$
-
-$$
-\mathbf{g}(u,v) = (u + e^v, v + e^u),
-$$
-
-<ul>
-    <li>Demuestre que $\mathbf{f}$ es diferenciable en el punto $(1,-1,1)$ y calcule la diferencial de $\mathbf{f}$ en dicho punto.</li>
-    <li>Demuestre que $\mathbf{g}$ es diferenciable en el punto $\left(0, \frac{1}{2} \right)$ y calcule la diferencial de $\mathbf{g}$ en tal punto.</li>
-    <li>Calcule la diferencial de la función compuesta $\mathbf{g} \circ \mathbf{f}$ en el punto $(1,-1,1)$.</li>
-</ul>
+<ol>
+    <li>Demuestre que $f$ es diferenciable en el punto $(1,-1,1)$ y calcule la diferencial de $f$ en dicho punto.</li>
+    <li>Demuestre que $g$ es diferenciable en el punto $\left(0, \frac{1}{2} \right)$ y calcule la diferencial de $g$ en tal punto.</li>
+    <li>Calcule la diferencial de la función compuesta $g \circ f$ en el punto $(1,-1,1)$.</li>
+</ol>

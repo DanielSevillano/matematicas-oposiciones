@@ -16,21 +16,27 @@ function actualizarGrafica() {
 }
 
 async function crearGraficas() {
-    const ejeX = [];
+    const ejeX1 = [];
+    const ejeX2 = [];
     const ejeY1 = [];
     const ejeY2 = [];
+    const ejeOpositores = [];
     const ratios = [];
 
     const respuesta = await fetch("data/estadisticas.json");
     const datos = await respuesta.json();
 
     datos.forEach((dato) => {
-        const { curso, plazas, opositores } = dato;
+        const { curso, plazasTotales, turnoGeneral, opositores } = dato;
 
-        ejeX.push(curso);
-        ejeY1.push(plazas);
-        ejeY2.push(opositores);
-        ratios.push(opositores / plazas);
+        ejeX1.push(curso);
+        ejeY1.push(plazasTotales);
+        ejeY2.push(turnoGeneral);
+        if (opositores) {
+            ejeX2.push(curso);
+            ejeOpositores.push(opositores);
+            ratios.push(opositores / plazasTotales);
+        }
     });
 
     const options = {
@@ -60,21 +66,37 @@ async function crearGraficas() {
                 }
             }
         }
-    }
+    };
 
     const ctxPlazas = document.getElementById("grafica-plazas");
     const graficaPlazas = new Chart(ctxPlazas, {
         type: "line",
         data: {
-            labels: ejeX,
+            labels: ejeX1,
             datasets: [
                 {
-                    label: "Plazas",
+                    label: "Plazas totales",
                     data: ejeY1
                 },
                 {
+                    label: "Turno general",
+                    data: ejeY2,
+                    hidden: true
+                }
+            ]
+        },
+        options: options
+    });
+
+    const ctxOpositores = document.getElementById("grafica-opositores");
+    const graficaOpositores = new Chart(ctxOpositores, {
+        type: "line",
+        data: {
+            labels: ejeX2,
+            datasets: [
+                {
                     label: "Opositores",
-                    data: ejeY2
+                    data: ejeOpositores
                 }
             ]
         },
@@ -85,7 +107,7 @@ async function crearGraficas() {
     const graficaRatios = new Chart(ctxRatios, {
         type: "line",
         data: {
-            labels: ejeX,
+            labels: ejeX2,
             datasets: [
                 {
                     label: "Ratios",
@@ -97,6 +119,7 @@ async function crearGraficas() {
     });
 
     graficas.push(graficaPlazas);
+    graficas.push(graficaOpositores);
     graficas.push(graficaRatios);
 }
 
