@@ -1,0 +1,3 @@
+Sea $M$ el punto medio de una cuerda <i>PQ</i> de una circunferencia. Por $M$ se trazan otras dos cuerdas <i>AB</i> y <i>CD</i>. La cuerda <i>AD</i> corta a la cuerda <i>PQ</i> en un punto <i>X</i> y la cuerda <i>BC</i> corta a la cuerda <i>PQ</i> en un punto <i>Y</i>.  
+
+Demuestre que $M$ es también el punto medio del segmento <i>XY</i>.

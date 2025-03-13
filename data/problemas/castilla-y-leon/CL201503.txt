@@ -1,0 +1,21 @@
+En el espacio afín euclídeo usual $\mathbb{R}^3$ se consideran la circunferencia $C$ y la recta $r$ siguientes:
+
+$$
+C:  
+\begin{cases}  
+x^2 + y^2 = 1 \\  
+z = 0  
+\end{cases},
+\quad
+r:  
+\begin{cases}  
+y = 0 \\  
+z = 1  
+\end{cases}.
+$$
+
+<ol>
+<li>Halle el lugar geométrico $S$ que determinan las rectas que se apoyan en la circunferencia $C$ y en la recta $r$ y son paralelas al plano $x = 0$.</li>
+
+<li>Calcule el volumen del sólido que delimitan la superficie $S$ del apartado anterior y el plano $z = 0$.</li>
+</ol>

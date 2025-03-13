@@ -1,0 +1,5 @@
+Se consideran los puntos $A(a,0)$ y $A'(-a,0)$, donde $a > 0$, y un punto $M$ variable sobre la recta $r$ de ecuación $y = x + 1$.  
+
+Desde $A$ se traza la perpendicular a la recta $A'M$ y desde $A'$ se traza la recta perpendicular a $AM$, cortándose ambas rectas en un punto $Q$.  
+
+Determine el lugar geométrico de los puntos $Q$ según los valores positivos de $a$ y clasifíquelo.

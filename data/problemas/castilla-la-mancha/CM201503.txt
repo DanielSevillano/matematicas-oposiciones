@@ -1,0 +1,3 @@
+En el triángulo acutángulo <i>ABC</i> se consideran los puntos <i>H</i>, <i>D</i> y <i>M</i> del lado <i>BC</i>, que son pies respectivos de la altura <i>AH</i>, de la bisectriz <i>AD</i> y de la mediana <i>AM</i> que parten desde <i>A</i>.  
+
+Si las longitudes de <i>AB</i>, <i>AC</i> y <i>MD</i> son, respectivamente, 11, 8 y 1, calcule la longitud del segmento <i>DH</i>.
