@@ -141,6 +141,7 @@
     },
     {
         "problema": "AN201602",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
