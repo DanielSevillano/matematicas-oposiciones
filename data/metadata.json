@@ -545,7 +545,8 @@
         ]
     },
     {
-        "problema": "CM201501"
+        "problema": "CM201501",
+        "resuelto": true
     },
     {
         "problema": "CM201502"
