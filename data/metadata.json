@@ -154,6 +154,7 @@
     },
     {
         "problema": "AN201604",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

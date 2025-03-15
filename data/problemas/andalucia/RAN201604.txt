@@ -1,0 +1,146 @@
+<p>
+    Sean los sucesos $A = \textit{A saca primero}$, $B = \textit{B saca primero}$, $M_A = \textit{A mata a su oponente}$, $M_B = \textit{B mata a su oponente}$, $S_A = \textit{A sobrevive}$ y $S_B = \textit{B sobrevive}.$
+</p>
+
+<p>
+    Podemos organizar los datos en un diagrama de árbol.
+</p>
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_B$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_A^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_B^c$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_A$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_B$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_A$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_B^c$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$M_A^c$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        La probabilidad de que ambos sobrevivan es:
+        \begin{align}
+            P(S_A \cap S_B) & = P((A \cap M_A^c \cap M_B^c) \cup (B \cap M_B^c \cap M_A^c)) = P(A \cap M_A^c \cap M_B^c)+ P(B \cap M_B^c \cap M_A^c) = \\
+            & = P(A) \cdot P(M_A^c|A) \cdot P(M_B^c|A \cap M_A^c) + P(B) \cdot P(M_B^c|B) \cdot P(M_A^c|B \cap M_B^c) = \\
+            & = 0,6 \cdot 0,6 \cdot 0,5 + 0,4 \cdot 0,5 \cdot 0,6 = 0,3.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que $A$ sobreviva es:
+        \begin{align}
+            P(S_A) & = P((A \cap M_A^c \cap M_B^c) \cup (A \cap M_A) \cup (B \cap M_B^c)) = P(A \cap M_A^c \cap M_B^c) + P(A \cap M_A) + P(B \cap M_B^c) = \\
+            & = P(A) \cdot P(M_A^c|A) \cdot P(M_B^c|A \cap M_A^c) + P(A) \cdot P(M_A|A) + P(B) \cdot P(M_B^c|B) = \\
+            & = 0,6 \cdot 0,6 \cdot 0,5 + 0,6 \cdot 0,4 + 0,4 \cdot 0,5 = 0,62.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que $A$ haya sacado primero dado que ha sobrevivido es:
+        \begin{align}
+            P(A|S_A) & = \frac{P(A \cap S_A)}{P(S_A)} = \frac{P((A \cap M_A^c \cap M_B^c) \cup (A \cap M_A))}{P(S_A)} = \frac{P(A \cap M_A^c \cap M_B^c) + P(A \cap M_A)}{P(S_A)} = \\
+            & = \frac{P(A) \cdot P(M_A^c|A) \cdot P(M_B^c|A \cap M_A^c) + P(A) \cdot P(M_A|A)}{P(S_A)} = \frac{0,6 \cdot 0,6 \cdot 0,5 + 0,6 \cdot 0,4}{0,62} = \\
+            & = \frac{0,42}{0,62} = \frac{21}{31} \approx 0,6774.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que el hombre que saque primero sobreviva es:
+        \begin{align}
+            P((A \cap S_A) \cup (B \cap S_B)) & = P((A \cap M_A^c \cap M_B^c) \cup (A \cap M_A) \cup (B \cap M_B) \cup (B \cap M_B^c \cap M_A^c)) = \\
+            & = P(A \cap M_A^c \cap M_B^c) + P(A \cap M_A) + P(B \cap M_B) + P(B \cap M_B^c \cap M_A^c) = \\
+            & = P(A) \cdot P(M_A^c|A) \cdot P(M_B^c|A \cap M_A^c) + P(A) \cdot P(M_A|A) + \\
+            & \ \quad + P(B) \cdot P(M_B|B) + P(B) \cdot P(M_B^c|B) \cdot P(M_A^c|B \cap M_B^c) = \\
+            & = 0,6 \cdot 0,6 \cdot 0,5 + 0,6 \cdot 0,4 + 0,4 \cdot 0,5 + 0,4 \cdot 0,5 \cdot 0,6 = 0,74.
+        \end{align}
+    </li>
+</ol>
