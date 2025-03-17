@@ -161,6 +161,7 @@
     },
     {
         "problema": "AN201605",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
