@@ -1,3 +1,2 @@
-Sea $R$ la región del plano delimitada por los semiejes positivos de coordenadas y la curva $y = 2\cos x$, entre $x = 0$ y $x = \frac{\pi}{2}$.  
-
-Halle el valor de $a \in \mathbb{R}$ para que la curva $y = a \sen x$ divida a $R$ en dos regiones de igual área.
+Sea $R$ la región del plano delimitada por los semiejes positivos de coordenadas y la curva $y = 2\cos(x)$, entre $x = 0$ y $x = \frac{\pi}{2}$.
+Halle el valor de $a \in \mathbb{R}$ para que la curva $y = a\sin(x)$ divida a $R$ en dos regiones de igual área.

@@ -1,26 +1,19 @@
 Responda razonadamente a las siguientes cuestiones:
 
 <ol>
-<li>Represente gráficamente la función real de variable real definida por  
+    <li>
+        Represente gráficamente la función real de variable real definida por
+        $$f(x) = \frac{x}{\ln(x)}$$
+    </li>
 
-$$
-f(x) = \frac{x}{L x}
-$$
-</li>
+    <li>
+        Determine, según los valores de $k$, el número de soluciones de la ecuación
+        $$x - k\ln(x) = 0.$$
+    </li>
 
-<li>Determine, según los valores de $k$, el número de soluciones de la ecuación  
-
-$$
-x - k L x = 0
-$$
-</li>
-
-<li>Estudie si la sucesión de números reales $(a_n)$ definida por la recurrencia  
-
-$$
-a_1 = e^{1/2}, \quad a_{n+1} = \frac{a_n}{L a_n}, \quad \text{para } n \geq 1,
-$$
-
-es convergente y, en caso afirmativo, calcule su límite.
-</li>
+    <li>
+        Estudie si la sucesión de números reales $\{a_n\}$ definida por la recurrencia
+        $$a_1 = e^{1/2}, \quad a_{n+1} = \frac{a_n}{\ln(a_n)}, \quad \text{para } n \geq 1,$$
+        es convergente y, en caso afirmativo, calcule su límite.
+    </li>
 </ol>

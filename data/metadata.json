@@ -141,6 +141,7 @@
     },
     {
         "problema": "AN201602",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
@@ -153,12 +154,14 @@
     },
     {
         "problema": "AN201604",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "problema": "AN201605",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
@@ -543,6 +546,16 @@
         ]
     },
     {
+        "problema": "CM201501",
+        "resuelto": true
+    },
+    {
+        "problema": "CM201502"
+    },
+    {
+        "problema": "CM201503"
+    },
+    {
         "problema": "CL201801",
         "categorias": [
             "Análisis"
@@ -566,6 +579,18 @@
             "Geometría",
             "Probabilidad"
         ]
+    },
+    {
+        "problema": "CL201501"
+    },
+    {
+        "problema": "CL201502"
+    },
+    {
+        "problema": "CL201503"
+    },
+    {
+        "problema": "CL201504"
     },
     {
         "problema": "CT201801",
@@ -722,6 +747,18 @@
         "categorias": [
             "Geometría"
         ]
+    },
+    {
+        "problema": "EX201501"
+    },
+    {
+        "problema": "EX201502"
+    },
+    {
+        "problema": "EX201503"
+    },
+    {
+        "problema": "EX201504"
     },
     {
         "problema": "GA201801",
@@ -1047,6 +1084,18 @@
         ]
     },
     {
+        "problema": "LR201501"
+    },
+    {
+        "problema": "LR201502"
+    },
+    {
+        "problema": "LR201503"
+    },
+    {
+        "problema": "LR201504"
+    },
+    {
         "problema": "MA201801",
         "categorias": [
             "Álgebra"
@@ -1081,6 +1130,18 @@
     },
     {
         "problema": "MA201604"
+    },
+    {
+        "problema": "MA201501"
+    },
+    {
+        "problema": "MA201502"
+    },
+    {
+        "problema": "MA201503"
+    },
+    {
+        "problema": "MA201504"
     },
     {
         "problema": "ME201801",
@@ -1279,5 +1340,17 @@
     },
     {
         "problema": "VA201606"
+    },
+    {
+        "problema": "VA201501"
+    },
+    {
+        "problema": "VA201502"
+    },
+    {
+        "problema": "VA201503"
+    },
+    {
+        "problema": "VA201504"
     }
 ]

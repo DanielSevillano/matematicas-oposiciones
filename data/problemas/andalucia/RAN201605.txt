@@ -1,0 +1,192 @@
+<p>
+    Para hallar el rango de la matriz de coeficientes $A$ y la matriz ampliada $(A|b)$, realizamos transformaciones elementales.
+    \begin{align}
+        (A|b) & = \left(\begin{array}{cccc|c}
+            -1 & 1+\lambda & 2-\lambda & \lambda & 3 \\
+            \lambda & 1 & 2-\lambda & \lambda & 2 \\
+            \lambda & \lambda & 2-\lambda & \lambda & 2 \\
+            \lambda & \lambda & 2-\lambda & -1 & 2
+        \end{array}\right) \xrightarrow[F_4 - F_2]{F_3 - F_2}
+        \left(\begin{array}{cccc|c}
+            -1 & 1+\lambda & 2-\lambda & \lambda & 3 \\
+            \lambda & 1 & 2-\lambda & \lambda & 2 \\
+            0 & -1+\lambda & 0 & 0 & 0 \\
+            0 & -1+\lambda & 0 & -1-\lambda & 0
+        \end{array}\right) \xrightarrow[-F_4+F_3]{F_2-F_1} \\
+        & \longrightarrow \left(\begin{array}{cccc|c}
+            -1 & 1+\lambda & 2-\lambda & \lambda & 3 \\
+            1+\lambda & -\lambda & 0 & 0 & -1 \\
+            0 & -1+\lambda & 0 & 0 & 0 \\
+            0 & 0 & 0 & 1+\lambda & 0
+        \end{array}\right).
+    \end{align}
+</p>
+
+<p>
+    Hallamos el determinante de $A.$
+    \begin{align}
+        |A| & = \begin{vmatrix}
+            -1 & 1+\lambda & 2-\lambda & \lambda \\
+            1+\lambda & -\lambda & 0 & 0 \\
+            0 & -1+\lambda & 0 & 0 \\
+            0 & 0 & 0 & 1+\lambda
+        \end{vmatrix} = (1+\lambda) \begin{vmatrix}
+            -1 & 1+\lambda & 2-\lambda \\
+            1+\lambda & -\lambda & 0 \\
+            0 & -1+\lambda & 0
+        \end{vmatrix} = (1+\lambda)(1-\lambda) \begin{vmatrix}
+            1 & 2-\lambda \\
+            1+\lambda & 0
+        \end{vmatrix} = \\
+        & = (1+\lambda)^2(1-\lambda)(-2 + \lambda).
+    \end{align}
+
+    Observamos que:
+    $$|A| = 0 \Leftrightarrow (1+\lambda)^2(1-\lambda)(-2 + \lambda) = 0 \Leftrightarrow \begin{cases}
+        \lambda = -1, \\
+        \lambda = 1, \\
+        \lambda = 2.
+    \end{cases}$$
+</p>
+
+<ul>
+    <li>
+        Si $\lambda \neq -1$, $\lambda \neq 1$ y $\lambda \neq 2$, $\rang(A) = \rang(A|b) = 4.$
+        Por el teorema de Rouché-Frobenius, el sistema es compatible determinado.
+        Queda de la forma:
+        $$\begin{cases}
+            -x + (1+\lambda)y + (2-\lambda)z + \lambda t = 3, \\
+            (1+\lambda)x - \lambda y = 1, \\
+            (-1+\lambda)y = 0, \\
+            (1+\lambda)t = 0
+        \end{cases} \Leftrightarrow
+        \begin{cases}
+            -x + (2-\lambda)z = 3, \\
+            (1+\lambda)x = -1, \\
+            y = 0, \\
+            t = 0.
+        \end{cases}$$
+
+        Despejando en la segunda ecuación, se tiene que:
+        $$(1+\lambda)x = -1 \Leftrightarrow x = \frac{-1}{1+\lambda}.$$
+
+        Sustituyendo en la primera ecuación,
+        $$\frac{1}{1+\lambda} + (2-\lambda)z = 3 \Leftrightarrow (1+\lambda)(2-\lambda)z = 3(1+\lambda)-1 \Leftrightarrow z = \frac{2+3\lambda}{(1+\lambda)(2-\lambda)}.$$
+
+        Por tanto, la solución del sistema es:
+        $$\begin{cases}
+            x = -\dfrac{1}{1+\lambda}, \\
+            y = 0, \\
+            z = \dfrac{2+3\lambda}{(1+\lambda)(2-\lambda)}, \\
+            t = 0.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Si $\lambda = -1$, la matriz ampliada es:
+        $$(A|b) = \left(\begin{array}{cccc|c}
+            -1 & 0 & 3 & -1 & 3 \\
+            0 & 1 & 0 & 0 & -1 \\
+            0 & -2 & 0 & 0 & 0 \\
+            0 & 0 & 0 & 0 & 0
+        \end{array}\right) \longrightarrow
+        \left(\begin{array}{cccc|c}
+            -1 & 0 & 3 & -1 & 3 \\
+            0 & 1 & 0 & 0 & -1 \\
+            0 & -2 & 0 & 0 & 0
+        \end{array}\right) \xrightarrow{2F_2 + F_3}
+        \left(\begin{array}{cccc|c}
+            -1 & 0 & 3 & -1 & 3 \\
+            0 & 0 & 0 & 0 & -2 \\
+            0 & -2 & 0 & 0 & 0
+        \end{array}\right).$$
+
+        Por tanto, el sistema es incompatible.
+    </li>
+
+    <li>
+        Si $\lambda = 1$, la matriz ampliada es:
+        \begin{align}
+            (A|b) & = \left(\begin{array}{cccc|c}
+                -1 & 2 & 1 & 1 & 3 \\
+                2 & -1 & 0 & 0 & -1 \\
+                0 & 0 & 0 & 0 & 0 \\
+                0 & 0 & 0 & 2 & 0
+            \end{array}\right) \longrightarrow
+            \left(\begin{array}{cccc|c}
+                -1 & 2 & 1 & 1 & 3 \\
+                2 & -1 & 0 & 0 & -1 \\
+                0 & 0 & 0 & 2 & 0
+            \end{array}\right) \xrightarrow[F_3/2]{F_1-F_3/2}
+            \left(\begin{array}{cccc|c}
+                -1 & 2 & 1 & 0 & 3 \\
+                2 & -1 & 0 & 0 & -1 \\
+                0 & 0 & 0 & 1 & 0
+            \end{array}\right) \xrightarrow{F_1 + 2F_2} \\
+            & \longrightarrow \left(\begin{array}{cccc|c}
+                3 & 0 & 1 & 0 & 1 \\
+                2 & -1 & 0 & 0 & -1 \\
+                0 & 0 & 0 & 1 & 0
+            \end{array}\right).
+        \end{align}
+
+        Observamos que:
+        $$\begin{vmatrix}
+            3 & 1 & 0 \\
+            2 & 0 & 0 \\
+            0 & 0 & 1
+        \end{vmatrix} =
+        \begin{vmatrix}
+            3 & 1 \\
+            2 & 0
+        \end{vmatrix} = -2 \neq 0 \Rightarrow \rang(A) = \rang(A|b) = 3.$$
+
+        Por el teorema de Rouché-Frobenius, el sistema es compatible indeterminado.
+        Queda de la forma:
+        $$\begin{cases}
+            3x + z = 1, \\
+            2x - y = -1, \\
+            t = 0.
+        \end{cases}$$
+
+        Si tomamos $x = \mu$, las soluciones son de la forma:
+        $$\begin{cases}
+            x = \mu, \\
+            y = 2\mu + 1, \\
+            z = 1 - 3\mu, \\
+            t = 0,
+        \end{cases} \quad \mu \in \mathbb{R}.$$
+    </li>
+
+    <li>
+        Si $\lambda = 2$, la matriz ampliada es:
+        \begin{align}
+            (A|b) & = \left(\begin{array}{cccc|c}
+                -1 & 3 & 0 & 2 & 3 \\
+                3 & -2 & 0 & 0 & -1 \\
+                0 & 1 & 0 & 0 & 0 \\
+                0 & 0 & 0 & 3 & 0
+            \end{array}\right) \xrightarrow[F_4/3]{3F_1 + F_2}
+            \left(\begin{array}{cccc|c}
+                0 & 7 & 0 & 6 & 8 \\
+                3 & -2 & 0 & 0 & -1 \\
+                0 & 1 & 0 & 0 & 0 \\
+                0 & 0 & 0 & 1 & 0
+            \end{array}\right) \xrightarrow[F_2 + 2F_3]{F_1 - 7F_3}
+            \left(\begin{array}{cccc|c}
+                0 & 0 & 0 & 6 & 8 \\
+                3 & 0 & 0 & 0 & -1 \\
+                0 & 1 & 0 & 0 & 0 \\
+                0 & 0 & 0 & 1 & 0
+            \end{array}\right) \xrightarrow{F_1 - 6F_4} \\
+            & \longrightarrow \left(\begin{array}{cccc|c}
+                0 & 0 & 0 & 0 & 8 \\
+                3 & 0 & 0 & 0 & -1 \\
+                0 & 1 & 0 & 0 & 0 \\
+                0 & 0 & 0 & 1 & 0
+            \end{array}\right).
+        \end{align}
+
+        Por tanto, el sistema es incompatible.
+    </li>
+</ul>

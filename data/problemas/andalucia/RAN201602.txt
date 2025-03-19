@@ -1,0 +1,68 @@
+<p>
+    Hallamos las raíces del polinomio:
+    $$P(x) = 0 \Leftrightarrow x^2 - ax + b = 0 \Leftrightarrow x = \frac{a \pm \sqrt{a^2 - 4b}}{2}.$$
+
+    Veamos para qué valores es una raíz $n$-ésima de la unidad.
+    Consideramos dos casos.
+</p>
+
+<ul>
+    <li>
+        Supongamos que las raíces del polinomio son reales, esto es, $a^2 - 4b \geq 0.$
+        El polinomio tendrá como raíz una raíz $n$-ésima de la unidad si y solo si una de sus raíces es 1 o -1.
+
+        <ul>
+            <li>
+                Para que 1 sea raíz del polinomio, se tiene que verificar que:
+                \begin{align}
+                    \frac{a \pm \sqrt{a^2 - 4b}}{2} = 1 & \Leftrightarrow a \pm \sqrt{a^2 - 4b} = 2 \Leftrightarrow \pm \sqrt{a^2 - 4b} = 2 - a \Leftrightarrow a^2 - 4b = (2 - a)^2 \Leftrightarrow \\
+                    & \Leftrightarrow a^2 - 4b = 4 - 4a + a^2 \Leftrightarrow b = a - 1.
+                \end{align}
+
+                Observamos que:
+                $$a^2 - 4b = a^2 - 4(a - 1) = a^2 - 4a + 4 = (a - 2)^2 \geq 0.$$
+
+                Por tanto, los polinomios de la forma $P(x) = x^2 - ax + a - 1$ tienen 1 como raíz.
+            </li>
+
+            <li>
+                Para que -1 sea raíz del polinomio, se tiene que verificar que:
+                \begin{align}
+                    \frac{a \pm \sqrt{a^2 - 4b}}{2} = -1 & \Leftrightarrow a \pm \sqrt{a^2 - 4b} = -2 \Leftrightarrow \pm \sqrt{a^2 - 4b} = -2 - a \Leftrightarrow a^2 - 4b = (-2 - a)^2 \Leftrightarrow \\
+                    & \Leftrightarrow a^2 - 4b = 4 + 4a + a^2 \Leftrightarrow b = -a - 1.
+                \end{align}
+
+                Observamos que:
+                $$a^2 - 4b = a^2 - 4(-a - 1) = a^2 + 4a + 4 = (a + 2)^2 \geq 0.$$
+
+                Por tanto, los polinomios de la forma $P(x) = x^2 - ax - a - 1$ tienen -1 como raíz.
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Supongamos que las raíces del polinomio son complejas, esto es, $a^2 - 4b < 0.$
+        El polinomio tendrá como raíz una $n$-ésima de la unidad si y solo si tiene alguna raíz de la forma $\xi = \cos(\alpha) + i\sin(\alpha).$
+        Para que $\xi$ sea raíz del polinomio, se tiene que verificar que:
+        \begin{align}
+            & \frac{a \pm \sqrt{a^2 - 4b}}{2} = \cos(\alpha) + i\sin(\alpha) \Leftrightarrow a \pm i\sqrt{4b - a^2} = 2\cos(\alpha) + 2i\sin(\alpha) \\
+            & \Leftrightarrow \begin{cases}
+                a = 2\cos(\alpha), \\
+                \pm\sqrt{4b - a^2} = 2\sin(\alpha)
+            \end{cases} \Leftrightarrow \begin{cases}
+                a^2 = 4\cos^2(\alpha), \\
+                4b - a^2 = 4\sin^2(\alpha).
+            \end{cases}
+        \end{align}
+
+        Sumando las dos ecuaciones, se tiene que:
+        $$a^2 + 4b - a^2 = 4\cos^2(\alpha) + 4\sin^2(\alpha) \Leftrightarrow 4b = 4 \Leftrightarrow b = 1.$$
+
+        Observamos que:
+        $$a^2 - 4b < 0 \Leftrightarrow a^2 < 4b \Leftrightarrow a^2 < 4 \Leftrightarrow -2 < a < 2 \overset{a \in \mathbb{Z}}{\Leftrightarrow} a \in \{-1, 0, 1\}.$$
+
+        Por tanto, los polinomios de la forma $P(x) = x^2 - ax + 1$, con $a \in \{-1, 0, 1\}$, tienen como raíz una raíz $n$-ésima de la unidad compleja.
+        En concreto, los polinomios son:
+        $$P(x) = x^2 + x + 1, \quad P(x) = x^2 + 1 \quad \text{y} \quad P(x) = x^2 - x + 1.$$
+    </li>
+</ul>

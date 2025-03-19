@@ -1,5 +1,10 @@
 [
     {
+        "curso": 2006,
+        "plazasTotales": 270,
+        "turnoGeneral": 257
+    },
+    {
         "curso": 2014,
         "plazasTotales": 55,
         "turnoGeneral": 46
