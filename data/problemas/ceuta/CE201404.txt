@@ -1,0 +1,15 @@
+Sea $f$ un endomorfismo de un espacio vectorial $V$ finitamente generado sobre un cuerpo $K$.  
+
+Para cada autovalor $\lambda \in K$ de $f$ y cada $p \in \mathbb{N}$ se considera el subespacio $E^p(\lambda) = \ker (f - \lambda i)^p$, donde $i$ es el endomorfismo idéntico de $V$ y $(f - \lambda i)^p$ es la composición del endomorfismo $f - \lambda i$ consigo mismo $p$ veces.  
+
+Demuestre que si $\lambda$ es autovalor de $f$, entonces:
+
+<ol>
+<li>$f \big( E^p(\lambda) \big) \subset E^p(\lambda)$, para cada $p \in \mathbb{N}$.</li>
+
+<li>$(f - \lambda i) \big( E^p(\lambda) \big) \subset E^{p-1}(\lambda)$, para cada $p \in \mathbb{N}$, $p \geq 2$.</li>
+
+<li>La sucesión $\big( E^p(\lambda) \big)$ es creciente respecto de la inclusión $\subset$ de conjuntos.</li>
+
+<li>La sucesión $\big( E^p(\lambda) \big)$ es constante a partir de cierto término.</li>
+</ol>

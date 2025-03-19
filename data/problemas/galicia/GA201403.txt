@@ -1,0 +1,9 @@
+Se considera un triángulo $ABC$ y sea $G$ su baricentro.  
+
+Se traza una recta que pasa por $G$ y que corta al segmento $AB$ en un punto $P$ y al segmento $AC$ en un punto $Q$.  
+
+Demuestre que:
+
+$$
+\frac{PB}{PA} \cdot \frac{QC}{QA} \leq \frac{1}{4}.
+$$

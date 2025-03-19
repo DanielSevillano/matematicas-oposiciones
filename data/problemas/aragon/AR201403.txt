@@ -1,0 +1,7 @@
+Si de una urna que sólo contiene bolas blancas y bolas negras, idénticas salvo en el color, extraemos dos bolas al azar sin reemplazamiento, la probabilidad de que ambas sean blancas es $\frac{1}{2}$.
+
+<ol>
+<li>Determine el número mínimo de bolas que contiene la urna.</li>
+
+<li>Determine el número mínimo de bolas que contiene la urna, sabiendo que el número de bolas negras es par.</li>
+</ol>

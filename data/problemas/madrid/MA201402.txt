@@ -1,0 +1,7 @@
+Calcule los productos siguientes, en los que $n \in \mathbb{N}$, $n > 1$:
+
+<ol>
+<li>$\displaystyle \prod_{k=1}^{n-1} \left(e^{2k\pi i/n} - 1\right)$</li>
+
+<li>$\displaystyle \prod_{k=1}^{n-1} \sin \frac{k\pi}{n}$</li>
+</ol>

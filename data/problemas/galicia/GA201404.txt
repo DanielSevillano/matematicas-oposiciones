@@ -1,0 +1,5 @@
+Un punto móvil $P$ describe una parábola $y^2 = 2x$, con velocidad de 5 cm/s, pasando primero por el origen $O$ y luego por el punto $M(2,2)$.  
+
+En el punto $A(6,0)$ hay un foco luminoso y se pregunta:  
+
+¿A qué velocidad se moverá sobre el eje $OY$ la sombra del punto $P$ cuando éste pase por $M$?

@@ -1,0 +1,17 @@
+Sea, para cada $n \in \mathbb{Z}$, $p \in \mathbb{R}$, $n, p \geq 0$,
+
+$$
+K_n (p) = \int_0^1 \frac{x^n}{\sqrt{(1-x)(1+px)}} \, dx
+$$
+
+<ol>
+<li>Calcule $K_0 (p)$ y $K_1 (p)$, para cualquier $p \geq 0$.</li>
+
+<li>Encuentre una relación de recurrencia, para $n \geq 2$ y $p \geq 0$, del tipo  
+
+$$
+F(K_n (p), K_{n-1} (p), K_{n-2} (p)) = 0
+$$  
+
+y utilícela para calcular $K_n (0)$ y $K_n (1)$, para todo $n \in \mathbb{N}$.</li>
+</ol>

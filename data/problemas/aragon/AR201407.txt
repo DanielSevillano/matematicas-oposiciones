@@ -1,0 +1,1 @@
+Dado un número real $a > 0$, se considera la curva $C$ cuya ecuación es   $\sqrt{x} + \sqrt{y} = \sqrt{a}$ en cierta referencia rectangular del plano. Por un punto $P$ de dicha curva se traza la tangente a $C$ que corta a los ejes coordenados $OX$ y $OY$ en los puntos respectivos $M$ y $N$. Demuestre que $a$ es la suma de la abscisa de $M$ y la ordenada de $N$.

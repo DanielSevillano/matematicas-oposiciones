@@ -1,0 +1,11 @@
+Consumidores de café en el área de Pontevedra usan tres marcas $A_1$, $A_2$ y $A_3$.  
+
+En Marzo de 1995 se hizo una encuesta en la que se entrevistó a las 8450 personas que compran café y los resultados se recogen en la tabla siguiente:
+
+<ol>
+<li>Si las compras se hacen mensualmente, ¿cuál será la distribución del mercado de café en Pontevedra en el mes de Junio?</li>
+
+<li>A la larga, ¿cómo se distribuirán los clientes del café?</li>
+
+<li>En Junio, ¿cuál es la proporción de clientes leales a sus marcas de café?</li>
+</ol>

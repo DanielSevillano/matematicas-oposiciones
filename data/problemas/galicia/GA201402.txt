@@ -1,0 +1,7 @@
+Dada la ecuación  $x^4 - 8x^3 + 22x^2 - 24x + m = 0$,  con $m \in \mathbb{R}$, se pide:
+
+<ol>
+<li>Discuta las soluciones de la ecuación al variar el parámetro $m$.</li>
+
+<li>Resuelva la ecuación en función de $m$.</li>
+</ol>

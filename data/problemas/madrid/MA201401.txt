@@ -1,0 +1,7 @@
+Un segmento rectilíneo $AB$ de longitud $L$ se apoya sobre los semiejes coordenados positivos.
+
+<ol>
+<li>Determine el lugar geométrico de los puntos desde los que se ve el segmento $AB$ bajo un ángulo de $30^\circ$ cuando dicho segmento forma un triángulo isósceles en el primer cuadrante.</li>
+
+<li>Si son $A(1,0)$ y $B(0,1)$, determine el lugar geométrico de los centros de las hipérbolas equiláteras que pasan por $A$, por $B$ y por el origen de coordenadas.</li>
+</ol>
