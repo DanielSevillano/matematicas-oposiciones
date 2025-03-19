@@ -1,0 +1,7 @@
+Se tienen $n$ recipientes cilíndricos iguales $C_1, C_2, \dots, C_n$.  
+
+El primero de ellos está lleno de alcohol puro al 100% y cada uno de los siguientes está lleno hasta la mitad de un líquido cuya concentración de alcohol es $k$ veces menor que la correspondiente del recipiente anterior $(k > 0)$.  
+
+Se vierte líquido del primer recipiente hasta llenar el segundo, después se vierte líquido del segundo recipiente hasta llenar el tercero y así sucesivamente hasta llenar el último.  
+
+Calcule la concentración de alcohol del último recipiente.

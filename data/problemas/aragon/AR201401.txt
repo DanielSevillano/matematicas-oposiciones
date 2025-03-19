@@ -1,0 +1,7 @@
+Determine una función continua $f: [0,2] \to \mathbb{R}$ tal que $f(1) = 1$,  
+
+$f(2) = 7$ y tal que para cada $x \in [0,2]$ sea  
+
+$$
+3 \int_0^x f(t) dt = [f(x) + 2f(0)]x.
+$$
