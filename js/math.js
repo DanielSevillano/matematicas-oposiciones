@@ -22,6 +22,7 @@ const comunidades = new Map([
     ["EX", "Extremadura"],
     ["GA", "Galicia"],
     ["IB", "Islas Baleares"],
+    ["IC", "Islas Canarias"],
     ["LR", "La Rioja"],
     ["MA", "Madrid"],
     ["ME", "Melilla"],

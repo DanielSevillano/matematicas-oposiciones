@@ -1,1 +1,2 @@
 Si cada una de estas dos líneas divide este área en dos partes iguales, ¿cuál es la más grande, el área $A$, el área $B$ o no es posible decirlo?
+<img src="img/problemas/IC200610.png" alt="Figura" loading="lazy">
