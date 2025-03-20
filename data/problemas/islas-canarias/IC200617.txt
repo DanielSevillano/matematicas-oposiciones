@@ -1,0 +1,11 @@
+Sea $f: \mathbb{R}^2 \to \mathbb{R}^2$ la aplicación dada por 
+
+$$ f(x,y) = (3x + 2y,0) $$ 
+
+y sea $g: \mathbb{R}^2 \to \mathbb{R}^2$ otra aplicación. ¿Cuál de las siguientes afirmaciones es correcta?
+
+<ul>
+<li> a) Si existe $g^{-1}$, entonces existe $(g \circ f)^{-1}$. </li>
+<li> b) Si existe $g^{-1}$, entonces existe $(f \circ g)^{-1}$. </li>
+<li> c) No existe ni $(g \circ f)^{-1}$ ni $(f \circ g)^{-1}$. </li>
+</ul>

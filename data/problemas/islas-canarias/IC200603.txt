@@ -1,0 +1,1 @@
+Elige el diámetro de una esfera de modo que, al introducirla en una copa con forma cónica de profundidad $h$ y ángulo cónico $2\alpha$ que está llena de agua, se derrame la mayor cantidad de líquido posible.

@@ -1,0 +1,8 @@
+Encuentre las soluciones reales del sistema de ecuaciones:
+
+\[
+\begin{cases}
+3(x^2 + y^2 + z^2) = 1 \\
+x^2 y^2 + y^2 z^2 + z^2 x^2 = xyz (x + y + z)^3
+\end{cases}
+\]

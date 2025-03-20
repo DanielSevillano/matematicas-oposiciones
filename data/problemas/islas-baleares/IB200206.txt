@@ -1,0 +1,1 @@
+Demuestre que cualquier aplicación lineal de $\mathbb{R}$ en $\mathbb{R}$ es una función continua.

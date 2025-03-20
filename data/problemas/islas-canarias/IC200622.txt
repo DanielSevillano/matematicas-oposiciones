@@ -1,0 +1,1 @@
+Determine la probabilidad de extraer una bola blanca de una urna que contiene cuatro bolas de dos colores: blanco y rojo, supuesto que las distintas composiciones de la urna son igualmente probables.

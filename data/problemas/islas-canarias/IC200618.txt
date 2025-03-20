@@ -1,0 +1,7 @@
+\textbf{06.51}. Sean $f$ y $g$ dos funciones continuas de $\mathbb{R}$ en $\mathbb{R}$ con la topología usual. 
+
+Pruebe que el conjunto 
+
+$$ A = \{ x \in \mathbb{R} : f(x) = g(x) \} $$
+
+es cerrado para dicha topología.

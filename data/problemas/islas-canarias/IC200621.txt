@@ -1,0 +1,3 @@
+Se considera la familia de circunferencias dada por la ecuación:
+
+$$ x^2 + y^2 - 2a\lambda x + \lambda^2 - b^2 = 0 $$

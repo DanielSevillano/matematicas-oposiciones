@@ -1,0 +1,1 @@
+Un número natural tiene dos factores primos y ocho divisores naturales. La suma de sus divisores es 320. Determine dicho número.

@@ -1,0 +1,1 @@
+¿Es posible encontrar tres números naturales $a$, $b$ y $c$, ninguno de ellos cuadrado perfecto, tales que $\sqrt{a} + \sqrt{b} = \sqrt{c}$?

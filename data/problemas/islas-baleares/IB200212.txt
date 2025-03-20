@@ -1,0 +1,1 @@
+Dada una esfera $S$ en $\mathbb{R}^3$ y un plano ecuatorial $\pi$ de la misma, determine el lugar geométrico de los vértices de los conos circunscritos a la esfera $S$ cuya intersección con el plano $\pi$ es una parábola.

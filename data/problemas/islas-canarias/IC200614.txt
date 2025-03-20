@@ -1,0 +1,3 @@
+Se elige al azar un punto en el interior de un cuadrado.  
+
+Calcule la probabilidad de que esté más próximo a algún vértice que al centro del cuadrado.

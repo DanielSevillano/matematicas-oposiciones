@@ -1,0 +1,7 @@
+En el rectángulo $PQRS$ siguiente, el punto $T$ se mueve a lo largo de la diagonal $PR$ del rectángulo.  
+
+Demuestre que:
+
+$$
+a^2 + b^2 = c^2 + d^2
+$$

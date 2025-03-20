@@ -1,0 +1,1 @@
+Demuestre que el número  $\displaystyle N = \frac{5^{125} - 1}{5^{25} - 1}$  es compuesto.

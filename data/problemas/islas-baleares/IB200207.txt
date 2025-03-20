@@ -1,0 +1,5 @@
+En un triángulo $ABC$ la bisectriz interior del ángulo $\angle BAC$ corta al lado $BC$ en el punto $D$.  
+
+Sea $\Gamma$ la circunferencia que pasa por $A$ y es tangente a $BC$ en el punto $D$.  
+
+Si $M$ es el otro punto de intersección de $\Gamma$ con el lado $AC$ y la recta $BM$ corta a la circunferencia $\Gamma$ en el punto $P$, demuestre que $AP$ es una mediana del triángulo $ABD$.
