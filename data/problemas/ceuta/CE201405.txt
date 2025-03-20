@@ -1,11 +1,57 @@
 Consumidores de café en el área de Pontevedra usan tres marcas $A_1$, $A_2$ y $A_3$.  
+En marzo de 1995 se hizo una encuesta en la que se entrevistó a las 8.450 personas que compran café y los resultados se recogen en la tabla siguiente:
 
-En Marzo de 1995 se hizo una encuesta en la que se entrevistó a las 8450 personas que compran café y los resultados se recogen en la tabla siguiente:
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <th colspan="3">Compra en el siguiente mes</th>
+        </tr>
+
+        <tr>
+            <th>Compra actual</th>
+            <th>Marca $A_1$</th>
+            <th>Marca $A_2$</th>
+            <th>Marca $A_3$</th>
+            <th>Totales</th>
+        </tr>
+
+        <tr>
+            <th>Marca $A_1$</th>
+            <td>507</td>
+            <td>845</td>
+            <td>338</td>
+            <td>1.690</td>
+        </tr>
+
+        <tr>
+            <th>Marca $A_2$</th>
+            <td>676</td>
+            <td>2.028</td>
+            <td>676</td>
+            <td>3.380</td>
+        </tr>
+
+        <tr>
+            <th>Marca $A_3$</th>
+            <td>845</td>
+            <td>845</td>
+            <td>1.690</td>
+            <td>3.380</td>
+        </tr>
+
+        <tr>
+            <th>Totales</th>
+            <td>2.028</td>
+            <td>3.718</td>
+            <td>2.704</td>
+            <td>8.450</td>
+        </tr>
+    </table>
+</div>
 
 <ol>
-<li>Si las compras se hacen mensualmente, ¿cuál será la distribución del mercado de café en Pontevedra en el mes de Junio?</li>
-
-<li>A la larga, ¿cómo se distribuirán los clientes del café?</li>
-
-<li>En Junio, ¿cuál es la proporción de clientes leales a sus marcas de café?</li>
+    <li>Si las compras se hacen mensualmente, ¿cuál será la distribución del mercado de café en Pontevedra en el mes de junio?</li>
+    <li>A la larga, ¿cómo se distribuirán los clientes del café?</li>
+    <li>En junio, ¿cuál es la proporción de clientes leales a sus marcas de café?</li>
 </ol>

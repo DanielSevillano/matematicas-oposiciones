@@ -369,6 +369,30 @@
         ]
     },
     {
+        "problema": "AR201401"
+    },
+    {
+        "problema": "AR201402"
+    },
+    {
+        "problema": "AR201403"
+    },
+    {
+        "problema": "AR201404"
+    },
+    {
+        "problema": "AR201405"
+    },
+    {
+        "problema": "AR201406"
+    },
+    {
+        "problema": "AR201407"
+    },
+    {
+        "problema": "AR201408"
+    },
+    {
         "problema": "AS201801",
         "categorias": [
             "Probabilidad"
@@ -725,6 +749,24 @@
         ]
     },
     {
+        "problema": "CE201401"
+    },
+    {
+        "problema": "CE201402"
+    },
+    {
+        "problema": "CE201403"
+    },
+    {
+        "problema": "CE201404"
+    },
+    {
+        "problema": "CE201405"
+    },
+    {
+        "problema": "CE201406"
+    },
+    {
         "problema": "EX201801",
         "categorias": [
             "Análisis"
@@ -889,6 +931,24 @@
     },
     {
         "problema": "GA201609 "
+    },
+    {
+        "problema": "GA201401"
+    },
+    {
+        "problema": "GA201402"
+    },
+    {
+        "problema": "GA201403"
+    },
+    {
+        "problema": "GA201404"
+    },
+    {
+        "problema": "GA201405"
+    },
+    {
+        "problema": "GA201406"
     },
     {
         "problema": "IB201801",
@@ -1142,6 +1202,18 @@
     },
     {
         "problema": "MA201504"
+    },
+    {
+        "problema": "MA201401"
+    },
+    {
+        "problema": "MA201402"
+    },
+    {
+        "problema": "MA201403"
+    },
+    {
+        "problema": "MA201404"
     },
     {
         "problema": "ME201801",
