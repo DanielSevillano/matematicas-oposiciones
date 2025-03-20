@@ -1,1 +1,2 @@
-Sean $X$ e $Y$ dos variables estadísticas incorreladas. Estudie la correlación lineal entre las variables estadísticas $X+Y$ y $X-Y$.
+Sean $X$ e $Y$ dos variables estadísticas incorreladas.
+Estudie la correlación lineal entre las variables estadísticas $X+Y$ y $X-Y$.

@@ -749,22 +749,40 @@
         ]
     },
     {
-        "problema": "CE201401"
+        "problema": "CE201401",
+        "categorias": [
+            "Geometría"
+        ]
     },
     {
-        "problema": "CE201402"
+        "problema": "CE201402",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
-        "problema": "CE201403"
+        "problema": "CE201403",
+        "categorias": [
+            "Estadística"
+        ]
     },
     {
-        "problema": "CE201404"
+        "problema": "CE201404",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "CE201405"
+        "problema": "CE201405",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
-        "problema": "CE201406"
+        "problema": "CE201406",
+        "categorias": [
+            "Análisis"
+        ]
     },
     {
         "problema": "EX201801",
