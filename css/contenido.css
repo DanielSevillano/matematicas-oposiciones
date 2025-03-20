@@ -228,12 +228,15 @@ Tablas
 ********************/
 
 .tabla {
-    --parent-color: var(--container-color-alt);
     max-width: 100%;
     margin-block: 1.5em;
     text-align: center;
     overflow-x: auto;
     overflow-y: hidden;
+}
+
+.tabla mjx-container {
+    background: none;
 }
 
 table {
