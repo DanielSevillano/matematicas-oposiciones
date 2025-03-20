@@ -1,0 +1,178 @@
+<p>
+    En primer lugar, expresamos la función $f$ como una función a trozos.
+    $$f(x) = |x-1|^{\frac{1}{2}} \cdot |x+1|^{\frac{3}{2}} = \begin{cases}
+        (-x + 1)^{\frac{1}{2}} \cdot (-x - 1)^\frac{3}{2}, & \text{si } x < -1 \\
+        (-x + 1)^{\frac{1}{2}} \cdot (x + 1)^\frac{3}{2}, & \text{si } -1 \leq x < 1 \\
+        (x - 1)^{\frac{1}{2}} \cdot (x + 1)^\frac{3}{2}, & \text{si } x \geq 1.
+    \end{cases}$$
+</p>
+
+<ol>
+    <li>
+        Si $x \neq -1$ y $x \neq 1$, $f$ es derivable con:
+        \begin{align}
+            f'(x) & = \begin{cases}
+                -\frac{1}{2}(-x + 1)^{-\frac{1}{2}} \cdot (-x - 1)^\frac{3}{2} - \frac{3}{2}(-x + 1)^\frac{1}{2} \cdot (-x - 1)^\frac{1}{2}, & \text{si } x < -1 \\
+                -\frac{1}{2}(-x + 1)^{-\frac{1}{2}} \cdot (x + 1)^\frac{3}{2} + \frac{3}{2}(-x + 1)^\frac{1}{2} \cdot (x + 1)^\frac{1}{2}, & \text{si } -1 < x < 1 \\
+                \frac{1}{2}(x - 1)^{-\frac{1}{2}} \cdot (x + 1)^\frac{3}{2} + \frac{3}{2}(x - 1)^\frac{1}{2} \cdot (x + 1)^\frac{1}{2}, & \text{si } x > 1
+            \end{cases} = \\
+            & = \begin{cases}
+                -\dfrac{1}{2} \sqrt{\dfrac{(x+1)^3}{x-1}} - \dfrac{3}{2} \sqrt{x^2 - 1}, & \text{si } x < -1 \\
+                -\dfrac{1}{2} \sqrt{\dfrac{(x+1)^3}{-x+1}} + \dfrac{3}{2} \sqrt{1 - x^2}, & \text{si } -1 < x < 1 \\
+                \dfrac{1}{2} \sqrt{\dfrac{(x+1)^3}{x-1}} + \dfrac{3}{2} \sqrt{x^2 - 1}, & \text{si } x > 1.
+            \end{cases}
+        \end{align}
+
+        Hallamos los puntos críticos igualando cada rama de la derivada a cero.
+        
+        <ul>
+            <li>
+                Si $x < -1$,
+                \begin{align}
+                    f'(x) = 0 & \Leftrightarrow -\frac{1}{2} \sqrt{\frac{(x+1)^3}{x-1}} - \frac{3}{2} \sqrt{x^2 - 1} = 0 \Leftrightarrow -\sqrt{\frac{(x+1)^3}{x-1}} = 3\sqrt{x^2 - 1} \Leftrightarrow \\
+                    & \Leftrightarrow \frac{(x+1)^3}{x-1} = 9(x^2 - 1) \Leftrightarrow (x+1)^3 - 9(x+1)(x-1)^2 = 0 \Leftrightarrow \\
+                    & \Leftrightarrow (x+1)((x+1)^2 - 9(x-1)^2) = 0 \Leftrightarrow \\
+                    & \Leftrightarrow \begin{cases}
+                        x + 1 = 0 \Leftrightarrow x = -1 \notin (-\infty, 1), \\
+                        (x+1)^2 - 9(x-1)^2 = 0 \Leftrightarrow -8x^2 + 20x - 8 = 0 \Leftrightarrow \begin{cases}
+                            x = \frac{1}{2} \notin (-\infty, 1), \\
+                            x = 2 \notin(-\infty, 1).
+                        \end{cases}
+                    \end{cases}
+                \end{align}
+            </li>
+
+            <li>
+                Si $-1 < x < 1$,
+                \begin{align}
+                    f'(x) = 0 & \Leftrightarrow -\frac{1}{2} \sqrt{\frac{(x+1)^3}{-x+1}} + \frac{3}{2} \sqrt{1 - x^2} = 0 \Leftrightarrow \sqrt{\frac{(x+1)^3}{-x+1}} = 3\sqrt{1 - x^2} \Leftrightarrow \\
+                    & \Leftrightarrow \frac{(x+1)^3}{-x+1} = 9(1 - x^2) \Leftrightarrow (x+1)^3 - 9(x+1)(x-1)^2 = 0 \Leftrightarrow \\
+                    & \Leftrightarrow (x+1)((x+1)^2 - 9(x-1)^2) = 0 \Leftrightarrow \\
+                    & \Leftrightarrow \begin{cases}
+                        x + 1 = 0 \Leftrightarrow x = -1 \notin (-1, 1), \\
+                        (x+1)^2 - 9(x-1)^2 = 0 \Leftrightarrow -8x^2 + 20x - 8 = 0 \Leftrightarrow \begin{cases}
+                            x = \frac{1}{2} \in (-1, 1), \\
+                            x = 2 \notin(-1, 1).
+                        \end{cases}
+                    \end{cases}
+                \end{align}
+            </li>
+
+            <li>
+                Si $x > 1$,
+                \begin{align}
+                    f'(x) = 0 & \Leftrightarrow \frac{1}{2} \sqrt{\frac{(x+1)^3}{x-1}} + \frac{3}{2} \sqrt{x^2 - 1} = 0 \Leftrightarrow \sqrt{\frac{(x+1)^3}{x-1}} = 3\sqrt{x^2 - 1} \Leftrightarrow \\
+                    & \Leftrightarrow \frac{(x+1)^3}{x-1} = 9(x^2 - 1) \Leftrightarrow (x+1)^3 - 9(x+1)(x-1)^2 = 0 \Leftrightarrow \\
+                    & \Leftrightarrow (x+1)((x+1)^2 - 9(x-1)^2) = 0 \Leftrightarrow \\
+                    & \Leftrightarrow \begin{cases}
+                        x + 1 = 0 \Leftrightarrow x = -1 \notin (1, +\infty), \\
+                        (x+1)^2 - 9(x-1)^2 = 0 \Leftrightarrow -8x^2 + 20x - 8 = 0 \Leftrightarrow \begin{cases}
+                            x = \frac{1}{2} \notin (1, +\infty), \\
+                            x = 2 \in(1, +\infty).
+                        \end{cases}
+                    \end{cases}
+                \end{align}
+            </li>
+        </ul>
+
+        Luego los puntos críticos de la función son $x = \frac{1}{2}$ y $x = 2.$
+        Consideramos también $x = -1$ y $x = 1$ por ser los puntos de ruptura.
+        Estudiamos el signo de la derivada.
+        
+        <ul>
+            <li>
+                Si $x < -1$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $-1 < x < \frac{1}{2}$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $\frac{1}{2} < x < 1$, $f'(x) < 0.$
+                Así que $f$ es decreciente.
+            </li>
+
+            <li>
+                Si $1 < x < 2$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+
+            <li>
+                Si $x > 2$, $f'(x) > 0.$
+                Así que $f$ es creciente.
+            </li>
+        </ul>
+
+        Luego $f$ es creciente en $\left(-1, \frac{1}{2}\right) \cup (1, +\infty)$ y decreciente en $(-\infty, -1) \cup \left(\frac{1}{2}, 1\right)$, con el máximo relativo $\left(\frac{1}{2}, \frac{3\sqrt{3}}{4}\right)$ y los mínimos relativos $(-1, 0)$ y $(1, 0).$
+    </li>
+
+    <li>
+        <ul>
+            <li>
+                Estudiamos la derivabilidad en $x = -1.$
+                \begin{align}
+                    f'_-(-1) & = \lim_{x \to -1^-} f'(x) = \lim_{x \to -1^-} \left(-\frac{1}{2} \sqrt{\frac{(x+1)^3}{x-1}} - \frac{3}{2} \sqrt{x^2 - 1}\right) = 0, \\
+                    f'_+(-1) & = \lim_{x \to -1^+} f'(x) = \lim_{x \to -1^+} \left(-\frac{1}{2} \sqrt{\frac{(x+1)^3}{-x+1}} + \frac{3}{2} \sqrt{1 - x^2}\right) = 0. \\
+                \end{align}
+
+                Observamos que $f'_-(-1) = f'_+(-1)$, así que $f$ es derivable en $x = -1$ con $f'(-1) = 0.$
+            </li>
+
+            <li>
+                Estudiamos la derivabilidad en $x = 1.$
+                \begin{align}
+                    f'_-(1) & = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} \left(-\frac{1}{2} \sqrt{\frac{(x+1)^3}{-x+1}} + \frac{3}{2} \sqrt{1 - x^2}\right) = -\infty, \\
+                    f'_-(1) & = \lim_{x \to 1^-} f'(x) = \lim_{x \to 1^-} \left(\frac{1}{2} \sqrt{\frac{(x+1)^3}{x-1}} + \frac{3}{2} \sqrt{x^2 - 1}\right) = +\infty.
+                \end{align}
+
+                Observamos que $f$ no es derivable por la izquierda ni por la derecha, así que $f$ no es derivable en $x = 1.$
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        Sabemos que se trata de una función continua por ser composición y producto de funciones continuas.
+        Además, se tiene que $f(x) \geq 0$ para todo $x \in \mathbb{R}$, así que $(-1, 0)$ y $(1, 0)$ son mínimos absolutos.
+        Hallamos sus puntos de corte con los ejes coordenados.
+
+        <ul>
+            <li>
+                Estudiamos los puntos de corte de la función con el eje de abscisas.
+                $$f(x) = 0 \Leftrightarrow |x-1|^{\frac{1}{2}} \cdot |x+1|^{\frac{3}{2}} = 0 \Leftrightarrow \begin{cases}
+                    x - 1 = 0 \Leftrightarrow x = 1, \\
+                    x + 1 = 0 \Leftrightarrow x = -1.
+                \end{cases}$$
+
+                Por tanto, los puntos de corte con el eje de abscisas son $(-1, 0)$ y $(1, 0).$
+            </li>
+
+            <li>
+                El punto de corte con el eje de ordenadas es $(0, 1).$
+            </li>
+        </ul>
+
+        Representamos la gráfica de la función con toda esta información.
+        <img src="img/problemas/RAN201606.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        El área encerrada por la gráfica de la función y el eje de abscisas viene dada por:
+        $$S = \int_{-1}^1 f(x)dx = \int_{-1}^1 (-x + 1)^{\frac{1}{2}} \cdot (x + 1)^{\frac{3}{2}}dx = \int_{-1}^1 \sqrt{-x + 1} \cdot (x+1)\sqrt{x+1}dx = \int_{-1}^1 (x+1)\sqrt{1 - x^2}dx.$$
+
+        Realizamos el cambio de variable:
+        \begin{align}
+            x & = \sin(t) \Leftrightarrow t = \arcsin(x), \\
+            dx & = \cos(t)dt.
+        \end{align}
+
+        De esta forma,
+        \begin{align}
+            S & = \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} (\sin(t) + 1)\sqrt{1 - \sin^2(t)} \cdot \cos(t)dt = \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} (\sin(t)+1)\cos^2(t)dt = \\
+            & = \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \sin(t)\cos^2(t)dt + \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \cos^2(t)dt = \left[-\frac{1}{3}\cos^3(t)\right]_{-\frac{\pi}{2}}^{\frac{\pi}{2}} + \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \frac{1 + \cos(2t)}{2}dt = \frac{1}{2}\left[t + \frac{1}{2}\sin(2t)\right]_{-\frac{\pi}{2}}^{\frac{\pi}{2}} = \\
+            & = \frac{1}{2}\left(\frac{\pi}{2} + \frac{\pi}{2}\right) = \frac{\pi}{2} \; u^2.
+        \end{align}
+    </li>
+</ol>
