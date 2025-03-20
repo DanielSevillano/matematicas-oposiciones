@@ -1,0 +1,1 @@
+Halle todas las soluciones de la ecuación $(1+i)z^3 - 2i = 0$.

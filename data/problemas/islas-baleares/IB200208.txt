@@ -1,0 +1,1 @@
+Demuestre que $\tan 15º \cdot \tan 25º \cdot \tan 35º \cdot \tan 85º = 1$.

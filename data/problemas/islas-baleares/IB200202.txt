@@ -1,0 +1,3 @@
+Sean $h_a$, $h_b$ y $h_c$, respectivamente, las alturas correspondientes a los vértices $A$, $B$ y $C$ de un triángulo $ABC$.  
+
+Demuestre que si $h_a = h_b + h_c$, entonces la recta determinada por los pies de las bisectrices interiores de los ángulos $\angle ABC$ y $\angle BCA$ pasa por el baricentro del triángulo.

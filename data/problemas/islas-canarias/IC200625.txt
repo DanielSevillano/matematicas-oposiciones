@@ -1,0 +1,9 @@
+Discuta, según los valores reales de $a$ y $b$, el sistema siguiente y resuélvalo cuando sea compatible determinado.
+
+$$
+\begin{cases}
+ax + by + z = 1 \\
+x + aby + z = b \\
+x + by + az = 1
+\end{cases}
+$$

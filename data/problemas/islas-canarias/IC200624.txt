@@ -1,0 +1,1 @@
+Demuestre que si $f$ es un endomorfismo de un espacio vectorial $E$, una condición necesaria y suficiente para que $f^2 = f \circ f$ sea la aplicación nula es que $\text{Im} f \subset \ker f$.

@@ -1,0 +1,7 @@
+Demuestre que todo número complejo $z \neq -1$ y tal que $|z| = 1$ puede escribirse en la forma:
+
+$$
+z = \frac{1 + ai}{1 - ai}
+$$
+
+donde $a$ es un parámetro real que debe determinarse.

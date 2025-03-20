@@ -1,0 +1,1 @@
+Demuestre que el núcleo de un homomorfismo de anillos es un ideal. 

@@ -1,0 +1,15 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ol>
+<li>Demuestre que para cualquier número real $x > 0$ ocurre que:
+$$
+x - \frac{x^2}{2} < \ln (1 + x) < x
+$$
+</li>
+
+<li>Calcule:
+$$
+\lim\limits_{n \to \infty} \left[ \left( 1 + \frac{1}{n^2} \right) \left( 1 + \frac{2}{n^2} \right) \dots \left( 1 + \frac{n}{n^2} \right) \right]
+$$
+</li>
+</ol>

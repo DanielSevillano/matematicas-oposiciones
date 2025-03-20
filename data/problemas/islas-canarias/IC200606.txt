@@ -1,0 +1,9 @@
+Sea $\mathcal{R} = \{O; \mathbf{u}_1, \mathbf{u}_2\}$ un sistema de referencia sobre el plano afín $\mathbb{R}^2$.  
+
+Se considera la curva que en dicha referencia tiene por ecuación:
+
+$$
+y^2 - x^2 + 3 = 0
+$$
+
+Determine la ecuación de la simétrica de dicha curva respecto del punto $P(1, -2)$.
