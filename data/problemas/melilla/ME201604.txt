@@ -1,1 +1,3 @@
-Se realiza un juego entre dos jugadores $A$ y $B$ que ganará aquél que gane dos partidas. La probabilidad de que el jugador $A$ gane una partida es $p$, la probabilidad de que el jugador $B$ gane una partida es $q$, y la probabilidad de que una partida termine en tablas (empate) es $r$, siendo $p, q, r > 0$. Calcule la probabilidad de que el jugador $A$ gane el juego.
+Se realiza un juego entre dos jugadores $A$ y $B$ que ganará aquel que gane dos partidas.
+La probabilidad de que el jugador $A$ gane una partida es $p$, la probabilidad de que el jugador $B$ gane una partida es $q$, y la probabilidad de que una partida termine en tablas (empate) es $r$, siendo $p, q, r > 0$.
+Calcule la probabilidad de que el jugador $A$ gane el juego.

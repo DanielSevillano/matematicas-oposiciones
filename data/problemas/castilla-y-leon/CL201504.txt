@@ -1,3 +1,2 @@
-En una circunferencia se eligen $n$ puntos al azar y de manera independiente.  
-
+En una circunferencia se eligen $n$ puntos al azar y de manera independiente. 
 Calcule la probabilidad de que los $n$ puntos estén situados en un mismo arco de $\alpha$ radianes $(\alpha < \pi)$.

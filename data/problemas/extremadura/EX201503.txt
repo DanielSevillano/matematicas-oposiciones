@@ -1,7 +1,10 @@
-En un triángulo isósceles <i>ABC</i> cuyos lados iguales son <i>AB</i> y <i>BC</i>, existe un punto <i>P</i> en el lado <i>BC</i> tal que $BP - PA = AC$.  
+En un triángulo isósceles $ABC$ cuyos lados iguales son $AB$ y $BC$, existe un punto $P$ en el lado $BC$ tal que $BP - PA = AC$.
 
 <ol>
-<li>Halle el valor de la razón $\frac{BP}{PC}$. ¿Qué relación tiene con la proporción áurea?</li>
+    <li>
+        Halle el valor de la razón $\frac{BP}{PC}$.
+        ¿Qué relación tiene con la proporción áurea?
+    </li>
 
-<li>Calcule la medida de los ángulos del triángulo <i>ABC</i> y el coseno de dichos ángulos.</li>
+    <li>Calcule la medida de los ángulos del triángulo $ABC$ y el coseno de dichos ángulos.</li>
 </ol>

@@ -1,1 +1,1 @@
-Calcule todos los $(x,y,z,u) \in \mathbb{R}^4$ tales que la suma de cualquiera de sus componentes con el producto de las otras tres dé como resultado 2.
+Calcule todos los $(x, y, z, u) \in \mathbb{R}^4$ tales que la suma de cualquiera de sus componentes con el producto de las otras tres dé como resultado 2.

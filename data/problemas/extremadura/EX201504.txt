@@ -1,13 +1,12 @@
-Calcule el límite siguiente e interprete geométricamente dicho valor:
+<ol>
+    <li>
+        Calcule el límite siguiente e interprete geométricamente dicho valor:
+        $$\lim_{n \to \infty} \frac{1}{n^2} \sum_{k=1}^{n} \left( n + 2\sqrt{2kn} - k^2 \right).$$
+    </li>
 
-$$
-\lim_{n \to \infty} \frac{1}{n^2} \sum_{k=1}^{n} \left( n + 2\sqrt{2kn} - k^2 \right)
-$$
-
-Si $F$ es la función real de variable real definida mediante:
-
-$$
-F(x) = \lim_{n \to \infty} \frac{x^2}{n^2} \sum_{k=1}^{n} \left( n + 2\sqrt{2knx^2} - k^2 x^4 \right),
-$$
-
-determine la función derivada $F'$.
+    <li>
+        Si $F$ es la función real de variable real definida mediante:
+        $$F(x) = \lim_{n \to \infty} \frac{x^2}{n^2} \sum_{k=1}^{n} \left( n + 2\sqrt{2knx^2} - k^2 x^4 \right),$$
+        determine la función derivada $F'$.
+    </li>
+</ol>

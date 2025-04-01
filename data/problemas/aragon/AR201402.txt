@@ -1,13 +1,9 @@
 Calcule el valor del siguiente determinante de orden $n \in \mathbb{N}$:
-
-$$
-A_n =
-\begin{vmatrix}
-\frac{1}{1!} & 1 & 0 & 0 & \dots & 0 \\
-\frac{1}{2!} & \frac{1}{1!} & 1 & 0 & \dots & 0 \\
-\frac{1}{3!} & \frac{1}{2!} & \frac{1}{1!} & 1 & \dots & 0 \\
-\frac{1}{4!} & \frac{1}{3!} & \frac{1}{2!} & \frac{1}{1!} & \dots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
-\frac{1}{n!} & \frac{1}{(n-1)!} & \frac{1}{(n-2)!} & \frac{1}{(n-3)!} & \dots & \frac{1}{1!}
-\end{vmatrix}
-$$
+$$A_n = \begin{vmatrix}
+    \frac{1}{1!} & 1 & 0 & 0 & \dots & 0 \\
+    \frac{1}{2!} & \frac{1}{1!} & 1 & 0 & \dots & 0 \\
+    \frac{1}{3!} & \frac{1}{2!} & \frac{1}{1!} & 1 & \dots & 0 \\
+    \frac{1}{4!} & \frac{1}{3!} & \frac{1}{2!} & \frac{1}{1!} & \dots & 0 \\
+    \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+    \frac{1}{n!} & \frac{1}{(n-1)!} & \frac{1}{(n-2)!} & \frac{1}{(n-3)!} & \dots & \frac{1}{1!}
+\end{vmatrix}.$$

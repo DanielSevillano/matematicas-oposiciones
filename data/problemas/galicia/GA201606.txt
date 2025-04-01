@@ -1,6 +1,6 @@
 Se considera el conjunto $\{1, 2, 3, \dots, n\}$, siendo $n \in \mathbb{N}$.
 
-<ul>
+<ol>
     <li>¿En cuántas de sus permutaciones no coincidirá ninguna cifra en el lugar que le corresponde por orden natural?</li>
     <li>¿Cuál es la probabilidad de que, tomando una permutación al azar, aparezca al menos un número en su lugar?</li>
     <li>
@@ -8,4 +8,4 @@ Se considera el conjunto $\{1, 2, 3, \dots, n\}$, siendo $n \in \mathbb{N}$.
         $$\sigma = (1 \quad 4 \quad 7 \quad \dots \quad 3n - 2 \quad 2 \quad 5 \quad 8 \quad \dots \quad 3n - 1 \quad 3 \quad 6 \quad 9 \quad \dots \quad 3n).$$
     </li>
     <li>Halle un criterio general para los números naturales $n$ tales que la permutación anterior sea de clase par.</li>
-</ul>
+</ol>
