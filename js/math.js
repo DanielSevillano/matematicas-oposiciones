@@ -44,7 +44,7 @@ function normalizar(texto) {
 }
 
 function formatear(elemento) {
-    if (math) MathJax.typeset([elemento]);
+    if (math) window.MathJax.typesetPromise([elemento]);
     else setTimeout(() => formatear(elemento));
 }
 
