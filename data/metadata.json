@@ -175,6 +175,7 @@
     },
     {
         "problema": "AN201401",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
