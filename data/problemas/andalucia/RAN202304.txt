@@ -2,18 +2,16 @@
     <li>
         Calculamos los determinantes.
         \begin{align}
-            & \det(A_1(a)) = \begin{vmatrix}
-                1+a
-            \end{vmatrix} = 1+a, \\
+            & \det(A_1(a)) = 1+a, \\
             & \det(A_2(a)) = \begin{vmatrix}
                 1+a & 1 \\
                 a & 1+a
-            \end{vmatrix} = (1+a)^2 - a = a^2 + a + 1, \\
+            \end{vmatrix} = (1+a)^2 - a = 1 + a + a^2, \\
             & \det(A_3(a)) = \begin{vmatrix}
                 1+a & 1 & 0 \\
                 a & 1+a & 1 \\
                 0 & a & 1+a
-            \end{vmatrix} = (1+a)^3 - 2a(1+a) = a^3 + 3a^2 + 3a + 1 - 2a^2 - 2a = a^3 + a^2 + a + 1.
+            \end{vmatrix} = (1+a)^3 - 2a(1+a) = a^3 + 3a^2 + 3a + 1 - 2a^2 - 2a = 1 + a + a^2 + a^3.
         \end{align}
     </li>
 
@@ -27,21 +25,7 @@
                 \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
                 0 & 0 & 0 & 0 & \dots & 1+a & 1 \\
                 0 & 0 & 0 & 0 & \dots & a & 1+a
-            \end{vmatrix} \overset{\text{1ª fila}}{=} \\
-            & = (1+a) \begin{vmatrix}
-                1+a & 1 & 0 & \dots & 0 & 0 \\
-                a & 1+a & 1 & \dots & 0 & 0 \\
-                \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-                0 & 0 & 0 & \dots & 1+a & 1 \\
-                0 & 0 & 0 & \dots & a & 1+a
-            \end{vmatrix} -
-            \begin{vmatrix}
-                a & 1 & 0 & \dots & 0 & 0 \\
-                0 & 1+a & 1 & \dots & 0 & 0 \\
-                \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
-                0 & 0 & 0 & \dots & 1+a & 1 \\
-                0 & 0 & 0 & \dots & a & 1+a
-            \end{vmatrix} = \\
+            \end{vmatrix} \overset{\text{fila 1}}{=} \\
             & = (1+a) \det(A_{n+1}(a)) -
             \begin{vmatrix}
                 a & 1 & 0 & \dots & 0 & 0 \\
@@ -49,49 +33,43 @@
                 \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
                 0 & 0 & 0 & \dots & 1+a & 1 \\
                 0 & 0 & 0 & \dots & a & 1+a
-            \end{vmatrix} \overset{\text{1ª columna}}{=} \\
-            & = (1+a) \det(A_{n+1}(a)) - a \begin{vmatrix}
-                1+a & 1 & \dots & 0 & 0 \\
-                \vdots & \vdots & \ddots & \vdots & \vdots \\
-                0 & 0 & \dots & 1+a & 1 \\
-                0 & 0 & \dots & a & 1+a
-            \end{vmatrix} =  \\
+            \end{vmatrix} \overset{\text{columna 1}}{=} \\
             & = (1+a) \det(A_{n+1}(a)) - a\det(A_n(a)).
         \end{align}
     </li>
 
     <li>
-        Observamos que las expresiones de los primeros determinantes desarrollados en el apartado (a) apuntan a que
-        $$\det(A_n(a)) = a^n + a^{n-1} + \dots + a + 1, \quad \forall n \in \mathbb{N}.$$
+        Observamos que las expresiones de los primeros determinantes desarrollados en el apartado (a) apuntan a que:
+        $$\det(A_n(a)) = 1 + a + \ldots + a^{n-1} + a^n, \quad \forall n \in \mathbb{N}.$$
 
         Demostremos esta igualdad por inducción.
         
         <ul>
             <li>
                 Si $n = 1$, se verifica que
-                $$\det(A_1(a)) = 1+a.$$
+                $$\det(A_1(a)) = 1 + a.$$
             </li>
 
             <li>
                 Supongamos que la igualdad se verifica hasta $n+1.$
                 En particular, se tiene que
                 \begin{align}
-                    & \det(A_n(a)) = a^n + a^{n-1} + \dots + a + 1, \\
-                    & \det(A_{n+1}(a)) = a^{n+1} + a^n + \dots + a + 1.
+                    & \det(A_n(a)) = 1 + a + \ldots + a^{n-1} + a^n, \\
+                    & \det(A_{n+1}(a)) = 1 + a + \ldots + a^n + a^{n+1}.
                 \end{align}
 
                 Veamos que la igualdad es cierta para $n+2.$
                 \begin{align}
                     \det(A_{n+2}(a)) & \overset{\text{(b)}}{=} (1+a) \det(A_{n+1}(a)) - a\det(A_n(a)) = \\
-                    & = (1+a)(a^{n+1} + a^n + \dots + a + 1) - a(a^n + a^{n-1} + \dots + a + 1) = \\
-                    & = (a^{n+1} + a^n + \dots + a + 1) + (a^{n+2} + a^{n+1} + \dots + a^2 + a) - (a^{n+1} + a^n + \dots + a^2 + a) = \\
-                    & = a^{n+2} + a^{n+1} + \dots + a + 1.
+                    & = (1+a)(1 + a + \ldots + a^n + a^{n+1}) - a(1 + a + \ldots + a^{n-1} + a^n) = \\
+                    & = 1 + a + \ldots + a^n + a^{n+1} + a + a^2 + \ldots + a^{n+1} + a^{n+2} - a - a^2 - \ldots - a^n - a^{n+1} = \\
+                    & = 1 + a + \ldots + a^{n+1} + a^{n+2}.
                 \end{align}
             </li>
         </ul>
 
         Por tanto,
-        $$\det(A_n(a)) = a^n + a^{n+1} + \dots + a + 1, \quad \forall n \in \mathbb{N}.$$
+        $$\det(A_n(a)) = 1 + a + \ldots + a^{n-1} + a^n, \quad \forall n \in \mathbb{N}.$$
     </li>
 
     <li>
@@ -161,7 +139,7 @@
                 \vdots & \vdots & \vdots & \ddots & \vdots & 0 \\
                 0 & 0 & 0 & \dots & 1+a & 0 \\
                 0 & 0 & 0 & \dots & a & b
-            \end{vmatrix} \overset{\text{col. } n}{=} b \begin{vmatrix}
+            \end{vmatrix} \overset{\text{columna } n}{=} b \begin{vmatrix}
                 1+a & 1 & 0 & \dots & 0 \\
                 a & 1+a & 1 & \dots & 0 \\
                 0 & a & 1+a & \dots & 0 \\
