@@ -17,10 +17,7 @@
         $$\left(x - \frac{1}{2}\right)^2 + \left(y - \frac{3}{2}\right)^2 = 9 \Leftrightarrow y = \frac{1}{2} \pm \sqrt{9 - \left(x - \frac{1}{2}\right)^2}.$$
 
         Observamos que:
-        $$9 - \left(x - \frac{1}{2}\right)^2 = 0 \Leftrightarrow \left|x - \frac{1}{2}\right| = 3 \Leftrightarrow \begin{cases}
-            x = -\frac{5}{2}, \\
-            x = \frac{7}{2}.
-        \end{cases}$$
+        $$9 - \left(x - \frac{1}{2}\right)^2 \geq 0 \Leftrightarrow \left|x - \frac{1}{2}\right| \leq 3 \Leftrightarrow x \in \left[-\frac{5}{2}, \frac{7}{2}\right].$$
 
         Sean $f_1, f_2: \left[-\frac{5}{2}, \frac{7}{2}\right] \to \mathbb{R}$ las funciones definidas por:
         $$f_1(x) = \frac{1}{2} - \sqrt{9 - \left(x - \frac{1}{2}\right)^2}, \quad f_2(x) = \frac{1}{2} + \sqrt{9 - \left(x - \frac{1}{2}\right)^2}.$$
