@@ -244,6 +244,7 @@
     },
     {
         "problema": "AN200606",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
