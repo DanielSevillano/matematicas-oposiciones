@@ -182,6 +182,7 @@
     },
     {
         "problema": "AN201402",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]

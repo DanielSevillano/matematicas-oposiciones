@@ -1,0 +1,70 @@
+<ol>
+    <li>
+        En primer lugar, desarrollamos la expresión del miembro derecho.
+        $$(z + i)(az^2 + bz + c) = az^3 + bz^2 + cz + aiz^2 + biz + ci = az^3 + (b + ai)z^2 + (c + bi)z + ci.$$
+
+        Así que:
+        \begin{align}
+            & z^3 + z^2(5i - 6) + z(9 - 24i) + 18 + 13i = (z+i)(az^2 + bz + c) \Leftrightarrow \\
+            & \Leftrightarrow z^3 + z^2(5i - 6) + z(9 - 24i) + 18 + 13i = az^3 + (b + ai)z^2 + (c + bi)z + ci \Leftrightarrow \\
+            & \Leftrightarrow \begin{cases}
+                a = 1, \\
+                b + ai = 5i - 6, \\
+                c + bi = 9 - 24i, \\
+                ci = 18 + 13i
+            \end{cases} \Leftrightarrow \begin{cases}
+                a = 1, \\
+                b = -6 + 4i, \\
+                c = 13 - 18i.
+            \end{cases}.
+        \end{align}
+    </li>
+
+    <li>
+        Por el apartado anterior, podemos reescribir la ecuación.
+        \begin{align}
+            & z^3 + z^2(5i - 6) + z(9 - 24i) + 18 + 13i = 0 \Leftrightarrow (z + i)(z^2 + (-6 + 4i)z + 13 - 18i) = 0 \Leftrightarrow \\
+            & \Leftrightarrow \begin{cases}
+                z + i = 0 \Leftrightarrow z = -i, \\
+                z^2 + (-6 + 4i)z + 13 - 18i = 0.
+            \end{cases}
+        \end{align}
+
+        Resolvemos la ecuación de segundo grado.
+        $$z^2 + (-6 + 4i)z + 13 - 18i = 0 \Leftrightarrow z = \frac{6 - 4i \pm \sqrt{20 - 48i - 52 + 72i}}{2} = 3 - 2i \pm \sqrt{-8 + 6i}.$$
+
+        Para hallar la raíz cuadrada, escribimos el número en forma polar.
+        $$-8 + 6i = 10_\alpha, \quad \text{con } \alpha = \arccos\left(-\frac{4}{5}\right).$$
+
+        Luego una raíz cuadrada es:
+        \begin{align}
+            \sqrt{10_\alpha} & = \sqrt{10}_{\frac{\alpha}{2}} = \sqrt{10}\cos\left(\frac{\alpha}{2}\right) + i\sqrt{10}\sin\left(\frac{\alpha}{2}\right) = \sqrt{10} \cdot \sqrt{\frac{1+\cos(\alpha)}{2}} + i\sqrt{10} \cdot \sqrt{\frac{1-\cos(\alpha)}{2}} = \\
+            & = \sqrt{5} \cdot \sqrt{1 + \cos(\alpha)} + i\sqrt{5} \cdot \sqrt{1 - \cos(\alpha)} = \sqrt{5} \cdot \sqrt{1 - \frac{4}{5}} + i\sqrt{5} \cdot \sqrt{1 + \frac{4}{5}} = 1 + 3i.
+        \end{align}
+
+        Así que:
+        $$z^2 + (-6 + 4i)z + 13 - 18i = 0 \Leftrightarrow z = 3 - 2i \pm (1 + 3i) \Leftrightarrow \begin{cases}
+            z = 2 -  5i, \\
+            z = 4 + i.
+        \end{cases}$$
+
+        Por tanto, las soluciones de la ecuación son:
+        $$z_1 = -i, \quad z_2 = 2 - 5i, \quad z_3 = 4 + i.$$
+    </li>
+
+    <li>
+        Representamos las soluciones en el plano complejo.
+        <img src="img/problemas/RAN201402.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Calculamos las longitudes de los lados.
+        \begin{align}
+            & \dist(z_1, z_2) = |z_1 - z_2| = |-4 - 2i| = \sqrt{4^2 + 2^2} = \sqrt{20} \; u, \\
+            & \dist(z_1, z_3) = |z_1 - z_3| = |-2 + 4i| = \sqrt{2^2 + 4^2} = \sqrt{20} \; u, \\
+            & \dist(z_2, z_3) = |z_2 - z_3| = |2 + 6i| = \sqrt{2^2 + 6^2} = \sqrt{40} \; u.
+        \end{align}
+
+        Por tanto, se trata de un triángulo isósceles.
+    </li>
+</ol>
