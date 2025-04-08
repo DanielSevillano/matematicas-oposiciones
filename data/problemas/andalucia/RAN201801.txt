@@ -1,7 +1,7 @@
 <ol>
     <li>
-        Para hallar el rango de la matriz de coeficientes $A$ y la matriz ampliada $(A|b)$, realizamos transformaciones elementales.
-        $$(A|b) = \left(\begin{array}{ccc|c}
+        Para hallar el rango de la matriz de coeficientes $A$ y la matriz ampliada $A^\ast$, realizamos transformaciones elementales.
+        $$A^\ast = \left(\begin{array}{ccc|c}
             -1 & 2 & 0 & 0 \\
             0 & 1 & -1 & 1 \\
             -1 & 1 & 1 & \alpha - 2 \\
@@ -25,17 +25,17 @@
 
         <ul>
             <li>
-                Si $\alpha \neq \pm 1$, $\rang(A|b) = 4.$
+                Si $\alpha \neq \pm 1$, $\rang(A^\ast) = 4.$
                 Por el teorema de Rouché-Frobenius, el sistema es incompatible.
             </li>
 
             <li>
-                Si $\alpha = -1$, $\rang(A|b) = 3.$
+                Si $\alpha = -1$, $\rang(A^\ast) = 3.$
                 Por el teorema de Rouché-Frobenius, el sistema es incompatible.
             </li>
 
             <li>
-                Si $\alpha = 1$, $\rang(A|b) = 2.$
+                Si $\alpha = 1$, $\rang(A^\ast) = 2.$
                 Por el teorema de Rouché-Frobenius, el sistema es compatible indeterminado.
             </li>
         </ul>

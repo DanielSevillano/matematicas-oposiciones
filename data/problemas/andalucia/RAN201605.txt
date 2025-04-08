@@ -1,7 +1,7 @@
 <p>
-    Para hallar el rango de la matriz de coeficientes $A$ y la matriz ampliada $(A|b)$, realizamos transformaciones elementales.
+    Para hallar el rango de la matriz de coeficientes $A$ y la matriz ampliada $A^\ast$, realizamos transformaciones elementales.
     \begin{align}
-        (A|b) & = \left(\begin{array}{cccc|c}
+        A^\ast & = \left(\begin{array}{cccc|c}
             -1 & 1+\lambda & 2-\lambda & \lambda & 3 \\
             \lambda & 1 & 2-\lambda & \lambda & 2 \\
             \lambda & \lambda & 2-\lambda & \lambda & 2 \\
@@ -51,7 +51,7 @@
 
 <ul>
     <li>
-        Si $\lambda \neq -1$, $\lambda \neq 1$ y $\lambda \neq 2$, $\rang(A) = \rang(A|b) = 4.$
+        Si $\lambda \neq -1$, $\lambda \neq 1$ y $\lambda \neq 2$, $\rang(A) = \rang(A^\ast) = 4.$
         Por el teorema de Rouché-Frobenius, el sistema es compatible determinado.
         Queda de la forma:
         $$\begin{cases}
@@ -84,7 +84,7 @@
 
     <li>
         Si $\lambda = -1$, la matriz ampliada es:
-        $$(A|b) = \left(\begin{array}{cccc|c}
+        $$A^\ast = \left(\begin{array}{cccc|c}
             -1 & 0 & 3 & -1 & 3 \\
             0 & 1 & 0 & 0 & -1 \\
             0 & -2 & 0 & 0 & 0 \\
@@ -107,7 +107,7 @@
     <li>
         Si $\lambda = 1$, la matriz ampliada es:
         \begin{align}
-            (A|b) & = \left(\begin{array}{cccc|c}
+            A^\ast & = \left(\begin{array}{cccc|c}
                 -1 & 2 & 1 & 1 & 3 \\
                 2 & -1 & 0 & 0 & -1 \\
                 0 & 0 & 0 & 0 & 0 \\
@@ -139,7 +139,7 @@
         \begin{vmatrix}
             3 & 1 \\
             2 & 0
-        \end{vmatrix} = -2 \neq 0 \Rightarrow \rang(A) = \rang(A|b) = 3.$$
+        \end{vmatrix} = -2 \neq 0 \Rightarrow \rang(A) = \rang(A^\ast) = 3.$$
 
         Por el teorema de Rouché-Frobenius, el sistema es compatible indeterminado.
         Queda de la forma:
@@ -161,7 +161,7 @@
     <li>
         Si $\lambda = 2$, la matriz ampliada es:
         \begin{align}
-            (A|b) & = \left(\begin{array}{cccc|c}
+            A^\ast & = \left(\begin{array}{cccc|c}
                 -1 & 3 & 0 & 2 & 3 \\
                 3 & -2 & 0 & 0 & -1 \\
                 0 & 1 & 0 & 0 & 0 \\
