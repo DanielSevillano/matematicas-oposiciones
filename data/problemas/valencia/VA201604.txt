@@ -1,6 +1,7 @@
-Con un solo corte recto puedes dividir un pastel circular en dos partes. Un segundo corte que atraviese el primero producirá, probablemente, cuatro partes, y un tercer corte puede llegar a producir siete partes.
+Con un solo corte recto puedes dividir un pastel circular en dos partes.
+Un segundo corte que atraviese el primero producirá, probablemente, cuatro partes, y un tercer corte puede llegar a producir siete partes.
 
-<ul>
+<ol>
     <li>¿Cuál es el mayor número de trozos que puedes obtener con seis cortes rectos?</li>
     <li>¿Y, en general, cuántos pedazos de pastel se obtienen con $n$ cortes?</li>
-</ul>
+</ol>

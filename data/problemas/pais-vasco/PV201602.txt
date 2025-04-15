@@ -1,1 +1,2 @@
-A partir de un triángulo cualquiera $MNP$, y alargando sus lados, se construye un nuevo triángulo $ABC$ de tal forma que los puntos $M$, $N$ y $P$ son, respectivamente, los puntos medios de los segmentos $AN$, $BP$ y $CM$. Calcule la relación entre las áreas de los triángulos $ABC$ y $MNP$.
+A partir de un triángulo cualquiera $MNP$, y alargando sus lados, se construye un nuevo triángulo $ABC$ de tal forma que los puntos $M$, $N$ y $P$ son, respectivamente, los puntos medios de los segmentos $AN$, $BP$ y $CM$.
+Calcule la relación entre las áreas de los triángulos $ABC$ y $MNP$.

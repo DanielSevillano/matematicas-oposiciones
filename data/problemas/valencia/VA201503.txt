@@ -1,11 +1,7 @@
 Dada la función real de variable real definida por
-
-$$
-f(x) = \frac{x^3}{(1 + x)^2}
-$$
+$$f(x) = \frac{x^3}{(1 + x)^2}.$$
 
 <ol>
-<li>Represente gráficamente la función $f$ haciendo un estudio previo de sus propiedades.</li>
-
-<li>Halle el área de la región acotada comprendida entre la gráfica de la función, la asíntota oblicua de la curva $y = f(x)$ y la recta $4y + 7x - 8 = 0$.</li>
+    <li>Represente gráficamente la función $f$ haciendo un estudio previo de sus propiedades.</li>
+    <li>Halle el área de la región acotada comprendida entre la gráfica de la función, la asíntota oblicua de la curva $y = f(x)$ y la recta $4y + 7x - 8 = 0$.</li>
 </ol>

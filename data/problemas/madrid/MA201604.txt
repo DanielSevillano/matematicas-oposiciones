@@ -1,6 +1,8 @@
-Tres máquinas $A$, $B$ y $C$ producen una determinada pieza. La máquina $A$ la elabora con una longitud que se distribuye según una distribución normal de parámetros $\mu = 165$ y $\sigma = 5$; la máquina $B$ la fabrica con una longitud que se distribuye según una distribución normal de parámetros $\mu = 175$ y $\sigma = 5$, y la máquina $C$ también las hace con una longitud que se distribuye normalmente de parámetros $\mu = 170$ y $\sigma = 5$. Las longitudes son en metros y las tres máquinas fabrican en gran cantidad.
+Tres máquinas A, B y C producen una determinada pieza.
+La máquina A la elabora con una longitud que se distribuye según una distribución normal de parámetros $\mu = 165$ y $\sigma = 5$; la máquina B la fabrica con una longitud que se distribuye según una distribución normal de parámetros $\mu = 175$ y $\sigma = 5$, y la máquina C también las hace con una longitud que se distribuye normalmente de parámetros $\mu = 170$ y $\sigma = 5$.
+Las longitudes son en metros y las tres máquinas fabrican en gran cantidad.
 
-<ul>
-    <li>El 50% de la producción la hace la máquina $A$, el 20% de la producción la realiza la máquina $B$ y el resto la máquina $C$. Se eligen tres piezas al azar y se sabe que miden más de 173 m. cada una, ¿cuál es la probabilidad de que pertenezcan a la tercera máquina?</li>
-    <li>Si se eligen 100 piezas al azar de la máquina $B$, independientes unas de otras, ¿cuál es la probabilidad de que al menos 60 midan más de 173 m?</li>
-</ul>
+<ol>
+    <li>El 50% de la producción la hace la máquina A, el 20% de la producción la realiza la máquina B y el resto la máquina C. Se eligen tres piezas al azar y se sabe que miden más de 173 m. cada una, ¿cuál es la probabilidad de que pertenezcan a la tercera máquina?</li>
+    <li>Si se eligen 100 piezas al azar de la máquina B, independientes unas de otras, ¿cuál es la probabilidad de que al menos 60 midan más de 173 m?</li>
+</ol>

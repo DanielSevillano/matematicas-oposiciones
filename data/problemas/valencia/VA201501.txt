@@ -1,15 +1,8 @@
-Sean $f$ y $g$ dos endomorfismos del espacio vectorial $\mathbb{R}^3$ definidos para todo $(x,y,z) \in \mathbb{R}^3$ como sigue:
-
-$$
-f(x,y,z) = (x + y, 2x - z, 2y + z),
-\quad
-g(x,y,z) = (x,y,0).
-$$
+Sean $f$ y $g$ dos endomorfismos del espacio vectorial $\mathbb{R}^3$ definidos para todo $(x, y, z) \in \mathbb{R}^3$ como sigue:
+$$f(x, y, z) = (x + y, 2x - z, 2y + z), \quad g(x, y, z) = (x, y, 0).$$
 
 <ol>
-<li>Halle una base, unas ecuaciones y la dimensión del núcleo de $f$ y del núcleo de $g$.</li>
-
-<li>Halle una base, unas ecuaciones y la dimensión de la imagen de $f$ y de la imagen de $g$.</li>
-
-<li>Determine las matrices asociadas a los endomorfismos $f$, $g$, $f \circ g$ y $g \circ f$ en la base canónica de $\mathbb{R}^3$.</li>
+    <li>Halle una base, unas ecuaciones y la dimensión del núcleo de $f$ y del núcleo de $g$.</li>
+    <li>Halle una base, unas ecuaciones y la dimensión de la imagen de $f$ y de la imagen de $g$.</li>
+    <li>Determine las matrices asociadas a los endomorfismos $f$, $g$, $f \circ g$ y $g \circ f$ en la base canónica de $\mathbb{R}^3$.</li>
 </ol>
