@@ -18,3 +18,5 @@ En el ejemplo de la cuadrícula continua que figura tras este enunciado, la form
 La formación inicial de cuatro fichas se estabiliza en dos generaciones.
 Realice un estudio de las cinco posibles formaciones iniciales de cuatro fichas conectadas entre sí.
 ¿Cuál de ellas es la que tiene una "vida" más larga antes de estabilizarse o ser periódica?
+
+<img src="img/problemas/VA201606.jpg" alt="Figura" loading="lazy">
