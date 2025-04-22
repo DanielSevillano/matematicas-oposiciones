@@ -1,18 +1,14 @@
 El número de años que dura un equipo de música es una variable aleatoria $X$ con una función de densidad de probabilidad dada por:
-
-$$
-f(x) =
+$$f(x) =
 \begin{cases}
-0, & \text{si } x \leq 0 \\
-a e^{-bx}, & \text{si } x > 0
-\end{cases}
-\quad (a, b \in \mathbb{R})
-$$
+    0, & \text{si } x \leq 0, \\
+    a e^{-bx}, & \text{si } x > 0,
+\end{cases} \quad (a, b \in \mathbb{R}).$$
 
 Si la duración media de un equipo de música es de 15 años, se pide:
 
-<ul>
+<ol>
     <li>Calcule $a$ y $b$.</li>
     <li>Si el equipo ha funcionado bien los tres primeros años, ¿cuál es la probabilidad de que dure un año más?</li>
     <li>Calcule la desviación típica y la función de distribución de la variable $X$.</li>
-</ul>
+</ol>

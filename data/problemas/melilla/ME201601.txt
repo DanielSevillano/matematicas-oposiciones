@@ -1,5 +1,2 @@
 Calcule la integral:
-
-$$
-\int \frac{x^3 - x^2 + 2x}{x^4 + x^2 + 1} \,dx
-$$
+$$\int \frac{x^3 - x^2 + 2x}{x^4 + x^2 + 1} \,dx.$$

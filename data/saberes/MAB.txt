@@ -135,7 +135,7 @@
         <ul>
             <li>MAB.4.E.1.1. Estrategias de recogida y organización de datos de una situación de la vida cotidiana que
                 involucren una variable estadística bidimensional. Tablas de contingencia.</li>
-            <li>MAB.4.E.1.2. Análisis e interpretación de tablas y gráficos estadísticos de una y variables
+            <li>MAB.4.E.1.2. Análisis e interpretación de tablas y gráficos estadísticos de una y dos variables
                 cualitativas, cuantitativas discretas y cuantitativas continuas en contextos reales.</li>
             <li>MAB.4.E.1.3. Medidas de localización y dispersión: interpretación y análisis de la variabilidad.</li>
             <li>MAB.4.E.1.4. Gráficos estadísticos de una y dos variables: representación mediante diferentes

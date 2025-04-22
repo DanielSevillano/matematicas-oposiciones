@@ -1,9 +1,4 @@
 Dadas dos semicircunferencias $S_1$ y $S_2$, iguales y tangentes entre sí, cuyos diámetros están sobre una misma recta $s$, se considera la recta $t$ que es paralela a $s$ y tangente a $S_1$ y $S_2$.  
-
 Sea $C_1$ la circunferencia que es tangente a $S_1$, a $S_2$ y a $t$; y entiéndase por $C_n$ la circunferencia que es tangente a $S_1$, a $S_2$ y a $C_{n-1}$, para $n \geq 2$.  
-
 Use esta construcción geométrica para probar que
-
-$$
-\frac{1}{1 \cdot 2} + \frac{1}{2 \cdot 3} + \frac{1}{3 \cdot 4} + \dots + \frac{1}{n (n+1)} + \dots = 1.
-$$
+$$\frac{1}{1 \cdot 2} + \frac{1}{2 \cdot 3} + \frac{1}{3 \cdot 4} + \dots + \frac{1}{n (n+1)} + \dots = 1.$$

@@ -1,7 +1,3 @@
 Como aplicación de la integral definida, obtenga el volumen de un sólido cuya base es el círculo de inecuación:
-
-$$
-x^2 + y^2 - 4x \leq 0
-$$
-
+$$x^2 + y^2 - 4x \leq 0$$
 en cierta referencia rectangular del espacio euclídeo, sabiendo que cuando a dicho sólido se le producen secciones perpendiculares al eje $OX$, se obtienen triángulos cuya altura es el cuadrado de la distancia de cada sección al origen de coordenadas.

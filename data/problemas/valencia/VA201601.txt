@@ -1,9 +1,18 @@
 Responda razonadamente a las siguientes cuestiones:
 
-<ul>
-    <li>Sea $C$ una circunferencia y $P$ un punto del plano euclídeo exterior a la circunferencia. Sea $s$ una recta que pasa por $P$ y es secante con $C$. Si $A$ y $B$ son los puntos de corte de la circunferencia con $s$, demuestre que el producto $PA \cdot PB$ no depende de la recta secante $s$ elegida.</li>
+<ol>
+    <li>
+        Sea $C$ una circunferencia y $P$ un punto del plano euclídeo exterior a la circunferencia.
+        Sea $s$ una recta que pasa por $P$ y es secante con $C$.
+        Si $A$ y $B$ son los puntos de corte de la circunferencia con $s$, demuestre que el producto $PA \cdot PB$ no depende de la recta secante $s$ elegida.
+    </li>
     
-    <li>En un terreno llano se ha construido un estanque de planta circular en el que la superficie libre de agua enrasa con el terreno. El estanque está centrado en el punto $C(43,31)$ y su radio es de 30 m. Un pato, situado inicialmente en el punto $P(3,1)$, marcha en línea recta y con velocidades uniformes de 0,32 m/s y 0,96 m/s, sobre tierra y nadando, respectivamente, con el fin de llegar a la orilla opuesta. Determine la dirección que debe tomar el pato para que la duración del recorrido sea la mínima posible y calcule el tiempo correspondiente.</li>
-</ul>
+    <li>
+        En un terreno llano se ha construido un estanque de planta circular en el que la superficie libre de agua enrasa con el terreno.
+        El estanque está centrado en el punto $C(43, 31)$ y su radio es de 30 m.
+        Un pato, situado inicialmente en el punto $P(3, 1)$, marcha en línea recta y con velocidades uniformes de 0,32 m/s y 0,96 m/s, sobre tierra y nadando, respectivamente, con el fin de llegar a la orilla opuesta.
+        Determine la dirección que debe tomar el pato para que la duración del recorrido sea la mínima posible y calcule el tiempo correspondiente.
+    </li>
+</ol>
 
-<b> Nota: </b> La dirección del pato debe ser expresada en función de una razón trigonométrica.
+<b>Nota:</b> La dirección del pato debe ser expresada en función de una razón trigonométrica.

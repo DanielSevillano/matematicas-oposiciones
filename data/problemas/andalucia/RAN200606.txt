@@ -1,0 +1,54 @@
+<p>
+    En primer lugar, hallamos los determinantes de las primeras matrices.
+    \begin{align}
+        |D_1| & = 1 + x^2, \\
+        |D_2| & = \begin{vmatrix}
+            1+x^2 & x \\
+            x & 1+x^2
+        \end{vmatrix} = (1 + x^2)^2 - x^2 = 1 + 2x^2 + x^4 - x^2 = 1 + x^2 + x^4, \\
+        |D_3| & = \begin{vmatrix}
+            1+x^2 & x & 0 \\
+            x & 1+x^2 & x \\
+            0 & x & 1+x^2
+        \end{vmatrix} = (1+x^2)^3 - 2x^2(1+x^2) = 1 + 3x^2 + 3x^4 + x^6 - 2x^2 - 2x^4 = \\
+        & = 1 + x^2 + x^4 + x^6.
+    \end{align}
+
+    Veamos que $D_n = 1 + x^2 + x^4 + \ldots + x^{2n}$ para todo $n \in \mathbb{N}$ por inducción.
+</p>
+
+<ul>
+    <li>
+        Si $n = 1$, se verifica que $D_1 = 1 + x^2$.
+    </li>
+
+    <li>
+        Supongamos que la igualdad se verifica hasta $n$ y veamos que es cierta para $n+1$.
+        \begin{align}
+            D_{n+1} & = \begin{vmatrix}
+                1+x^2 & x & 0 & 0 & \dots & 0 & 0 \\
+                x & 1+x^2 & x & 0 & \dots & 0 & 0 \\
+                0 & x & 1+x^2 & x & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & 0 & 0 & \dots & 1+x^2 & x \\
+                0 & 0 & 0 & 0 & \dots & x & 1+x^2
+            \end{vmatrix} \overset{\text{fila 1}}{=} \\
+            & = (1+x^2)D_n - x
+            \begin{vmatrix}
+                x & x & 0 & \dots & 0 & 0 \\
+                0 & 1+x^2 & x & \dots & 0 & 0 \\
+                \vdots & \vdots & \vdots & \ddots & \vdots & \vdots \\
+                0 & 0 & 0 & \dots & 1+x^2 & x \\
+                0 & 0 & 0 & \dots & x & 1+x^2
+            \end{vmatrix} \overset{\text{columna 1}}{=} (1+x^2)D_n - x^2D_{n-1} = \\
+            & = (1+x^2)(1 + x^2 + x^4 + \ldots + x^{2n}) - x^2(1 + x^2 + \ldots + x^{2n-2}) = \\
+            & = 1 + x^2 + x^4 + \ldots + x^{2n} + x^2 + x^4 + x^6 + \ldots + x^{2n} + x^{2n+2} - x^2 - x^4 - x^6 - \ldots - x^{2n} = \\
+            & = 1 + x^2 + x^4 + \ldots + x^{2n} + x^{2(n+1)}.
+        \end{align}
+    </li>
+</ul>
+
+<p>
+    Por tanto,
+    $$D_n = 1 + x^2 + x^4 + \ldots + x^{2n}, \quad n \in \mathbb{N}.$$
+</p>

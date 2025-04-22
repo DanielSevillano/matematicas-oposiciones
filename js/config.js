@@ -12,6 +12,8 @@ window.MathJax = {
             Id: "\\operatorname{Id}",
             Im: "\\operatorname{Im}",
             ker: "\\operatorname{Ker}",
+            lim: "\\mathop{\\,\\:\\mathrm{lím}\\,\\:}",
+            max: "\\mathop{\\,\\mathrm{máx}\\,}",
             mod: "\\operatorname{mod}",
             Pot: "\\operatorname{Pot}",
             rang: "\\operatorname{rang}",
@@ -21,7 +23,14 @@ window.MathJax = {
         }
     },
     options: {
-        enableMenu: false
+        enableMenu: false,
+        menuOptions: {
+            settings: {
+                braille: false,
+                speech: false,
+                enrich: false
+            }
+        }
     },
     startup: {
         ready: () => {

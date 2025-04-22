@@ -1,16 +1,18 @@
-Se considera el espacio vectorial real $\mathbb{R}^2$ y se define la aplicación
+Se considera el espacio vectorial real $\mathbb{R}^2$ y se define la aplicación $F: \mathbb{R}^2 \times \mathbb{R}^2 \to \mathbb{R}$ tal que
+$$F((x_1, x_2), (y_1, y_2)) = x_1 y_1 - x_1 y_2 - x_2 y_1 + a x_2 y_2.$$
 
-$$
-F : \mathbb{R}^2 \times \mathbb{R}^2 \to \mathbb{R} \text{ tal que}
-$$
-
-$$
-F((x_1, x_2), (y_1, y_2)) = x_1 y_1 - x_1 y_2 - x_2 y_1 + a x_2 y_2
-$$
-
-<ul>
+<ol>
     <li>Determine los valores de $a \in \mathbb{R}$ para los cuales el par $(\mathbb{R}^2, F)$ es un espacio vectorial euclídeo y calcule la matriz de la métrica en la base canónica.</li>
+    
     <li>Para los valores de $a$ que lo permitan, calcule la base ortonormal de $(\mathbb{R}^2, F)$. ¿Cuál es la matriz de la métrica en esa base?</li>
-    <li>Sea $(\mathbb{R}^3, G)$ el espacio vectorial euclídeo que hace ortonormal a la base $B = \{(1,1,0), (1,0,0), (1,1,1)\}$. Dé la matriz coordenada de la métrica $G$ en la base canónica.</li>
-    <li>Supongamos que $\mathbf{A}$ es una matriz simétrica real $n \times n$ que satisface la condición $$\mathbf{A}^3 - 3 \mathbf{A}^2 + 6 \mathbf{A} - 2 \mathbf{I} = \mathbf{0}$$ donde $\mathbf{I}$ y $\mathbf{0}$ son las matrices unidad y nula de tamaño $n \times n$, respectivamente. Demuestre que existe un único $c \in \mathbb{R}$ de tal manera que $$\mathbf{A} = c \mathbf{I}.$$</li>
-</ul>
+    
+    <li>
+        Sea $(\mathbb{R}^3, G)$ el espacio vectorial euclídeo que hace ortonormal a la base $B = \{(1, 1, 0), (1, 0, 0), (1, 1, 1)\}$.
+        Dé la matriz coordenada de la métrica $G$ en la base canónica.
+    </li>
+
+    <li>
+        Supongamos que $A$ es una matriz simétrica real $n \times n$ que satisface la condición $$A^3 - 3 A^2 + 6 A - 2I = O$$ donde $I$ y $O$ son las matrices unidad y nula de tamaño $n \times n$, respectivamente.
+        Demuestre que existe un único $c \in \mathbb{R}$ de tal manera que $A = cI.$
+    </li>
+</ol>

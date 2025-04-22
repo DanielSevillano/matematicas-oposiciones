@@ -1,7 +1,5 @@
-En el rectángulo $PQRS$ siguiente, el punto $T$ se mueve a lo largo de la diagonal $PR$ del rectángulo.  
+En el rectángulo $PQRS$ siguiente, el punto $T$ se mueve a lo largo de la diagonal $PR$ del rectángulo.
+<img src="img/problemas/IC200611.png" alt="Figura" loading="lazy">
 
 Demuestre que:
-
-$$
-a^2 + b^2 = c^2 + d^2
-$$
+$$a^2 + b^2 = c^2 + d^2.$$

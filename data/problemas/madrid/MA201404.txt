@@ -1,9 +1,8 @@
-Una varilla cilíndrica de longitud $d > 0$ y radio despreciable cae sobre una malla bidimensional ilimitada formada por hilos paralelos separados por una distancia $a > 0$ en una dirección, y por una distancia $b > 0$ en la dirección perpendicular. El espesor de los hilos de la malla se considera también despreciable.
+Una varilla cilíndrica de longitud $d > 0$ y radio despreciable cae sobre una malla bidimensional ilimitada formada por hilos paralelos separados por una distancia $a > 0$ en una dirección, y por una distancia $b > 0$ en la dirección perpendicular.
+El espesor de los hilos de la malla se considera también despreciable.
 
 <ol>
-<li>Determine la probabilidad $p_{ab}$ de que la varilla caiga en una posición en la que no toque a ningún hilo de los que forman la malla, suponiendo que son $d < a$ y $d < b$.</li>
-
-<li>Si de la malla se eliminan todos los hilos paralelos que estaban separados $b$ unidades, ¿cuál es entonces la probabilidad $p_a$ de que la varilla no toque a ninguno de los hilos que quedan, supuesto que es $d < a$?</li>
-
-<li>¿Cuál es la probabilidad $p_a$ en el caso de que la longitud de la varilla sea mayor que el espaciamiento entre los hilos de la malla, esto es, si $d > a$?</li>
+    <li>Determine la probabilidad $p_{ab}$ de que la varilla caiga en una posición en la que no toque a ningún hilo de los que forman la malla, suponiendo que son $d < a$ y $d < b$.</li>
+    <li>Si de la malla se eliminan todos los hilos paralelos que estaban separados $b$ unidades, ¿cuál es entonces la probabilidad $p_a$ de que la varilla no toque a ninguno de los hilos que quedan, supuesto que es $d < a$?</li>
+    <li>¿Cuál es la probabilidad $p_a$ en el caso de que la longitud de la varilla sea mayor que el espaciamiento entre los hilos de la malla, esto es, si $d > a$?</li>
 </ol>

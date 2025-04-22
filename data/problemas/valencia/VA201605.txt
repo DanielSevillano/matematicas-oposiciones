@@ -1,11 +1,14 @@
 Responda razonadamente a las siguientes cuestiones:
 
-<ul>
-    <li>Halle un conjunto infinito de ternas $(a,b,c)$ formadas por números naturales distintos que sean solución de la ecuación
-    $$a^2 + b^2 + c^2 = 2c(a + b).$$
+<ol>
+    <li>
+        Halle un conjunto infinito de ternas $(a, b, c)$ formadas por números naturales distintos que sean solución de la ecuación
+        $$a^2 + b^2 + c^2 = 2c(a + b).$$
     </li>
 
-    <li>Demuestre que la ecuación
-    $$a^3 + b^3 - c^3 = 3b(a - c)(a + c - b)$$
-    no tiene soluciones $(a,b,c) \in \mathbb{N}^3$ tales que $a < b < c$.</li>
-</ul>
+    <li>
+        Demuestre que la ecuación
+        $$a^3 + b^3 - c^3 = 3b(a - c)(a + c - b)$$
+        no tiene soluciones $(a,b,c) \in \mathbb{N}^3$ tales que $a < b < c$.
+    </li>
+</ol>

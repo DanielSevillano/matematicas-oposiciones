@@ -1,1 +1,1 @@
-Halle el lugar geométrico de los puntos medios de todas las cuerdas de la elipse   $b^2 x^2 + a^2 y^2 - a^2 b^2$ que se ven desde el origen bajo un ángulo recto.
+Halle el lugar geométrico de los puntos medios de todas las cuerdas de la elipse $b^2 x^2 + a^2 y^2 - a^2 b^2$ que se ven desde el origen bajo un ángulo recto.

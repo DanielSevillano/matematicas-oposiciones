@@ -1,3 +1,2 @@
 Calcule el área encerrada en el bucle del <i>folium</i> de Descartes, cuya ecuación implícita es
-
 $$x^3 + y^3 - 3xy = 0.$$

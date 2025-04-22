@@ -1,7 +1,6 @@
 Un cuadrilátero $ABCD$ admite circunferencia inscrita y a su vez está inscrito en una circunferencia $C$, de la que $AB$ es un diámetro.
 
 <ol>
-<li>Demuestre que $CD \leq (\sqrt{5} - 2) AB$.</li>
-
-<li>Caracterice los cuadriláteros $ABCD$ que cumplen el enunciado y en los que la anterior desigualdad es una igualdad.</li>
+    <li>Demuestre que $CD \leq (\sqrt{5} - 2) AB$.</li>
+    <li>Caracterice los cuadriláteros $ABCD$ que cumplen el enunciado y en los que la anterior desigualdad es una igualdad.</li>
 </ol>

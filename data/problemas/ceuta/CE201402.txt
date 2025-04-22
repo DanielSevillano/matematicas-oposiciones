@@ -1,1 +1,2 @@
-Calcule $$\int_0^\infty e^{-x^2} dx$$
+Calcule
+$$\int_0^\infty e^{-x^2} dx.$$

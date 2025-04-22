@@ -1,5 +1,3 @@
-En una bolsa se desean introducir bolas blancas y negras. Se lanza una
-moneda al aire cinco veces y se introducen en la bolsa tantas bolas blancas
-como caras se obtengan, y tantas bolas negras como cruces salgan. Si se extrae
-una bola y resulta ser negra, ¿cuál es la probabilidad de que en la bolsa
-hubiera tres bolas blancas y dos negras antes de la extracción? 
+En una bolsa se desean introducir bolas blancas y negras.
+Se lanza una moneda al aire cinco veces y se introducen en la bolsa tantas bolas blancas como caras se obtengan, y tantas bolas negras como cruces salgan.
+Si se extrae una bola y resulta ser negra, ¿cuál es la probabilidad de que en la bolsa hubiera tres bolas blancas y dos negras antes de la extracción?

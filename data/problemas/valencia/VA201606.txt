@@ -1,9 +1,22 @@
-El llamado <i>Juego de la Vida</i> se juega sobre un tablero cuadriculado en el que se colocan fichas de color negro en algunas de las casillas. Estas fichas pueden "morir" o "vivir" según las siguientes reglas:
+El llamado <i>Juego de la Vida</i> se juega sobre un tablero cuadriculado en el que se colocan fichas de color negro en algunas de las casillas.
+Estas fichas pueden "morir" o "vivir" según las siguientes reglas:
 
-<ol>
+<ul>
     <li>Cada ficha que tenga dos o tres fichas vecinas sobrevive y pasa a la siguiente generación.</li>
-    <li>Cada ficha que tenga cuatro o más vecinas muere y se retira del tablero. Las fichas con solo una o ninguna vecina también mueren.</li>
-    <li>Cada casilla vacía que tenga exactamente tres fichas vecinas genera una nueva ficha.</li>
-</ol>
+    
+    <li>
+        Cada ficha que tenga cuatro o más vecinas muere y se retira del tablero.
+        Las fichas con solo una o ninguna vecina también mueren.
+    </li>
 
-Todas las generaciones y muertes de fichas ocurren a la vez, lo cual se interpreta como que las fichas que mueren, antes de ser retiradas del tablero, pueden ayudar a generar otra ficha. Cada cuadrícula del tablero tiene ocho casillas vecinas: cuatro ortogonalmente adyacentes y cuatro adyacentes en diagonal del tablero. En el ejemplo de la cuadrícula continua que figura tras este enunciado, la formación inicial de tres fichas, en dos generaciones, se hace periódica. La formación inicial de cuatro fichas se estabiliza en dos generaciones. Realice un estudio de las cinco posibles formaciones iniciales de cuatro fichas conectadas entre sí. ¿Cuál de ellas es la que tiene una "vida" más larga antes de estabilizarse o ser periódica?
+    <li>Cada casilla vacía que tenga exactamente tres fichas vecinas genera una nueva ficha.</li>
+</ul>
+
+Todas las generaciones y muertes de fichas ocurren a la vez, lo cual se interpreta como que las fichas que mueren, antes de ser retiradas del tablero, pueden ayudar a generar otra ficha.
+Cada cuadrícula del tablero tiene ocho casillas vecinas: cuatro ortogonalmente adyacentes y cuatro adyacentes en diagonal del tablero.
+En el ejemplo de la cuadrícula continua que figura tras este enunciado, la formación inicial de tres fichas, en dos generaciones, se hace periódica.
+La formación inicial de cuatro fichas se estabiliza en dos generaciones.
+Realice un estudio de las cinco posibles formaciones iniciales de cuatro fichas conectadas entre sí.
+¿Cuál de ellas es la que tiene una "vida" más larga antes de estabilizarse o ser periódica?
+
+<img src="img/problemas/VA201606.jpg" alt="Figura" loading="lazy">

@@ -1,7 +1,7 @@
-Se eligen al azar y de manera independiente dos puntos sobre un segmento de longitud unidad que dividen a éste en tres segmentos. Calcule:
+Se eligen al azar y de manera independiente dos puntos sobre un segmento de longitud unidad que dividen a éste en tres segmentos.
+Calcule:
 
 <ol>
-<li>La probabilidad de que ninguno de los tres segmentos mida menos que $\frac{1}{4}$.</li>
-
-<li>La probabilidad de que se pueda formar un triángulo rectángulo con dichos tres segmentos.</li>
+    <li>La probabilidad de que ninguno de los tres segmentos mida menos que $\frac{1}{4}$.</li>
+    <li>La probabilidad de que se pueda formar un triángulo rectángulo con dichos tres segmentos.</li>
 </ol>

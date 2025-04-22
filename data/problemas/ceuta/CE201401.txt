@@ -1,1 +1,1 @@
-Dado un triángulo $ABC$ cuyos lados miden $a = BC$, $b = CA$ y $c = AB$, demuestre que  $a^2 - b^2 = bc$  si y sólo si  $\angle CAB = 2 \cdot \angle ABC$.
+Dado un triángulo $ABC$ cuyos lados miden $a = BC$, $b = CA$ y $c = AB$, demuestre que  $a^2 - b^2 = bc$  si y solo si  $\angle CAB = 2 \cdot \angle ABC$.

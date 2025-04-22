@@ -1,1 +1,2 @@
-Se dice que un número natural es <i>perfecto</i> cuando es igual a la suma de todos sus divisores positivos, excluido él mismo. Demuestre que, siendo $p \in \mathbb{N}$, el número $2^{p-1} (2^p - 1)$ es perfecto siempre que $2^p - 1$ sea primo.
+Se dice que un número natural es <i>perfecto</i> cuando es igual a la suma de todos sus divisores positivos, excluido él mismo.
+Demuestre que, siendo $p \in \mathbb{N}$, el número $2^{p-1} (2^p - 1)$ es perfecto siempre que $2^p - 1$ sea primo.

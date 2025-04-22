@@ -1,7 +1,4 @@
-Sea $(a_n)$ la sucesión de números naturales dada por:
-
-$$
-a_n = \sum_{i,j=1}^{n} i^j
-$$
-
-y sea $p$ un número primo. Demuestre que $a_{p+1}$ es múltiplo de $p$ si y sólo si $p \neq 3$.
+Sea $\{a_n\}$ la sucesión de números naturales dada por:
+$$a_n = \sum_{i,j=1}^{n} i^j$$
+y sea $p$ un número primo.
+Demuestre que $a_{p+1}$ es múltiplo de $p$ si y sólo si $p \neq 3$.

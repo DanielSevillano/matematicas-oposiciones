@@ -1,3 +1,2 @@
-De una urna con $r$ bolas negras y $N - r$ bolas blancas se extraen $n$ bolas consecutivamente y sin reemplazamiento $(n \leq N)$.  
-
+De una urna con $r$ bolas negras y $N - r$ bolas blancas se extraen $n$ bolas consecutivamente y sin reemplazamiento $(n \leq N)$.
 Calcule la esperanza y la varianza de la variable aleatoria $X$ que da el número de bolas negras extraídas.
