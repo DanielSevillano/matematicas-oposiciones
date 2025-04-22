@@ -1,0 +1,1 @@
+Sean $P$, $Q$, $R$ y $S$ los respectivos puntos medios de los lados $AB$, $BC$, $CD$ y $DA$ de un cuadrilátero $ABCD$ convexo, y sea $O$ el punto de intersección de $PR$ y $QS$. Demostrar que si $OA = OC$ y $OB = OD$, entonces $ABCD$ es un paralelogramo.

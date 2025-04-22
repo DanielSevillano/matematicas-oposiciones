@@ -1,0 +1,8 @@
+Sean $f : \mathbb{R} \to \mathbb{R}$ una función continua y $k$ un número real tales que
+
+$$\int_0^x f(t)\,dt = \frac{x}{2}[f(x) + k] \quad \text{para cada } x \in \mathbb{R}$$
+
+<ol>
+  <li>Probar que $f(0) = k$.</li>
+  <li>Demostrar que las únicas funciones continuas que satisfacen la relación del enunciado son las funciones del tipo $f(x) = cx + k$.</li>
+</ol>

@@ -1,0 +1,7 @@
+Se considera el conjunto $\mathcal{M}$ de las matrices de orden $3 \times 3$ cuyos elementos son todos $1$ ó $-1$. Se pide:
+
+<ol>
+  <li>El cardinal de $\mathcal{M}$.</li>
+  <li>Probar que el determinante de cualquier matriz de $\mathcal{M}$ es múltiplo de $4$.</li>
+  <li>Determinar el conjunto $\mathcal{B} = \{\det A : A \in \mathcal{M} \}$.</li>
+</ol>

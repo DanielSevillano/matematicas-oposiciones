@@ -1,0 +1,8 @@
+Una máquina de juego de un casino tiene una pantalla en la que se ofrece un esquema como el de la figura. Para comenzar el juego aparece una bola en el punto $S$. A cada impulso que recibe el jugador, la bola se mueve hasta una de las letras contiguas con la misma probabilidad para cada una de ellas. La partida termina en cuanto ocurre uno de los dos hechos siguientes:
+
+<ul>
+  <li>La bola vuelve a $S$ y entonces el jugador pierde.</li>
+  <li>La bola llega a $G$ y entonces el jugador gana.</li>
+</ul>
+
+Se pide la probabilidad de que el jugador gane así como la duración media de las partidas.

@@ -1,0 +1,5 @@
+Sea $(a_n)$ la sucesión de números reales definida por $a_1 = 1$ y $a_{n+1} = 1 + a_1 a_2 \dots a_n$, para cada $n \geq 1$. Calcule $\lim\limits_{n \to \infty} a_n$, y también
+
+
+$$\lim\limits_{n \to \infty} \left( \frac{1}{a_1} + \frac{1}{a_2} + \dots + \frac{1}{a_n} \right)$$
+

@@ -1,0 +1,1 @@
+Sean $α$ y $β$ dos números reales positivos, con $α < β$. Si seleccionamos al azar dos puntos de un segmento de longitud $β$, calcular la probabilidad de que estén situados a distancia $α$ como mínimo.
