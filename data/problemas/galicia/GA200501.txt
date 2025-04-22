@@ -1,0 +1,3 @@
+Calcule razonadamente el siguiente límite:
+
+$$E = \lim_{x \to 0} \frac{1}{x^3} \left( x - \frac{1}{2} \int_0^{2x} \frac{\sin t}{t} \, dt \right)$$

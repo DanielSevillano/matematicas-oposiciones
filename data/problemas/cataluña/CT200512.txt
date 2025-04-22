@@ -1,0 +1,5 @@
+Calcule
+
+$$\int_0^{\infty} \frac{x - \lfloor x \rfloor}{2^{\lfloor x \rfloor}}\, dx$$
+
+donde $\lfloor x \rfloor$ es la parte entera de $x$.

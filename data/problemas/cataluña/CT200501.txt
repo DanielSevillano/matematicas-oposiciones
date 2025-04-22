@@ -1,0 +1,10 @@
+Un depósito cilíndrico de altura$h$ y radio</strong> $R$, donde$R < h < 2R$, está lleno de agua. Se introduce en dicho depósito una esfera de radio $r$ >más densa que el agua.
+
+<ol>
+  <li>Obtener la función de $r$ que expresa el volumen de agua que se derrama.</li>
+  <li>Estudiar la continuidad de la función.</li>
+  <li>Esbozar la gráfica de dicha función estudiando su crecimiento, puntos singulares y asíntotas.</li>
+  <li>Determinar, si existe, el valor de $r$ para el que es máximo el volumen de agua derramada.</li>
+</ol>
+
+<b>INDICACIÓN:</b> El volumen del casquete esférico de radio $r$ y altura $a$ está dado por $$V_c = \pi a^2 \left(r - \frac{a}{3} \right).$$

@@ -1,0 +1,1 @@
+Demostrar que en un triángulo rectángulo, la suma de las longitudes de la altura y de la bisectriz correspondientes al ángulo recto es menor o igual que la longitud de la hipotenusa. ¿Cuándo se da la igualdad?

@@ -1,0 +1,1 @@
+Sean $x_1$ y $x_2$ las raíces de la ecuación $x^2 - px + 1 = 0$, en la que $p$ es un número natural impar mayor o igual que $3$. Para cada entero $n \geq 0$ definimos $a_n = x_1^n + x_2^n$. Probar que $a_n$ es un número entero y que los números $a_n$ y $a_{n+1}$ son primos entre sí para cada $n \geq 0$.

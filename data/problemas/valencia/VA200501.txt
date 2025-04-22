@@ -1,0 +1,5 @@
+Sea $ \alpha = \frac{2004}{2005} $. Demostrar que, para cualquier número entero positivo $ n $, se cumple la siguiente desigualdad:
+
+$$
+\frac{1}{2005} \left[ \sqrt{1 - (1 - \alpha)^2} + \alpha \sqrt{1 - (1 - \alpha^2)^2} + \dots + \alpha^{n-1} \sqrt{1 - (1 - \alpha^n)^2} \right] < \frac{\pi}{4}
+$$

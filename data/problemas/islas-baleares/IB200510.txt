@@ -1,0 +1,3 @@
+Una línea recta que pasa por el incentro de un triángulo $ABC$ corta a los lados $AB$ y $AC$ en los puntos $D$ y $E$, respectivamente. Sea $P$ el punto de intersección de $BE$ y $CD$. Si $P_1$, $P_2$ y $P_3$ son los respectivos pies de las perpendiculares desde $P$ a $BC$, $CA$ y $AB$, probar que
+
+$$\frac{1}{PP_1} = \frac{1}{PP_2} + \frac{1}{PP_3}$$

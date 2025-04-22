@@ -1,0 +1,1 @@
+Demostrar que para todo número natural $n \geq 1$ se cumple que $4^{n+1} + 5^{2n-1}$ es múltiplo de $21$.

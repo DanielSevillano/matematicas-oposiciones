@@ -1,0 +1,7 @@
+Tenemos un cubo y pintamos al azar tres caras de color rojo y tres caras de color amarillo.
+
+<ol>
+  <li>Calcule la probabilidad de que las tres caras de color rojo tengan un vértice en común.</li>
+  <li>Calcule la probabilidad de que una de las tres caras de color rojo tenga una arista en común con las otras dos caras rojas.</li>
+  <li>Tenemos ahora ocho cubos del mismo tamaño, cada uno pintado al azar con tres caras de color rojo y tres de color amarillo. Los colocamos aleatoriamente para que formen un cubo mayor. ¿Cuál es la probabilidad de que todas las caras exteriores de este cubo sean del mismo color?</li>
+</ol>

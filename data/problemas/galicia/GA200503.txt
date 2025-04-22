@@ -1,0 +1,6 @@
+En un plano se da un punto $O$ y una recta $r$ que no pasa por $O$. Se toma en $r$ un punto variable $A$ y se construye el triángulo $OAA'$, rectángulo en $A$ e isósceles, y tal que la rotación de $OA$ hacia $OA'$ se hace en sentido positivo. Hallar:
+
+<ol>
+  <li>El lugar geométrico de los puntos $A'$.</li>
+  <li>El lugar geométrico del centro de gravedad $G$ del triángulo $OAA'$.</li>
+</ol>

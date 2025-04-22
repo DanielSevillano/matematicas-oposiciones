@@ -1,0 +1,3 @@
+Sean $a$ y $b$ números reales tales que $a < b$, y $f$ una función real de variable real continua en $[a,b]$, derivable en $(a,b)$ y que cumple $f(a) = f(b)$. Probar que para cada número natural $n \geq 1$ existen números reales distintos $\xi_1, \dots, \xi_n \in (a,b)$ tales que
+
+$$f'(\xi_1) + f'(\xi_2) + \dots + f'(\xi_n) = 0.$$

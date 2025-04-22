@@ -1,0 +1,16 @@
+Responda razonadamente a las siguientes cuestiones:
+
+<ol>
+  <li>
+    Sean $a_1, a_2, \dots, a_n \in \mathbb{R}$ tales que $a_1 < a_2 < \dots < a_n$. Probar que los números reales $a_1, a_2, \dots, a_n$ están en progresión aritmética si y sólo si
+    $$
+    (a_2 - a_1)(a_3 - a_2)\cdots(a_n - a_{n-1}) = \left(\frac{a_n - a_1}{n - 1}\right)^{n-1}
+    $$
+  </li>
+  <li>
+    Sean $b_1, b_2, \dots, b_n \in \mathbb{R}$ tales que $0 < b_1 < b_2 < \dots < b_n$. Demostrar que los números reales $b_1, b_2, \dots, b_n$ están en progresión geométrica si y sólo si
+    $$
+    \frac{b_1}{b_n} \left( \frac{b_2}{b_1} + \frac{b_3}{b_2} + \cdots + \frac{b_n}{b_{n-1}} \right) = (n-1)^{n-1}
+    $$
+  </li>
+</ol>
