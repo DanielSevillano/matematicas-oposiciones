@@ -1,1 +1,2 @@
-Tenemos un segmento $AB$ de longitud $16$. Hallar el lugar geométrico de los baricentros de los triángulos de base $AB$ y perímetro $36$.
+Tenemos un segmento $AB$ de longitud 16.
+Hallar el lugar geométrico de los baricentros de los triángulos de base $AB$ y perímetro 36.

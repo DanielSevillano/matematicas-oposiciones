@@ -1,7 +1,9 @@
-Dos jugadores $A$ y $B$ tiran simultáneamente un dado cada uno. Gana el primero que obtenga 6. Calcule:
+Dos jugadores $A$ y $B$ tiran simultáneamente un dado cada uno.
+Gana el primero que obtenga 6.
+Calcule:
 
 <ol>
-  <li>La probabilidad de que $A$ y $B$ empaten.</li>
-  <li>La probabilidad de que gane $A$.</li>
-  <li>La probabilidad de que gane $B$.</li>
+    <li>La probabilidad de que $A$ y $B$ empaten.</li>
+    <li>La probabilidad de que gane $A$.</li>
+    <li>La probabilidad de que gane $B$.</li>
 </ol>

@@ -1,1 +1,2 @@
-Sea $n$ un número entero positivo. Demuestre que la condición necesaria y suficiente para que todos los coeficientes del binomio $(a + b)^n$ sean impares es que $n$ sea de la forma $2^k - 1$.
+Sea $n$ un número entero positivo.
+Demuestre que la condición necesaria y suficiente para que todos los coeficientes del binomio $(a + b)^n$ sean impares es que $n$ sea de la forma $2^k - 1$.

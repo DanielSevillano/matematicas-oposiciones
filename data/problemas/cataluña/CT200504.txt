@@ -1,1 +1,2 @@
-Se traza una recta $r$ por el baricentro de un triángulo equilátero (en el mismo plano que éste). Demostrar que la suma de los cuadrados de las distancias de los tres vértices del triángulo a la recta $r$ no depende de la elección de ésta.
+Se traza una recta $r$ por el baricentro de un triángulo equilátero (en el mismo plano que este).
+Demostrar que la suma de los cuadrados de las distancias de los tres vértices del triángulo a la recta $r$ no depende de la elección de esta.

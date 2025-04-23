@@ -1,3 +1,5 @@
-En una olimpiada de Matemáticas participan estudiantes de varios países. En la fiesta de integración de la Olimpiada, los estudiantes del mismo país no se saludan pues ya se conocen entre ellos, y pueden o no saludar a los participantes de otros países, a los cuales no conocen, una única vez. Se sabe que a la fiesta asistieron $t$ estudiantes de $m$ países diferentes. Si $C$ es el número total de saludos que hubo durante la fiesta, demostrar que
-
-$$C \leq \frac{m-1}{2m} t^2$$
+En una olimpiada de Matemáticas participan estudiantes de varios países.
+En la fiesta de integración de la Olimpiada, los estudiantes del mismo país no se saludan pues ya se conocen entre ellos, y pueden o no saludar a los participantes de otros países, a los cuales no conocen, una única vez.
+Se sabe que a la fiesta asistieron $t$ estudiantes de $m$ países diferentes.
+Si $C$ es el número total de saludos que hubo durante la fiesta, demostrar que
+$$C \leq \frac{m-1}{2m} t^2.$$

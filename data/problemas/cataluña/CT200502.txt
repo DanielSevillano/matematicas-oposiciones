@@ -1,4 +1,4 @@
-<p>Se considera la familia de elipses $ \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 $ que pasan por $(1,1)$.</p>
+Se considera la familia de elipses $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ que pasan por $(1, 1)$.
 
 <ol>
   <li>Determinar la elipse de la familia que encierra una región de área mínima.</li>

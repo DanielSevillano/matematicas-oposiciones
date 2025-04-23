@@ -1,3 +1,3 @@
-Se considera un triángulo $ABC$ de lados $a = BC$, $b = AC$ y $c = AB$. Demostrar que la condición necesaria y suficiente para que la mediana desde $B$ sea dividida en tres partes iguales por la circunferencia inscrita en el triángulo es que
-
-$$\frac{a}{5} = \frac{b}{10} = \frac{c}{13}$$
+Se considera un triángulo $ABC$ de lados $a = BC$, $b = AC$ y $c = AB$.
+Demostrar que la condición necesaria y suficiente para que la mediana desde $B$ sea dividida en tres partes iguales por la circunferencia inscrita en el triángulo es que
+$$\frac{a}{5} = \frac{b}{10} = \frac{c}{13}.$$

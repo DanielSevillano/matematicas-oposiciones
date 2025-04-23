@@ -1,6 +1,8 @@
-Sea $ABC$ un triángulo rectángulo en $A$. Sea $D$ el pie de la perpendicular de $A$ a $BC$, y sean $E$ y $F$ las intersecciones de la bisectriz de $\angle ABC$ con $AD$ y $AC$, respectivamente. Probar que:
+Sea $ABC$ un triángulo rectángulo en $A$.
+Sea $D$ el pie de la perpendicular de $A$ a $BC$, y sean $E$ y $F$ las intersecciones de la bisectriz de $\angle ABC$ con $AD$ y $AC$, respectivamente.
+Probar que:
 
 <ol>
-  <li>El triángulo $AEF$ es isósceles.</li>
-  <li>$DC > 2EF$</li>
+    <li>El triángulo $AEF$ es isósceles.</li>
+    <li>$DC > 2EF$.</li>
 </ol>

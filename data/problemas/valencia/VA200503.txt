@@ -1,49 +1,40 @@
-Dados los números reales $u = 1 + \sqrt{2}$ y $v = 1 - \sqrt{2}$, se construyen las sucesiones $(a_n)$ y $(b_n)$ tales que, para cada $n = 1, 2, 3, \dots$, cumplen:
-
-$$
-\begin{cases}
-a_n + b_n \sqrt{2} = u^n \\
-a_n - b_n \sqrt{2} = v^n
-\end{cases}
-\tag{1}
-$$
+Dados los números reales $u = 1 + \sqrt{2}$ y $v = 1 - \sqrt{2}$, se construyen las sucesiones $\{a_n\}$ y $\{b_n\}$ tales que, para cada $n = 1, 2, 3, \dots$, cumplen:
+$$\begin{cases}
+  a_n + b_n \sqrt{2} = u^n, \\
+  a_n - b_n \sqrt{2} = v^n.
+\end{cases}$$
 
 <ol>
-  <li>
-    <b>i)</b> Demostrar que las sucesiones $(a_n)$ y $(b_n)$ son crecientes.
-  </li>
-  <li>
-    <b>ii)</b> Demostrar que $\dfrac{a_n}{b_n}$ es una fracción irreducible para cada $n = 1, 2, \dots$
-  </li>
-  <li>
-    <b>iii)</b> Hallar $\lim\limits_{n \to \infty} \left( \dfrac{a_n}{b_n} \right)$.
-  </li>
-</ol>
+    <li>
+        <ol>
+            <li>Demostrar que las sucesiones $\{a_n\}$ y $\{b_n\}$ son crecientes.</li>
+            <li>Demostrar que $\dfrac{a_n}{b_n}$ es una fracción irreducible para cada $n = 1, 2, \dots$</li>
+            <li>Hallar $\lim\limits_{n \to \infty} \left(\dfrac{a_n}{b_n}\right)$.</li>
+        </ol>
+    </li>
 
-<b>b)</b>
-<ol>
-  <li>
-    <b>i)</b> Calcular las siguientes sumas:
-    <br>
-    $$S_n = u + u^2 + u^3 + \dots + u^n, \quad S_n' = a_1 + a_2 + a_3 + \dots + a_n$$
-    $$S_n'' = b_1 + b_2 + b_3 + \dots + b_n$$
-  </li>
-  <li>
-    <b>ii)</b> Hallar $\lim\limits_{n \to \infty} \left( \dfrac{S_n'}{S_n''} \right)$.
-  </li>
-</ol>
+    <li>
+        <ol>
+            <li>
+                Calcular las siguientes sumas:
+                \begin{align}
+                    S_n & = u + u^2 + u^3 + \dots + u^n, \\
+                    S_n' & = a_1 + a_2 + a_3 + \dots + a_n, \\
+                    S_n'' & = b_1 + b_2 + b_3 + \dots + b_n.
+                \end{align}
+            </li>
+            <li>Hallar $\lim\limits_{n \to \infty} \left( \dfrac{S_n'}{S_n''} \right)$.</li>
+        </ol>
+    </li>
 
-<b>c)</b>
-<ol>
-  <li>
-    <b>i)</b> Demostrar que existen dos números fijos $\alpha$ y $\beta$ tales que:
-    <br>
-    $a_{n+2} = \alpha a_{n+1} + \beta a_n$, &nbsp;
-    $b_{n+2} = \alpha b_{n+1} + \beta b_n$
-    <br>
-    y determinar dichos números $\alpha$ y $\beta$.
-  </li>
-  <li>
-    <b>ii)</b> Calcular las raíces de la ecuación $x^2 = \alpha x + \beta$ y explicar el resultado.
-  </li>
+    <li>
+        <ol>
+            <li>
+                Demostrar que existen dos números fijos $\alpha$ y $\beta$ tales que:
+                $$a_{n+2} = \alpha a_{n+1} + \beta a_n, \quad b_{n+2} = \alpha b_{n+1} + \beta b_n$$
+                y determinar dichos números $\alpha$ y $\beta$.
+            </li>
+            <li>Calcular las raíces de la ecuación $x^2 = \alpha x + \beta$ y explicar el resultado.</li>
+        </ol>
+    </li>
 </ol>

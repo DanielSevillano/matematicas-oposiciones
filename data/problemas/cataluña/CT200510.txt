@@ -1,8 +1,7 @@
 Dadas las funciones 
-
-$$y = \frac{1}{x^2 + 3}, \qquad 8xy - x + 1 = 0$$
+$$y = \frac{1}{x^2 + 3}, \quad 8xy - x + 1 = 0$$
 
 <ol>
-  <li>Dibujar sus representaciones gráficas a partir de los cálculos matemáticos oportunos.</li>
-  <li>Determinar el área limitada por las dos curvas y los semiejes de coordenadas positivas.</li>
+    <li>Dibujar sus representaciones gráficas a partir de los cálculos matemáticos oportunos.</li>
+    <li>Determinar el área limitada por las dos curvas y los semiejes de coordenadas positivas.</li>
 </ol>

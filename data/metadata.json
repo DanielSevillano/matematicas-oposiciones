@@ -720,6 +720,45 @@
         "problema": "CT201812"
     },
     {
+        "problema": "CT200501"
+    },
+    {
+        "problema": "CT200502"
+    },
+    {
+        "problema": "CT200503"
+    },
+    {
+        "problema": "CT200504"
+    },
+    {
+        "problema": "CT200505"
+    },
+    {
+        "problema": "CT200506"
+    },
+    {
+        "problema": "CT200507"
+    },
+    {
+        "problema": "CT200508"
+    },
+    {
+        "problema": "CT200509"
+    },
+    {
+        "problema": "CT200510"
+    },
+    {
+        "problema": "CT200511"
+    },
+    {
+        "problema": "CT200512"
+    },
+    {
+        "problema": "CT200513"
+    },
+    {
         "problema": "CE201801",
         "categorias": [
             "Geometría"
@@ -1052,6 +1091,54 @@
     },
     {
         "problema": "GA201406"
+    },
+    {
+        "problema": "GA200501",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "GA200502",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "GA200503",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "GA200504",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "GA200505",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "GA200506",
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "problema": "GA200507",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "GA200508",
+        "categorias": [
+            "Probabilidad"
+        ]
     },
     {
         "problema": "IB201801",
@@ -1756,6 +1843,30 @@
     },
     {
         "problema": "VA201504",
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "problema": "VA200501",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "VA200502",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "VA200503",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "VA200504",
         "categorias": [
             "Probabilidad"
         ]
