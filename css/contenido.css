@@ -44,11 +44,20 @@ article>p {
     margin-inline: auto;
 }
 
+.resueltos article {
+    display: none;
+}
+
+article.resuelto {
+    display: block;
+}
+
 /********************
 Botón
 ********************/
 
 button:disabled {
+    opacity: 0.5;
     cursor: default;
 }
 
@@ -258,15 +267,21 @@ tr.subrayado>th {
 Progreso
 ********************/
 
-button.cargando::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: calc(var(--progreso, 0) * 1%);
-    height: 2px;
-    background-color: var(--accent-color);
+div.cargando {
+    min-height: 200px;
+    margin-top: 1em;
     border-radius: 10px;
+    animation: carga 1000ms infinite alternate;
+}
+
+@keyframes carga {
+    from {
+        background-color: transparent;
+    }
+
+    to {
+        background-color: var(--container-color);
+    }
 }
 
 /********************

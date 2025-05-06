@@ -1,4 +1,4 @@
-import { formatear, obtenerProblema } from "./math.js";
+import { Problema, obtenerProblema } from "./math.js";
 
 let metadatos;
 
@@ -20,17 +20,12 @@ async function problemaSemanal() {
     const indice = (semilla * multiplicador) % Math.min(total, 365);
 
     const objeto = metadatos[indice];
+    const problema = new Problema(objeto.problema);
 
-    const codigo = String(objeto.problema);
-    const comunidad = codigo.slice(0, 2);
-    const examen = codigo.slice(2, 6);
-    const problema = parseInt(codigo.slice(-2));
-
-    const articulo = await obtenerProblema(comunidad, examen, problema, false, objeto.categorias, true);
+    const articulo = document.createElement("article");
     articulo.classList.add("tarjeta");
-
     contenedor.append(articulo);
-    formatear(articulo);
+    await obtenerProblema(articulo, problema, true);
     contenedor.classList.remove("cargando");
 }
 
@@ -68,4 +63,4 @@ async function obtenerDatos() {
 }
 
 problemaSemanal();
-obtenerDatos()
+obtenerDatos();
