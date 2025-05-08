@@ -256,6 +256,16 @@ a.contorno:active {
 }
 
 /********************
+Imágenes
+********************/
+
+main img {
+    display: block;
+    max-width: min(100%, 40ch);
+    margin: 1.5em auto;
+}
+
+/********************
 Categorías
 ********************/
 
@@ -361,5 +371,9 @@ Adaptabilidad
 @media (prefers-color-scheme: dark) {
     .github img {
         filter: invert(1);
+    }
+
+    main img {
+        filter: invert(1) hue-rotate(180deg);
     }
 }
