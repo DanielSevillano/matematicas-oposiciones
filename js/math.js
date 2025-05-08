@@ -1,4 +1,8 @@
-export { estado, formatear, obtenerProblema, mostrarExamen, mostrarCategoria };
+export { estado, Problema, obtenerProblema, obtenerExamen, obtenerCategoria, obtenerExamenGenerado };
+
+const main = document.querySelector("main");
+let html = "";
+if (location.href.includes(".html")) html = ".html";
 
 const estado = new Object({
     cancelado: false,
@@ -9,6 +13,22 @@ const estado = new Object({
         this.cancelado = true;
     }
 });
+
+async function formatear(elemento) {
+    if (math) return window.MathJax.typesetPromise([elemento]);
+    else setTimeout(() => formatear(elemento));
+}
+
+function normalizar(texto) {
+    let procesado = texto.toLowerCase();
+    procesado = procesado.replaceAll("á", "a");
+    procesado = procesado.replaceAll("é", "e");
+    procesado = procesado.replaceAll("í", "i");
+    procesado = procesado.replaceAll("ó", "o");
+    procesado = procesado.replaceAll("ú", "u");
+    procesado = procesado.replaceAll(" ", "-");
+    return procesado;
+}
 
 const comunidades = new Map([
     ["AN", "Andalucía"],
@@ -32,94 +52,117 @@ const comunidades = new Map([
     ["VA", "Valencia"]
 ]);
 
-function normalizar(texto) {
-    let procesado = texto.toLowerCase();
-    procesado = procesado.replaceAll("á", "a");
-    procesado = procesado.replaceAll("é", "e");
-    procesado = procesado.replaceAll("í", "i");
-    procesado = procesado.replaceAll("ó", "o");
-    procesado = procesado.replaceAll("ú", "u");
-    procesado = procesado.replaceAll(" ", "-");
-    return procesado;
-}
-
-function formatear(elemento) {
-    if (math) window.MathJax.typesetPromise([elemento]);
-    else setTimeout(() => formatear(elemento));
-}
-
-async function obtenerProblema(comunidad, examen, problema, resuelto = false, categorias = [], tituloCompleto = false, mapaProblemas = undefined) {
-    const articulo = document.createElement("article");
-    const titulo = document.createElement("h3");
-    const parrafo = document.createElement("p");
-
-    let html = "";
-    if (location.href.includes(".html")) html = ".html";
-
-    if (tituloCompleto) {
-        titulo.textContent = "Problema " + problema + ": ";
-
-        const enlace = document.createElement("a");
-        enlace.textContent = "Examen de " + examen + " de " + comunidades.get(comunidad);
-        enlace.href = "/examenes" + html + "?examen=" + comunidad + examen;
-
-        titulo.append(enlace);
-    } else titulo.textContent = "Problema " + problema;
-
-    articulo.append(titulo);
-
-    if (categorias.length > 0) {
-        const contenedorCategorias = document.createElement("ul");
-        contenedorCategorias.classList.add("categorias");
-        categorias.forEach(categoria => {
-            const elementoCategoria = document.createElement("li");
-            const enlaceCategoria = document.createElement("a");
-            enlaceCategoria.textContent = categoria;
-            enlaceCategoria.href = "/problemas" + html + "?categoria=" + normalizar(categoria);
-            enlaceCategoria.classList.add("contorno");
-            elementoCategoria.append(enlaceCategoria);
-            contenedorCategorias.append(elementoCategoria);
-        });
-        articulo.append(contenedorCategorias);
+class Problema {
+    constructor(codigo, resuelto = false, categorias = []) {
+        this.idComunidad = codigo.slice(0, 2);
+        this.curso = parseInt(codigo.slice(2, 6));
+        this.numero = parseInt(codigo.slice(-2));
+        this.resuelto = resuelto;
+        this.categorias = categorias;
     }
 
-    const carpeta = normalizar(comunidades.get(comunidad));
+    codigo() {
+        let numeracion = String(this.numero);
+        if (this.numero < 10) numeracion = String(0) + numeracion;
+        return this.idComunidad + String(this.curso) + numeracion;
+    }
 
-    let numeracion = String(problema);
-    if (problema < 10) numeracion = String(0) + String(problema);
-    const codigo = comunidad + String(examen) + numeracion;
+    comunidad() {
+        return comunidades.get(this.idComunidad);
+    }
+}
+
+function tituloProblema(problema, tituloCompleto) {
+    const titulo = document.createElement("h3");
+
+    if (tituloCompleto) {
+        titulo.textContent = "Problema " + problema.numero + ": ";
+        const enlace = document.createElement("a");
+        enlace.textContent = "Examen de " + problema.curso + " de " + problema.comunidad();
+        enlace.href = "/examenes" + html + "?examen=" + problema.idComunidad + problema.curso;
+        titulo.append(enlace);
+    } else titulo.textContent = "Problema " + problema.numero;
+
+    return titulo;
+}
+
+function categoriasProblema(categorias) {
+    const contenedorCategorias = document.createElement("ul");
+    contenedorCategorias.classList.add("categorias");
+    categorias.forEach(categoria => {
+        const elementoCategoria = document.createElement("li");
+        const enlaceCategoria = document.createElement("a");
+        enlaceCategoria.textContent = categoria;
+        enlaceCategoria.href = "/problemas" + html + "?categoria=" + normalizar(categoria);
+        enlaceCategoria.classList.add("contorno");
+        elementoCategoria.append(enlaceCategoria);
+        contenedorCategorias.append(elementoCategoria);
+    });
+
+    return contenedorCategorias;
+}
+
+function encabezadoExamen(titulo) {
+    const encabezado = document.createElement("h2");
+    encabezado.innerText = "📋 " + titulo;
+
+    const boton = document.createElement("button");
+    boton.textContent = "🖨️ Imprimir";
+    boton.disabled = true;
+    boton.addEventListener("click", () => window.print());
+    encabezado.append(boton);
+
+    return { encabezado, boton };
+}
+
+async function descargarMetadatos(metadatos, guardarMetadatos) {
+    let datos;
+    if (!metadatos) {
+        const respuesta = await fetch("data\\metadata.json");
+        datos = await respuesta.json();
+        guardarMetadatos(datos);
+    } else datos = metadatos;
+
+    return datos;
+}
+
+async function obtenerProblema(articulo, problema, tituloCompleto = false, mapaProblemas = undefined) {
+    articulo.append(tituloProblema(problema, tituloCompleto));
+    if (problema.resuelto) articulo.classList.add("resuelto");
+    if (problema.categorias.length > 0) articulo.append(categoriasProblema(problema.categorias));
+
+    const contenido = document.createElement("div");
+    contenido.classList.add("cargando");
+    articulo.append(contenido);
+
+    const parrafo = document.createElement("p");
+    const carpeta = normalizar(problema.comunidad());
 
     let datos;
     if (!mapaProblemas || !mapaProblemas.get(codigo)) {
-        const ruta = "data\\problemas\\" + carpeta + "\\" + codigo + ".txt";
+        const ruta = "data\\problemas\\" + carpeta + "\\" + problema.codigo() + ".txt";
         const respuesta = await fetch(ruta);
         datos = await respuesta.text();
         if (mapaProblemas) mapaProblemas.set(codigo, datos);
-    } else {
-        datos = mapaProblemas.get(codigo);
-        await new Promise(resolve => setTimeout(resolve, 0));
-    }
+    } else datos = mapaProblemas.get(codigo);
 
     parrafo.innerHTML = datos;
 
-    if (resuelto) {
+    if (problema.resuelto) {
         const contenedorResolucion = document.createElement("details");
         const tituloResolucion = document.createElement("summary");
         const textoResolucion = document.createElement("div");
 
         tituloResolucion.textContent = "Resolución";
 
-        const codigoResolucion = "R" + codigo;
+        const codigoResolucion = "R" + problema.codigo();
 
         if (!mapaProblemas || !mapaProblemas.get(codigoResolucion)) {
             const ruta = "data\\problemas\\" + carpeta + "\\" + codigoResolucion + ".txt";
             const respuesta = await fetch(ruta);
             datos = await respuesta.text();
             if (mapaProblemas) mapaProblemas.set(codigoResolucion, datos);
-        } else {
-            datos = mapaProblemas.get(codigoResolucion);
-            await new Promise(resolve => setTimeout(resolve, 0));
-        }
+        } else datos = mapaProblemas.get(codigoResolucion);
 
         textoResolucion.innerHTML = datos;
 
@@ -127,90 +170,62 @@ async function obtenerProblema(comunidad, examen, problema, resuelto = false, ca
         parrafo.append(contenedorResolucion);
     }
 
-    articulo.append(parrafo);
+    contenido.append(parrafo);
+    await formatear(parrafo);
+    contenido.classList.remove("cargando");
 
-    return articulo;
+    return true;
 }
 
-async function obtenerExamen(examen, metadatos) {
-    const main = document.querySelector("main");
+async function obtenerExamen(examen, metadatos, guardarMetadatos) {
+    main.textContent = "";
 
     const comunidad = examen.slice(0, 2);
     const curso = examen.slice(-4);
+    const titulo = "Examen de " + curso + " de " + comunidades.get(comunidad);
+    const { encabezado, boton } = encabezadoExamen(titulo);
+    main.append(encabezado);
 
-    const titulo = document.createElement("h2");
-    titulo.innerText = "📋 Examen de " + curso + " de " + comunidades.get(comunidad);
-
-    const boton = document.createElement("button");
-    boton.textContent = "🖨️ Imprimir";
-    boton.disabled = true;
-    boton.classList.add("cargando");
-    boton.addEventListener("click", () => window.print());
-    titulo.append(boton);
-
-    main.append(titulo);
-
-    const metadatosFiltrados = metadatos.filter(dato => dato.problema.startsWith(examen));
+    const datos = await descargarMetadatos(metadatos, guardarMetadatos);
+    const metadatosFiltrados = datos.filter(dato => dato.problema.startsWith(examen));
     const problemas = metadatosFiltrados.length;
 
-    for (let problema = 1; problema <= problemas; problema++) {
+    const promesas = [];
+
+    for (let numero = 1; numero <= problemas; numero++) {
         if (estado.cancelado) {
             estado.reanudar();
             return false;
         }
 
-        let codigo = examen + problema;
-        if (problema < 10) codigo = examen + "0" + problema;
-        const datosProblema = metadatos.find(dato => dato.problema == codigo);
+        let codigo = examen + numero;
+        if (numero < 10) codigo = examen + "0" + numero;
+        const datosProblema = metadatosFiltrados.find(dato => dato.problema == codigo);
+        const problema = new Problema(codigo, datosProblema.resuelto, datosProblema.categorias);
+        const articulo = document.createElement("article");
+        main.append(articulo);
 
-        let resuelto = false;
-        let categorias = [];
-        if (datosProblema != undefined) {
-            if (datosProblema.resuelto) resuelto = true;
-            categorias = datosProblema.categorias;
-        }
-
-        boton.style.setProperty("--progreso", problema / problemas * 100);
-
-        const seccion = await obtenerProblema(comunidad, curso, problema, resuelto, categorias);
-        main.append(seccion);
-        formatear(seccion);
+        promesas.push(obtenerProblema(articulo, problema));
     }
 
+    await Promise.all(promesas);
+
     boton.disabled = false;
-    boton.classList.remove("cargando");
+    estado.reanudar();
 
     return true;
 }
 
-async function mostrarExamen(examen, metadatos, guardarMetadatos) {
-    const main = document.querySelector("main");
+async function obtenerCategoria(categoria, metadatos, mapaProblemas, contador, soloResueltos, guardarMetadatos) {
     main.textContent = "";
-    main.classList.add("cargando");
 
-    let datos;
-    if (!metadatos) {
-        const respuesta = await fetch("data\\metadata.json");
-        datos = await respuesta.json();
-        guardarMetadatos(datos);
-    } else datos = metadatos;
+    const datos = await descargarMetadatos(metadatos, guardarMetadatos);
+    let problemas = datos.filter(problema => problema.categorias && problema.categorias.map(c => normalizar(c)).includes(categoria));
+    let total = problemas.length;
+    if (soloResueltos) total = problemas.filter(problema => problema.resuelto).length;
+    contador.textContent = total;
 
-    obtenerExamen(examen, datos).then(() => {
-        main.classList.remove("cargando");
-        estado.reanudar();
-    });
-}
-
-async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta) {
-    const main = document.querySelector("main");
-
-    let problemas = metadatos.filter(problema => problema.categorias && problema.categorias.map(c => normalizar(c)).includes(categoria));
-    if (soloResueltos) problemas = problemas.filter(problema => problema.resuelto);
-    const total = problemas.length;
-
-    cinta.querySelector("#contador").textContent = total;
-    cinta.classList.add("cargando");
-    let contador = 0;
+    const promesas = [];
 
     for (let objeto of problemas) {
         if (estado.cancelado) {
@@ -218,44 +233,55 @@ async function obtenerCategoria(categoria, metadatos, mapaProblemas, soloResuelt
             return false;
         }
 
-        let resuelto = false;
-        let categorias = [];
-        if (objeto != undefined) {
-            if (objeto.resuelto) resuelto = true;
-            categorias = objeto.categorias;
-        }
+        const problema = new Problema(objeto.problema, objeto.resuelto, objeto.categorias);
+        const articulo = document.createElement("article");
+        main.append(articulo);
 
-        contador++;
-        cinta.style.setProperty("--progreso", contador / total * 100);
+        promesas.push(obtenerProblema(articulo, problema, mapaProblemas));
+    }
 
-        const comunidad = objeto.problema.slice(0, 2);
-        const examen = objeto.problema.slice(2, 6);
-        const problema = parseInt(objeto.problema.slice(-2));
+    await Promise.all(promesas);
 
-        const parrafo = await obtenerProblema(comunidad, examen, problema, resuelto, categorias, true, mapaProblemas);
-        main.append(parrafo);
-        formatear(parrafo);
-    };
-
-    cinta.classList.remove("cargando");
-
+    estado.reanudar();
     return true;
 }
 
-async function mostrarCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta, guardarMetadatos) {
-    const main = document.querySelector("main");
+function problemaAleatorio(problemas, excepciones = []) {
+    let aleatorio = problemas[Math.floor(Math.random() * problemas.length)];
+    while (excepciones.includes(aleatorio)) aleatorio = problemas[Math.floor(Math.random() * problemas.length)];
+
+    return aleatorio;
+}
+
+async function obtenerExamenGenerado(comunidadSeleccionada, numeroProblemas, metadatos, guardarMetadatos) {
     main.textContent = "";
-    main.classList.add("cargando");
 
-    let datos;
-    if (!metadatos) {
-        const respuesta = await fetch("data\\metadata.json");
-        datos = await respuesta.json();
-        guardarMetadatos(datos);
-    } else datos = metadatos;
+    const { encabezado, boton } = encabezadoExamen("Examen generado");
+    main.append(encabezado);
 
-    obtenerCategoria(categoria, datos, mapaProblemas, soloResueltos, cinta).then(() => {
-        main.classList.remove("cargando");
-        estado.reanudar();
+    const datos = await descargarMetadatos(metadatos, guardarMetadatos);
+    const datosFiltrados = datos.filter(objeto => {
+        const comunidad = objeto.problema.slice(0, 2);
+        return !comunidadSeleccionada || comunidad == comunidadSeleccionada;
     });
+
+    let problemas = [];
+    for (let i = 1; i <= numeroProblemas; i++) {
+        problemas.push(problemaAleatorio(datosFiltrados, problemas));
+    }
+
+    const promesas = [];
+
+    for (let numero = 1; numero <= numeroProblemas; numero++) {
+        const objeto = problemas[numero - 1];
+        const problema = new Problema(objeto.problema, objeto.resuelto, objeto.categorias);
+        const articulo = document.createElement("article");
+        main.append(articulo);
+        promesas.push(obtenerProblema(articulo, problema, true));
+    }
+
+    await Promise.all(promesas);
+
+    boton.disabled = false;
+    return true;
 }

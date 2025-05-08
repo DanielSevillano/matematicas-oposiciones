@@ -1,4 +1,4 @@
-import { estado, mostrarExamen } from "./math.js";
+import { estado, obtenerExamen } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -11,7 +11,7 @@ const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 
 let metadatos;
-const guardarMetadatos = datos => { metadatos = datos };
+const guardarMetadatos = datos => { metadatos = datos; };
 
 grupos.forEach((grupo, indice) => {
     grupo.addEventListener("click", () => {
@@ -30,7 +30,7 @@ grupos.forEach((grupo, indice) => {
 function pulsar(boton) {
     if (!estado.cancelado) {
         const examen = boton.id.replace("boton-", "");
-        mostrarExamen(examen, metadatos, guardarMetadatos);
+        obtenerExamen(examen, metadatos, guardarMetadatos);
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?examen=" + examen);
 
         botones.forEach(b => {

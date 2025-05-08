@@ -1,4 +1,4 @@
-import { estado, mostrarCategoria } from "./math.js";
+import { estado, obtenerCategoria } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -9,19 +9,21 @@ const botones = document.querySelectorAll(".contorno");
 const botonAleatorio = document.querySelector("#aleatorio");
 const cinta = document.querySelector("#cinta");
 const casilla = cinta.querySelector("#casilla");
+const contador = cinta.querySelector("#contador");
 
 let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
+if (soloResueltos) main.classList.add("resueltos");
 
 let metadatos;
 let mapaProblemas = new Map();
-const guardarMetadatos = datos => { metadatos = datos };
+const guardarMetadatos = datos => { metadatos = datos; };
 
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
         categoriaSeleccionada = categoria;
-        mostrarCategoria(categoria, metadatos, mapaProblemas, soloResueltos, cinta, guardarMetadatos);
+        obtenerCategoria(categoria, metadatos, mapaProblemas, contador, soloResueltos, guardarMetadatos);
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
@@ -31,11 +33,6 @@ function pulsar(boton) {
         });
     }
     else setTimeout(() => pulsar(boton));
-}
-
-function mostrarSoloResueltos() {
-    if (!estado.cancelado) mostrarCategoria(categoriaSeleccionada, metadatos, mapaProblemas, soloResueltos, cinta, guardarMetadatos);
-    else setTimeout(() => mostrarSoloResueltos(soloResueltos));
 }
 
 botones.forEach(boton => {
@@ -54,9 +51,15 @@ botonAleatorio.addEventListener("click", () => {
 
 casilla.addEventListener("click", () => {
     soloResueltos = casilla.checked;
-    if (main.classList.contains("cargando")) estado.cancelar();
-    if (categoriaSeleccionada) mostrarSoloResueltos();
-})
+    if (soloResueltos) {
+        main.classList.add("resueltos");
+        contador.textContent = main.querySelectorAll(".resuelto").length;
+    }
+    else {
+        main.classList.remove("resueltos");
+        contador.textContent = main.querySelectorAll("article").length;
+    }
+});
 
 if (categoria) {
     try {
