@@ -241,7 +241,11 @@ async function obtenerExamenGenerado(comunidadSeleccionada, numeroProblemas, met
 
     let problemas = [];
     for (let i = 1; i <= numeroProblemas; i++) {
-        problemas.push(problemaAleatorio(datosFiltrados, problemas));
+        if (i == 1) problemas.push(problemaAleatorio(datosFiltrados.filter(objeto => objeto.categorias && objeto.categorias.includes("Análisis"))));
+        else if (i == 2) problemas.push(problemaAleatorio(datosFiltrados.filter(objeto => objeto.categorias && objeto.categorias.includes("Álgebra")), problemas));
+        else if (i == 3) problemas.push(problemaAleatorio(datosFiltrados.filter(objeto => objeto.categorias && objeto.categorias.includes("Geometría")), problemas));
+        else if (i == 4) problemas.push(problemaAleatorio(datosFiltrados.filter(objeto => objeto.categorias && objeto.categorias.includes("Probabilidad")), problemas));
+        else problemas.push(problemaAleatorio(datosFiltrados, problemas));
     }
 
     const promesas = [];
