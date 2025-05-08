@@ -1,4 +1,4 @@
-import { estado, obtenerCategoria } from "./math.js";
+import { obtenerCategoria } from "./math.js";
 
 const direccion = new URL(location.href);
 const parametros = direccion.searchParams;
@@ -19,25 +19,21 @@ let metadatos;
 const guardarMetadatos = datos => { metadatos = datos; };
 
 function pulsar(boton) {
-    if (!estado.cancelado) {
-        const categoria = boton.id.replace("boton-", "");
-        categoriaSeleccionada = categoria;
-        obtenerCategoria(categoria, metadatos, contador, soloResueltos, guardarMetadatos);
-        cinta.classList.remove("oculto");
-        history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
+    const categoria = boton.id.replace("boton-", "");
+    categoriaSeleccionada = categoria;
+    obtenerCategoria(categoria, metadatos, contador, soloResueltos, guardarMetadatos);
+    cinta.classList.remove("oculto");
+    history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
-        botones.forEach(b => {
-            if (boton == b) b.classList.add("seleccionado");
-            else b.classList.remove("seleccionado");
-        });
-    }
-    else setTimeout(() => pulsar(boton));
+    botones.forEach(b => {
+        if (boton == b) b.classList.add("seleccionado");
+        else b.classList.remove("seleccionado");
+    });
 }
 
 botones.forEach(boton => {
     boton.addEventListener("click", () => {
         if (!boton.classList.contains("seleccionado")) {
-            if (main.classList.contains("cargando")) estado.cancelar();
             pulsar(boton);
         }
     });

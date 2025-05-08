@@ -1,18 +1,11 @@
-export { estado, Problema, obtenerProblema, obtenerExamen, obtenerCategoria, obtenerExamenGenerado };
+export { Problema, obtenerProblema, obtenerExamen, obtenerCategoria, obtenerExamenGenerado };
 
 const main = document.querySelector("main");
 let html = "";
 if (location.href.includes(".html")) html = ".html";
 
-const estado = new Object({
-    cancelado: false,
-    reanudar: function () {
-        this.cancelado = false;
-    },
-    cancelar: function () {
-        this.cancelado = true;
-    }
-});
+let controlador = new AbortController();
+let indicacion = controlador.signal;
 
 async function formatear(elemento) {
     if (math) return window.MathJax.typesetPromise([elemento]);
@@ -139,7 +132,7 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false) {
     const carpeta = normalizar(problema.comunidad());
 
     const ruta = "data\\problemas\\" + carpeta + "\\" + problema.codigo() + ".txt";
-    const respuesta = await fetch(ruta);
+    const respuesta = await fetch(ruta, { signal: indicacion });
     const datos = await respuesta.text();
     parrafo.innerHTML = datos;
 
@@ -152,7 +145,7 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false) {
 
         const codigoResolucion = "R" + problema.codigo();
         const rutaResolucion = "data\\problemas\\" + carpeta + "\\" + codigoResolucion + ".txt";
-        const respuestaResolucion = await fetch(rutaResolucion);
+        const respuestaResolucion = await fetch(rutaResolucion, { signal: indicacion });
         const datosResolucion = await respuestaResolucion.text();
         textoResolucion.innerHTML = datosResolucion;
 
@@ -168,6 +161,9 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false) {
 }
 
 async function obtenerExamen(examen, metadatos, guardarMetadatos) {
+    controlador.abort();
+    controlador = new AbortController();
+    indicacion = controlador.signal;
     main.textContent = "";
 
     const comunidad = examen.slice(0, 2);
@@ -183,11 +179,6 @@ async function obtenerExamen(examen, metadatos, guardarMetadatos) {
     const promesas = [];
 
     for (let numero = 1; numero <= problemas; numero++) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
-
         let codigo = examen + numero;
         if (numero < 10) codigo = examen + "0" + numero;
         const datosProblema = metadatosFiltrados.find(dato => dato.problema == codigo);
@@ -198,15 +189,15 @@ async function obtenerExamen(examen, metadatos, guardarMetadatos) {
         promesas.push(obtenerProblema(articulo, problema));
     }
 
-    await Promise.all(promesas);
-
+    await Promise.all(promesas).catch(() => { return false; });
     boton.disabled = false;
-    estado.reanudar();
-
     return true;
 }
 
 async function obtenerCategoria(categoria, metadatos, contador, soloResueltos, guardarMetadatos) {
+    controlador.abort();
+    controlador = new AbortController();
+    indicacion = controlador.signal;
     main.textContent = "";
 
     const datos = await descargarMetadatos(metadatos, guardarMetadatos);
@@ -218,11 +209,6 @@ async function obtenerCategoria(categoria, metadatos, contador, soloResueltos, g
     const promesas = [];
 
     for (let objeto of problemas) {
-        if (estado.cancelado) {
-            estado.reanudar();
-            return false;
-        }
-
         const problema = new Problema(objeto.problema, objeto.resuelto, objeto.categorias);
         const articulo = document.createElement("article");
         main.append(articulo);
@@ -230,9 +216,7 @@ async function obtenerCategoria(categoria, metadatos, contador, soloResueltos, g
         promesas.push(obtenerProblema(articulo, problema, true));
     }
 
-    await Promise.all(promesas);
-
-    estado.reanudar();
+    await Promise.all(promesas).catch(() => { return false; });
     return true;
 }
 
