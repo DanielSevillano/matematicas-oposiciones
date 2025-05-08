@@ -139,12 +139,12 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false, mapaP
     const carpeta = normalizar(problema.comunidad());
 
     let datos;
-    if (!mapaProblemas || !mapaProblemas.get(codigo)) {
+    if (!mapaProblemas || !mapaProblemas.get(problema.codigo())) {
         const ruta = "data\\problemas\\" + carpeta + "\\" + problema.codigo() + ".txt";
         const respuesta = await fetch(ruta);
         datos = await respuesta.text();
-        if (mapaProblemas) mapaProblemas.set(codigo, datos);
-    } else datos = mapaProblemas.get(codigo);
+        if (mapaProblemas && problema.curso >= 2018) mapaProblemas.set(problema.codigo(), datos);
+    } else datos = mapaProblemas.get(problema.codigo());
 
     parrafo.innerHTML = datos;
 
@@ -161,7 +161,7 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false, mapaP
             const ruta = "data\\problemas\\" + carpeta + "\\" + codigoResolucion + ".txt";
             const respuesta = await fetch(ruta);
             datos = await respuesta.text();
-            if (mapaProblemas) mapaProblemas.set(codigoResolucion, datos);
+            if (mapaProblemas && problema.curso >= 2022) mapaProblemas.set(codigoResolucion, datos);
         } else datos = mapaProblemas.get(codigoResolucion);
 
         textoResolucion.innerHTML = datos;
@@ -237,7 +237,7 @@ async function obtenerCategoria(categoria, metadatos, mapaProblemas, contador, s
         const articulo = document.createElement("article");
         main.append(articulo);
 
-        promesas.push(obtenerProblema(articulo, problema, mapaProblemas));
+        promesas.push(obtenerProblema(articulo, problema, true, mapaProblemas));
     }
 
     await Promise.all(promesas);
