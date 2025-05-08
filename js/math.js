@@ -144,10 +144,7 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false, mapaP
         const respuesta = await fetch(ruta);
         datos = await respuesta.text();
         if (mapaProblemas) mapaProblemas.set(codigo, datos);
-    } else {
-        datos = mapaProblemas.get(codigo);
-        await new Promise(resolve => setTimeout(resolve, 0));
-    }
+    } else datos = mapaProblemas.get(codigo);
 
     parrafo.innerHTML = datos;
 
@@ -165,10 +162,7 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false, mapaP
             const respuesta = await fetch(ruta);
             datos = await respuesta.text();
             if (mapaProblemas) mapaProblemas.set(codigoResolucion, datos);
-        } else {
-            datos = mapaProblemas.get(codigoResolucion);
-            await new Promise(resolve => setTimeout(resolve, 0));
-        }
+        } else datos = mapaProblemas.get(codigoResolucion);
 
         textoResolucion.innerHTML = datos;
 
@@ -176,9 +170,9 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false, mapaP
         parrafo.append(contenedorResolucion);
     }
 
+    contenido.append(parrafo);
     await formatear(parrafo);
     contenido.classList.remove("cargando");
-    contenido.append(parrafo);
 
     return true;
 }

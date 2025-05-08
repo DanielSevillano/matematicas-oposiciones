@@ -36,6 +36,7 @@ window.MathJax = {
         ready: () => {
             MathJax.startup.defaultReady();
             MathJax.startup.promise.then(() => math = true);
-        }
+        },
+        typeset: false
     }
 };
