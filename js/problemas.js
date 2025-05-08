@@ -16,14 +16,13 @@ let soloResueltos = casilla.checked;
 if (soloResueltos) main.classList.add("resueltos");
 
 let metadatos;
-let mapaProblemas = new Map();
 const guardarMetadatos = datos => { metadatos = datos; };
 
 function pulsar(boton) {
     if (!estado.cancelado) {
         const categoria = boton.id.replace("boton-", "");
         categoriaSeleccionada = categoria;
-        obtenerCategoria(categoria, metadatos, mapaProblemas, contador, soloResueltos, guardarMetadatos);
+        obtenerCategoria(categoria, metadatos, contador, soloResueltos, guardarMetadatos);
         cinta.classList.remove("oculto");
         history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
