@@ -119,7 +119,7 @@ async function descargarMetadatos(metadatos, guardarMetadatos) {
     return datos;
 }
 
-async function obtenerProblema(articulo, problema, tituloCompleto = false) {
+async function obtenerProblema(articulo, problema, tituloCompleto = false, prioridad = "auto") {
     articulo.append(tituloProblema(problema, tituloCompleto));
     if (problema.resuelto) articulo.classList.add("resuelto");
     if (problema.categorias.length > 0) articulo.append(categoriasProblema(problema.categorias));
@@ -132,30 +132,39 @@ async function obtenerProblema(articulo, problema, tituloCompleto = false) {
     const carpeta = normalizar(problema.comunidad());
 
     const ruta = "data\\problemas\\" + carpeta + "\\" + problema.codigo() + ".txt";
-    const respuesta = await fetch(ruta, { signal: indicacion });
+    const respuesta = await fetch(ruta, {
+        priority: prioridad,
+        signal: indicacion
+    });
     const datos = await respuesta.text();
     parrafo.innerHTML = datos;
+    contenido.append(parrafo);
+    await formatear(parrafo);
+    contenido.classList.remove("cargando");
 
     if (problema.resuelto) {
         const contenedorResolucion = document.createElement("details");
         const tituloResolucion = document.createElement("summary");
-        const textoResolucion = document.createElement("div");
-
         tituloResolucion.textContent = "Resolución";
+        contenedorResolucion.append(tituloResolucion);
+        articulo.append(contenedorResolucion);
+
+        const textoResolucion = document.createElement("div");
+        textoResolucion.classList.add("cargando");
 
         const codigoResolucion = "R" + problema.codigo();
         const rutaResolucion = "data\\problemas\\" + carpeta + "\\" + codigoResolucion + ".txt";
-        const respuestaResolucion = await fetch(rutaResolucion, { signal: indicacion });
+        const respuestaResolucion = await fetch(rutaResolucion, {
+            priority: "low",
+            signal: indicacion
+        });
         const datosResolucion = await respuestaResolucion.text();
         textoResolucion.innerHTML = datosResolucion;
 
-        contenedorResolucion.append(tituloResolucion, textoResolucion);
-        parrafo.append(contenedorResolucion);
+        contenedorResolucion.append(textoResolucion);
+        await formatear(textoResolucion);
+        textoResolucion.classList.remove("cargando");
     }
-
-    contenido.append(parrafo);
-    await formatear(parrafo);
-    contenido.classList.remove("cargando");
 
     return true;
 }
@@ -186,7 +195,9 @@ async function obtenerExamen(examen, metadatos, guardarMetadatos) {
         const articulo = document.createElement("article");
         main.append(articulo);
 
-        promesas.push(obtenerProblema(articulo, problema));
+        let prioridad;
+        if (numero <= 3) prioridad = "high";
+        promesas.push(obtenerProblema(articulo, problema, false, prioridad));
     }
 
     await Promise.all(promesas).catch(() => { return false; });
@@ -208,13 +219,15 @@ async function obtenerCategoria(categoria, metadatos, contador, soloResueltos, g
 
     const promesas = [];
 
-    for (let objeto of problemas) {
+    problemas.forEach((objeto, indice) => {
         const problema = new Problema(objeto.problema, objeto.resuelto, objeto.categorias);
         const articulo = document.createElement("article");
         main.append(articulo);
 
-        promesas.push(obtenerProblema(articulo, problema, true));
-    }
+        let prioridad = "auto";
+        if (indice < 5) prioridad = "high";
+        promesas.push(obtenerProblema(articulo, problema, true, prioridad));
+    });
 
     await Promise.all(promesas).catch(() => { return false; });
     return true;

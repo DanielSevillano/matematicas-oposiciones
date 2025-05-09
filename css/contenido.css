@@ -264,7 +264,7 @@ div.cargando {
     animation: carga 1000ms infinite alternate;
 }
 
-div.cargando>p {
+div.cargando>* {
     opacity: 0;
     animation: opacity 200ms;
 }
