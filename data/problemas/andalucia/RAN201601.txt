@@ -41,13 +41,13 @@
     </li>
 
     <li>
-        Sea $N = 2^a \cdot 2^b.$
-        Los divisores de $N$ son de la forma $2^r \cdot 2^s$, con $0 \leq r \leq a$ y $0 \leq s \leq b.$
+        Sea $N = 2^a \cdot 5^b.$
+        Los divisores de $N$ son de la forma $2^r \cdot 5^s$, con $0 \leq r \leq a$ y $0 \leq s \leq b.$
         La suma de todos los divisores viene dada por:
         $$\sum_{\begin{aligned}
             0 \leq r \leq a \\
             0 \leq s \leq b
-        \end{aligned}} 2^r \cdot 5^s = \sum_{s=0}^b \sum_{r=0}^a 2^r \cdot 5^s = \sum_{s=0}^b 5^s \cdot \sum_{r=0}^a 2^r = \sum_{s=0}^b 5^s \cdot (2^{a+1} - 1) = \frac{1}{4}(2^{a+1} - 1)(5^{b+1} - 1).$$
+        \end{aligned}} 2^r \cdot 5^s = \sum_{s=0}^b \sum_{r=0}^a 2^r \cdot 5^s = \left(\sum_{r=0}^a 2^r\right) \cdot \left(\sum_{s=0}^b 5^s\right) = (2^{a+1} - 1) \cdot \frac{5^{b+1} - 1}{4} = \frac{1}{4}(2^{a+1} - 1)(5^{b+1} - 1).$$
 
         La suma los divisores es 961, así que:
         \begin{align}
