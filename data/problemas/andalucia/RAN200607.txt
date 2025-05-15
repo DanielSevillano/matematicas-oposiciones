@@ -1,0 +1,17 @@
+<ol>
+    <li>
+        Desarrollamos la primera expresión.
+        \begin{align}
+            \binom{n}{k}\binom{n-k}{p-k} & = \frac{n!}{k!(n-k)!} \cdot \frac{(n-k)!}{(p-k)!(n-p)!} = \frac{n!}{k!(p-k)!(n-p)!} = \frac{n! \cdot p!}{k!(p-k)!(n-p)! \cdot p!} = \\
+            & = \frac{p!}{k!(p-k)!} \cdot \frac{n!}{p!(n-p)!} = \binom{p}{k}\binom{n}{p}.
+        \end{align}
+    </li>
+
+    <li>
+        Reescribimos la primera expresión utilizando la igualdad del apartado anterior.
+        \begin{align}
+            & \binom{n}{0}\binom{n}{p} + \binom{n}{1}\binom{n-1}{p-1} + \dots + \binom{n}{p}\binom{n-p}{0} = \sum_{k=0}^p \binom{n}{k}\binom{n-k}{p-k} \overset{\text{(a)}}{=} \sum_{k=0}^p \binom{p}{k}\binom{n}{p} = \binom{n}{p}\sum_{k=0}^p \binom{p}{k} = \\
+            & = \binom{n}{p}(1 + 1)^p = 2^p\binom{n}{p}.
+        \end{align}
+    </li>
+</ol>
