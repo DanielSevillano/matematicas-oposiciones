@@ -1,0 +1,52 @@
+<p>
+    Veamos por inducción que se verifica que:
+    $$0 < x_1 < x_2 < \ldots < x_n < y_n < \ldots < y_2 < y_1, \quad \forall n \in \mathbb{N}.$$
+</p>
+
+<ul>
+    <li>
+        Para $n = 1$, se tiene que $x_1 < y_1$ por hipótesis.
+    </li>
+
+    <li>
+        Supongamos que se verifica para $n$ y veamos que se cumple para $n + 1$.
+        Las desigualdades a demostrar son:
+        $$0 < x_1 < \ldots < x_n < x_{n+1} < y_{n+1} < y_n < \ldots < y_1.$$
+
+        <ul>
+            <li>
+                Veamos que $x_n < x_{n+1}$.
+                $$x_n = \sqrt{x_n \cdot x_n} < \sqrt{x_n \cdot y_n} = x_{n+1}.$$
+            </li>
+
+            <li>
+                Veamos que $y_{n+1} < y_n$.
+                $$y_{n+1} = \frac{x_n + y_n}{2} < \frac{y_n + y_n}{2} = y_n.$$
+            </li>
+
+            <li>
+                Veamos que $x_{n+1} < y_{n+1}.$
+                $$y_{n+1}^2 - x_{n+1}^2 = \left(\frac{x_n + y_n}{2}\right)^2 - x_n \cdot y_n = \frac{x_n^2 + y_n^2 - 2x_ny_n}{4} = \frac{(x_n - y_n)^2}{4} > 0 \Rightarrow x_{n+1} < y_{n+1}.$$
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<p>
+    Por tanto, se tiene que:
+    $$0 < x_1 < \ldots < x_n < y_n < \ldots < y_1, \quad \forall n \in \mathbb{N}.$$
+</p>
+
+<p>
+    Observamos que $\{x_n\}$ es monótona creciente y está acotada superiormente por $y_1$, mientras que $\{y_n\}$ es monótona decreciente y está acotada inferiormente por $x_1$.
+    Luego las sucesiones $\{x_n\}$ e $\{y_n\}$ son convergentes.
+</p>
+
+<p>
+    Sean $L = \lim x_n$ y $L' = \lim y_n$.
+    Entonces:
+    $$L' = \frac{L + L'}{2} \Leftrightarrow 2L' = L + L' \Leftrightarrow L = L'.$$
+
+    Por tanto,
+    $$\lim x_n = \lim y_n.$$
+</p>

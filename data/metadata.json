@@ -219,6 +219,7 @@
     },
     {
         "problema": "AN200602",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
