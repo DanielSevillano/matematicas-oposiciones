@@ -1,0 +1,119 @@
+<p>
+    Sean los sucesos:
+    \begin{align}
+        & A = \textit{pertenecer al barrio A}, \\
+        & B = \textit{pertenecer al barrio B}, \\
+        & C = \textit{pertenecer al barrio C}, \\
+        & D = \textit{estudiar 1º de Bachillerato}, \\
+        & E = \textit{estudiar 2º de Bachillerato}.
+    \end{align}
+</p>
+
+<p>
+    Podemos organizar los datos en un diagrama de árbol.
+</p>
+
+
+<div class="tabla">
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,8 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$A$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,2 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td>$\xrightarrow{\quad 0,3 \quad}$</td>
+            <td>$B$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$D$</td>
+        </tr>
+        <tr>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+            <td></td>
+            <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>$C$</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,4 \quad}$</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>$E$</td>
+        </tr>
+    </table>
+</div>
+
+<ol>
+    <li>
+        Por el teorema de la probabilidad total, la probabilidad de que un alumno al azar estudie 2º de Bachillerato es:
+        \begin{align}
+            P(E) & = P(E \cap A) + P(E \cap B) + P(E \cap C) = P(A) \cdot P(E|A) + P(B) \cdot P(E|B) + P(C) \cdot P(E|C) = \\
+            & = 0,2 \cdot 0,2 + 0,3 \cdot 0,5 + 0,5 \cdot 0,4 = 0,39.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que un alumno al azar sea del barrio B dado que estudia 1º de Bachillerato es:
+        $$P(B|D) = \frac{P(B \cap D)}{P(D)} = \frac{P(B) \cdot P(D|B)}{1 - P(E)} = \frac{0,3 \cdot 0,5}{1 - 0,39} \approx 0,2459.$$
+    </li>
+</ol>

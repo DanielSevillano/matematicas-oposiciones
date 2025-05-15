@@ -239,6 +239,7 @@
     },
     {
         "problema": "AN200605",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
