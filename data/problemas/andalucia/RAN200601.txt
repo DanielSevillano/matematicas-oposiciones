@@ -1,0 +1,48 @@
+<ol>
+    <li>
+        La longitud de arco viene dada por:
+        $$L = \int_{\frac{1}{2}}^{\frac{3}{2}} \sqrt{1 + f'(x)^2}dx = \int_{\frac{1}{2}}^{\frac{3}{2}} \sqrt{1 + \frac{1}{x^2}}dx = \int_{\frac{1}{2}}^{\frac{3}{2}} \frac{\sqrt{x^2 + 1}}{x}dx.$$
+
+        Realizamos el cambio de variable:
+        \begin{align}
+            t = \sqrt{1 + x^2} \Rightarrow x & = \sqrt{t^2 - 1}, \\
+            dx & = \frac{t}{\sqrt{t^2 - 1}}.
+        \end{align}
+
+        De esta forma,
+        $$L = \int_{\frac{\sqrt{5}}{2}}^{\frac{\sqrt{13}}{2}} \frac{t}{\sqrt{t^2 - 1}} \cdot \frac{t}{\sqrt{t^2 - 1}}dt = \int_{\frac{\sqrt{5}}{2}}^{\frac{\sqrt{13}}{2}} \frac{t^2}{t^2 - 1}dt.$$
+
+        Hacemos la división de polinomios del integrando.
+        $$\frac{t^2}{t^2 - 1} = 1 + \frac{1}{t^2 - 1}.$$
+
+        Así que:
+        $$L = \int_{\frac{\sqrt{5}}{2}}^{\frac{\sqrt{13}}{2}} \left(1 + \frac{1}{t^2 - 1}\right)dt.$$
+
+        Expresamos el integrando como suma de fracciones simples.
+        $$\frac{1}{t^2 - 1} = \frac{A}{t-1} + \frac{B}{t+1} = \frac{A(t+1) + B(t-1)}{t^2 - 1}.$$
+
+        <ul>
+            <li>Si $t = 1$, entonces $1 = 2A \Leftrightarrow A = \frac{1}{2}$.</li>
+            <li>Si $t = -1$, entonces $1 = -2B \Leftrightarrow B = -\frac{1}{2}$.</li>
+        </ul>
+
+        Luego:
+        $$\frac{1}{t^2 - 1} = \frac{1}{2(t-1)} - \frac{1}{2(t+1)}.$$
+
+        Por tanto:
+        \begin{align}
+            L & = \int_{\frac{\sqrt{5}}{2}}^{\frac{\sqrt{13}}{2}} \left(1 + \frac{1}{2(t-1)} + \frac{1}{2(t+1)}\right)dt = \left[t + \frac{1}{2}\ln(t-1) - \frac{1}{2}\ln(t+1)\right]_{\frac{\sqrt{5}}{2}}^{\frac{\sqrt{13}}{2}} = \left[t + \frac{1}{2}\ln\left(\frac{t-1}{t+1}\right)\right]_{\frac{\sqrt{5}}{2}}^{\frac{\sqrt{13}}{2}} = \\
+            & = \frac{\sqrt{13}}{2} + \frac{1}{2}\ln\left(\frac{\sqrt{13}-2}{\sqrt{13} + 2}\right) - \frac{\sqrt{5}}{2} - \frac{1}{2}\ln\left(\frac{\sqrt{5}-2}{\sqrt{5} + 2}\right) \approx 1,5032 \; u.
+        \end{align}
+    </li>
+
+    <li>
+        En primer lugar, observamos que $f$ tiene un punto de corte con el eje de abscisas en $x = 1$.
+        Además, se tiene que $f(x) < 0$ para $0 < x < 1$ y que $f(x) > 0$ para $x > 1$.
+        Por tanto,
+        \begin{align}
+            S & = -\int_{\frac{1}{2}}^1 \ln(x)dx + \int_1^\frac{3}{2} \ln(x)dx = -\Big[x\ln(x) - x\Big]_{\frac{1}{2}}^1 + \Big[x\ln(x) - x\Big]_1^{\frac{3}{2}} = \\
+            & = 1 + \frac{1}{2}\ln\left(\frac{1}{2}\right) - \frac{1}{2} + \frac{3}{2}\ln\left(\frac{3}{2}\right) - \frac{3}{2} + 1 = \frac{1}{2}\ln\left(\frac{27}{16}\right) \approx 0,2616 \; u^2.
+        \end{align}
+    </li>
+</ol>
