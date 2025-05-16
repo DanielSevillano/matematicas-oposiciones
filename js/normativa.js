@@ -7,7 +7,16 @@ const grupos = document.querySelectorAll(".grupo");
 const contenidoGrupos = document.querySelectorAll(".contenido-grupo");
 const botones = document.querySelectorAll(".contorno");
 
+let listaCompetenciasEspecificas;
+let listaCompetenciasClave;
+let listaDescriptores;
+let listaCriterios;
+let listaObjetivos;
+
 async function obtenerSaberes(curso) {
+    main.textContent = "";
+    main.classList.add("cargando");
+
     const respuesta = await fetch("data\\saberes\\" + curso + ".txt");
     const datos = await respuesta.text();
 
@@ -18,19 +27,20 @@ async function obtenerSaberes(curso) {
     boton.textContent = "🖨️ Imprimir";
     boton.addEventListener("click", () => window.print());
     titulo.append(boton);
-}
 
-async function mostrarSaberes(curso) {
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    obtenerSaberes(curso).then(() => main.classList.remove("cargando"));
+    main.classList.remove("cargando");
 }
 
 async function obtenerCompetencias(nivel) {
-    const respuesta = await fetch("data\\competencias-especificas.json");
-    const datos = await respuesta.json();
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    let datos;
+    if (!listaCompetenciasEspecificas) {
+        const respuesta = await fetch("data\\competencias-especificas.json");
+        datos = await respuesta.json();
+        listaCompetenciasEspecificas = datos;
+    } else datos = listaCompetenciasEspecificas;
     const competencias = datos.filter((competencia => competencia.nivel == nivel));
 
     const titulo = document.createElement("h2");
@@ -69,23 +79,27 @@ async function obtenerCompetencias(nivel) {
     });
 
     main.append(titulo, lista);
-}
-
-async function mostrarCompetencias(nivel) {
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    obtenerCompetencias(nivel).then(() => main.classList.remove("cargando"));
+    main.classList.remove("cargando");
 }
 
 async function obtenerDescriptores(competencia) {
-    const respuestaCompetencias = await fetch("data\\competencias-clave.json");
-    const datosCompetencias = await respuestaCompetencias.json();
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    let datosCompetencias;
+    if (!listaCompetenciasClave) {
+        const respuesta = await fetch("data\\competencias-clave.json");
+        datosCompetencias = await respuesta.json();
+        listaCompetenciasClave = datosCompetencias;
+    } else datosCompetencias = listaCompetenciasClave;
     const competenciaClave = datosCompetencias.filter((c) => c.codigo == competencia)[0];
 
-    const respuesta = await fetch("data\\descriptores.json");
-    const datos = await respuesta.json();
+    let datos;
+    if (!listaDescriptores) {
+        const respuesta = await fetch("data\\descriptores.json");
+        datos = await respuesta.json();
+        listaDescriptores = datos;
+    } else datos = listaDescriptores;
     const descriptores = datos.filter((descriptor => descriptor.codigo.slice(0, -1) == competencia));
 
     const titulo = document.createElement("h2");
@@ -125,19 +139,20 @@ async function obtenerDescriptores(competencia) {
 
         main.append(lista);
     });
-}
 
-async function mostrarDescriptores(competencia) {
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    obtenerDescriptores(competencia).then(() => main.classList.remove("cargando"));
+    main.classList.remove("cargando");
 }
 
 async function obtenerCriterios(nivel) {
-    const respuesta = await fetch("data\\criterios.json");
-    const datos = await respuesta.json();
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    let datos;
+    if (!listaCriterios) {
+        const respuesta = await fetch("data\\criterios.json");
+        datos = await respuesta.json();
+        listaCriterios = datos;
+    } else datos = listaCriterios;
     const criterios = datos.filter((criterio => criterio.nivel == nivel));
 
     const titulo = document.createElement("h2");
@@ -182,19 +197,19 @@ async function obtenerCriterios(nivel) {
     });
 
     main.append(titulo, lista);
-}
-
-async function mostrarCriterios(nivel) {
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    obtenerCriterios(nivel).then(() => main.classList.remove("cargando"));
+    main.classList.remove("cargando");
 }
 
 async function obtenerObjetivos(etapa) {
-    const respuesta = await fetch("data\\objetivos.json");
-    const datos = await respuesta.json();
+    main.textContent = "";
+    main.classList.add("cargando");
+
+    let datos;
+    if (!listaObjetivos) {
+        const respuesta = await fetch("data\\objetivos.json");
+        datos = await respuesta.json();
+        listaObjetivos = datos;
+    } else datos = listaObjetivos;
     const objetivos = datos.filter((objetivo => objetivo.etapa == etapa));
 
     const titulo = document.createElement("h2");
@@ -216,14 +231,7 @@ async function obtenerObjetivos(etapa) {
     });
 
     main.append(titulo, lista);
-}
-
-async function mostrarObjetivos(etapa) {
-    const main = document.querySelector("main");
-    main.textContent = "";
-    main.classList.add("cargando");
-
-    obtenerObjetivos(etapa).then(() => main.classList.remove("cargando"));
+    main.classList.remove("cargando");
 }
 
 grupos.forEach((grupo, indice) => {
@@ -241,24 +249,26 @@ grupos.forEach((grupo, indice) => {
 });
 
 function pulsar(boton) {
+    if (main.classList.contains("cargando")) return;
+
     const clave = boton.id.replace("boton-", "");
     const identificador = clave.slice(0, 2);
 
     if (identificador == "SB") {
         const curso = clave.replace("SB", "");
-        mostrarSaberes(curso);
+        obtenerSaberes(curso);
     } else if (identificador == "CE") {
         const nivel = clave.replace("CE", "");
-        mostrarCompetencias(nivel);
+        obtenerCompetencias(nivel);
     } else if (identificador == "DO") {
         const competencia = clave.replace("DO", "");
-        mostrarDescriptores(competencia);
+        obtenerDescriptores(competencia);
     } else if (identificador == "EV") {
         const nivel = clave.replace("EV", "");
-        mostrarCriterios(nivel);
+        obtenerCriterios(nivel);
     } else if (identificador == "OE") {
         const etapa = clave.replace("OE", "");
-        mostrarObjetivos(etapa);
+        obtenerObjetivos(etapa);
     }
 
     history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?codigo=" + clave);

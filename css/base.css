@@ -294,10 +294,10 @@ section.cargando::after,
     border-radius: 50%;
     border: 3px solid var(--accent-color);
     border-top-color: transparent;
-    animation: carga 800ms linear infinite;
+    animation: carga-circular 800ms linear infinite;
 }
 
-@keyframes carga {
+@keyframes carga-circular {
     0% {
         transform: rotate(0deg);
     }
