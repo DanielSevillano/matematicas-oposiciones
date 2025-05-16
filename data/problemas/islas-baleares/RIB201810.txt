@@ -10,7 +10,7 @@
 </p>
 
 <p>
-    Para que se pueda construir un rectángulo, es necesario que la longitud de cada lado sea menor que la suma de los otros dos.
+    Para que se pueda construir un triángulo, es necesario que la longitud de cada lado sea menor que la suma de los otros dos.
     Así que se tienen que verificar las siguientes condiciones:
     $$\begin{cases}
         x < y + 1 - x - y, \\
