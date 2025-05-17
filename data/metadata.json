@@ -501,6 +501,7 @@
     },
     {
         "problema": "CA201806",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
