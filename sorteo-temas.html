@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+    <meta name="description" content="Simula el sorteo de los temas del examen.">
+    <title>Calculadora de probabilidad</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/sorteo-temas.css">
+    <script type="module" src="js/sorteo-temas.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html">
+            <h1>
+                <img src="img/favicon.png" alt="Icono" width="25" height="25">
+                Matemáticas de oposiciones
+            </h1>
+        </a>
+
+        <nav id="navegacion-global">
+            <ul>
+                <li><a href="/examenes.html">Exámenes</a></li>
+                <li><a href="/problemas.html">Problemas</a></li>
+            </ul>
+        </nav>
+
+        <a class="github" href="https://github.com/DanielSevillano/matematicas-oposiciones" title="GitHub"
+            target="_blank">
+            <img src="img/icono-github.svg" alt="GitHub" width="25" height="25">
+        </a>
+    </header>
+
+    <main>
+        <h2>🎰 Sorteo de temas</h2>
+
+        <form>
+            <div class="bloque">
+                <label for="bolas">Bolas</label>
+                <input type="number" id="bolas" value="4" min="2" max="5">
+            </div>
+
+            <button type="submit" id="sortear">Sortear</button>
+        </form>
+
+        <div id="resultados"></div>
+    </main>
+</body>
+
+</html>

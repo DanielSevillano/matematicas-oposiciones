@@ -1,0 +1,73 @@
+#resultados {
+    margin-top: 2em;
+}
+
+/********************
+Lista
+********************/
+
+:root {
+    --list-radius: 2em;
+}
+
+ol {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ol li {
+    display: grid;
+    grid-template-columns: var(--list-radius) 1fr;
+    gap: 0.5em;
+    align-items: start;
+    margin-block: 1em;
+    padding-left: 0.125em;
+}
+
+ol li::before {
+    content: attr(value);
+    background-color: var(--accent-color);
+    color: var(--on-accent);
+    width: var(--list-radius);
+    font-size: 0.85rem;
+    line-height: var(--list-radius);
+    text-align: center;
+    border-radius: 100%;
+}
+
+/********************
+Formulario
+********************/
+
+form {
+    width: 100%;
+    max-width: 100ch;
+    box-sizing: border-box;
+}
+
+.bloque {
+    display: grid;
+    grid-template-columns: 8ch 1fr;
+    align-items: center;
+    row-gap: 5px;
+    margin-block: 1em;
+}
+
+input[type='number'] {
+    max-width: 60px;
+    padding: 10px;
+    margin-inline: 0.25em;
+    background-color: var(--container-color);
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-family: system-ui;
+    text-align: center;
+    transition: border-color 100ms;
+}
+
+input[type='number']:focus {
+    outline: none;
+    border-bottom: 2px solid var(--accent-color);
+}
