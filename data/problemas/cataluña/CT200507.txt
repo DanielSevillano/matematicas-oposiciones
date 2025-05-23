@@ -1,6 +1,6 @@
 Sea $n$ un número entero positivo.
 
 <ol>
-  <li>Demostrar que el número $3^n - 2n^2 - 1$ es múltiplo de $8$.</li>
-  <li>Probar que si $n$ no es múltiplo de $3$, entonces $3^n - 2n^2 - 1$ es múltiplo de $24$.</li>
+    <li>Demostrar que el número $3^n - 2n^2 - 1$ es múltiplo de $8$.</li>
+    <li>Probar que si $n$ no es múltiplo de $3$, entonces $3^n - 2n^2 - 1$ es múltiplo de $24$.</li>
 </ol>

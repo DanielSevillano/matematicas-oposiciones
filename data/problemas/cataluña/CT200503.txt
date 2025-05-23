@@ -1,7 +1,7 @@
 Seis bolas de seis colores diferentes se colocan al azar en tres urnas $U_1$, $U_2$ y $U_3$.
 
 <ol>
-  <li>Calcular la probabilidad de que la urna $U_3$ esté vacía.</li>
-  <li>Calcular la probabilidad de que vayan tantas bolas a cada urna como el número de orden de la urna.</li>
-  <li>Calcular la probabilidad de que todas las urnas estén ocupadas.</li>
+    <li>Calcular la probabilidad de que la urna $U_3$ esté vacía.</li>
+    <li>Calcular la probabilidad de que vayan tantas bolas a cada urna como el número de orden de la urna.</li>
+    <li>Calcular la probabilidad de que todas las urnas estén ocupadas.</li>
 </ol>

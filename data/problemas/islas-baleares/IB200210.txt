@@ -1,11 +1,7 @@
 Se considera la siguiente ecuación en la que $a$, $b$ y $c$ son números reales estrictamente positivos y $\lambda \in \mathbb{R}$:
-
-$$
-x^2 + (a + b + c)x + \lambda (ab + bc + ca) = 0
-$$
+$$x^2 + (a + b + c)x + \lambda (ab + bc + ca) = 0.$$
 
 <ol>
-<li>Demuestre que si $\lambda \leq \frac{3}{4}$, las soluciones de la ecuación son reales.</li>
-
-<li>Demuestre que si $a$, $b$ y $c$ son las longitudes de los lados de un triángulo y $\lambda \geq 1$, la ecuación carece de soluciones reales.</li>
+    <li>Demuestre que si $\lambda \leq \frac{3}{4}$, las soluciones de la ecuación son reales.</li>
+    <li>Demuestre que si $a$, $b$ y $c$ son las longitudes de los lados de un triángulo y $\lambda \geq 1$, la ecuación carece de soluciones reales.</li>
 </ol>

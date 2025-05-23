@@ -1,5 +1,2 @@
 Estudie la continuidad de la función real de variable real dada por
-
-$$
-f(x) = \frac{\ln(x^2 - 3x + 2)}{\ln(x^2 - 7x + 12)}
-$$
+$$f(x) = \frac{\ln(x^2 - 3x + 2)}{\ln(x^2 - 7x + 12)}.$$

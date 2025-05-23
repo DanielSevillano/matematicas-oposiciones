@@ -1,7 +1,2 @@
-Demuestre que todo número complejo $z \neq -1$ y tal que $|z| = 1$ puede escribirse en la forma:
-
-$$
-z = \frac{1 + ai}{1 - ai}
-$$
-
-donde $a$ es un parámetro real que debe determinarse.
+Un vaso cilíndrico de radio $r$ y altura $h$ está inclinado de modo que el agua del interior biseca la base y toca el borde superior del vaso.
+Halle el volumen del agua contenida en el vaso.

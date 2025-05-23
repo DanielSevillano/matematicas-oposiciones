@@ -1,11 +1,9 @@
 Responda razonadamente a las siguientes cuestiones:
 
 <ol>
-<li>Demuestre que $\text{L}(1 + x) \leq x$, para cualquier $x \in \mathbb{R}$, $x \geq 0$.</li>
-
-<li>Demuestre que si $a$ es un número real positivo, entonces:
-$$
-\lim\limits_{n \to \infty} n \int_0^1 \frac{x^n}{a + x^n} dx = \text{L} \left( \frac{a + 1}{a} \right)
-$$
-</li>
+    <li>Demuestre que $\ln(1 + x) \leq x$, para cualquier $x \in \mathbb{R}$, $x \geq 0$.</li>
+    <li>
+        Demuestre que si $a$ es un número real positivo, entonces:
+        $$\lim_{n \to \infty} n \int_0^1 \frac{x^n}{a + x^n} dx = \ln\left( \frac{a + 1}{a} \right).$$
+    </li>
 </ol>

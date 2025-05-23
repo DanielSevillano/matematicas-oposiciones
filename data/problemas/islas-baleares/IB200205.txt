@@ -1,1 +1,1 @@
-Calcule el área limitada por la gráfica de la función $f : x \to e^{-x} \sin x$ y el semieje positivo $OX$.
+Calcule el área limitada por la gráfica de la función $f: x \to e^{-x} \sin(x)$ y el semieje positivo $OX$.

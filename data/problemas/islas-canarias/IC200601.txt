@@ -1,3 +1,2 @@
-Se eligen dos de los tres vértices de un triángulo cualquiera y se unen por un segmento con los puntos medios de los lados opuestos.  
-
+Se eligen dos de los tres vértices de un triángulo cualquiera y se unen por un segmento con los puntos medios de los lados opuestos.
 Demuestre que el cuadrilátero y el triángulo más grande que se han formado tienen igual área.

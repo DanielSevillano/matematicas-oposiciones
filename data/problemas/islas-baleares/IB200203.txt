@@ -1,7 +1,4 @@
-Un avión de una determinada compañía debe realizar un viaje entre dos ciudades con un total de $m + n$ escalas.  
-
-En cada escala, el avión ha de cargar o descargar una tonelada de una cierta mercancía y realiza cargas en $m$ de las escalas y descargas en las $n$ restantes.  
-
-En la compañía nadie ha reparado en que el avión no soporta una carga mayor que $k$ toneladas $(n < k < m + n)$, y las escalas de carga y descarga se distribuyen al azar.  
-
+Un avión de una determinada compañía debe realizar un viaje entre dos ciudades con un total de $m + n$ escalas.
+En cada escala, el avión ha de cargar o descargar una tonelada de una cierta mercancía y realiza cargas en $m$ de las escalas y descargas en las $n$ restantes.
+En la compañía nadie ha reparado en que el avión no soporta una carga mayor que $k$ toneladas $(n < k < m + n)$, y las escalas de carga y descarga se distribuyen al azar.
 Si el avión sale con $n$ toneladas de la mercancía, calcule la probabilidad de que llegue a su destino.

@@ -1,1 +1,10 @@
-Demuestre que el número  $\displaystyle N = \frac{5^{125} - 1}{5^{25} - 1}$  es compuesto.
+La aplicación $f: \mathbb{Z} \to \mathbb{Z}$ cumple, para cualesquiera $m, n \in \mathbb{Z}$, que:
+$$f(m^2 + f(n)) = f(m)^2 + n.$$
+
+Demuestre que:
+
+<ol>
+    <li>$f(0) = 0$.</li>
+    <li>$f(1) = 1$.</li>
+    <li>$f(n) = n$, para todo $n \in \mathbb{Z}$.</li>
+</ol>

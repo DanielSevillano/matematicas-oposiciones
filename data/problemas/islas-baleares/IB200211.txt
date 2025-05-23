@@ -1,7 +1,1 @@
-Un avión de una determinada compañía debe realizar un viaje entre dos ciudades con un total de $m + n$ escalas.  
-
-En cada escala, el avión ha de cargar o descargar una tonelada de una cierta mercancía y realiza cargas en $m$ de las escalas y descargas en las $n$ restantes.  
-
-En la compañía nadie ha reparado en que el avión no soporta una carga mayor que $k$ toneladas $(n < k < m + n)$, y las escalas de carga y descarga se distribuyen al azar.  
-
-Si el avión sale con $n$ toneladas de la mercancía, calcule la probabilidad de que llegue a su destino.
+Dada una esfera $S$ en $\mathbb{R}^3$ y un plano ecuatorial $\pi$ de la misma, determine el lugar geométrico de los vértices de los conos circunscritos a la esfera $S$ cuya intersección con el plano $\pi$ es una parábola.

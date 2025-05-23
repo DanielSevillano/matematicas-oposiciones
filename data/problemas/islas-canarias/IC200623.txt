@@ -1,7 +1,9 @@
-En un Instituto de Enseñanza Secundaria hay matriculados ciertos estudiantes. Un día, el señor conserje observa que, de los asistentes a clase, el 36.363636...% son mujeres y el 67.567567...% vestía pantalón vaquero. ¿En qué intervalo se encuentra el número de alumnos que faltaron a clase ese día?
+En un Instituto de Enseñanza Secundaria hay matriculados ciertos estudiantes.
+Un día, el señor conserje observa que, de los asistentes a clase, el 36,363636...% son mujeres y el 67,567567...% vestía pantalón vaquero.
+¿En qué intervalo se encuentra el número de alumnos que faltaron a clase ese día?
 
 <ol>
-    <li> Entre 65 y 73.</li>
-    <li> Entre 74 y 82.</li>
-    <li> Entre 83 y 91.</li>
+    <li>Entre 65 y 73.</li>
+    <li>Entre 74 y 82.</li>
+    <li>Entre 83 y 91.</li>
 </ol>

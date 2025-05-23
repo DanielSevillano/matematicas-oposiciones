@@ -1,3 +1,4 @@
 Se considera la familia de circunferencias dada por la ecuación:
-
-$$ x^2 + y^2 - 2a\lambda x + \lambda^2 - b^2 = 0 $$
+$$x^2 + y^2 - 2a\lambda x + \lambda^2 - b^2 = 0,$$
+donde $a$ y $b$ son constantes y $\lambda \in \mathbb{R}$ es un parámetro.
+Determine la ecuación del lugar geométrico de los puntos de contacto de las tangentes a estas circunferencias que son paralelas al eje $OX$ y estudie su naturaleza.

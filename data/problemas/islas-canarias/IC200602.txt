@@ -1,5 +1,2 @@
 Halle todas las soluciones formadas por números enteros de la ecuación:
-
-$$
-x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 + x_6^2 + x_7^2 + x_8^2 = x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 + x_8
-$$
+$$x_1^2 + x_2^2 + x_3^2 + x_4^2 + x_5^2 + x_6^2 + x_7^2 + x_8^2 = x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 + x_8.$$

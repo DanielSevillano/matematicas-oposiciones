@@ -1,5 +1,2 @@
 Estudie el carácter de la siguiente serie:
-
-$$
-\sum_{n=1}^{\infty} \frac{2^{2n}}{2 \cdot 4 \cdot 6 \cdots 2n}
-$$
+$$\sum_{n=1}^{\infty} \frac{2^{2n}}{2 \cdot 4 \cdot 6 \cdots 2n}.$$

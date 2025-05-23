@@ -1,7 +1,8 @@
-Sea $B$ una matriz cuadrada de tamaño $3 \times 3$ sobre $\mathbb{R}$. Indique cuáles de las siguientes afirmaciones son ciertas y cuáles no:
+Sea $B$ una matriz cuadrada de tamaño $3 \times 3$ sobre $\mathbb{R}$.
+Indique cuáles de las siguientes afirmaciones son ciertas y cuáles no:
 
 <ol>
-<li>Si $\text{rang}(B) = 2$, entonces $\text{rang}(B^2) = 2$.</li>
-<li>Si $\text{rang}(B) = 3$, entonces $\text{rang}(B^3) = 3$.</li>
-<li>Si $\text{rang}(B) = 3$, entonces $\text{rang}(B^{-1}) = 3$.</li>
+    <li>Si $\text{rang}(B) = 2$, entonces $\text{rang}(B^2) = 2$.</li>
+    <li>Si $\text{rang}(B) = 3$, entonces $\text{rang}(B^3) = 3$.</li>
+    <li>Si $\text{rang}(B) = 3$, entonces $\text{rang}(B^{-1}) = 3$.</li>
 </ol>

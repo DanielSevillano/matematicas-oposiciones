@@ -1,3 +1,2 @@
-Se elige un punto $P$ en el interior de un triángulo equilátero y se llaman $A'$, $B'$ y $C'$ a las proyecciones ortogonales respectivas de $P$ sobre los lados $BC$, $CA$ y $AB$ del triángulo.  
-
+Se elige un punto $P$ en el interior de un triángulo equilátero y se llaman $A'$, $B'$ y $C'$ a las proyecciones ortogonales respectivas de $P$ sobre los lados $BC$, $CA$ y $AB$ del triángulo.
 Demuestre que la suma de longitudes $PA' + PB' + PC'$ coincide con la altura del triángulo equilátero.
