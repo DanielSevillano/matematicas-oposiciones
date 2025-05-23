@@ -212,7 +212,9 @@ async function obtenerCategoria(categoria, metadatos, contador, soloResueltos, g
     main.textContent = "";
 
     const datos = await descargarMetadatos(metadatos, guardarMetadatos);
-    let problemas = datos.filter(problema => problema.categorias && problema.categorias.map(c => normalizar(c)).includes(categoria));
+    let problemas;
+    if (!categoria) problemas = datos.filter(problema => !problema.categorias);
+    else problemas = datos.filter(problema => problema.categorias && problema.categorias.map(c => normalizar(c)).includes(categoria));
     let total = problemas.length;
     if (soloResueltos) total = problemas.filter(problema => problema.resuelto).length;
     contador.textContent = total;

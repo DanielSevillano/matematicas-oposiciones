@@ -11,7 +11,6 @@ const cinta = document.querySelector("#cinta");
 const casilla = cinta.querySelector("#casilla");
 const contador = cinta.querySelector("#contador");
 
-let categoriaSeleccionada;
 let soloResueltos = casilla.checked;
 if (soloResueltos) main.classList.add("resueltos");
 
@@ -20,8 +19,8 @@ const guardarMetadatos = datos => { metadatos = datos; };
 
 function pulsar(boton) {
     const categoria = boton.id.replace("boton-", "");
-    categoriaSeleccionada = categoria;
-    obtenerCategoria(categoria, metadatos, contador, soloResueltos, guardarMetadatos);
+    if (categoria == "vacios") obtenerCategoria(null, metadatos, contador, soloResueltos, guardarMetadatos);
+    else obtenerCategoria(categoria, metadatos, contador, soloResueltos, guardarMetadatos);
     cinta.classList.remove("oculto");
     history.replaceState(history.state, document.title, direccion.origin + direccion.pathname + "?categoria=" + categoria);
 
