@@ -1,0 +1,73 @@
+<p>
+    Sean los sucesos:
+    \begin{align}
+        B_i & = \textit{obtener una bola blanca en la extracción i}, & i & = 1, 2, \\
+        N_j & = \textit{obtener una bola negra en la extracción j}, & j & = 1, 2.
+    \end{align}
+
+    Sean $b, n \in \mathbb{N}$ el número de bolas negras y blancas en la urna, respectivamente.
+    Sea $m \in \mathbb{N}$ el número de bolas totales en la urna, con $m = b + n$.
+    Como la probabilidad de sacar dos bolas blancas es $\frac{1}{2}$, necesariamente $b \geq 2$, $n \geq 1$ y $m \geq 3.$
+</p>
+
+<ol>
+    <li>
+        Se tiene que:
+        $$P(B_1 \cap B_2) = \frac{b}{m} \cdot \frac{b-1}{m-1} = \frac{b^2 - b}{m^2 - m}.$$
+
+        Ha de verificarse que:
+        \begin{align}
+            P(B_1 \cap B_2) = \frac{1}{2} & \Leftrightarrow \frac{b^2 - b}{m^2 - m} = \frac{1}{2} \Leftrightarrow 2b^2 - 2b = m^2 - m \Leftrightarrow m^2 - m - 2b^2 + 2b = 0 \Leftrightarrow \\
+            & \Leftrightarrow m = \frac{1 \pm \sqrt{1 + 8b^2 - 8b}}{2}.
+        \end{align}
+
+        Como $m \geq 3$, solo puede ser válida la solución con la suma.
+
+        <ul>
+            <li>
+                Si $b = 2$, entonces:
+                $$m = \frac{1 + \sqrt{17}}{2} \notin \mathbb{N}.$$
+            </li>
+
+            <li>
+                Si $b = 3$, entonces:
+                $$m = \frac{1 + \sqrt{49}}{2} = 4.$$
+            </li>
+        </ul>
+    
+        Por tanto, el número mínimo de bolas que contiene la urna es 4, con 3 bolas blancas y 1 bola negra.
+    </li>
+
+    <li>
+        De forma análoga, se tiene que:
+        $$P(B_1 \cap B_2) = \frac{m - n}{m} \cdot \frac{m - n - 1}{m-1} = \frac{m^2 - mn - m - mn + n^2 + n}{m^2 - m} = \frac{m^2 - 2mn - m + n^2 + n}{m^2 - m}.$$
+
+        Ha de verificarse que:
+        \begin{align}
+            P(B_1 \cap B_2) = \frac{1}{2} & \Leftrightarrow \frac{m^2 - 2mn - m + n^2 + n}{m^2 - m} = \frac{1}{2} \Leftrightarrow 2m^2 - 4mn - 2m + 2n^2 + 2n = m^2 - m \Leftrightarrow \\
+            & \Leftrightarrow m^2 + (-4n - 1)m + 2n^2 + 2n = 0 \Leftrightarrow \\
+            & \Leftrightarrow m = \frac{4n + 1 \pm \sqrt{(4n + 1)^2 - 8n^2 - 8n}}{2} = \frac{4n + 1 \pm \sqrt{8n^2 + 1}}{2}.
+        \end{align}
+
+        Como $4n \leq \sqrt{8n^2 + 1}$ y $m \geq 3$, solo puede ser válida la solución con la suma.
+
+        <ul>
+            <li>
+                Si $n = 2$,
+                $$m = \frac{9 + \sqrt{33}}{2} \notin \mathbb{N}.$$
+            </li>
+
+            <li>
+                Si $n = 4$,
+                $$m = \frac{17 + \sqrt{129}}{2} \notin \mathbb{N}.$$
+            </li>
+
+            <li>
+                Si $n = 6$,
+                $$m = \frac{25 + \sqrt{289}}{2} = 21.$$
+            </li>
+        </ul>
+
+        Por tanto, el número mínimo de bolas que contiene la urna es 21, con 15 bolas blancas y 6 bolas negras.
+    </li>
+</ol>

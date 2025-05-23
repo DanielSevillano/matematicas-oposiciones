@@ -390,6 +390,7 @@
     },
     {
         "problema": "AR201403",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
