@@ -6,11 +6,14 @@ Si se multiplica por 2 el número de agujas lanzadas y se divide por el número 
 Dejando aparte su demostración matemática, planteamos un pequeño proyecto en el aula para este día tomando como hilo conductor este problema.
 Responde de forma concisa y ordenada lo siguiente:
 
-<ul>
+<ol>
     <li>¿En qué nivel plantearías este proyecto y cómo lo relacionarías con el currículo de matemáticas de ese nivel?</li>
     <li>Propón tres objetivos relacionados con este proyecto.</li>
     <li>Propón tres actividades con una metodología colaborativa.</li>
     <li>¿Cuál sería el producto final que tendría que elaborar el alumno?</li>
     <li>Propón tres indicadores de evaluación relacionados con uno de los objetivos planteados anteriormente.</li>
-    <li>A lo largo del proyecto, dos alumnos/as han empezado a discutir y se han agredido gravemente. Indica dos actuaciones a seguir.</li>
-</ul>
+    <li>
+        A lo largo del proyecto, dos alumnos/as han empezado a discutir y se han agredido gravemente.
+        Indica dos actuaciones a seguir.
+    </li>
+</ol>
