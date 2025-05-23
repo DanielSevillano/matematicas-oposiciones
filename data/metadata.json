@@ -1532,6 +1532,7 @@
     },
     {
         "problema": "MA201604",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
