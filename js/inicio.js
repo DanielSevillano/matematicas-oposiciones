@@ -20,7 +20,7 @@ async function problemaSemanal() {
     const indice = (semilla * multiplicador) % Math.min(total, 365);
 
     const objeto = metadatos[indice];
-    const problema = new Problema(objeto.problema);
+    const problema = new Problema(objeto.problema, false, objeto.categorias);
 
     const articulo = document.createElement("article");
     articulo.classList.add("tarjeta");
@@ -44,9 +44,7 @@ async function obtenerDatos() {
     tarjetaProblemas.textContent = numeroProblemas + " problemas";
 
     const examenes = new Set();
-    metadatos.forEach((objeto) => {
-        examenes.add(objeto.problema.slice(0, 6));
-    });
+    metadatos.forEach((objeto) => examenes.add(objeto.problema.slice(0, 6)));
 
     const tarjetaExamenes = document.createElement("div");
     tarjetaExamenes.classList.add("tarjeta");
