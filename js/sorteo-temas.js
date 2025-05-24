@@ -27,8 +27,7 @@ async function sortear(event) {
     numeros.sort((a, b) => a - b).forEach((numero) => {
         const elemento = document.createElement("li");
         elemento.textContent = temario[numero];
-        elemento.value = numero;
-        elemento.style.setProperty("--numero", numero);
+        elemento.value = numero + 1;
         lista.append(elemento);
     });
 
