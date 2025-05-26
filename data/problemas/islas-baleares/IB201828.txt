@@ -1,4 +1,6 @@
 Se desliza un cuadrado cuyo lado mide 10 cm situado en el primer cuadrante del plano $OXY$ de manera que los vértices de uno de sus lados estén siempre en contacto con los ejes coordenados: uno con el eje $OX$ y otro con el eje $OY.$
+<img src="img/problemas/IB201828.jpg" alt="Figura" loading="lazy">
+
 Con las notaciones de la figura, en las que se muestran la posición inicial del cuadrado y una de las posiciones intermedias, determinar el lugar geométrico descrito por los siguientes puntos:
 
 <ol>
