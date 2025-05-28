@@ -6,4 +6,4 @@ Si $P$ es dicho punto y $\theta$ es el ángulo generado por $P$ cuando gira, las
     y = r(1 - \cos(\theta)).
 \end{cases}
 
-Hallar los valores de los números reales $k$ tales que la recta $\{y = k\} corta a un arco completo de cicloide en dos puntos de modo que los tres arcos resultantes miden lo mismo.
+Hallar los valores de los números reales $k$ tales que la recta $\{y = k\}$ corta a un arco completo de cicloide en dos puntos de modo que los tres arcos resultantes miden lo mismo.
