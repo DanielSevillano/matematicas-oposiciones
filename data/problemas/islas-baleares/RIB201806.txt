@@ -1,0 +1,15 @@
+<p>
+    Sea $m = 25 \cdot 18^n = 2^n \cdot 3^{2n} \cdot 5^2$.
+    Observamos en primer lugar que el número 72 tiene $4 \cdot 3 = 12$ divisores, así que $m$ ha de tener 360 divisores.
+</p>
+
+<p>
+    El número $m$ tiene $(n+1) \cdot (2n + 1) \cdot 3$ divisores.
+    Para que tenga 360 divisores, ha de verificarse:
+    $$3(n+1)(2n+1) = 360 \Leftrightarrow 2n^2 + 3n + 1 = 120 \Leftrightarrow 2n^2 + 3n - 119 = 0 \Leftrightarrow \begin{cases}
+        n = -\frac{17}{2} \notin \mathbb{N}, \\
+        n = 7.
+    \end{cases}$$
+    
+    Por tanto, $n = 7$.
+</p>

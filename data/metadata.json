@@ -1220,12 +1220,14 @@
     },
     {
         "problema": "IB201805",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
     },
     {
         "problema": "IB201806",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
@@ -1347,6 +1349,7 @@
     },
     {
         "problema": "IB201826",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]

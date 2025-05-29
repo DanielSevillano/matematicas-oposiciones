@@ -1,0 +1,23 @@
+<ol>
+    <li>
+        Observamos que:
+        $$\int_{\mathbb{R}} f(x)dx = \int_0^{+\infty} ke^{-x/2}dx = -2k \Big[e^{-x/2}\Big]_0^{+\infty} = 2k.$$
+        
+        Como $f$ es una función de densidad, ha de verificarse que:
+        $$\int_{\mathbb{R}} f(x)dx = 1 \Leftrightarrow 2k = 1 \Leftrightarrow k = \frac{1}{2}.$$
+    </li>
+
+    <li>
+        La esperanza de $X$ viene dada por:
+        $$E(X) = \int_{\mathbb{R}} xf(x)dx = \int_0^\infty \frac{1}{2}xe^{-x/2}dx.$$
+
+        Integramos por partes.
+        \begin{align}
+            u = x & \Rightarrow u' = 1, \\
+            v' = \frac{1}{2}e^{-x/2} & \Rightarrow v = -e^{-x/2}.
+        \end{align}
+
+        Por tanto,
+        $$E(X) = \int_0^\infty \frac{1}{2}xe^{-x/2}dx = \Big[-xe^{-x/2}\big]_0^{+\infty} + \int_0^{+\infty} e^{-x/2} = 2.$$
+    </li>
+</ol>
