@@ -1,0 +1,142 @@
+<p>
+    Sean $X_A$, $X_B$ y $X_C$ las longitudes en milímetros de las barras fabricadas por las máquinas A, B, y C, respectivamente.
+    Se tiene que $X_A \sim N(165, 5)$, $X_B \sim N(175, 5)$ y $X_C \sim N(170, 5)$.
+</p>
+
+<ol>
+    <li>
+        Sean los sucesos:
+        \begin{align}
+            & A = \textit{ser producida por la máquina A}, \\
+            & B = \textit{ser producida por la máquina B}, \\
+            & C = \textit{ser producida por la máquina C}, \\
+            & M = \textit{medir más de 173 milímetros}.
+        \end{align}
+
+        Sabemos que:
+        $$P(A) = 0,5, \quad P(B) = 0,2, \quad P(C) = 0,3.$$
+
+        Calculamos las probabilidades condicionadas.
+        \begin{align}
+            P(M|A) & = P(X_A > 173) = P(Z > 1,6) = 1 - P(Z < 1,6) = 0,0548, \\
+            P(M|B) & = P(X_B > 173) = P(Z > -0,4) = P(Z < 0,4) = 0,6554, \\
+            P(M|C) & = P(X_C > 173) = P(Z > 0,6) = 1 - P(Z < 0,6) = 0,2743.
+        \end{align}
+    
+        Podemos organizar los datos en un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,0548 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,5 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,9452 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,6554 \quad}$</td>
+                </tr>
+                <tr>
+                    <td>$\xrightarrow{\quad 0,2 \quad}$</td>
+                    <td>$B$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,34446 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M^c$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,3 \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad 0,2743 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$C$</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad 0,7257 \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>$M^c$</td>
+                </tr>
+            </table>
+        </div>
+
+        Por el teorema de la probabilidad total, la probabilidad de que una pieza mida más de 173 milímetros es:
+        \begin{align}
+            P(M) & = P(M \cap A) + P(M \cap B) + P(M \cap C) = P(A) \cdot P(M|A) + P(B) \cdot P(M|B) + P(C) \cdot P(M|C) = \\
+            & = 0,5 \cdot 0,0548 + 0,2 \cdot 0,6554 + 0,3 \cdot 0,2743 = 0,24077.
+        \end{align}
+
+        Así que la probabilidad de que una pieza proceda de C sabiendo que mide más de 173 milímetros es:
+        $$P(C|M) = \frac{P(C \cap M)}{P(M)} = \frac{P(C) \cdot P(M|C)}{P(M)} = \frac{0,3 \cdot 0,2743}{0,24077} \approx 0,3418.$$
+
+        Por tanto, como las tres piezas son independientes, la probabilidad de que las tres procedan de $C$ sabiendo que miden más de 173 milímetros es:
+        $$P(C|M)^3 = 0,3418^3 \approx 0,04.$$
+    </li>
+
+    <li>
+        Sea $p = P(M|B) = 0,6554$ y sea $Y$ el número de piezas de $B$ que miden más de 173 milímetros.
+        Entonces $Y \sim \operatorname{Bi}(n = 100, p)$.
+        Como $n = 100 > 30$, por el teorema central del límite podemos aproximar $Y$ a una normal con:
+        \begin{align}
+            \mu & = np = 100 \cdot 0,6554 = 65,54, \\
+            \sigma^2 & = np(1-p) = 100 \cdot 0,6554 \cdot 0,3446 \approx 22,5851.
+        \end{align}
+
+        Por tanto, podemos aproximar:
+        $$P(Y \geq 60) = P(Y > 59,5) \approx P\left(Z \geq \frac{59,5 - 65,54}{\sqrt{22,5851}}\right) = P(Z \geq -1,27) = P(Z \leq 1,27) = 0,898.$$
+    </li>
+</ol>

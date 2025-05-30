@@ -1331,6 +1331,7 @@
     },
     {
         "problema": "IB201823",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
