@@ -7,7 +7,7 @@ Responda razonadamente a las siguientes cuestiones:
             0 & 0 & 0 & 0 \\
             2 & 0 & 0 & 0 \\
             2 & 2 & 0 & 0 \\
-            2 & 2 & 2 & 0
+            2 & 2 & 0 & 0
         \end{pmatrix}, \quad
         B = I + A$$
         y un número entero positivo $n$, calcule $A^n$  
