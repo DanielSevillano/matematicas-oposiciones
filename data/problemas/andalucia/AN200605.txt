@@ -3,6 +3,6 @@ El 20% de los alumnos del instituto pertenecen al barrio A, el 30% al B y el res
 El 80% de los alumnos del barrio A estudian 1° de Bachillerato y el resto 2°, el 50% de los del barrio B estudian 1° y el resto 2°, y el 60% de los del C estudian 1° y el resto 2º.
 
 <ol>
-    <li>Se escoge un alumnos al azar, ¿cuál es la probabilidad de que estudie 2º?</li>
+    <li>Se escoge un alumno al azar, ¿cuál es la probabilidad de que estudie 2º?</li>
     <li>Si se ha escogido un alumno y se sabe que estudia 1°, ¿cuál es la probabilidad de que sea del barrio B?</li>
 </ol>
