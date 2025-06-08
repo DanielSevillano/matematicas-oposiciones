@@ -1,0 +1,31 @@
+<p>
+    Sea $g: [0, 1] \to \mathbb{R}$ la función dada por:
+    $$g(x) = 2x - 1 - \int_0^x f(t)dt.$$
+
+    Dado que $f$ es continua, por el teorema fundamental del cálculo se tiene que la función $g$ es derivable con:
+    $$g'(x) = 2 - f(x), \quad x \in (0, 1).$$
+
+    Como por hipótesis sabemos que $0 < f(x) < 1$ para todo $x \in [0, 1]$, entonces $g'(x) > 0$ para todo $x \in (0, 1)$.
+    Así que $g$ es estrictamente creciente en $(0, 1)$ y, en consecuencia, alcanza su mínimo en $x = 0$ y su máximo en $x = 1$.
+
+</p>
+
+<p>
+    Hallamos el valor de $g$ en sus extremos.
+    \begin{align}
+        g(0) & = -1, \\
+        g(1) & = 1 - \int_0^1 f(t)dt.
+    \end{align}
+
+    De nuevo, como $0 < f(x) < 1$ para todo $x \in [0, 1]$, entonces:
+    $$0 \leq \int_0^1 f(t)dt \leq \int_0^1 1dt = 1.$$
+
+    Así que:
+    $$g(1) = 1 - \int_0^1 f(t)dt \geq 1 - 1 = 0.$$
+</p>
+
+<p>
+    Dado que $g(0) < 0$, $g(1) \geq 0$ y $g$ es continua en $[0, 1]$, por el teorema de Bolzano se tiene que existe $c \in [0, 1]$ tal que $g(c) = 0$, esto es, tal que $c$ es solución de la ecuación.
+    Como además $g$ es estrictamente creciente en $(0, 1)$, dicho número $c$ es único.
+    Por tanto, la ecuación tiene una única solución real.
+</p>

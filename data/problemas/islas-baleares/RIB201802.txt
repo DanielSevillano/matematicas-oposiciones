@@ -1,0 +1,69 @@
+<p>
+    Sean $\alpha$ y $\beta$ las dos soluciones de la ecuación, tales que $\alpha^2 + \beta^2 = 5$.
+    Por las relaciones de Cardano-Vietta, se tiene que:
+    $$\begin{cases}
+        \alpha\beta = c, \\
+        \alpha + \beta = -b.
+    \end{cases}$$
+
+    Completando cuadrados, obtenemos que:
+    $$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = b^2 - 2c.$$
+
+    De esta forma, se tiene que:
+    $$\alpha^2 + \beta^2 = 5 \Leftrightarrow b^2 - 2c = 5 \Leftrightarrow b^2 = 5 + 2c.$$
+
+    En primer lugar, observamos que:
+    $$b^2 \geq 0 \Leftrightarrow 5 + 2c \geq 0 \Leftrightarrow 2c \geq -5 \Leftrightarrow c \geq -\frac{5}{2} \overset{c \in \mathbb{Z}}{\Leftrightarrow} c \geq -2.$$
+
+    Por otro lado, para que la ecuación tenga dos soluciones reales y distintas ha de verificarse:
+    $$b^2 - 4c > 0 \Leftrightarrow 5 - 2c > 0 \Leftrightarrow 2c < 5 \Leftrightarrow c < \frac{5}{2} \overset{c \in \mathbb{Z}}{\Leftrightarrow} c \leq 2.$$
+
+    Luego $-2 \leq c \leq 2$.
+</p>
+
+<ul>
+    <li>
+        Si $c = -2$, entonces $b^2 = 1$.
+        Así que $b = \pm 1$.
+    </li>
+
+    <li>
+        Si $c = -1$, entonces $b^2 = 3$.
+        Como $b \notin \mathbb{Z}$, esta posibilidad no es válida.
+    </li>
+
+    <li>
+        Si $c = 0$, entonces $b^2 = 5$.
+        Como $b \notin \mathbb{Z}$, esta posibilidad no es válida.
+    </li>
+
+    <li>
+        Si $c = 1$, entonces $b^2 = 7$.
+        Como $b \notin \mathbb{Z}$, esta posibilidad no es válida.
+    </li>
+
+    <li>
+        Si $c = 2$, entonces $b^2 = 9$.
+        Así que $b = \pm 3$.
+    </li>
+</ul>
+
+<p>
+    Por tanto, los posibles valores de $b$ y $c$ son:
+    $$\begin{cases}
+        b = -1, \\
+        c = -2,
+    \end{cases} \quad
+    \begin{cases}
+        b = 1, \\
+        c = -2,
+    \end{cases} \quad
+    \begin{cases}
+        b = -3, \\
+        c = 2,
+    \end{cases} \quad
+    \begin{cases}
+        b = 3, \\
+        c = 2.
+    \end{cases}$$
+</p>

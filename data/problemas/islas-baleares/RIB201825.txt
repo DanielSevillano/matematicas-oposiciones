@@ -1,0 +1,39 @@
+<ol>
+    <li>
+        La función de densidad viene dada por la derivada de la función de distribución.
+        $$f_X(x) = F'_X(x) = \begin{cases}
+            0, & \text{si } x \leq 0, \\
+            \frac{4}{9}e^{-2x/3} + \frac{1}{9}e^{-x/3}, & \text{si } x > 0.
+        \end{cases}$$
+    </li>
+
+    <li>
+        Calculamos la esperanza de $X$.
+        $$E(X) = \int_{\mathbb{R}} xf(x)dx = \int_0^{+\infty} \left(\frac{4}{9}xe^{-2x/3} + \frac{1}{9}xe^{-x/3}\right)dx = \frac{2}{3}\int_0^{+\infty} \frac{2}{3}xe^{-2x/3}dx + \frac{1}{3} \int_0^{+\infty} \frac{1}{3}xe^{-x/3}dx.$$
+
+        Integramos por partes.
+        \begin{align}
+            (1) \; u = x & \Rightarrow u' = 1, & (2) \; u = x & \Rightarrow u' = 1, \\
+            v' = \frac{2}{3}e^{-2x/3} & \Rightarrow v = -e^{-2x/3}, & v' = \frac{1}{3}e^{-x/3} & \Rightarrow v = -e^{-x/3}.
+        \end{align}
+
+        Por tanto,
+        \begin{align}
+            E(X) & = \left[-\frac{2}{3}xe^{-2x/3}\right]_0^{+\infty} + \int_0^{+\infty} \frac{2}{3}e^{-2x/3}dx + \left[-\frac{1}{3}xe^{-x/3}\right]_0^{+\infty} + \int_0^{+\infty} \frac{1}{3}e^{-x/3}dx = \\
+            & = \Big[-xe^{-2x/3}\Big]_0^{+\infty} + \Big[-xe^{-2x/3}\Big]_0^{+\infty} = 2.
+        \end{align}
+    </li>
+
+    <li>
+        La probabilidad de que la duración de una llamada esté comprendida entre 3 y 6 minutos es:
+        $$P(3 < X < 6) = F(6) - F(3) = 1 - \frac{2}{3}e^{-4} - \frac{1}{3}e^{-2} - \left(1 - \frac{2}{3}e^{-2} - \frac{1}{3}e^{-1}\right) = \frac{1}{3e} + \frac{1}{3e^2} - \frac{2}{3e^4} \approx 0,1556.$$
+    </li>
+
+    <li>
+        La probabilidad de que una llamada exceda los tres minutos es:
+        $$P(X > 3) = 1 - P(X < 3) = 1 - F(3) = 1 - \left(1 - \frac{2}{3e^2} - \frac{1}{3e}\right) = \frac{2}{3e^2} + \frac{1}{3e} \approx 0,2129.$$
+        
+        Por tanto, la probabilidad de que una llamada no dure más de seis minutos dado que ha excedido los tres minutos es:
+        $$P(X < 6|X > 3) = \frac{P(3 < X < 6)}{P(X > 3)} = \frac{0,1556}{0,2129} \approx 0,7307.$$
+    </li>
+</ol>

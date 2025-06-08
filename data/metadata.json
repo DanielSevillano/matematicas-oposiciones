@@ -1202,12 +1202,14 @@
     },
     {
         "problema": "IB201802",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
     },
     {
         "problema": "IB201803",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]
@@ -1344,6 +1346,7 @@
     },
     {
         "problema": "IB201825",
+        "resuelto": true,
         "categorias": [
             "Probabilidad"
         ]
