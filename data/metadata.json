@@ -201,6 +201,7 @@
     },
     {
         "problema": "AN201405",
+        "resuelto": true,
         "categorias": [
             "Geometría"
         ]
@@ -279,6 +280,7 @@
     },
     {
         "problema": "AN200204",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]

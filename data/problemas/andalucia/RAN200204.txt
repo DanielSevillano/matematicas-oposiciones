@@ -1,0 +1,52 @@
+<ol>
+    <li>
+        Representamos gráficamente la función.
+        <img src="img/problemas/RAN200204.png" alt="Figura" loading="lazy">
+    </li>
+
+    <li>
+        Sea $f: \mathbb{R} \setminus \{-1\} \to \mathbb{R}$ dada por:
+        $$f(x) = \frac{P(x)}{Q(x)},$$
+        donde $P$ y $Q$ son polinomios con coeficientes reales.
+
+        <ul>
+            <li>
+                Como $\Dom(f) = \mathbb{R} \setminus \{-1\}$ y $\displaystyle \lim_{x \to -1^{\pm}} f(x) = +\infty$, entonces $Q$ tiene como única raíz -1 con multiplicidad par.
+            </li>
+
+            <li>
+                Como la función tiene una asíntota oblicua, entonces $P$ debe tener un grado más que $Q$.
+            </li>
+        </ul>
+
+        Supongamos que el grado de $P$ es 3 y el grado de $Q$ es 2.
+        Entonces la función es de la forma:
+        $$f(x) = \frac{ax^3 + bx^2 + cx + d}{e(x+1)^2}.$$
+
+        Como la pendiente de la asíntota oblicua es 1, entonces:
+        $$\lim_{x \to +\infty} \frac{f(x)}{x} = 1 \Leftrightarrow \frac{a}{e} = 1 \Leftrightarrow a = e.$$
+
+        Por simplicidad, supongamos que $a = e = 1$.
+        De esta forma, la expresión de la función queda:
+        $$f(x) = \frac{x^2 + bx^2 + cx + d}{x^2 + 2x + 1}.$$
+
+        <ul>
+            <li>
+                Como $f(0) = 4$, entonces $d = 4$.
+            </li>
+
+            <li>
+                Como la ordenada en el origen de la asíntota oblicua es 1, entonces:
+                $$\lim_{x \to +\infty} (f(x) - x) = 1 \Leftrightarrow \lim_{x \to +\infty} \frac{x^3 + bx^2 + cx + d - x^3 - 2x^2 - x}{x^2 + 2x + 1} = 1 \Leftrightarrow b-2 = 1 \Leftrightarrow b = 3.$$
+            </li>
+
+            <li>
+                Como $f(1) = \frac{3}{4}$, entonces:
+                $$f(1) = \frac{3}{4} \Leftrightarrow \frac{c + 8}{4} = \frac{3}{4} \Leftrightarrow c + 8 = 3 \Leftrightarrow c = -5.$$
+            </li>
+        </ul>
+
+        Por tanto,
+        $$f(x) = \frac{x^3 + 3x^2 - 5x + 4}{x^2 + 2x + 1}.$$
+    </li>
+</ol>

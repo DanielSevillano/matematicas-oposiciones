@@ -1,0 +1,67 @@
+<ol>
+    <li>
+        En primer lugar, hallamos las ecuaciones paramétricas de la recta $r$.
+        $$r \equiv \begin{cases}
+            x + y = 0, \\
+            x - z = 0
+        \end{cases} \equiv
+        \begin{cases}
+            x = \lambda, \\
+            y = -\lambda, \\
+            z = \lambda,
+        \end{cases} \quad \lambda \in \mathbb{R}.$$
+
+        Sea $P(\lambda, -\lambda, \lambda)$ un punto genérico de $r$.
+        Su distancia al plano $\pi$ viene dada por:
+        $$\dist(P, \pi) = \frac{|2\lambda - (-\lambda) + 2\lambda - 1|}{\sqrt{2^2 + 1^2 + 2^2}} = \frac{|5\lambda - 1|}{3}.$$
+
+        Para que la distancia sea de $\frac{1}{3}$, ha de verificarse:
+        $$\dist(P, \pi) = \frac{1}{3} \Leftrightarrow \frac{|5\lambda - 1|}{3} = \frac{1}{3} \Leftrightarrow |5\lambda - 1| = 1 \Leftrightarrow \begin{cases}
+            5\lambda - 1 = 1 \Leftrightarrow 5\lambda = 2 \Leftrightarrow \lambda = \frac{5}{2}, \\
+            5\lambda - 1 = -1 \Leftrightarrow 5\lambda = 0 \Leftrightarrow \lambda = 0.
+        \end{cases}$$
+
+        Por tanto, los puntos son:
+        $$P_1\left(\frac{2}{5}, -\frac{2}{5}, \frac{2}{5}\right) \quad \text{y} \quad P_2(0, 0, 0).$$
+    </li>
+
+    <li>
+        Por construcción, los puntos del plano $\pi$ que están a una distancia de $\frac{1}{3}$ de $P_1$ y $P_2$ son sus respectivas proyecciones ortogonales sobre $\pi$.
+
+        <ul>
+            <li>
+                Para hallar la proyección ortogonal del punto $P_1$ sobre $\pi$, tomamos la recta $s$ que perpendicular al plano que pasa por $P_1$.
+                Sea:
+                $$s \equiv \begin{cases}
+                    x = \frac{2}{5} + 2\lambda, \\
+                    y = -\frac{2}{5} - \lambda, \\
+                    z = \frac{2}{5} + 2\lambda,
+                \end{cases} \quad \lambda \in \mathbb{R}.$$
+
+                La proyección ortogonal viene dada por la intersección entre el plano $\pi$ y la recta $s$.
+                $$2\left(\frac{2}{5} + 2\lambda\right) - \left(-\frac{2}{5} - \lambda\right) + 2\left(\frac{2}{5} + 2\lambda\right) = 1 \Leftrightarrow \frac{4}{5} + 4\lambda + \frac{2}{5} + \lambda + \frac{4}{5} + 4\lambda = 1 \Leftrightarrow 9\lambda = -1 \Leftrightarrow \lambda = -\frac{1}{9}.$$
+
+                Por tanto, la proyección ortogonal de $P_1$ sobre $\pi$ es el punto:
+                $$P_1'\left(\frac{8}{45}, -\frac{13}{45}, \frac{8}{45}\right).$$
+            </li>
+
+            <li>
+                Para hallar la proyección ortogonal del punto $P_2$ sobre $\pi$, tomamos la recta $t$ que perpendicular al plano que pasa por $P_2$.
+                Sea:
+                $$t \equiv \begin{cases}
+                    x = 2\mu, \\
+                    y = -\mu, \\
+                    z = 2\mu,
+                \end{cases} \quad \mu \in \mathbb{R}.$$
+
+                La proyección ortogonal viene dada por la intersección entre el plano $\pi$ y la recta $t$.
+                $$2(2\mu) - (-\mu) + 2(2\mu) = 1 \Leftrightarrow 4\mu + \mu + 4\mu = 1 \Leftrightarrow 9\mu = 1 \Leftrightarrow \mu = \frac{1}{9}.$$
+
+                Por tanto, la proyección ortogonal de $P_2$ sobre $\pi$ es el punto:
+                $$P_2'\left(\frac{2}{9}, -\frac{1}{9}, \frac{2}{9}\right).$$
+            </li>
+        </ul>
+
+        Como $P_1'$ y $P_2'$ son diferentes, el lugar geométrico de los puntos del plano $\pi$ cuya distancia a $P_1$ y $P_2$ es $\frac{1}{3}$ es vacío.
+    </li>
+</ol>
