@@ -1146,7 +1146,10 @@
         ]
     },
     {
-        "problema": "GA201406"
+        "problema": "GA201406",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
         "problema": "GA200501",
@@ -1427,7 +1430,10 @@
         ]
     },
     {
-        "problema": "IB200210"
+        "problema": "IB200210",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
         "problema": "IB200211",
@@ -1592,10 +1598,16 @@
         ]
     },
     {
-        "problema": "IC200623"
+        "problema": "IC200623",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
-        "problema": "IC200624"
+        "problema": "IC200624",
+        "categorias": [
+            "Álgebra"
+        ]
     },
     {
         "problema": "IC200625",
