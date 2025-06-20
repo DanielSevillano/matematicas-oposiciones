@@ -9,7 +9,7 @@ $$M(a, b) = \begin{pmatrix}
     <li>Demuestre que $\mathcal{M}_\mathbb{C}$ es isomorfo al cuerpo $\mathbb{C}$ de los números complejos, hallando el isomorfismo $f: \mathbb{C} \to \mathcal{M}_\mathbb{C}$ correspondiente.</li>
     <li>
         Utilizando el isomorfismo definido anteriormente, calcule
-        $$\sqrt{
+        $$\sqrt[4]{
             \begin{pmatrix}
                 \frac{1}{2} & -\frac{\sqrt{3}}{2} \\
                 \frac{\sqrt{3}}{2} & \frac{1}{2}
