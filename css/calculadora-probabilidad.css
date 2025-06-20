@@ -38,3 +38,12 @@ input[type='number']:disabled {
 details {
     margin-bottom: 20px;
 }
+
+.contenedor-grafica {
+    max-width: 90ch;
+    width: 90vw;
+    min-height: 200px;
+    max-height: 45ch;
+    height: 45vw;
+    margin-bottom: 40px;
+}
