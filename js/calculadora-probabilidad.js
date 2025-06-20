@@ -4,7 +4,8 @@ Chart.register(LineController, LineElement, PointElement, CategoryScale, LinearS
 
 const formulario = document.querySelector("form");
 const temas = document.querySelector("#temas");
-const grafica = document.querySelector("#grafica");
+const contenedor = document.querySelector("#grafica");
+let grafica;
 
 function formatear() {
     if (math) return window.MathJax.typesetPromise();
@@ -63,7 +64,7 @@ async function crearGrafica() {
         }
     };
 
-    new Chart(grafica, {
+    grafica = new Chart(contenedor, {
         type: "line",
         data: {
             labels: ejeX,
@@ -78,6 +79,17 @@ async function crearGrafica() {
     });
 }
 
+function actualizarGrafica() {
+    grafica.options.scales.x.grid.color = getComputedStyle(document.body).getPropertyValue("--border-color");
+    grafica.options.scales.y.grid.color = getComputedStyle(document.body).getPropertyValue("--border-color");
+    grafica.options.scales.x.ticks.color = getComputedStyle(document.body).getPropertyValue("--on-button");
+    grafica.options.scales.y.ticks.color = getComputedStyle(document.body).getPropertyValue("--on-button");
+    grafica.options.plugins.legend.labels.color = getComputedStyle(document.body).getPropertyValue("--on-button");
+    grafica.update();
+}
+
 formatear();
 formulario.addEventListener("submit", procesar);
 crearGrafica();
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener("change", actualizarGrafica);
