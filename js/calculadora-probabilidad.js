@@ -22,7 +22,7 @@ function procesar(event) {
         formulario.append(texto);
     }
 
-    texto.innerHTML = "La probabilidad de que salga al menos un tema de los que te has preparado es del <b>" + probabilidad(k).toFixed(2).replace(".", ",") + "%</b>.";
+    texto.innerHTML = "La probabilidad de que salga al menos un tema de los que te has preparado es del <b>" + String(Math.floor(probabilidad(k) * 100) / 100).replace(".", ",") + "%</b>.";
 }
 
 formatear();
