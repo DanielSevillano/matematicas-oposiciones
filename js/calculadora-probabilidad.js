@@ -31,7 +31,7 @@ function procesar(event) {
 }
 
 async function crearGrafica() {
-    const ejeX = Array.from(Array(72).keys());
+    const ejeX = Array.from({ length: 14 }, (_, i) => 5 * i).concat(Array([71]));
     const ejeY = ejeX.map((k) => probabilidad(k));
 
     const options = {
