@@ -1,5 +1,35 @@
 [
     {
+        "problema": "AN202501",
+        "categorias": [
+            "Análisis",
+            "Probabilidad",
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "AN202502",
+        "categorias": [
+            "Análisis",
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "AN202503",
+        "categorias": [
+            "Geometría",
+            "Análisis",
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "AN202504",
+        "categorias": [
+            "Probabilidad",
+            "Álgebra"
+        ]
+    },
+    {
         "problema": "AN202301",
         "resuelto": true,
         "categorias": [

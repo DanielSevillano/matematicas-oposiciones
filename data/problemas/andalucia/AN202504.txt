@@ -1,0 +1,29 @@
+<ol>
+    <li>
+        En la ecuación $x^2 + Ax + B = 0$, $A$ y $B$ son números reales elegidos al azar en los intervalos $[-a, a]$ y $[-b, b]$ respectivamente, siendo $a$ y $b$ números reales.
+        Calcular la probabilidad de que tenga soluciones reales.
+    </li>
+
+    <li>
+        Dada la matriz
+        $$A = \begin{pmatrix}
+            -1 & -2 & -2 \\
+            1 & 2 & 1 \\
+            0 & -1 & -1
+        \end{pmatrix}.$$
+
+        <ol>
+            <li>
+                Calcular $A^{49}$ y $A^n$.
+            </li>
+
+            <li>
+                Sin hacer uso de la matriz inversa, hallar $X$ en la ecuación $A^2X + I = A$, siendo $I$ la matriz identidad.
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Determinar todos los números de tres cifras en base 7, formados por cifras distintas entre sí y mayores que cero, que al ser convertidos a base 11 están representados por esas mismas tres cifras, aunque no necesariamente en el mismo orden.
+    </li>
+</ol>

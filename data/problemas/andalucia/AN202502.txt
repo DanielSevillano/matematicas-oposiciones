@@ -1,0 +1,24 @@
+<ol>
+    <li>
+        Dada la función
+        $$f(x) = \frac{x^3}{(1+2x)^2}.$$
+
+        <ol>
+            <li>
+                Realizar la representación gráfica haciendo un estudio previo de sus propiedades.
+            </li>
+
+            <li>
+                Hallar el área comprendida entre la función $f(x)$, su asíntota oblicua y la recta $x + y = 0$.
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Dado un cuadrilátero convexo $ABCD$ con área $S$.
+        Se prolonga el lado $AB$ por el punto $B$ hasta un punto $M$ de forma que la longitud de $BM$ es igual a la mitad de la longitud del lado $AB$.
+        De la misma forma, se prolonga el lado $BC$ por el punto $C$ hasta el punto $N$ de forma que $CN = \frac{1}{2}BC$.
+        El lado $CD$ se prolonga por $D$ hasta $P$ tal que $DP = \frac{1}{2}CD$ y por último el lado $DA$ se prolonga por $A$ hasta $Q$, tal que $AQ = \frac{1}{2}DA$.
+        Hallar el área del cuadrilátero de vértices $MNPQ$ en función de $S$.
+    </li>
+</ol>

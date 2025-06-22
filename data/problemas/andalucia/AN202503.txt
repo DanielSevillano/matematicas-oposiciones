@@ -1,0 +1,25 @@
+<ol>
+    <li>
+        Sea una circunferencia de centro $O$ y radio $R$.
+        Desde un punto $A$ de la circunferencia se considera el arco menor $OM$, donde $M$ es otro punto de la circunferencia.
+        Sea $B$ el punto diametralmente opuesto a $A$.
+        Determinar, en función de $R$, el radio de la circunferencia inscrita en el triángulo mixtilíneo $OMB$.
+    </li>
+
+    <li>
+        Hallar las dimensiones del rectángulo de área máxima que puede inscribirse en una elipse de semiejes $a$ y $b$.
+    </li>
+
+    <li>
+        Sean $a, b \in \mathbb{R}$, $n \in \mathbb{N}$ ($n > 2$).
+        Discutir en función de los valores de $a$ y $b$ el siguiente sistema:
+        $$\begin{cases}
+            ax_1 + x_2 + x_3 + \ldots + x_{n-1} + x_n = 1, \\
+            x_1 + ax_2 + x_3 + \ldots + x_{n-1} + x_n = b, \\
+            x_1 + x_2 + ax_3 + \ldots + x_{n-1} + x_n = b^2, \\
+            \vdots \\
+            x_1 + x_2 + x_3 + \ldots + ax_{n-1} + x_n = b^{n-2}, \\
+            x_1 + x_2 + x_3 + \ldots + x_{n-1} + ax_n = b^{n-1}.
+        \end{cases}$$
+    </li>
+</ol>

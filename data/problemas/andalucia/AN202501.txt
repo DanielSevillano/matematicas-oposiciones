@@ -1,0 +1,21 @@
+<ol>
+    <li>
+        Una viga rígida, considerada como un objeto unidimensional, debe ser transportada horizontalmente a ras de suelo a través de un pasillo que gira en ángulo recto.
+        La anchura del pasillo antes de la esquina es $a$ y, tras el giro, pasa a tener anchura $b$.
+        Determinar la longitud máxima que puede tener la viga para que sea posible trasladarla, sin levantarla del suelo, y superar la esquina formada por los dos tramos perpendiculares del pasillo.
+    </li>
+
+    <li>
+        A la gran final de un torneo de ajedrez han llegado Alicia y Berta.
+        En este deporte, la victoria otorga un punto y las tablas medio punto.
+        Para saber quién será la campeona final, van a jugar dos partidas y ganará aquella que obtenga mayor puntuación.
+        En caso de empate, se repetirá el proceso.
+        Se sabe que, en una partida, $p$ es la probabilidad de que gane Alicia, $q$ es la de que gane Berta y $r$ es la probabilidad de que terminen en tablas.
+        Calcular la probabilidad de ganar el torneo que tiene cada una.
+        Particularizar finalmente al caso $r = q = 0,25$.
+    </li>
+
+    <li>
+        Demostrar que el producto de los catetos de un triángulo rectángulo donde todos los lados son números naturales es múltiplo de 12.
+    </li>
+</ol>
