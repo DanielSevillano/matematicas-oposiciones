@@ -1,0 +1,12 @@
+En el espacio vectorial $\mathbb{R}^3$, se consideran los siguientes conjuntos:
+\begin{align}
+    U_1 & = \{(x, y, z) \in \mathbb{R}^3 : x + y + z = 0\} \\
+    U_2 & = \{(t, 2t, 3t) \in \mathbb{R}^3 : t \in \mathbb{R}\}.
+\end{align}
+
+Se pide:
+
+<ol>
+    <li>Probar que son subespacios vectoriales de $\mathbb{R}^3$.</li>
+    <li>Hallar una base de $U_1$, de $U_2$ y de $U_1 \cap U_2$.</li>
+</ol>

@@ -1,0 +1,23 @@
+Encuentre un polinomio de tercer grado que tome los valores que a continuación se señalan:
+
+<div class="tabla">
+    <table>
+        <tr>
+            <th>$x_k$</th>
+            <td>0</td>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <th>$y_k$</th>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>5</td>
+        </tr>
+    </table>
+</div>
+
+y represéntelo como una función en los ejes cartesianos.

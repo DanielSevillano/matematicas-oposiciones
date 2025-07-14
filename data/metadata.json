@@ -1694,6 +1694,30 @@
         ]
     },
     {
+        "problema": "MA202501",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "MA202502",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "MA202503",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "MA202504",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
         "problema": "MA201801",
         "categorias": [
             "Álgebra"

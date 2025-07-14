@@ -1,0 +1,32 @@
+Responder razonadamente a las siguientes cuestiones:
+
+<ol>
+    <li>
+        Justificar si son correctas o no las siguientes afirmaciones sobre el conjunto:
+        $$C = \{(x, y) \in \mathbb{R}^2 : 0 < x < 1\} \text{ de } \mathbb{R}^2.$$
+
+        <ul>
+            <li>Es conexo y abierto.</li>
+            <li>Es conexo y compacto.</li>
+            <li>Es compacto y abierto.</li>
+        </ul>
+    </li>
+
+    <li>
+        Demostrar que toda matriz compleja cuadrada de orden 2 es semejante a una matriz de una de las tres formas siguientes:
+        $$\begin{pmatrix}
+            \lambda & 0 \\
+            0 & \mu
+        \end{pmatrix}, \quad
+        \begin{pmatrix}
+            \lambda & 0 \\
+            0 & \lambda
+        \end{pmatrix}, \quad
+        \begin{pmatrix}
+            \lambda & 0 \\
+            1 & \lambda
+        \end{pmatrix},$$
+
+        con $\lambda, \mu \in \mathbb{C}$.
+    </li>
+</ol>

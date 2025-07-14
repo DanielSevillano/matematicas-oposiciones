@@ -1,0 +1,10 @@
+Hállese la integral de línea para la forma diferencial siguiente:
+$$2xydx + x^2dy$$
+a lo largo de los caminos:
+
+<ol>
+    <li>El camino $C_1$ que está sobre la recta $y = x$, uniendo el punto $A(0, 0)$ con el punto $B(1, 1)$.</li>
+    <li>El camino $C_2$ que está sobre la parábola $y = x^2$, uniendo el punto $A(0, 0)$ con el punto $B(1, 1)$.</li>
+</ol>
+
+Interprétese el resultado obtenido.
