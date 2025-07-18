@@ -337,6 +337,10 @@ mjx-container {
     overflow-y: hidden;
 }
 
+mjx-stretchy-h {
+    clip-path: padding-box xywh(0 -2px 100% calc(100% + 4px)) !important;
+}
+
 /********************
 Adaptabilidad
 ********************/
