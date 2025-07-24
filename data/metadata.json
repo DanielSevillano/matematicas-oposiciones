@@ -24,6 +24,7 @@
     },
     {
         "problema": "AN202504",
+        "resuelto": true,
         "categorias": [
             "Probabilidad",
             "Álgebra"
