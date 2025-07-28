@@ -1,0 +1,6 @@
+Dada la cúbica $xy^2 = 1$, se pide:
+
+<ol>
+    <li>¿Cuántas tangentes a ella se pueden trazar desde un punto cualquiera $M(x, y)$?</li>
+    <li>Lugar geométrico de los puntos $M$ para los cuales dos de estas tangentes son perpendiculares entre sí.</li>
+</ol>

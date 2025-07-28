@@ -1,0 +1,7 @@
+Sea la suma:
+$$\sum_{n=1}^\infty \frac{x^{n+1}}{n(n+1)}.$$
+
+<ol>
+    <li>Calcular $x$ para que sea convergente.</li>
+    <li>Calcular la suma.</li>
+</ol>

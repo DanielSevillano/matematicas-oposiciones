@@ -1,0 +1,7 @@
+En las fiestas de San Juan de Soria desfilan por el centro de la ciudad el Domingo de Calderas 6 peñas.
+Un grupo de 10 personas decide apuntarse cada una a una sola peña de forma independiente y aleatoria. Sea $R$ el número de peñas a las que no se apunta ninguna de esas 10 personas. 
+
+<ol>
+    <li>Calcular la esperanza y la varianza de la variable $R$.</li>
+    <li>Generalizar el resultado anterior cuando el grupo sea de $N$ personas y $k$ peñas.</li>
+</ol>

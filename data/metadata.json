@@ -653,6 +653,30 @@
         ]
     },
     {
+        "problema": "CL202501",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "CL202502",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "CL202503",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "CL202504",
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
         "problema": "CL201801",
         "categorias": [
             "Álgebra"

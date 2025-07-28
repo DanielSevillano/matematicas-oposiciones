@@ -1,0 +1,14 @@
+Sea $P_3$ el espacio vectorial de los polinomios de grado menor o igual que 3.
+Sean
+$$S_1 = \{1 + x, 1 - x^2\}, \quad S_2 = \{1, 1-x, x^3\}$$
+dos subespacios de $P_3$ y $L_1$ y $L_2$ sus sistemas generadores.
+
+<ol>
+    <li>Hallar una base de $L_1 \cap L_2$.</li>
+    <li>
+        Sea $f: P_3 \to P_3$ un endomorfismo dado por:
+        $$f(p(x)) = xp(x) + kx^2p''(x).$$
+        Hallar la matriz de $f$ en la base canónica y los valores de $k$ para los que la dimensión de $\ker(f) > 1$.
+    </li>
+    <li>Obtener una base de $\ker(f)$ para los valores de $k$ obtenidos.</li>
+</ol>
