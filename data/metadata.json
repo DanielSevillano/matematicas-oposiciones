@@ -1,6 +1,7 @@
 [
     {
         "problema": "AN202501",
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Probabilidad",

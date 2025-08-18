@@ -1,0 +1,293 @@
+<ol>
+    <li>
+        Sean $l$ la longitud de la viga y $O$ el punto de la esquina interior.
+        La viga de mayor longitud que puede realizar el giro se corresponde con el segmento de longitud mínima que pasa por $O$ y tiene extremos en los bordes exteriores del pasillo.
+        <img src="img/problemas/RAN202501.png" alt="Figura" loading="lazy">
+
+        Sea $\alpha \in \left(0, \frac{\pi}{2}\right)$ el ángulo que forma el segmento con la horizontal y sean $l_1$ y $l_2$ las distancias del punto $O$ a cada uno de los extremos, respectivamente.
+        Se tiene que:
+        \begin{align}
+            & \cos(\alpha) = \frac{a}{l_1} \Rightarrow l_1 = \frac{a}{\cos(\alpha)}, \\
+            & \sin(\alpha) = \frac{b}{l_2} \Rightarrow l_2 = \frac{b}{\sin(\alpha)}.
+        \end{align}
+
+        De esta forma, la longitud completa de la viga viene dada en función del ángulo $\alpha$ por:
+        $$l = l_1 + l_2 = \frac{a}{\cos(\alpha)} + \frac{b}{\sin(\alpha)}.$$
+
+        Así que la función a minimizar es:
+        $$f(\alpha) = \frac{a}{\cos(\alpha)} + \frac{b}{\sin(\alpha)}.$$
+
+        En primer lugar, hallamos la derivada de la función.
+        $$f'(\alpha) = -\frac{a}{\cos^2(\alpha)} \cdot (-\sin(\alpha)) - \frac{b}{\sin^2(\alpha)} \cdot \cos(\alpha) = \frac{a\sin(\alpha)}{\cos^2(\alpha)} - \frac{b\cos(\alpha)}{\sin^2(\alpha)}.$$
+
+        Hallamos los puntos críticos igualando la derivada a cero.
+        \begin{align}
+            f'(\alpha) = 0 & \Leftrightarrow \frac{a\sin(\alpha)}{\cos^2(\alpha)} - \frac{b\cos(\alpha)}{\sin^2(\alpha)} = 0 \Leftrightarrow \frac{a\sin(\alpha)}{\cos^2(\alpha)} = \frac{b\cos(\alpha)}{\sin^2(\alpha)} \Leftrightarrow a\sin^3(\alpha) = b\cos^3(\alpha) \Leftrightarrow \tan^3(\alpha) = \frac{b}{a} \Leftrightarrow \\
+            & \Leftrightarrow \tan(\alpha) = \sqrt[3]{\frac{b}{a}} \Leftrightarrow \alpha = \arctan\left(\sqrt[3]{\frac{b}{a}}\right).
+        \end{align}
+
+        Estudiamos el signo de la derivada para comprobar que en el punto de abscisa $\alpha = \arctan\left(\sqrt[3]{\frac{b}{a}}\right)$ se alcanza el mínimo de la función.
+        Observamos que:
+        \begin{align}
+            & \lim_{\alpha \to 0^+} f'(\alpha) = \lim_{\alpha \to 0^+} \left(\frac{a\sin(\alpha)}{\cos^2(\alpha)} - \frac{b\cos(\alpha)}{\sin^2(\alpha)}\right) = -\infty, \\
+            & \lim_{\alpha \to \frac{\pi}{2}^-} f'(\alpha) = \lim_{\alpha \to \frac{\pi}{2}^-} \left(\frac{a\sin(\alpha)}{\cos^2(\alpha)} - \frac{b\cos(\alpha)}{\sin^2(\alpha)}\right) = +\infty.
+        \end{align}
+
+        Podemos organizar la información en una tabla.
+        
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td>
+                    <th>$\left(0, \arctan\left(\sqrt[3]{\frac{b}{a}}\right)\right)$</th>
+                    <th>$\left(\arctan\left(\sqrt[3]{\frac{b}{a}}\right), \frac{\pi}{2}\right)$</th>
+                </tr>
+
+                <tr>
+                    <td>signo de $f'$</td>
+                    <td>$-$</td>
+                    <td>$+$</td>
+                </tr>
+
+                <tr>
+                    <td>monotonía de $f$</td>
+                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                </tr>
+            </table>
+        </div>
+
+        Así que el mínimo absoluto de la función se alcanza en $\alpha = \arctan\left(\sqrt[3]{\frac{b}{a}}\right)$.
+        Por tanto, la longitud máxima de la viga viene dada por:
+        $$l = \frac{a}{\cos(\alpha_0)} + \frac{b}{\sin(\alpha_0)}, \quad \text{con } \alpha_0 = \arctan\left(\sqrt[3]{\frac{b}{a}}\right).$$
+
+        Para obtener una expresión más simplificada, podemos escribir el seno y el coseno en función de la tangente.
+        \begin{align}
+            & \tan(\alpha) = \frac{\sin(\alpha)}{\cos(\alpha)} \Rightarrow \tan^2(\alpha) = \sin^2(\alpha) \cdot \frac{1}{\cos^2(\alpha)} = \sin^2(\alpha)(1 + \tan^2(\alpha)) \Leftrightarrow \sin^2(\alpha) = \frac{\tan^2(\alpha)}{1 + \tan^2(\alpha)}, \\
+            & \cos^2(\alpha) = 1 - \sin^2(\alpha) = 1 - \frac{\tan^2(\alpha)}{1 + \tan^2(\alpha)} = \frac{1}{1 + \tan^2(\alpha)}.
+        \end{align}
+
+        Por tanto, la longitud se puede expresar de la forma:
+        \begin{align}
+            l & = a\sqrt{1 + \tan^2(\alpha_0)} + \frac{b\sqrt{1 + \tan^2(\alpha_0)}}{\tan(\alpha_0)} = \left(a + \frac{b}{\tan(\alpha_0)}\right)\sqrt{1 + \tan^2(\alpha_0)} = \left(a + \frac{b}{\sqrt[3]{\frac{b}{a}}}\right)\sqrt{1 + \left(\sqrt[3]{\frac{b}{a}}\right)^2} = \\
+            & = \left(a + \frac{b\sqrt[3]{a}}{\sqrt[3]{b}}\right)\sqrt{1 + \left(\sqrt[3]{\frac{b}{a}}\right)^2} = (a + a^{\frac{1}{3}} \cdot b^{\frac{2}{3}}) \sqrt{1 + \left(\frac{b}{a}\right)^{\frac{2}{3}}} = \sqrt[3]{a}(a^{\frac{2}{3}} + b^{\frac{2}{3}}) \sqrt{1 + \left(\frac{b}{a}\right)^{\frac{2}{3}}}.
+        \end{align}
+    </li>
+
+    <li>
+        Sean los sucesos:
+        \begin{align}
+            A & = \textit{Alicia gana la partida}, & B & = \textit{Berta gana la partida}, & T & = \textit{la partida termina en tablas}, \\
+            R_A & = \textit{Alicia gana la ronda}, & R_B & = \textit{Berta gana la ronda}, & R_E & = \textit{la ronda queda en empate}, \\
+            G_A & = \textit{Alicia gana el torneo}, & G_B & = \textit{Berta gana el torneo}.
+        \end{align}
+
+        Podemos organizar los datos en un diagrama de árbol.
+
+        <div class="tabla">
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: start;">$A \quad (2-0)$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$A$</td>
+                    <td>$\xrightarrow{\quad q \quad}$</td>
+                    <td style="text-align: start;">$B \quad (1-1)$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(-45deg);">$\xrightarrow{\quad p \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad r \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: start;">$T \quad (1,5-0,5)$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="padding-top: 20px; text-align: start;">$A \quad (1-1)$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td>$\xrightarrow{\quad q \quad}$</td>
+                    <td>$B$</td>
+                    <td>$\xrightarrow{\quad q \quad}$</td>
+                    <td style="text-align: start;">$B \quad (0-2)$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad r \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: start;">$T \quad (0,5-1,5)$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="padding-top: 20px; text-align: start;">$A \quad (1,5-0,5)$</td>
+                </tr>
+                <tr>
+                    <td style="transform: rotate(45deg);">$\xrightarrow{\quad r \quad}$</td>
+                    <td></td>
+                    <td style="transform: rotate(-45deg); padding-block: 10px;">$\xrightarrow{\quad p \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>$T$</td>
+                    <td>$\xrightarrow{\quad q \quad}$</td>
+                    <td style="text-align: start;">$B \quad (0,5-1,5)$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="transform: rotate(45deg); padding-block: 10px;">$\xrightarrow{\quad r \quad}$</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: start;">$T \quad (1-1)$</td>
+                </tr>
+            </table>
+        </div>
+
+        Las probabilidades de obtener los distintos resultados al terminar la ronda de dos partidas son:
+        \begin{align}
+            P(R_A) & = P(A \cap A) + P(A \cap T) + P(T \cap A) = P(A) \cdot P(A|A) + P(A) \cdot P(T|A) + P(T) \cdot P(A|T) = \\
+            & = p^2 + pr + rp = p^2 + 2pr = p(p + 2r), \\
+            P(R_B) & = P(B \cap B) + P(B \cap T) + P(T \cap B) = P(B) \cdot P(B|B) + P(B) \cdot P(T|B) + P(T) \cdot P(B|T) = \\
+            & = q^2 + qr + rq = q^2 + 2qr = q(q + 2r), \\
+            P(R_E) & = P(A \cap B) + P(B \cap A) + P(T \cap T) = P(A) \cdot P(B|A) + P(B) \cdot P(A|B) + P(T) \cdot P(T|T) = \\
+            & = pq + qr + r^2 = r^2 + 2pq.
+        \end{align}
+
+        De esta forma, las probabilidades de que ganen Alicia y Berta, respectivamente, vienen dadas por:
+        \begin{align}
+            P(G_A) & = P(R_A) + P(R_E) \cdot P(R_A) + P(R_E)^2 \cdot P(R_A) + \ldots = \sum_{n=0}^\infty P(R_A) \cdot P(R_E)^n = P(R_A) \cdot \sum_{n=0}^\infty (r^2 + 2pq)^n, \\
+            P(G_B) & = P(R_B) + P(R_E) \cdot P(R_B) + P(R_E)^2 \cdot P(R_B) + \ldots = \sum_{n=0}^\infty P(R_B) \cdot P(R_E)^n = P(R_B) \cdot \sum_{n=0}^\infty (r^2 + 2pq)^n.
+        \end{align}
+
+        Observamos que:
+        $$p + q + r = 1 \Rightarrow (p + q + r)^2 = 1 \Leftrightarrow 1 = p^2 + q^2 + r^2 + 2pq + 2pr + 2qr > r^2 + 2pq > 0.$$
+
+        Como $|r^2 + 2pq| < 1$, entonces:
+        $$\sum_{n=0}^\infty (r^2 + 2pq)^n = \frac{1}{1 - r^2 - 2pq}.$$
+
+        Por tanto,
+        \begin{align}
+            P(G_A) & = P(R_A) \cdot \sum_{n=0}^\infty (r^2 + 2pq)^n = \frac{p(p + 2r)}{1 - r^2 - 2pq}, \\
+            P(G_B) & = P(R_B) \cdot \sum_{n=0}^\infty (r^2 + 2pq)^n = \frac{q(q + 2r)}{1 - r^2 - 2pq}.
+        \end{align}
+
+        Si $q = r = 0,25$, entonces $p = 0,5$ y las probabilidades son:
+        \begin{align}
+            P(G_A) & = \frac{0,5(0,5 + 2 \cdot 0,25)}{1 - 0,25^2 - 2 \cdot 0,5 \cdot 0,25} = \frac{8}{11}, \\
+            P(G_B) & = \frac{0,25(0,25 + 2 \cdot 0,25)}{1 - 0,25^2 - 2 \cdot 0,5 \cdot 0,25} = \frac{3}{11}.
+        \end{align}
+    </li>
+
+    <li>
+        <p>
+            Sean $a$, $b$ y $c$ los lados de un triángulo rectángulo, donde $a$ y $b$ son los catetos y $c$ es la hipotenusa.
+            Recordamos que una terna pitagórica es primitiva si $a$, $b$ y $c$ son primos relativos entre sí.
+            Además, toda terna pitagórica es proporcional a una terna pitagórica primitiva.
+        </p>
+
+        <p>
+            Todas las ternas pitagóricas primitivas son de la forma:
+            $$\begin{cases}
+                a = m^2 - n^2, \\
+                b = 2mn, \\
+                c = m^2 + n^2,
+            \end{cases} \quad \text{con } m, n \in \mathbb{N} \text{ y } n < m.$$
+
+            Observamos que si $m$ y $n$ son impares, entonces $a$, $b$ y $c$ son múltiplos de 2 y la terna no sería primitiva.
+            Luego podemos suponer que $m$ o $n$ es par.
+        </p>
+
+        <p>
+            El producto de los catetos viene dado por:
+            $$ab = 2mn(m^2 - n^2) = 2mn(m-n)(m+n).$$
+
+            Observamos que, como $m$ o $n$ es par, entonces $ab$ es múltiplo de 4.
+            Veamos que $ab$ es también múltiplo 3 comprobando que lo es alguno de sus factores.
+        </p>
+
+        <ul>
+            <li>
+                Si $m$ o $n$ es múltiplo de 3, entonces $ab$ también lo es.
+            </li>
+
+            <li>
+                Si $m$ y $n$ no son múltiplos de 3, entonces:
+                \begin{align}
+                    m = 3k + 1 & \text{ o bien } m = 3k + 2, & & \text{con } k \in \mathbb{N} \cup \{0\}, \\
+                    n = 3q + 1 & \text{ o bien } n = 3q + 2, & & \text{con } q \in \mathbb{N} \cup \{0\}.
+                \end{align}
+
+                <ul>
+                    <li>
+                        Supongamos que:
+                        $$\begin{cases}
+                            m = 3k + 1, \\
+                            n = 3q + 1
+                        \end{cases} \quad \text{o bien} \quad
+                        \begin{cases}
+                            m = 3k + 2, \\
+                            n = 3q + 2.
+                        \end{cases}$$
+
+                        Entonces:
+                        $$m - n = 3k - 3q = 3(k - q).$$
+
+                        Luego $m - n$ es múltiplo de 3, así que $ab$ también lo es.
+                    </li>
+
+                    <li>
+                        Supongamos que:
+                        $$\begin{cases}
+                            m = 3k + 1, \\
+                            n = 3q + 2
+                        \end{cases} \quad \text{o bien} \quad
+                        \begin{cases}
+                            m = 3k + 2, \\
+                            n = 3q + 1.
+                        \end{cases}$$
+
+                        Entonces:
+                        $$m + n = 3k + 3q + 3 = 3(k + q + 1).$$
+
+                        Luego $m + n$ es múltiplo de 3, así que $ab$ también lo es.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>
+            Como el producto $ab$ es múltiplo de 3 y 4, también es múltiplo de 12.
+            Además, dado que todas las ternas pitagóricas son proporcionales a una terna pitagórica primitiva, se tiene que el producto de los catetos de cualquier triángulo rectángulo es múltiplo de 12.
+        </p>
+    </li>
+</ol>
