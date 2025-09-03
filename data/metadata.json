@@ -1015,6 +1015,37 @@
         ]
     },
     {
+        "problema": "GA202401",
+        "resuelto": true,
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "GA202402",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "GA202403",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "GA202404",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "GA202405",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
         "problema": "GA201801",
         "categorias": [
             "Geometría"
