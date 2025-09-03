@@ -1,0 +1,20 @@
+Sea $P_n$ la sucesión de polinomios dada por:
+$P_n(x)=x^{n+2}-2x+1$, $n=1,2,\ldots$
+<ol>
+<li>
+Compruebe que todos los polinomios de la sucesión tienen un cero común.
+<\li>
+<li>
+Demostrar que cada polinomio de la sucesión tiene como mucho un cero en el intervalo $(0,1)$.
+<\li>
+<li>
+Demostrar que cada polinomio de la sucesión tiene un cero en el intervalo $(0,1)$.
+<\li>
+<li>
+Sea $\{x_n:n\in\mathbb{N}\} la sucesión formada por los ceros de $P_n$ en $(0,1)$. Demostrar que converge.
+Nota: Representar gráficamente $y=P_n(x)$.
+<\li>
+<li>
+Calcular $\lim_{n\to\infty}x_n$.
+<\li>
+<\ol>

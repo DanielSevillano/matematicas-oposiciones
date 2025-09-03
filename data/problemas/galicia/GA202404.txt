@@ -1,0 +1,1 @@
+Dentro de una esfera maciza de 80cm de diámetro existe una cavidad con forma de cono equilátero inscrito dentro de dicha esfera. Trace un plano normal al eje del cono de tal manera que la corona circular que dicho plano determina al cortar la esfera y el cono tenga área máxima.
