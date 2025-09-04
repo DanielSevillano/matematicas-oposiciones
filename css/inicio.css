@@ -74,12 +74,6 @@ Tarjeta
     align-items: center;
 }
 
-@media (min-width: 500px) {
-    .agradecimiento {
-        max-width: 30ch;
-    }
-}
-
 .agradecimiento p {
     margin: 0;
     text-align: center;
