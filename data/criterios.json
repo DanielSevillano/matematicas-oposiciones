@@ -12,7 +12,7 @@
     {
         "nivel": "MAT1",
         "codigo": "1.2",
-        "descripcion": "Aplicar, en problemas de contextos cercanos de la vida cotidiana, herramientas y estrategias apropiadas, como pueden ser la descomposici ón en problemas más sencillos, el tanteo, el ensayo y error o la búsqueda de patrones, que contribuyan a la resolución de problemas de su entorno más cercano.",
+        "descripcion": "Aplicar, en problemas de contextos cercanos de la vida cotidiana, herramientas y estrategias apropiadas, como pueden ser la descomposición en problemas más sencillos, el tanteo, el ensayo y error o la búsqueda de patrones, que contribuyan a la resolución de problemas de su entorno más cercano.",
         "saberes": [
             "MAT.1.A.3.1",
             "MAT.1.B.1.2"
@@ -99,7 +99,7 @@
     {
         "nivel": "MAT1",
         "codigo": "5.2",
-        "descripcion": "Realizar conexiones entre diferentes procesos matemáticos sencillos, aplicando conocimiento s y experiencias previas y enlazándolas con las nuevas ideas.",
+        "descripcion": "Realizar conexiones entre diferentes procesos matemáticos sencillos, aplicando conocimientos y experiencias previas y enlazándolas con las nuevas ideas.",
         "saberes": [
             "MAT.1.A.2.5",
             "MAT.1.A.4.1"
@@ -120,7 +120,7 @@
     {
         "nivel": "MAT1",
         "codigo": "6.2",
-        "descripcion": "Analizar conexiones coherentes entre ideas y conceptos matemáticos con otras materias y con la vida real y aplicarlas mediante el uso de procedimient os sencillos en la resolución de problemas en situaciones del entorno cercano.",
+        "descripcion": "Analizar conexiones coherentes entre ideas y conceptos matemáticos con otras materias y con la vida real y aplicarlas mediante el uso de procedimientos sencillos en la resolución de problemas en situaciones del entorno cercano.",
         "saberes": [
             "MAT.1.D.4.1"
         ]
@@ -138,7 +138,7 @@
     {
         "nivel": "MAT1",
         "codigo": "7.1",
-        "descripcion": "Representar conceptos, procedimientos, información y resultados matemáticos usando herramientas digitales sencillas, y formas de representació n adecuadas para visualizar ideas y estructurar procesos matemáticos, interpretando y resolviendo problemas del entorno cercano y valorando su utilidad para compartir información.",
+        "descripcion": "Representar conceptos, procedimientos, información y resultados matemáticos usando herramientas digitales sencillas, y formas de representación adecuadas para visualizar ideas y estructurar procesos matemáticos, interpretando y resolviendo problemas del entorno cercano y valorando su utilidad para compartir información.",
         "saberes": [
             "MAT.1.A.2.4",
             "MAT.1.E.1.2",
@@ -415,7 +415,7 @@
     {
         "nivel": "MAT2",
         "codigo": "10.2",
-        "descripcion": "Participar en el reparto de tareas que deban desarrollarse en equipo, aportando valor, favoreciendo la inclusión, la escucha activa, participando de forma respetuosa, dialogante y constructiva, asumiendo el rol asignado, analizando los estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales y responsabilizándo se de la propia contribución al equipo.",
+        "descripcion": "Participar en el reparto de tareas que deban desarrollarse en equipo, aportando valor, favoreciendo la inclusión, la escucha activa, participando de forma respetuosa, dialogante y constructiva, asumiendo el rol asignado, analizando los estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales y responsabilizándose de la propia contribución al equipo.",
         "saberes": [
             "MAT.2.F.2.1",
             "MAT.2.F.3.1"
@@ -652,7 +652,7 @@
     {
         "nivel": "MAT3",
         "codigo": "10.2",
-        "descripcion": "Participar en el reparto de tareas que deban desarrollarse en equipo, aportando valor, favoreciendo la inclusión, ejercitando la escucha activa, mostrando empatía por los demás, asumiendo el rol asignado, rompiendo con los estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales y responsabilizánd ose de la propia contribución al equipo.",
+        "descripcion": "Participar en el reparto de tareas que deban desarrollarse en equipo, aportando valor, favoreciendo la inclusión, ejercitando la escucha activa, mostrando empatía por los demás, asumiendo el rol asignado, rompiendo con los estereotipos e ideas preconcebidas sobre las matemáticas asociadas a cuestiones individuales y responsabilizándose de la propia contribución al equipo.",
         "saberes": [
             "MAT.3.F.2.1",
             "MAT.3.F.3.1"
