@@ -1,0 +1,8 @@
+Un gerente sólo da plazas de restaurante mediante reserva previa de mesa. Sabe que el $15\%$ de las reservas no asistirán. Si el restaurante acepta 25 reservas pero sólo dispone de 20 mesas, calcular la probabilidad de:
+
+<ol>
+    <li>Que dos reservas se queden sin mesa.</li>
+    <li>Que se ajusten las reservas a las mesas.</li>
+    <li>Que no haya "oberbooking" (más reservas que mesas).</li>
+
+</ol>
