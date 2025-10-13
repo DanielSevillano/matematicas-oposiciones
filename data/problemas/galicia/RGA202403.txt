@@ -1,0 +1,20 @@
+Sea $N$ el número de cocos buscado. 
+
+La primera persona oculta $\frac{N-1}{3}$, deja en el montón $M=\frac{2(N-1)}{3}$ y le da un coco al mono.
+
+La segunda persona oculta $\frac{M-1}{3}$, deja en el montón $P=\frac{2(M-1)}{3}$ y le da un coco al mono.
+
+La tercera persona oculta $\frac{P-1}{3}$, deja en el montón $Q=\frac{2(P-1)}{3}$ y le da un coco al mono.
+
+Por hipótesis, $Q$ es múltiplo de 3, luego $Q=3k$ para algún $k\in\mathbb{Z}$. Buscamos expresar $N$ en función de $k$. 
+
+$$\frac{2(P-1)}{3}=Q=3k\Rightarrow P=\frac{9k}{2}+1,$$
+$$\frac{2(M-1)}{3}=P=\frac{9k}{2}+1\Rightarrow M=\frac{27k}{4}+\frac{5}{2},$$
+$$\frac{2(N-1)}{3}=M=\frac{27k}{4}+\frac{5}{2}\Rightarrow N=\frac{81k}{8}+\frac{19}{4}.$$
+Por hipótesis, $N\in\mathbb{Z}$ y es tal que $200<N<300$, luego
+$$200<\frac{81k}{8}+\frac{19}{4}<300\iff 19.284<k<29.16 $$
+Como $k\in\mathbb{Z}$, los posibles valores de $k$ son $20,21,\ldots,29$.
+No olvidemos que $N\in\matbb{Z}$, luego $\frac{81k}{8}+\frac{19}{4}\in\mathbb{Z}\iff 81k+38\equiv 0(mod 8)$. Reduciendo módulo $8$ se tiene que $k\equiv 2(mod 8)$, luego el único valor de $k$ que cumple las condiciones pedidas es $k=26$.
+Conclusión: El número inicial de cocos es $N=\frac{81\cdot 26}{8}+\frac{19}{4}=268$. La primera persona se ha quedado $\frac{N-1}{3}+\frac{Q}{3}=115$ cocos, la segunda persona se ha quedado $\frac{M-1}{3}+\frac{Q}{3}=85$ cocos, la tercera persona se ha quedado $\frac{P-1}{3}+\frac{Q}{3}=65$ cocos y el mono se ha quedado con $3$ cocos.
+
+

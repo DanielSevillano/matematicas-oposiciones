@@ -1,0 +1,1 @@
+Hallar el menor número natural $m$ tal que la ecuación $533x+299y=20000+m$ tenga solución entera y calcular ésta.

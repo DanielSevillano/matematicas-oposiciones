@@ -1,0 +1,6 @@
+Se considera un cono de revolución con una esfera inscrita tangente a la base del cono. Circunscribimos a esta esfera un cilindro de forma que una de sus bases esté sobre la base del cono. Sean $V_1$ el volumen del cono y $V_2$ el del cilindro.
+
+<ol>
+    <li>Probar que $V_1\neq V_2$.</li>
+    <li>Encontrar el menor número real $k$ para el que se da la igualdad $V_1=kV_2$ y, para dicho valor, calcular el ángulo bajo el que se ve el diámetro de la base del cono desde el vértice del mismo.</li>
+</ol>
