@@ -1,0 +1,5 @@
+Sea $f$ la función real de variable real dada por 
+$$f(x)=\ln (1+x^2)-\arctan (x).$$
+Demostrar que 
+$$f^{n)}(x)=\frac{P_n(x)}{(1+x^2)^n},$$
+donde $P_n(x)$ es un polinomio de grado $n$ con $n$ raíces reales diferentes.
