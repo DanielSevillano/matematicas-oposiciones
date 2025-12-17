@@ -457,6 +457,30 @@
         ]
     },
     {
+        "problema": "AR200401",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "AR200402",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "AR200403",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
+        "problema": "AR200404",
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
         "problema": "AS201801",
         "categorias": [
             "Probabilidad"
@@ -1023,12 +1047,14 @@
     },
     {
         "problema": "GA202402",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
     },
     {
         "problema": "GA202403",
+        "resuelto": true,
         "categorias": [
             "Álgebra"
         ]
