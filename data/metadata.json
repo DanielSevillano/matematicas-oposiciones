@@ -965,6 +965,7 @@
     },
     {
         "problema": "CE201402",
+        "resuelto": true,
         "categorias": [
             "Análisis"
         ]

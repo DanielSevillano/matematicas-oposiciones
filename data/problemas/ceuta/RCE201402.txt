@@ -1,0 +1,26 @@
+<p>
+    La función de densidad de la distribución normal estándar $Z \sim N(0, 1)$ es:
+    $$f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}}.$$
+
+    Por ser una función de densidad, se verifica que:
+    $$\int_{\mathbb{R}} f(x)dx = 1 \Leftrightarrow \int_{\mathbb{R}} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} dx = 1.$$
+
+    Como la función de densidad de la distribución normal estándar es simétrica par, se tiene que:
+    $$\int_{\mathbb{R}} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} dx = 2\int_0^{+\infty} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} dx = \sqrt{\frac{2}{\pi}}\int_0^{+\infty} e^{-\frac{x^2}{2}} dx.$$
+</p>
+
+<p>
+    Realizamos el siguiente cambio de variable:
+    \begin{align}    
+        t^2 = \frac{x^2}{2} \Leftrightarrow x^2 = 2t^2 \Rightarrow x & = \sqrt{2}t, \\
+        dx & = \sqrt{2}dt.
+    \end{align}
+
+    De esta forma,
+    $$\sqrt{\frac{2}{\pi}}\int_0^{+\infty} e^{-\frac{x^2}{2}} dx = \sqrt{\frac{2}{\pi}} \int_0^{+\infty} e^{-t^2} \cdot \sqrt{2} dt = \frac{2}{\sqrt{\pi}} \int_0^{+\infty} e^{-t^2} dt.$$
+</p>
+
+<p>
+    Por tanto,
+    $$\int_{\mathbb{R}} f(x) = 1 \Leftrightarrow \frac{2}{\sqrt{\pi}} \int_0^{+\infty} e^{-t^2} dt = 1 \Leftrightarrow \int_0^{+\infty} e^{-t^2} dt = \frac{\sqrt{\pi}}{2}.$$
+</p>
