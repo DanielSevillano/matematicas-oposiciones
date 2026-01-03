@@ -261,7 +261,8 @@ Imágenes
 
 main img {
     display: block;
-    max-width: min(100%, 40ch);
+    max-width: min(100%, 60ch);
+    max-height: 40ch;
     margin: 1.5em auto;
 }
 
