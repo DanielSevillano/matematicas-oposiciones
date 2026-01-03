@@ -1,0 +1,251 @@
+<ol>
+    <li>
+        <ol>
+            <li>
+                El dominio de la función es $\Dom(f) = \mathbb{R} \setminus \left\{-\frac{1}{2}\right\}$.
+                Como se trata de una función racional, es continua e infinitamente derivable en su dominio.
+                Es inmediato ver que su único punto de corte con los ejes de coordenadas es $(0, 0)$ y no presenta simetría.
+                Por comodidad, también podemos expresar la función como:
+                $$f(x) = \frac{x^3}{(1 + 2x)^2} = \frac{x^3}{4x^2 + 4x + 1}.$$
+
+                <ul>
+                    <li>
+                        Estudiamos la existencia de asíntotas verticales.
+                        Para $x = -\frac{1}{2}$,
+                        \begin{align}
+                            & \lim_{x \to -\frac{1}{2}^-} f(x) = \lim_{x \to -\frac{1}{2}^-} \frac{x^3}{(1 + 2x)^2} = -\infty, \\
+                            & \lim_{x \to -\frac{1}{2}^+} f(x) = \lim_{x \to -\frac{1}{2}^+} \frac{x^3}{(1 + 2x)^2} = -\infty.
+                        \end{align}
+
+                        Luego la recta $x = -\frac{1}{2}$ es una asíntota vertical.
+                    </li>
+
+                    <li>
+                        Estudiamos la existencia de asíntotas horizontales y el comportamiento de la función en el infinito.
+                        Observamos que:
+                        \begin{align}
+                            & \lim_{x \to -\infty} f(x) = \lim_{x \to -\infty} \frac{x^3}{(1 + 2x)^2} = -\infty, \\
+                            & \lim_{x \to +\infty} f(x) = \lim_{x \to +\infty} \frac{x^3}{(1 + 2x)^2} = +\infty.
+                        \end{align}
+
+                        Luego no tiene ninguna asíntota horizontal.
+                    </li>
+
+                    <li>
+                        Estudiamos la existencia de asíntotas oblicuas.
+                        Observamos que:
+                        $$\lim_{x \to +\infty} \frac{f(x)}{x} = \lim_{x \to +\infty} \frac{x^2}{4x^2 + 4x + 1} = \frac{1}{4}.$$
+
+                        Luego la función tiene una asíntota oblicua con pendiente $m = \frac{1}{4}$.
+                        Hallamos su ordenada en el origen.
+                        \begin{align}
+                            n & = \lim_{x \to +\infty} (f(x) - mx) = \lim_{x \to +\infty} \left(\frac{x^3}{4x^2 + 4x + 1} - \frac{x}{4}\right) = \lim_{x \to +\infty} \frac{4x^3 - 4x^3 - 4x^2 - x}{16x^2 + 16x + 4} = \\
+                            & = \lim_{x \to +\infty} \frac{-4x^2 - x}{16x^2 + 16x + 4} = -\frac{1}{4}.
+                        \end{align}
+
+                        Por tanto, la asíntota oblicua es $y = \frac{1}{4}x - \frac{1}{4} = \frac{x - 1}{4}$.
+                    </li>
+
+                    <li>
+                        Para estudiar la monotonía la función, calculamos en primer lugar su derivada.
+                        $$f'(x) = \frac{3x^2(1 + 2x)^2 - x^3 \cdot 2(1 + 2x) \cdot 2}{(1 + 2x)^4} = \frac{3x^2(1 + 2x) - 4x^3}{(1 + 2x)^3} = \frac{3x^2 + 6x^3 - 4x^3}{(1 + 2x)^3} = \frac{2x^3 + 3x^2}{(1 + 2x)^3}.$$
+
+                        Para hallar los puntos críticos, igualamos la derivada a cero.
+                        $$f'(x) = 0 \Leftrightarrow \frac{2x^3 + 3x^2}{(1 + 2x)^3} = 0 \Leftrightarrow 2x^3 + 3x^2 = 0 \Leftrightarrow x^2(2x + 3) = 0 \Leftrightarrow \begin{cases}
+                            x = 0, \\
+                            2x + 3 = 0 \Leftrightarrow x = -\frac{3}{2}.
+                        \end{cases}$$
+
+                        Estudiamos el signo de la derivada.
+
+                        <div class="tabla">
+                            <table>
+                                <tr>
+                                    <td>
+                                    <th>$\left(-\infty, -\frac{3}{2}\right)$</th>
+                                    <th>$\left(-\frac{3}{2}, -\frac{1}{2}\right)$</th>
+                                    <th>$\left(-\frac{1}{2}, 0\right)$</th>
+                                    <th>$(0, +\infty)$</th>
+                                </tr>
+
+                                <tr>
+                                    <td>signo de $f'$</td>
+                                    <td>$+$</td>
+                                    <td>$-$</td>
+                                    <td>$+$</td>
+                                    <td>$+$</td>
+                                </tr>
+
+                                <tr>
+                                    <td>monotonía de $f$</td>
+                                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                                    <td style="transform: rotate(45deg);">$\rightarrow$</td>
+                                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                                    <td style="transform: rotate(-45deg);">$\rightarrow$</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        Por tanto, $f$ es creciente en $\left(-\infty, -\frac{3}{2}\right) \cup \left(-\frac{1}{2}, +\infty\right)$ y decreciente en $\left(-\frac{3}{2}, -\frac{1}{2}\right)$.
+                        Además, el punto $\left(-\frac{3}{2}, -\frac{27}{32}\right)$ es un máximo relativo.
+                    </li>
+
+                    <li>
+                        Para estudiar la curvatura la función, calculamos en primer lugar su segunda derivada.
+                        \begin{align}
+                            f''(x) & = \frac{(6x^2 + 6x)(1 + 2x)^3 - (2x^3 + 3x^2) \cdot 3(1 + 2x)^2 \cdot 2}{(1 + 2x)^6} = \frac{(6x^2 + 6x)(1 + 2x) - 6(2x^3 + 3x^2)}{(1 + 2x)^4} = \\
+                            & = \frac{6x^2 + 12x^3 + 6x + 12x^2 - 12x^3 - 18x^2}{(1 + 2x)^4} = \frac{6x}{(1 + 2x)^4}.
+                        \end{align}
+
+                        Para hallar los candidatos a puntos de inflexión, igualamos la segunda derivada a cero.
+                        $$f''(x) = 0 \Leftrightarrow \frac{6x}{(1 + 2x)^4} = 0 \Leftrightarrow 6x = 0 \Leftrightarrow x = 0.$$
+
+                        Estudiamos el signo de la segunda derivada.
+
+                        <div class="tabla">
+                            <table>
+                                <tr>
+                                    <td>
+                                    <th>$\left(-\infty, -\frac{1}{2}\right)$</th>
+                                    <th>$\left(-\frac{1}{2}, 0\right)$</th>
+                                    <th>$(0, +\infty)$</th>
+                                </tr>
+
+                                <tr>
+                                    <td>signo de $f''$</td>
+                                    <td>$-$</td>
+                                    <td>$-$</td>
+                                    <td>$+$</td>
+                                </tr>
+
+                                <tr>
+                                    <td>monotonía de $f$</td>
+                                    <td>$\frown$</td>
+                                    <td>$\frown$</td>
+                                    <td>$\smile$</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+
+                    Por tanto, $f$ es convexa en $(0, +\infty)$ y cóncava en $\left(-\infty, -\frac{1}{2}\right) \cup \left(-\frac{1}{2}, 0\right)$.
+                    Además, $(0, 0)$ es su único punto de inflexión.
+                </ul>
+
+                Representamos la función.
+                <img src="img/problemas/RAN202502-1.png" alt="Figura" loading="lazy">
+            </li>
+
+            <li>
+                Representamos el recinto.
+                <img src="img/problemas/RAN202502-2.png" alt="Figura" loading="lazy">
+
+                <ul>
+                    <li>
+                        Hallamos la abscisa del punto de corte $P$.
+                        \begin{align}
+                            \begin{cases}
+                            y = \dfrac{x^3}{(1 + 2x)^2}, \\
+                            y = \dfrac{x - 1}{4}
+                            \end{cases} & \Rightarrow \frac{x^3}{(1 + 2x)^2} = \frac{x - 1}{4} \Leftrightarrow 4x^3 = (x - 1)(4x^2 + 4x + 1) \Leftrightarrow \\
+                            & \Leftrightarrow 4x^3 = 4x^3 + 4x^2 + x - 4x^2 - 4x - 1 \Leftrightarrow 3x = -1 \Leftrightarrow x = -\frac{1}{3}.
+                        \end{align}
+                    </li>
+
+                    <li>
+                        Hallamos la abscisa del punto de corte $Q$.
+                        $$\begin{cases}
+                            y = \dfrac{x - 1}{4}, \\
+                            x + y = 0
+                        \end{cases} \Rightarrow \frac{x - 1}{4} = -x \Leftrightarrow x - 1 = -4x \Leftrightarrow 5x = 1 \Leftrightarrow x = \frac{1}{5}.$$
+                    </li>
+                </ul>
+
+                Calculamos el área de los dos recintos $A_1$ y $A_2$.
+
+                <ul>
+                    <li>
+                        El área del recinto $A_1$ viene dada por la integral definida:
+                        $$A_1 = \int_{-\frac{1}{3}}^0 \left(\frac{x^3}{4x^2 + 4x + 1} - \frac{x-1}{4}\right)dx.$$
+
+                        Realizamos la división del primer sumando.
+                        $$\frac{x^3}{4x^2 + 4x + 1} = \frac{x - 1}{4} + \frac{3x + 1}{4(4x^2 + 4x + 1)}.$$
+
+                        De esta forma, la integral queda:
+                        $$A_1 = \int_{-\frac{1}{3}}^0 \left(\frac{x - 1}{4} + \frac{3x + 1}{4(4x^2 + 4x + 1)} - \frac{x - 1}{4}\right)dx = \frac{1}{4}\int_{-\frac{1}{3}}^0 \frac{3x + 1}{(1 + 2x)^2}dx.$$
+
+                        Expresamos el integrando como suma de fracciones simples.
+                        $$\frac{3x + 1}{(1 + 2x)^2} = \frac{A}{1 + 2x} + \frac{B}{(1 + 2x)^2} = \frac{A(1 + 2x) + B}{(1 + 2x)^2} \Rightarrow 3x + 1 = A(1 + 2x) + B.$$
+
+                        Sustituimos para hallar los valores de $A$ y $B$.
+                        
+                        <ul>
+                            <li>Si $x = -\frac{1}{2}$, entonces $-\frac{3}{2} + 1 = B \Leftrightarrow B = -\frac{1}{2}$.</li>
+                            <li>Si $x = 0$, entonces $1 = A - \frac{1}{2} \Leftrightarrow A = \frac{3}{2}$.</li>
+                        </ul>
+
+                        Por tanto,
+                        \begin{align}
+                            A_1 & = \frac{1}{4} \cdot \frac{3}{2} \int_{-\frac{1}{3}}^0 \frac{1}{1 + 2x}dx - \frac{1}{4} \cdot \frac{1}{2} \int_{-\frac{1}{3}}^0 \frac{1}{(1 + 2x)^2}dx = \frac{3}{8} \cdot \frac{1}{2} \Big[\ln |1 + 2x|\Big]_{-\frac{1}{3}}^0 + \frac{1}{8} \cdot \frac{1}{2} \left[\frac{1}{1 + 2x}\right]_{-\frac{1}{3}}^0 = \\
+                            & = \frac{3}{16} \cdot \left(-\ln\left(\frac{1}{3}\right)\right) + \frac{1}{16} \cdot (1 - 3) = \frac{3}{16}\ln(3) - \frac{1}{8} \; u^2.
+                        \end{align}
+                    </li>
+
+                    <li>
+                        El recinto $A_2$ es un triángulo de base $\frac{1}{4}$ y altura $\frac{1}{5}$, con área:
+                        $$A_2 = \frac{\frac{1}{4} \cdot \frac{1}{5}}{2} = \frac{1}{40} \; u^2.$$
+                    </li>
+                </ul>
+
+                Por tanto, el área del recinto es:
+                $$\mathbf{A} = A_1 + A_2 = \frac{3}{16}\ln(3) - \frac{1}{8} + \frac{1}{40} \; u^2.$$
+            </li>
+        </ol>
+    </li>
+
+    <li>
+        Representamos el cuadrilátero y sus prolongaciones, junto con todos los elementos que vamos a utilizar.
+        <img src="img/problemas/RAN202502-3.png" alt="Figura" loading="lazy">
+
+        Sea $S'$ el área del cuadrilátero $MNPQ$, se tiene que:
+        \begin{align}
+            S & = S_1 + S_2 + S_3 + S_4, \\
+            S' & = A_1 + A_2 + A_3 + A_4.
+        \end{align}
+
+        <ul>
+            <li>
+                Tomando de referencia el triángulo $AQM$, tenemos que:
+                $$A_1 = \frac{1}{2} \cdot AQ \cdot AM \cdot \sin(\pi - \alpha) = \frac{1}{2} \cdot \frac{d}{2} \cdot \left(a + \frac{a}{2}\right) \cdot \sin(\alpha) = \frac{3ad}{8}\sin(\alpha).$$
+
+                Fijándonos en el triángulo $ABD$, se tiene que:
+                $$S_1 + S_2 = \frac{1}{2} ad \sin(\alpha) \Leftrightarrow \sin(\alpha) = \frac{2(S_1 + S_2)}{ad}.$$
+
+                Luego:
+                $$A_1 = \frac{3ad}{8} \cdot \frac{2(S_1 + S_2)}{ad} = \frac{3}{4}(S_1 + S_2).$$
+            </li>
+
+            <li>
+                Tomando de referencia el triángulo $BMN$, tenemos que:
+                $$A_2 = \frac{1}{2} \cdot BM \cdot BN \cdot \sin(\pi - \beta) = \frac{1}{2} \cdot \frac{a}{2} \cdot \left(b + \frac{b}{2}\right) \cdot \sin(\beta) = \frac{3ab}{8}\sin(\beta).$$
+
+                Fijándonos en el triángulo $ABC$, se tiene que:
+                $$S_2 + S_3 = \frac{1}{2} ab \sin(\beta) \Leftrightarrow \sin(\beta) = \frac{2(S_2 + S_3)}{ab}.$$
+
+                Luego:
+                $$A_2 = \frac{3ab}{8} \cdot \frac{2(S_2 + S_3)}{ab} = \frac{3}{4}(S_2 + S_3).$$
+            </li>
+
+            <li>
+                De forma análoga, se tiene que:
+                $$A_3 = \frac{3}{4}(S_3 + S_4), \quad A_4 = \frac{3}{4}(S_4 + S_1).$$
+            </li>
+        </ul>
+
+        Por tanto,
+        \begin{align}
+            S' & = S + A_1 + A_2 + A_3 + A_4 = S + \frac{3}{4}(S_1 + S_2) + \frac{3}{4}(S_2 + S_3) + \frac{3}{4}(S_3 + S_4) + \frac{3}{4}(S_4 + S_1) = \\
+            & = S + \frac{3}{4}(2S_1 + 2S_2 + 2S_3 + 2S_4) = S + \frac{3}{2}(S_1 + S_2 + S_3 + S_4) = S + \frac{3}{2}S = \frac{5}{2}S.
+        \end{align}
+    </li>
+</ol>

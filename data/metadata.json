@@ -10,6 +10,7 @@
     },
     {
         "problema": "AN202502",
+        "resuelto": true,
         "categorias": [
             "Análisis",
             "Geometría"
