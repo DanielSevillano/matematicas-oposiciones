@@ -70,7 +70,7 @@
         Por tanto, la longitud se puede expresar de la forma:
         \begin{align}
             l & = a\sqrt{1 + \tan^2(\alpha_0)} + \frac{b\sqrt{1 + \tan^2(\alpha_0)}}{\tan(\alpha_0)} = \left(a + \frac{b}{\tan(\alpha_0)}\right)\sqrt{1 + \tan^2(\alpha_0)} = \left(a + \frac{b}{\sqrt[3]{\frac{b}{a}}}\right)\sqrt{1 + \left(\sqrt[3]{\frac{b}{a}}\right)^2} = \\
-            & = \left(a + \frac{b\sqrt[3]{a}}{\sqrt[3]{b}}\right)\sqrt{1 + \left(\sqrt[3]{\frac{b}{a}}\right)^2} = (a + a^{\frac{1}{3}} \cdot b^{\frac{2}{3}}) \sqrt{1 + \left(\frac{b}{a}\right)^{\frac{2}{3}}} = \sqrt[3]{a}(a^{\frac{2}{3}} + b^{\frac{2}{3}}) \sqrt{1 + \left(\frac{b}{a}\right)^{\frac{2}{3}}}.
+            & = (a + a^{\frac{1}{3}} \cdot b^{\frac{2}{3}}) \sqrt{1 + \frac{b^{\frac{2}{3}}}{a^{\frac{2}{3}}}} = a^{\frac{1}{3}}(a^{\frac{2}{3}} + b^{\frac{2}{3}}) \sqrt{\frac{a^{\frac{2}{3}} + b^{\frac{2}{3}}}{a^{\frac{2}{3}}}} = a^{\frac{1}{3}}(a^{\frac{2}{3}} + b^{\frac{2}{3}}) \cdot \frac{\left(a^{\frac{2}{3}} + b^{\frac{2}{3}}\right)^{\frac{1}{2}}}{a^{\frac{1}{3}}} = \left(a^{\frac{2}{3}} + b^{\frac{2}{3}}\right)^{\frac{3}{2}}.
         \end{align}
     </li>
 
@@ -189,10 +189,7 @@
             P(G_B) & = P(R_B) + P(R_E) \cdot P(R_B) + P(R_E)^2 \cdot P(R_B) + \ldots = \sum_{n=0}^\infty P(R_B) \cdot P(R_E)^n = P(R_B) \cdot \sum_{n=0}^\infty (r^2 + 2pq)^n.
         \end{align}
 
-        Observamos que:
-        $$p + q + r = 1 \Rightarrow (p + q + r)^2 = 1 \Leftrightarrow 1 = p^2 + q^2 + r^2 + 2pq + 2pr + 2qr > r^2 + 2pq > 0.$$
-
-        Como $|r^2 + 2pq| < 1$, entonces:
+        Como $0 < r^2 + 2pq < 1$ por tratarse de una probabilidad, entonces:
         $$\sum_{n=0}^\infty (r^2 + 2pq)^n = \frac{1}{1 - r^2 - 2pq}.$$
 
         Por tanto,
