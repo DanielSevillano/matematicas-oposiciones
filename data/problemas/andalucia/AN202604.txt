@@ -1,0 +1,3 @@
+Dada la función
+$$y = \ln|\ln|x||$$
+realice un estudio completo y represente su gráfica.

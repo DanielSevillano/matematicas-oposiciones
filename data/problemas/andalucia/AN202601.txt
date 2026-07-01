@@ -1,0 +1,22 @@
+<ol>
+    <li>
+        Dado el determinante $D_n$ de una matriz tridiagonal cuadrada de orden $n$, halle
+        $$P_n = \begin{vmatrix}
+            D_n & D_{n-1} \\
+            D_{n+1} & D_n
+        \end{vmatrix},$$
+        donde
+        $$D_n = \begin{vmatrix}
+            x & 1 & 0 & 0 & \ldots & 0 \\
+            1 & x & 1 & 0 & \ldots & 0 \\
+            0 & 1 & x & 1 & \ldots & 0 \\
+            0 & 0 & 1 & x & \ldots & 0 \\
+            \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+            0 & 0 & 0 & 0 & 1 & x
+        \end{vmatrix}.$$
+    </li>
+
+    <li>
+        Calcule $D_n$ para $x = 2$.
+    </li>
+</ol>

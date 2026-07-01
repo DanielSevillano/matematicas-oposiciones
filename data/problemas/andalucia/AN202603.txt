@@ -1,0 +1,4 @@
+Amelia y Ezequiel son dos vecinos que comparten un tendedero en la azotea de su bloque.
+Una vez al día, cada uno sube a tender la ropa en un instante elegido de forma independiente y uniformemente al azar entre las 10:00 y las 17:00.
+La ropa tarda 45 minutos en secarse si se tiende antes de las 12:00, y 30 minutos si se tiende a partir de las 12:00; en ambos casos, se recoge inmediatamente después de secarse.
+Calcule la probabilidad de que al menos uno de los dos encuentre el tendedero ocupado por la ropa del otro cuando suba a tender.

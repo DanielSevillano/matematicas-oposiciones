@@ -1,5 +1,29 @@
 [
     {
+        "problema": "AN202601",
+        "categorias": [
+            "Álgebra"
+        ]
+    },
+    {
+        "problema": "AN202602",
+        "categorias": [
+            "Geometría"
+        ]
+    },
+    {
+        "problema": "AN202603",
+        "categorias": [
+            "Probabilidad"
+        ]
+    },
+    {
+        "problema": "AN202604",
+        "categorias": [
+            "Análisis"
+        ]
+    },
+    {
         "problema": "AN202501",
         "resuelto": true,
         "categorias": [

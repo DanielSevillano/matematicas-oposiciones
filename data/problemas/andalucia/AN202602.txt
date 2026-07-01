@@ -1,0 +1,4 @@
+Sea un triángulo isósceles de base $b$ y lados iguales $a$.
+Sobre uno de sus lados iguales se construye exteriormente un triángulo equilátero.
+Sea $O$ el punto medio de la base del triángulo isósceles y sea $X$ el centro del triángulo equilátero construido.
+Calcule la longitud de la circunferencia de centro $O$ y radio $OX$, en función de $a$ y $b$.
